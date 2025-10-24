@@ -1,0 +1,39 @@
+Simple Nanocomposite Analysis Results
+====================================
+
+Network Statistics:
+Nodes: 406
+Edges: 674
+Average clustering: 0.000
+
+Top Central Nodes:
+MMT: 0.193
+Tensile Test: 0.143
+Thermoset: 0.099
+Thermoplastic: 0.091
+Epoxy: 0.089
+
+Similarity Analysis:
+
+epoxy resin:
+  Epoxy Resin (1.000)
+  epoxy resin (1.000)
+  Epoxy resin (1.000)
+  epoxy resin (L-12) (0.667)
+  epoxy resin LY556 (0.667)
+
+high strength:
+
+elastic modulus:
+  A new approach for prediction of elastic modulus o (0.222)
+  Simulation of Young’s modulus for clay-reinforced  (0.143)
+  Effects of critical interfacial shear modulus betw (0.125)
+  Development of a model for modulus of polymer hall (0.111)
+  3D multiscale modeling to predict the elastic modu (0.111)
+
+thermoplastic polymer:
+  Thermoplastic (0.500)
+  Efficiency of stress transfer between polymer matr (0.125)
+  Okamato M. - Polymer Clay Nanocomposites- American (0.125)
+  Polymer Nanocomposites, Mai et al., Woodhead, 2006 (0.125)
+  Development of a model for modulus of polymer hall (0.111)

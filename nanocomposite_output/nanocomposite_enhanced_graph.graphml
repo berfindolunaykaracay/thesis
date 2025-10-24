@@ -1,0 +1,4594 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d0" for="node" attr.name="centrality" attr.type="double"/>
+<graph edgedefault="undirected"><node id="Biocompatible organic coating fabrication via poly">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Polyvinylpyrrolidone (PVP)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="MMT">
+  <data key="d0">0.1925925925925926</data>
+</node>
+<node id="exfoliated">
+  <data key="d0">0.07654320987654321</data>
+</node>
+<node id="Thermoplastic">
+  <data key="d0">0.09135802469135802</data>
+</node>
+<node id="Instrumented-indentation">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_8.00_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_184.40_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Development of Hashin-Shtrikman model to determine">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Polypropylene (PP)">
+  <data key="d0">0.037037037037037035</data>
+</node>
+<node id="intercalated/exfoliated">
+  <data key="d0">0.027160493827160494</data>
+</node>
+<node id="Tensile Test">
+  <data key="d0">0.14320987654320988</data>
+</node>
+<node id="Elastic_Modulus_2.41_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_43.30_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Tuning the Mechanical Properties of Poly(Methyl Ac">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Poly (Methyl Acrylate) (PMA)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_0.22_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_1.90_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Tensile and Flexural Properties of Montmorillonite">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Epoxy Resin">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Thermoset">
+  <data key="d0">0.09876543209876543</data>
+</node>
+<node id="Elastic_Modulus_1.40_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_67.32_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Effect of type and concentration of nanoclay on th">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Bis-GMA/TTEGDMA-Based Resin Composite">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="intercalated">
+  <data key="d0">0.08395061728395062</data>
+</node>
+<node id="Flexural Test">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_2.99_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_110.20_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Enhanced ductility and tensile properties of hybri">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Polylactic Acid (PLA)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_4.40_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="The use of montmorillonite clays as reinforcing fi">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Dimethacrylate Copolymer">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Flexural Test (Three Point Bending)">
+  <data key="d0">0.022222222222222223</data>
+</node>
+<node id="Elastic_Modulus_1.12_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_28.70_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="An approach to study the roles of percolation thre">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PP">
+  <data key="d0">0.037037037037037035</data>
+</node>
+<node id="Elastic_Modulus_2.35_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Efficiency of stress transfer between polymer matr">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PBT">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_2.56_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Effect of halloysite nanotubes and organically mod">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="natural rubber (NR)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastomer">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_5.70_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_19.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Deformation mechanism of epoxy/clay nanocomposite,">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="epoxy resin">
+  <data key="d0">0.07160493827160494</data>
+</node>
+<node id="Elastic_Modulus_0.08_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_61.20_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="PHBV nanocomposites based on organomodified montmo">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="exfoliated/intercalated">
+  <data key="d0">0.019753086419753086</data>
+</node>
+<node id="Elastic_Modulus_5.10_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_40.60_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Effects of montmorillonite, sepiolite, and halloys">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="polycaprolactone (PCL)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_0.56_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_563.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Toughness and Fracture Properties in Nacre-Mimetic">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="poly(vinyl alcohol) (PVA)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_9.00_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A new approach for prediction of elastic modulus o">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_7.19_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_44.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="On the tensile behavior of clay-epoxy nanocomposit">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_5.00_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Simulation of Young’s modulus for clay-reinforced ">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="?">
+  <data key="d0">0.0691358024691358</data>
+</node>
+<node id="Elastic_Modulus_1.10_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Development of a model for modulus of polymer hall">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_0.50_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Effects of critical interfacial shear modulus betw">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Mechanics of polymer-clay nanocomposites, Rao et a">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_0.09_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="3D multiscale modeling to predict the elastic modu">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_3.75_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Correlating the rheological and mechanical respons">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Polyurethane (PU)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Okamato M. - Polymer Clay Nanocomposites- American">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_3.65_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Mechanical Properties of Clay-Reinforced Polyamide">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Polyamide (PA)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_3.50_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Effect of Clay on Properties of Polyimide-Clay Nan">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Polyimide (PI)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_2.22_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Polymer Nanocomposites, Mai et al., Woodhead, 2006">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_2.40_GPa">
+  <data key="d0">0.007407407407407408</data>
+</node>
+<node id="L, A Utracki - Clay- Containing Polymeric Nanocomp">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_5.40_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_1.33_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="L, A Utracki - Clay-Containing Polymeric Nanocompo">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_2.19_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Synthesis, Structure, Mechanical Properties, and t">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Polysulfone (PSF)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_2.51_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Mechanical Properties of Polypropylene/Clay Nanoco">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_1.52_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Polystyrene-Sepiolite Clay Nanocomposites with Ena">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="polystyrene (PS)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_3.11_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Mechanical Properties of PP/Clay Nanocomposites Pr">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="polypropylene (PP)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_2.15_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Mechanical and thermo-mechanical properties of nan">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_2.23_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Lepoittevin B, Pantoustier N, Devalckenaere M, et ">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Poly(epsilon-caprolactone) (PCL)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_0.20_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Enhancement of the Properties of Hybridizing Epoxy">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_0.16_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Lee DC, Jang LW. Preparation and characterization ">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Polymethyl Methacrylate (PMMA)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="microcomposite">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_4.64_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Marras SI, Zuburtikudis I, Panayiotou C. Nanostruc">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="PLLA">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_2.29_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Okada A, Usuki A. The chemistry of polymer-clay hy">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Nylon 6 Nitrile Rubber">
+  <data key="d0">0.009876543209876543</data>
+</node>
+<node id="Elastic_Modulus_2.10_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Oriakhi CO. Nano sandwiches. Chem Br 1995; 34: 59-">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_3.60_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Zanetti M, Camino G, Canavese D, Morgan AB, Lamela">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_0.95_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Fabrication and Mechanical Properties of Chitosan-">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Chitosan">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_10.16_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Z. Shanti Kiran, V. Suresh Babu, K. V. L. Soma Sek">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="I. Ozsoy, A. Demirkol, A. Mimaroglu, H. Unal, and ">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="P. N. Harshita, D. K. Rathore, R. K. Prusty, and B">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="S. S. Chee and M. Jawaid, “The effect of bi-functi">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="S. S. Ray, “Recent trends and future outlooks in t">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_34.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="P. Saikia, “Clay nanostructures for biomedical app">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Poly(methyl methacrylate) (PMMA)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_2.30_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_115.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="G. Örçen and D. Bayram, “Effect of nanoclay on the">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_23.05_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_596.32_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="N. Merah and O. Mohamed, “Nanoclay and water uptak">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="unsaturated polyester">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_1.00_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_33.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. M. Abdel-Gawad, A. R. Ramadan, A. Flores, and A">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="nylon 6">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Nanoindentation">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_4.20_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="T. A. Nguyen, T. M. H. Pham, T. H. Dang, T. H. Do,">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Epoxy Epikote 240">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Tensile test">
+  <data key="d0">0.022222222222222223</data>
+</node>
+<node id="Elastic_Modulus_58.28_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Kusmono and Z. Arifin Mohd Ishak, “Effect of clay ">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Unsaturated Polyester (UP)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_6.20_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_160.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="S. Kowshik, M. Shettar, N. Rangaswamy, G. Chate, a">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="epoxy">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Strength_137.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="S. U. Hamim and R. P. Singh, “Effect of Hygrotherm">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="EPON 862">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Three-Point Bend">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_3.14_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_108.90_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="N. Domun, H. Hadavinia, T. Zhang, T. Sainsbury, G.">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="DGEBA + H137i">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Tensile/SENB">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_2.69_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_66.30_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. Cerit, M. E. Marti, U. Soydal, S. Kocaman, and ">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_6.50_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_59.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. Dantas de Oliveira and C. Augusto Gonçalves Bea">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="HDPE">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_0.78_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_21.60_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="K. Müller et al., “Review on the processing and pr">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_1.20_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_30.00_MPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="S. Fakhreddini-Najafabadi, M. Torabi, and F. Taher">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PLA">
+  <data key="d0">0.022222222222222223</data>
+</node>
+<node id="Strength_62.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. H. Mat Yazik, M. T. H. Sultan, A. U. M. Shah, M">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PCL">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_0.19_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_14.20_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="S. Firdosh, H. N. Narasimha Murthy, G. Angadi, and">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_2.50_GPa">
+  <data key="d0">0.007407407407407408</data>
+</node>
+<node id="Strength_66.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="J. Zhang, S. Deng, Y. Wang, and L. Ye, “Role of ri">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="DGEBA Epoxy (Piperidine)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_2.09_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_67.30_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="C. Wolf, H. Angellier-Coussy, N. Gontard, F. Doghi">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="polyamide 6 (PA6)">
+  <data key="d0">0.044444444444444446</data>
+</node>
+<node id="Dynamic Mechanical Analysis">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_1.63_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_58.60_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. Shettar, S. Kowshik, Gowrishankar, P. Hiremath,">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="L-12 Epoxy">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Strength_57.40_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. Tcherbi-Narteh, M. Hosur, and S. Jeelani, “Effe">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="DGEBA epoxy (SC-15)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_2.24_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. Shettar, U. A. Kini, S. Sharma, P. Hiremath, an">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Epoxy">
+  <data key="d0">0.08888888888888889</data>
+</node>
+<node id="Elastic_Modulus_5.37_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_270.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. Shettar, C. S. S. Kowshik, M. Manjunath, and P.">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="epoxy resin (L-12)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Strength_56.80_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T">
+  <data key="d0">0.007407407407407408</data>
+</node>
+<node id="epoxy resin LY556">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_7.70_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_288.00_MPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="N. Rull, R. P. Ollier, G. Francucci, E. S. Rodrigu">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="unsaturated polyester resin (UP)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="agglomerated">
+  <data key="d0">0.009876543209876543</data>
+</node>
+<node id="Elastic_Modulus_9.30_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_274.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Rashmi, N. M. Renukappa, B. Suresha, R. M. Devaraj">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="epoxy resin (Epon 828)">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_1.73_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_31.56_MPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="D. Ratna, N. R. Manoj, R. Varley, R. K. Singh Rama">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="(DGEBA) epoxy resin">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="intercalated/partially exfoliated">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_2.55_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. Okada and A. Usuki, “Twenty years of polymer-cl">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Nylon 6">
+  <data key="d0">0.022222222222222223</data>
+</node>
+<node id="Elastic_Modulus_1.43_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_76.40_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="T. P. Mohan, M. R. Kumar, and R. Velmurugan, “Ther">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="DGEBA Epoxy + DDM">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_3.48_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_64.50_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="R. Aradhya and N. M. Renukappa, “Mechanical and Tr">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="M. Al-Qadhi, N. Merah, and Z. M. Gasem, “Mechanica">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="DGEBA Epoxy">
+  <data key="d0">0.04197530864197531</data>
+</node>
+<node id="disordered intercalated/exfoliated">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_2.62_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_92.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="X. Li, Z. Zhan, G. Peng, and W. Wang, “A new metho">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="DGEBA E51 Epoxy">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_0.87_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_37.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="C. K. Lam and K. T. Lau, “Optimization effect of m">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Araldite GY 251 epoxy resin">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_120.00_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. A. Kumar, K. H. Reddy, Y. V. M. Reddy, G. R. Re">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="epoxy resin (LY-556)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_1.14_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_36.80_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. Jumahat, W. W. Amir, C. Soutis, and S. Kasolang">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Epikote 828 epoxy resin">
+  <data key="d0">0.022222222222222223</data>
+</node>
+<node id="Elastic_Modulus_3.22_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_113.93_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. Jumahat, C. Soutis, J. Mahmud, and N. Ahmad, “C">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Compression Test">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_3.28_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_153.76_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. Jumahat, C. Soutis, F. R. Jones, and A. Hodzic,">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Cycom epoxy resin">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_4.43_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_228.19_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Epoxy LY556/HY951 + Glass fibre">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="M. Esteves, A. Ramalho, J. A. M. Ferreira, and J. ">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Epoxy Resin (SR1500)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Short Beam Shear Test">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_3.20_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_65.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. Al-Qadhi, N. Merah, Z. M. Gasem, N. Abu-Dheir, ">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_2.85_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_58.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Y. Ali, M. Al-Qadhi, N. Merah, and A. Rafiq, “Infl">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="DGEBA Epoxy (Araldite GY6010)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Strength_106.18_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="T. K. Bindu Sharmila, E. P. Ayswarya, B. T. Abraha">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="partially exfoliated">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_2.26_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_56.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="S. B. Basturk and S. C. Erbas, “Mechanical and the">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_2.57_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_67.40_MPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="S. Zainuddin, M. v. Hosur, Y. Zhou, A. T. Narteh, ">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Epoxy (SC-15)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_2.98_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_97.30_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="H. Alamri and I. M. Low, “Effect of water absorpti">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_1.60_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_85.20_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. L. Chan, K. T. Lau, T. T. Wong, M. P. Ho, and D">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Epoxy (Araldite GY251)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_2.47_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_58.02_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. Yasmin, J. J. Luo, J. L. Abot, and I. M. Daniel">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_2.88_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_60.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. Silani, S. Ziaei-Rad, M. Esfahanian, and V. B. ">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_47.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="F. Zaïri, J. M. Gloaguen, M. Naït-Abdelaziz, A. Me">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_1.13_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_40.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="J. Zicans, R. Merijs Meri, M. Kalniņš, R. Maksimov">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Plasticized Starch (PS)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_0.25_GPa">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_5.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="R. Merijs Meri et al., “Elasticity and long-term b">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="rPET">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_2.70_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_57.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="H. W. Wang, H. W. Ji, W. Q. Shao, and H. Miao, “Fi">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="polymide">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Finite Element Method">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Elastic_Modulus_5.04_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="R. D. Maksimov and E. Plume, “ELASTIC PROPERTIES O">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Rigid Polyurethane">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="H. Ebadi-Dehaghani, H. A. Khonakdar, M. Barikani, ">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PP/PLA (75/25)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_1.53_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_23.50_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="R. Mohsenzadeh, “Experimental studies on mechanica">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_75.30_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="B. Zazoum, E. Triki, and A. Bachri, “Modeling of m">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="LLDPE">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Strength_32.61_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. N. Wilkinson et al., “Tensile properties of mel">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_97.20_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. Jamsheed, F. M. Rashid, and R. Velmurugan, “An ">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Epoxy (LY 556)">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_59.85_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_470.74_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="G. Ravichandran, G. Rathnakar, N. Santhosh, R. Che">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_6.80_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_234.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="S. Ghafarloo and M. Kokabi, “Mechanical properties">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Epoxy/PMMA/MHNT">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="A. Ebrahimi Jahromi, H. R. Ebrahimi Jahromi, F. He">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_53.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="P. M. Gyoo, S. Venkataramani, and S. C. Kim, “Morp">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="nylon 66">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Strength_52.04_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="J. Stojšic, P. Raos, and A. Kalendova, “A study of">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PA12">
+  <data key="d0">0.024691358024691357</data>
+</node>
+<node id="Elastic_Modulus_1.65_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_50.29_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. H. Gabr and K. Uzawa, “Mechanical, thermal, and">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PA6">
+  <data key="d0">0.04938271604938271</data>
+</node>
+<node id="Elastic_Modulus_0.91_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_87.80_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="R. C. Voicu et al., “Prediction of Mechanical Prop">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="BIOPA11">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_1.45_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="L. Su, C. Fang, and H. Luo, “Functionalized montmo">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Epoxy resin">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="E. Manias, A. Touny, L. Wu, K. Strawhecker, B. Lu,">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="A. A. Azeez, K. Y. Rhee, S. J. Park, and D. Hui, “">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_3.40_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_75.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="A. Nordin, R. Baosheng, J. Noda, and K. Goda, “Eff">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_2.54_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_40.10_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="E. Esmizadeh, G. Naderi, S. Arezoomand, and S. Maz">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PP/PC">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_2.00_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. R. Nakhaei, A. Mostafapour, and G. Naderi, “Opt">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PP/EPDM">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_0.49_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="J. Huang, M. Uhrig, U. Weber, and S. Schmauder, “N">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_3.55_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_98.70_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="J.-I. Weon, “Mechanical and Thermal Behavior of Po">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_4.67_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="E. Amendola, “Epoxy Nanocomposites Based on Silyla">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="DGEBA/MXDA epoxy">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="S. Bayar, F. Delale, and B. M. Liaw, “EFFECT OF TE">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_1.32_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_27.83_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. Moghri, H. Shamaee, H. Shahrajabian, and A. Gha">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_3.01_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_87.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="X. Liu, Q. Wu, L. A. Berglund, J. Fan, and Z. Qi, ">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PA6CN/PP-g-MAH">
+  <data key="d0">0.014814814814814815</data>
+</node>
+<node id="Elastic_Modulus_2.39_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_85.06_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. Quaresimin, M. Salviato, and M. Zappalorto, “Fr">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_3.38_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_70.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="H. U. Zaman, P. D. Hun, R. A. Khan, and K. B. Yoon">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_1.08_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_30.30_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="M. A. Pérez, B. L. Rivas, M. Rodríguez, Á. Maldona">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="PPH1">
+  <data key="d0">0.012345679012345678</data>
+</node>
+<node id="Elastic_Modulus_4.50_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="I. M. Daniel, H. Miyagawa, E. E. Gdoutos, and J. J">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Strength_38.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="J. Stojšić, P. Raos, A. Milinović, and D. Damjanov">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_1.70_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_65.60_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="E. Naveau et al., “Effect of clay modification on ">
+  <data key="d0">0.0049382716049382715</data>
+</node>
+<node id="Elastic_Modulus_2.80_GPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<node id="Strength_61.00_MPa">
+  <data key="d0">0.0024691358024691358</data>
+</node>
+<edge source="Biocompatible organic coating fabrication via poly" target="Polyvinylpyrrolidone (PVP)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Biocompatible organic coating fabrication via poly" target="Instrumented-indentation">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polyvinylpyrrolidone (PVP)" target="MMT">
+  <data key="d1">contains_0.5_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">0.5</data>
+</edge>
+<edge source="Polyvinylpyrrolidone (PVP)" target="exfoliated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polyvinylpyrrolidone (PVP)" target="Thermoplastic">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polyvinylpyrrolidone (PVP)" target="Elastic_Modulus_8.00_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polyvinylpyrrolidone (PVP)" target="Strength_184.40_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Polypropylene (PP)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Poly (Methyl Acrylate) (PMA)">
+  <data key="d1">contains_5.4_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">5.4</data>
+</edge>
+<edge source="MMT" target="Epoxy Resin">
+  <data key="d1">contains_0.5_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">0.5</data>
+</edge>
+<edge source="MMT" target="Bis-GMA/TTEGDMA-Based Resin Composite">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="Polylactic Acid (PLA)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Dimethacrylate Copolymer">
+  <data key="d1">contains_0.2_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">0.2</data>
+</edge>
+<edge source="MMT" target="PP">
+  <data key="d1">contains_3.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">3.0</data>
+</edge>
+<edge source="MMT" target="PBT">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="natural rubber (NR)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="epoxy resin">
+  <data key="d1">contains_10.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">10.0</data>
+</edge>
+<edge source="MMT" target="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="polycaprolactone (PCL)">
+  <data key="d1">contains_1.3_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.28</data>
+</edge>
+<edge source="MMT" target="poly(vinyl alcohol) (PVA)">
+  <data key="d1">contains_10.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">10.0</data>
+</edge>
+<edge source="MMT" target="?">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Polyurethane (PU)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Polyamide (PA)">
+  <data key="d1">contains_1.7_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.7</data>
+</edge>
+<edge source="MMT" target="Polyimide (PI)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Polysulfone (PSF)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="polystyrene (PS)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="polypropylene (PP)">
+  <data key="d1">contains_5.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">5.0</data>
+</edge>
+<edge source="MMT" target="Poly(epsilon-caprolactone) (PCL)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Polymethyl Methacrylate (PMMA)">
+  <data key="d1">contains_10.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">10.0</data>
+</edge>
+<edge source="MMT" target="PLLA">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Nylon 6 Nitrile Rubber">
+  <data key="d1">contains_4.2_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">4.2</data>
+</edge>
+<edge source="MMT" target="Chitosan">
+  <data key="d1">contains_10.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">10.0</data>
+</edge>
+<edge source="MMT" target="Poly(methyl methacrylate) (PMMA)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="unsaturated polyester">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="nylon 6">
+  <data key="d1">contains_5.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">5.0</data>
+</edge>
+<edge source="MMT" target="Epoxy Epikote 240">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Unsaturated Polyester (UP)">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="epoxy">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="EPON 862">
+  <data key="d1">contains_0.5_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">0.5</data>
+</edge>
+<edge source="MMT" target="DGEBA + H137i">
+  <data key="d1">contains_0.1_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">0.1</data>
+</edge>
+<edge source="MMT" target="HDPE">
+  <data key="d1">contains_2.5_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.5</data>
+</edge>
+<edge source="MMT" target="PLA">
+  <data key="d1">contains_0.5_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">0.5</data>
+</edge>
+<edge source="MMT" target="PCL">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="DGEBA Epoxy (Piperidine)">
+  <data key="d1">contains_5.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">5.0</data>
+</edge>
+<edge source="MMT" target="polyamide 6 (PA6)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="L-12 Epoxy">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="DGEBA epoxy (SC-15)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Epoxy">
+  <data key="d1">contains_2.5_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.5</data>
+</edge>
+<edge source="MMT" target="epoxy resin (L-12)">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="epoxy resin LY556">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="unsaturated polyester resin (UP)">
+  <data key="d1">contains_4.3_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">4.3</data>
+</edge>
+<edge source="MMT" target="epoxy resin (Epon 828)">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="(DGEBA) epoxy resin">
+  <data key="d1">contains_2.5_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.5</data>
+</edge>
+<edge source="MMT" target="Nylon 6">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="DGEBA Epoxy + DDM">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="DGEBA Epoxy">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="DGEBA E51 Epoxy">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="Araldite GY 251 epoxy resin">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="epoxy resin (LY-556)">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="Epikote 828 epoxy resin">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Cycom epoxy resin">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Epoxy LY556/HY951 + Glass fibre">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Epoxy Resin (SR1500)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="DGEBA Epoxy (Araldite GY6010)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Epoxy (SC-15)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Epoxy (Araldite GY251)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Plasticized Starch (PS)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="rPET">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="polymide">
+  <data key="d1">contains_5.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">5.0</data>
+</edge>
+<edge source="MMT" target="Rigid Polyurethane">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="PP/PLA (75/25)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="LLDPE">
+  <data key="d1">contains_3.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">3.0</data>
+</edge>
+<edge source="MMT" target="Epoxy (LY 556)">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="Epoxy/PMMA/MHNT">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="nylon 66">
+  <data key="d1">contains_2.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">2.0</data>
+</edge>
+<edge source="MMT" target="PA12">
+  <data key="d1">contains_3.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">3.0</data>
+</edge>
+<edge source="MMT" target="PA6">
+  <data key="d1">contains_1.8_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.8</data>
+</edge>
+<edge source="MMT" target="BIOPA11">
+  <data key="d1">contains_3.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">3.0</data>
+</edge>
+<edge source="MMT" target="Epoxy resin">
+  <data key="d1">contains_3.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">3.0</data>
+</edge>
+<edge source="MMT" target="PP/PC">
+  <data key="d1">contains_3.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">3.0</data>
+</edge>
+<edge source="MMT" target="PP/EPDM">
+  <data key="d1">contains_5.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">5.0</data>
+</edge>
+<edge source="MMT" target="DGEBA/MXDA epoxy">
+  <data key="d1">contains_1.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="MMT" target="PA6CN/PP-g-MAH">
+  <data key="d1">contains_10.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">10.0</data>
+</edge>
+<edge source="MMT" target="PPH1">
+  <data key="d1">contains_5.0_wt_percent</data>
+  <data key="d2">composition</data>
+  <data key="d3">5.0</data>
+</edge>
+<edge source="exfoliated" target="Poly (Methyl Acrylate) (PMA)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Epoxy Resin">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Dimethacrylate Copolymer">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="natural rubber (NR)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="poly(vinyl alcohol) (PVA)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="epoxy resin">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="?">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Polyurethane (PU)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Polyamide (PA)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Polyimide (PI)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Polysulfone (PSF)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Polypropylene (PP)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="polystyrene (PS)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Poly(epsilon-caprolactone) (PCL)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="PLLA">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Poly(methyl methacrylate) (PMMA)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="unsaturated polyester">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Unsaturated Polyester (UP)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="DGEBA + H137i">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="PCL">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Epoxy">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Nylon 6">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="DGEBA Epoxy + DDM">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Cycom epoxy resin">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Epoxy (SC-15)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Rigid Polyurethane">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="Epoxy/PMMA/MHNT">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="nylon 66">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="PA12">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated" target="PA6">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Polypropylene (PP)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Poly (Methyl Acrylate) (PMA)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Polylactic Acid (PLA)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PP">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PBT">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="polycaprolactone (PCL)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="poly(vinyl alcohol) (PVA)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="?">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Polyurethane (PU)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Polyamide (PA)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Polysulfone (PSF)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="polystyrene (PS)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="polypropylene (PP)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Polymethyl Methacrylate (PMMA)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PLLA">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Chitosan">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Poly(methyl methacrylate) (PMMA)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="nylon 6">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="HDPE">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PLA">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PCL">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="polyamide 6 (PA6)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Nylon 6">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="Plasticized Starch (PS)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="rPET">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PP/PLA (75/25)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="LLDPE">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="nylon 66">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PA12">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PA6">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="BIOPA11">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PP/PC">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PP/EPDM">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PA6CN/PP-g-MAH">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoplastic" target="PPH1">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_8.00_GPa" target="polyamide 6 (PA6)">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Development of Hashin-Shtrikman model to determine" target="Polypropylene (PP)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Development of Hashin-Shtrikman model to determine" target="Tensile Test">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="intercalated/exfoliated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="Elastic_Modulus_2.41_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="Strength_43.30_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="Mechanical Properties of Polypropylene/Clay Nanoco">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="Elastic_Modulus_1.52_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="Zanetti M, Camino G, Canavese D, Morgan AB, Lamela">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="intercalated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="Elastic_Modulus_0.95_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="K. Müller et al., “Review on the processing and pr">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="Elastic_Modulus_1.20_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polypropylene (PP)" target="Strength_30.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/exfoliated" target="?">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/exfoliated" target="epoxy resin">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/exfoliated" target="EPON 862">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/exfoliated" target="Epoxy">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/exfoliated" target="PP/PLA (75/25)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/exfoliated" target="LLDPE">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/exfoliated" target="polyamide 6 (PA6)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/exfoliated" target="PA6">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/exfoliated" target="PP">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/exfoliated" target="PA6CN/PP-g-MAH">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="Tuning the Mechanical Properties of Poly(Methyl Ac">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="Enhanced ductility and tensile properties of hybri">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="An approach to study the roles of percolation thre">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="Efficiency of stress transfer between polymer matr">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="Effect of halloysite nanotubes and organically mod">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="PHBV nanocomposites based on organomodified montmo">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="Effects of montmorillonite, sepiolite, and halloys">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="A new approach for prediction of elastic modulus o">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="On the tensile behavior of clay-epoxy nanocomposit">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="Effects of critical interfacial shear modulus betw">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="G. Örçen and D. Bayram, “Effect of nanoclay on the">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="N. Merah and O. Mohamed, “Nanoclay and water uptak">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. Shettar, U. A. Kini, S. Sharma, P. Hiremath, an">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. Shettar, C. S. S. Kowshik, M. Manjunath, and P.">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="Rashmi, N. M. Renukappa, B. Suresha, R. M. Devaraj">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="A. Okada and A. Usuki, “Twenty years of polymer-cl">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="T. P. Mohan, M. R. Kumar, and R. Velmurugan, “Ther">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="R. Aradhya and N. M. Renukappa, “Mechanical and Tr">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. Al-Qadhi, N. Merah, and Z. M. Gasem, “Mechanica">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="X. Li, Z. Zhan, G. Peng, and W. Wang, “A new metho">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. A. Kumar, K. H. Reddy, Y. V. M. Reddy, G. R. Re">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. Al-Qadhi, N. Merah, Z. M. Gasem, N. Abu-Dheir, ">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="T. K. Bindu Sharmila, E. P. Ayswarya, B. T. Abraha">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="S. B. Basturk and S. C. Erbas, “Mechanical and the">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. L. Chan, K. T. Lau, T. T. Wong, M. P. Ho, and D">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="A. Yasmin, J. J. Luo, J. L. Abot, and I. M. Daniel">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. Silani, S. Ziaei-Rad, M. Esfahanian, and V. B. ">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="F. Zaïri, J. M. Gloaguen, M. Naït-Abdelaziz, A. Me">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="J. Zicans, R. Merijs Meri, M. Kalniņš, R. Maksimov">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="R. Merijs Meri et al., “Elasticity and long-term b">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="R. D. Maksimov and E. Plume, “ELASTIC PROPERTIES O">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="H. Ebadi-Dehaghani, H. A. Khonakdar, M. Barikani, ">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="R. Mohsenzadeh, “Experimental studies on mechanica">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="B. Zazoum, E. Triki, and A. Bachri, “Modeling of m">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="A. N. Wilkinson et al., “Tensile properties of mel">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. Jamsheed, F. M. Rashid, and R. Velmurugan, “An ">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="G. Ravichandran, G. Rathnakar, N. Santhosh, R. Che">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="S. Ghafarloo and M. Kokabi, “Mechanical properties">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="A. Ebrahimi Jahromi, H. R. Ebrahimi Jahromi, F. He">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="P. M. Gyoo, S. Venkataramani, and S. C. Kim, “Morp">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="J. Stojšic, P. Raos, and A. Kalendova, “A study of">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="R. C. Voicu et al., “Prediction of Mechanical Prop">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="E. Manias, A. Touny, L. Wu, K. Strawhecker, B. Lu,">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="A. A. Azeez, K. Y. Rhee, S. J. Park, and D. Hui, “">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="A. Nordin, R. Baosheng, J. Noda, and K. Goda, “Eff">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="E. Esmizadeh, G. Naderi, S. Arezoomand, and S. Maz">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. R. Nakhaei, A. Mostafapour, and G. Naderi, “Opt">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="J. Huang, M. Uhrig, U. Weber, and S. Schmauder, “N">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="J.-I. Weon, “Mechanical and Thermal Behavior of Po">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="S. Bayar, F. Delale, and B. M. Liaw, “EFFECT OF TE">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. Moghri, H. Shamaee, H. Shahrajabian, and A. Gha">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="X. Liu, Q. Wu, L. A. Berglund, J. Fan, and Z. Qi, ">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="M. Quaresimin, M. Salviato, and M. Zappalorto, “Fr">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="H. U. Zaman, P. D. Hun, R. A. Khan, and K. B. Yoon">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="I. M. Daniel, H. Miyagawa, E. E. Gdoutos, and J. J">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile Test" target="E. Naveau et al., “Effect of clay modification on ">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tuning the Mechanical Properties of Poly(Methyl Ac" target="Poly (Methyl Acrylate) (PMA)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Poly (Methyl Acrylate) (PMA)" target="Elastic_Modulus_0.22_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Poly (Methyl Acrylate) (PMA)" target="Strength_1.90_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile and Flexural Properties of Montmorillonite" target="Epoxy Resin">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy Resin" target="Thermoset">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy Resin" target="Elastic_Modulus_1.40_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy Resin" target="Strength_67.32_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Bis-GMA/TTEGDMA-Based Resin Composite">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Dimethacrylate Copolymer">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="epoxy resin">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Polyimide (PI)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Poly(epsilon-caprolactone) (PCL)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="?">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="unsaturated polyester">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Epoxy Epikote 240">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Unsaturated Polyester (UP)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="epoxy">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="EPON 862">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="DGEBA + H137i">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="DGEBA Epoxy (Piperidine)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="L-12 Epoxy">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="DGEBA epoxy (SC-15)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Epoxy">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="epoxy resin (L-12)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="epoxy resin LY556">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="unsaturated polyester resin (UP)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="epoxy resin (Epon 828)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="(DGEBA) epoxy resin">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="DGEBA Epoxy + DDM">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="DGEBA Epoxy">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="DGEBA E51 Epoxy">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Araldite GY 251 epoxy resin">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="epoxy resin (LY-556)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Epikote 828 epoxy resin">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Cycom epoxy resin">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Epoxy LY556/HY951 + Glass fibre">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Epoxy Resin (SR1500)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="DGEBA Epoxy (Araldite GY6010)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Epoxy (SC-15)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Epoxy (Araldite GY251)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="polymide">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Rigid Polyurethane">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Epoxy (LY 556)">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Epoxy/PMMA/MHNT">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="Epoxy resin">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Thermoset" target="DGEBA/MXDA epoxy">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Effect of type and concentration of nanoclay on th" target="Bis-GMA/TTEGDMA-Based Resin Composite">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Effect of type and concentration of nanoclay on th" target="Flexural Test">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Bis-GMA/TTEGDMA-Based Resin Composite" target="intercalated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Bis-GMA/TTEGDMA-Based Resin Composite" target="Elastic_Modulus_2.99_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Bis-GMA/TTEGDMA-Based Resin Composite" target="Strength_110.20_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="Polylactic Acid (PLA)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="PP">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="PBT">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="epoxy resin">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="?">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="polypropylene (PP)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="Nylon 6 Nitrile Rubber">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="Chitosan">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="Epoxy Epikote 240">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="epoxy">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="HDPE">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="PLA">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="L-12 Epoxy">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="DGEBA epoxy (SC-15)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="epoxy resin (L-12)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="epoxy resin LY556">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="DGEBA E51 Epoxy">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="epoxy resin (LY-556)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="Epikote 828 epoxy resin">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="Epoxy LY556/HY951 + Glass fibre">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="Epoxy Resin (SR1500)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="Epoxy">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="DGEBA Epoxy">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="Plasticized Starch (PS)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="polyamide 6 (PA6)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="BIOPA11">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="Epoxy resin">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="PP/PC">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="PP/EPDM">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="DGEBA/MXDA epoxy">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="PA6">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated" target="PPH1">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test" target="Deformation mechanism of epoxy/clay nanocomposite,">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test" target="Kusmono and Z. Arifin Mohd Ishak, “Effect of clay ">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test" target="S. Kowshik, M. Shettar, N. Rangaswamy, G. Chate, a">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test" target="J. Stojšić, P. Raos, A. Milinović, and D. Damjanov">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Enhanced ductility and tensile properties of hybri" target="Polylactic Acid (PLA)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polylactic Acid (PLA)" target="Elastic_Modulus_4.40_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="The use of montmorillonite clays as reinforcing fi" target="Dimethacrylate Copolymer">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="The use of montmorillonite clays as reinforcing fi" target="Flexural Test (Three Point Bending)">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Dimethacrylate Copolymer" target="Elastic_Modulus_1.12_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Dimethacrylate Copolymer" target="Strength_28.70_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test (Three Point Bending)" target="Toughness and Fracture Properties in Nacre-Mimetic">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test (Three Point Bending)" target="N. Rull, R. P. Ollier, G. Francucci, E. S. Rodrigu">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test (Three Point Bending)" target="C. K. Lam and K. T. Lau, “Optimization effect of m">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test (Three Point Bending)" target="A. Jumahat, W. W. Amir, C. Soutis, and S. Kasolang">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test (Three Point Bending)" target="Y. Ali, M. Al-Qadhi, N. Merah, and A. Rafiq, “Infl">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test (Three Point Bending)" target="S. Zainuddin, M. v. Hosur, Y. Zhou, A. T. Narteh, ">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test (Three Point Bending)" target="H. Alamri and I. M. Low, “Effect of water absorpti">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Flexural Test (Three Point Bending)" target="M. H. Gabr and K. Uzawa, “Mechanical, thermal, and">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_1.12_GPa" target="nylon 66">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="An approach to study the roles of percolation thre" target="PP">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP" target="Elastic_Modulus_2.35_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP" target="E. Manias, A. Touny, L. Wu, K. Strawhecker, B. Lu,">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP" target="Elastic_Modulus_1.00_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP" target="Strength_30.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP" target="S. Bayar, F. Delale, and B. M. Liaw, “EFFECT OF TE">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP" target="Elastic_Modulus_1.32_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP" target="Strength_27.83_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP" target="H. U. Zaman, P. D. Hun, R. A. Khan, and K. B. Yoon">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP" target="Elastic_Modulus_1.08_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP" target="Strength_30.30_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Efficiency of stress transfer between polymer matr" target="PBT">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PBT" target="Elastic_Modulus_2.56_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Effect of halloysite nanotubes and organically mod" target="natural rubber (NR)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="natural rubber (NR)" target="Elastomer">
+  <data key="d1">is_material_type</data>
+  <data key="d2">classification</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="natural rubber (NR)" target="Elastic_Modulus_5.70_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="natural rubber (NR)" target="Strength_19.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Deformation mechanism of epoxy/clay nanocomposite," target="epoxy resin">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Elastic_Modulus_0.08_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Strength_61.20_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="A new approach for prediction of elastic modulus o">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="exfoliated/intercalated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Elastic_Modulus_7.19_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Strength_44.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="On the tensile behavior of clay-epoxy nanocomposit">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Elastic_Modulus_5.00_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Mechanical and thermo-mechanical properties of nan">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Elastic_Modulus_2.23_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Enhancement of the Properties of Hybridizing Epoxy">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Elastic_Modulus_0.16_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Z. Shanti Kiran, V. Suresh Babu, K. V. L. Soma Sek">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="I. Ozsoy, A. Demirkol, A. Mimaroglu, H. Unal, and ">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="P. N. Harshita, D. K. Rathore, R. K. Prusty, and B">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="S. S. Chee and M. Jawaid, “The effect of bi-functi">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="G. Örçen and D. Bayram, “Effect of nanoclay on the">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Elastic_Modulus_23.05_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Strength_596.32_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="A. Cerit, M. E. Marti, U. Soydal, S. Kocaman, and ">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="microcomposite">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Elastic_Modulus_6.50_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin" target="Strength_59.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PHBV nanocomposites based on organomodified montmo" target="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)" target="exfoliated/intercalated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)" target="Elastic_Modulus_5.10_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)" target="Strength_40.60_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated/intercalated" target="polycaprolactone (PCL)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated/intercalated" target="nylon 6">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated/intercalated" target="polyamide 6 (PA6)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated/intercalated" target="polymide">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated/intercalated" target="PA6">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="exfoliated/intercalated" target="PA12">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Effects of montmorillonite, sepiolite, and halloys" target="polycaprolactone (PCL)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polycaprolactone (PCL)" target="Elastic_Modulus_0.56_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polycaprolactone (PCL)" target="Strength_563.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Toughness and Fracture Properties in Nacre-Mimetic" target="poly(vinyl alcohol) (PVA)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="poly(vinyl alcohol) (PVA)" target="Elastic_Modulus_9.00_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Simulation of Young’s modulus for clay-reinforced " target="?">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Elastic_Modulus_1.10_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Development of a model for modulus of polymer hall">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Elastic_Modulus_0.50_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Effects of critical interfacial shear modulus betw">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Mechanics of polymer-clay nanocomposites, Rao et a">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Elastic_Modulus_0.09_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="3D multiscale modeling to predict the elastic modu">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Elastic_Modulus_3.75_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Okamato M. - Polymer Clay Nanocomposites- American">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Elastic_Modulus_3.65_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Polymer Nanocomposites, Mai et al., Woodhead, 2006">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Elastic_Modulus_2.40_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="L, A Utracki - Clay- Containing Polymeric Nanocomp">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Elastic_Modulus_5.40_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Elastic_Modulus_1.33_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="L, A Utracki - Clay-Containing Polymeric Nanocompo">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Elastic_Modulus_2.19_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Oriakhi CO. Nano sandwiches. Chem Br 1995; 34: 59-">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Elastic_Modulus_3.60_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="S. S. Ray, “Recent trends and future outlooks in t">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="?" target="Strength_34.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_1.10_GPa" target="Polyurethane (PU)">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Correlating the rheological and mechanical respons" target="Polyurethane (PU)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Mechanical Properties of Clay-Reinforced Polyamide" target="Polyamide (PA)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polyamide (PA)" target="Elastic_Modulus_3.50_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Effect of Clay on Properties of Polyimide-Clay Nan" target="Polyimide (PI)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polyimide (PI)" target="Elastic_Modulus_2.22_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_2.40_GPa" target="DGEBA/MXDA epoxy">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_2.40_GPa" target="Epoxy">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Synthesis, Structure, Mechanical Properties, and t" target="Polysulfone (PSF)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polysulfone (PSF)" target="Elastic_Modulus_2.51_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polystyrene-Sepiolite Clay Nanocomposites with Ena" target="polystyrene (PS)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polystyrene (PS)" target="Elastic_Modulus_3.11_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Mechanical Properties of PP/Clay Nanocomposites Pr" target="polypropylene (PP)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polypropylene (PP)" target="Elastic_Modulus_2.15_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_2.23_GPa" target="Epoxy resin">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Lepoittevin B, Pantoustier N, Devalckenaere M, et " target="Poly(epsilon-caprolactone) (PCL)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Poly(epsilon-caprolactone) (PCL)" target="Elastic_Modulus_0.20_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Lee DC, Jang LW. Preparation and characterization " target="Polymethyl Methacrylate (PMMA)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polymethyl Methacrylate (PMMA)" target="microcomposite">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Polymethyl Methacrylate (PMMA)" target="Elastic_Modulus_4.64_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="microcomposite" target="DGEBA Epoxy (Piperidine)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="microcomposite" target="Araldite GY 251 epoxy resin">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="microcomposite" target="Epoxy (Araldite GY251)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Marras SI, Zuburtikudis I, Panayiotou C. Nanostruc" target="PLLA">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PLLA" target="Elastic_Modulus_2.29_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Okada A, Usuki A. The chemistry of polymer-clay hy" target="Nylon 6 Nitrile Rubber">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Nylon 6 Nitrile Rubber" target="Elastic_Modulus_2.10_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Fabrication and Mechanical Properties of Chitosan-" target="Chitosan">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Chitosan" target="Elastic_Modulus_10.16_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="P. Saikia, “Clay nanostructures for biomedical app" target="Poly(methyl methacrylate) (PMMA)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Poly(methyl methacrylate) (PMMA)" target="Elastic_Modulus_2.30_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Poly(methyl methacrylate) (PMMA)" target="Strength_115.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_2.30_GPa" target="PLA">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="N. Merah and O. Mohamed, “Nanoclay and water uptak" target="unsaturated polyester">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="unsaturated polyester" target="Elastic_Modulus_1.00_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="unsaturated polyester" target="Strength_33.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="A. M. Abdel-Gawad, A. R. Ramadan, A. Flores, and A" target="nylon 6">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="A. M. Abdel-Gawad, A. R. Ramadan, A. Flores, and A" target="Nanoindentation">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="nylon 6" target="Elastic_Modulus_4.20_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="T. A. Nguyen, T. M. H. Pham, T. H. Dang, T. H. Do," target="Epoxy Epikote 240">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="T. A. Nguyen, T. M. H. Pham, T. H. Dang, T. H. Do," target="Tensile test">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy Epikote 240" target="Elastic_Modulus_58.28_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile test" target="A. Cerit, M. E. Marti, U. Soydal, S. Kocaman, and ">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile test" target="A. Dantas de Oliveira and C. Augusto Gonçalves Bea">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile test" target="K. Müller et al., “Review on the processing and pr">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile test" target="S. Fakhreddini-Najafabadi, M. Torabi, and F. Taher">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile test" target="M. H. Mat Yazik, M. T. H. Sultan, A. U. M. Shah, M">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile test" target="S. Firdosh, H. N. Narasimha Murthy, G. Angadi, and">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile test" target="J. Zhang, S. Deng, Y. Wang, and L. Ye, “Role of ri">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Tensile test" target="M. Shettar, S. Kowshik, Gowrishankar, P. Hiremath,">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Kusmono and Z. Arifin Mohd Ishak, “Effect of clay " target="Unsaturated Polyester (UP)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Unsaturated Polyester (UP)" target="Elastic_Modulus_6.20_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Unsaturated Polyester (UP)" target="Strength_160.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="S. Kowshik, M. Shettar, N. Rangaswamy, G. Chate, a" target="epoxy">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy" target="Strength_137.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="S. U. Hamim and R. P. Singh, “Effect of Hygrotherm" target="EPON 862">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="S. U. Hamim and R. P. Singh, “Effect of Hygrotherm" target="Three-Point Bend">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="EPON 862" target="Elastic_Modulus_3.14_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="EPON 862" target="Strength_108.90_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="N. Domun, H. Hadavinia, T. Zhang, T. Sainsbury, G." target="DGEBA + H137i">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="N. Domun, H. Hadavinia, T. Zhang, T. Sainsbury, G." target="Tensile/SENB">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA + H137i" target="Elastic_Modulus_2.69_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA + H137i" target="Strength_66.30_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="A. Dantas de Oliveira and C. Augusto Gonçalves Bea" target="HDPE">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="HDPE" target="Elastic_Modulus_0.78_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="HDPE" target="Strength_21.60_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="S. Fakhreddini-Najafabadi, M. Torabi, and F. Taher" target="PLA">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PLA" target="Strength_62.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PLA" target="S. Firdosh, H. N. Narasimha Murthy, G. Angadi, and">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PLA" target="Elastic_Modulus_2.50_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PLA" target="Strength_66.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. H. Mat Yazik, M. T. H. Sultan, A. U. M. Shah, M" target="PCL">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PCL" target="Elastic_Modulus_0.19_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PCL" target="Strength_14.20_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_2.50_GPa" target="Rigid Polyurethane">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_2.50_GPa" target="polyamide 6 (PA6)">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="J. Zhang, S. Deng, Y. Wang, and L. Ye, “Role of ri" target="DGEBA Epoxy (Piperidine)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy (Piperidine)" target="Elastic_Modulus_2.09_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy (Piperidine)" target="Strength_67.30_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="C. Wolf, H. Angellier-Coussy, N. Gontard, F. Doghi" target="polyamide 6 (PA6)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="C. Wolf, H. Angellier-Coussy, N. Gontard, F. Doghi" target="Dynamic Mechanical Analysis">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polyamide 6 (PA6)" target="Elastic_Modulus_1.63_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polyamide 6 (PA6)" target="Strength_58.60_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polyamide 6 (PA6)" target="R. Mohsenzadeh, “Experimental studies on mechanica">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polyamide 6 (PA6)" target="agglomerated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polyamide 6 (PA6)" target="Elastic_Modulus_3.22_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polyamide 6 (PA6)" target="Strength_75.30_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polyamide 6 (PA6)" target="A. N. Wilkinson et al., “Tensile properties of mel">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polyamide 6 (PA6)" target="Strength_97.20_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polyamide 6 (PA6)" target="A. Ebrahimi Jahromi, H. R. Ebrahimi Jahromi, F. He">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polyamide 6 (PA6)" target="Strength_53.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Dynamic Mechanical Analysis" target="A. Tcherbi-Narteh, M. Hosur, and S. Jeelani, “Effe">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Dynamic Mechanical Analysis" target="D. Ratna, N. R. Manoj, R. Varley, R. K. Singh Rama">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Dynamic Mechanical Analysis" target="L. Su, C. Fang, and H. Luo, “Functionalized montmo">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Dynamic Mechanical Analysis" target="E. Amendola, “Epoxy Nanocomposites Based on Silyla">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Dynamic Mechanical Analysis" target="M. A. Pérez, B. L. Rivas, M. Rodríguez, Á. Maldona">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. Shettar, S. Kowshik, Gowrishankar, P. Hiremath," target="L-12 Epoxy">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="L-12 Epoxy" target="Strength_57.40_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="A. Tcherbi-Narteh, M. Hosur, and S. Jeelani, “Effe" target="DGEBA epoxy (SC-15)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA epoxy (SC-15)" target="Elastic_Modulus_2.24_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. Shettar, U. A. Kini, S. Sharma, P. Hiremath, an" target="Epoxy">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Elastic_Modulus_5.37_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Strength_270.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="R. Aradhya and N. M. Renukappa, “Mechanical and Tr">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Elastic_Modulus_1.73_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Strength_31.56_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="S. B. Basturk and S. C. Erbas, “Mechanical and the">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="agglomerated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Elastic_Modulus_2.57_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Strength_67.40_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="H. Alamri and I. M. Low, “Effect of water absorpti">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Elastic_Modulus_1.60_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Strength_85.20_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="M. Silani, S. Ziaei-Rad, M. Esfahanian, and V. B. ">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Elastic_Modulus_2.98_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Strength_47.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="G. Ravichandran, G. Rathnakar, N. Santhosh, R. Che">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Elastic_Modulus_6.80_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Strength_234.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="A. A. Azeez, K. Y. Rhee, S. J. Park, and D. Hui, “">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Elastic_Modulus_3.40_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Strength_75.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="A. Nordin, R. Baosheng, J. Noda, and K. Goda, “Eff">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Elastic_Modulus_2.54_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Strength_40.10_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="M. Quaresimin, M. Salviato, and M. Zappalorto, “Fr">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Elastic_Modulus_3.38_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Strength_70.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="I. M. Daniel, H. Miyagawa, E. E. Gdoutos, and J. J">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy" target="Strength_38.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. Shettar, C. S. S. Kowshik, M. Manjunath, and P." target="epoxy resin (L-12)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin (L-12)" target="Strength_56.80_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T" target="epoxy resin LY556">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T" target="Epoxy LY556/HY951 + Glass fibre">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin LY556" target="Elastic_Modulus_7.70_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin LY556" target="Strength_288.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_7.70_GPa" target="Epoxy LY556/HY951 + Glass fibre">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Strength_288.00_MPa" target="Epoxy LY556/HY951 + Glass fibre">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="N. Rull, R. P. Ollier, G. Francucci, E. S. Rodrigu" target="unsaturated polyester resin (UP)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="unsaturated polyester resin (UP)" target="agglomerated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="unsaturated polyester resin (UP)" target="Elastic_Modulus_9.30_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="unsaturated polyester resin (UP)" target="Strength_274.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="agglomerated" target="Epoxy (LY 556)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Rashmi, N. M. Renukappa, B. Suresha, R. M. Devaraj" target="epoxy resin (Epon 828)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin (Epon 828)" target="Elastic_Modulus_1.73_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin (Epon 828)" target="Strength_31.56_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="D. Ratna, N. R. Manoj, R. Varley, R. K. Singh Rama" target="(DGEBA) epoxy resin">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="(DGEBA) epoxy resin" target="intercalated/partially exfoliated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="(DGEBA) epoxy resin" target="Elastic_Modulus_2.55_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="intercalated/partially exfoliated" target="rPET">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="A. Okada and A. Usuki, “Twenty years of polymer-cl" target="Nylon 6">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Nylon 6" target="Elastic_Modulus_1.43_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Nylon 6" target="Strength_76.40_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Nylon 6" target="F. Zaïri, J. M. Gloaguen, M. Naït-Abdelaziz, A. Me">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Nylon 6" target="Elastic_Modulus_1.13_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Nylon 6" target="Strength_40.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="T. P. Mohan, M. R. Kumar, and R. Velmurugan, “Ther" target="DGEBA Epoxy + DDM">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy + DDM" target="Elastic_Modulus_3.48_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy + DDM" target="Strength_64.50_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. Al-Qadhi, N. Merah, and Z. M. Gasem, “Mechanica" target="DGEBA Epoxy">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="disordered intercalated/exfoliated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="Elastic_Modulus_2.62_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="Strength_92.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="M. Al-Qadhi, N. Merah, Z. M. Gasem, N. Abu-Dheir, ">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="Elastic_Modulus_2.85_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="Strength_58.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="T. K. Bindu Sharmila, E. P. Ayswarya, B. T. Abraha">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="partially exfoliated">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="Elastic_Modulus_2.26_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="Strength_56.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="A. Yasmin, J. J. Luo, J. L. Abot, and I. M. Daniel">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="Elastic_Modulus_2.88_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy" target="Strength_60.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="disordered intercalated/exfoliated" target="DGEBA Epoxy (Araldite GY6010)">
+  <data key="d1">has_dispersion_type</data>
+  <data key="d2">morphology</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="X. Li, Z. Zhan, G. Peng, and W. Wang, “A new metho" target="DGEBA E51 Epoxy">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA E51 Epoxy" target="Elastic_Modulus_0.87_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA E51 Epoxy" target="Strength_37.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="C. K. Lam and K. T. Lau, “Optimization effect of m" target="Araldite GY 251 epoxy resin">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Araldite GY 251 epoxy resin" target="Elastic_Modulus_120.00_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. A. Kumar, K. H. Reddy, Y. V. M. Reddy, G. R. Re" target="epoxy resin (LY-556)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin (LY-556)" target="Elastic_Modulus_1.14_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="epoxy resin (LY-556)" target="Strength_36.80_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="A. Jumahat, W. W. Amir, C. Soutis, and S. Kasolang" target="Epikote 828 epoxy resin">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epikote 828 epoxy resin" target="Elastic_Modulus_3.22_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epikote 828 epoxy resin" target="Strength_113.93_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epikote 828 epoxy resin" target="A. Jumahat, C. Soutis, J. Mahmud, and N. Ahmad, “C">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epikote 828 epoxy resin" target="Elastic_Modulus_3.28_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epikote 828 epoxy resin" target="Strength_153.76_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="A. Jumahat, C. Soutis, J. Mahmud, and N. Ahmad, “C" target="Compression Test">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Compression Test" target="A. Jumahat, C. Soutis, F. R. Jones, and A. Hodzic,">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="A. Jumahat, C. Soutis, F. R. Jones, and A. Hodzic," target="Cycom epoxy resin">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Cycom epoxy resin" target="Elastic_Modulus_4.43_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Cycom epoxy resin" target="Strength_228.19_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. Esteves, A. Ramalho, J. A. M. Ferreira, and J. " target="Epoxy Resin (SR1500)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. Esteves, A. Ramalho, J. A. M. Ferreira, and J. " target="Short Beam Shear Test">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy Resin (SR1500)" target="Elastic_Modulus_3.20_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy Resin (SR1500)" target="Strength_65.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_2.85_GPa" target="DGEBA Epoxy (Araldite GY6010)">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Y. Ali, M. Al-Qadhi, N. Merah, and A. Rafiq, “Infl" target="DGEBA Epoxy (Araldite GY6010)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="DGEBA Epoxy (Araldite GY6010)" target="Strength_106.18_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_2.26_GPa" target="Epoxy/PMMA/MHNT">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Strength_67.40_MPa" target="Epoxy/PMMA/MHNT">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="S. Zainuddin, M. v. Hosur, Y. Zhou, A. T. Narteh, " target="Epoxy (SC-15)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy (SC-15)" target="Elastic_Modulus_2.98_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy (SC-15)" target="Strength_97.30_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. L. Chan, K. T. Lau, T. T. Wong, M. P. Ho, and D" target="Epoxy (Araldite GY251)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy (Araldite GY251)" target="Elastic_Modulus_2.47_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy (Araldite GY251)" target="Strength_58.02_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="J. Zicans, R. Merijs Meri, M. Kalniņš, R. Maksimov" target="Plasticized Starch (PS)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Plasticized Starch (PS)" target="Elastic_Modulus_0.25_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Plasticized Starch (PS)" target="Strength_5.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Elastic_Modulus_0.25_GPa" target="LLDPE">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="R. Merijs Meri et al., “Elasticity and long-term b" target="rPET">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="rPET" target="Elastic_Modulus_2.70_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="rPET" target="Strength_57.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="H. W. Wang, H. W. Ji, W. Q. Shao, and H. Miao, “Fi" target="polymide">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="H. W. Wang, H. W. Ji, W. Q. Shao, and H. Miao, “Fi" target="Finite Element Method">
+  <data key="d1">tested_with</data>
+  <data key="d2">characterization</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="polymide" target="Elastic_Modulus_5.04_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="R. D. Maksimov and E. Plume, “ELASTIC PROPERTIES O" target="Rigid Polyurethane">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="H. Ebadi-Dehaghani, H. A. Khonakdar, M. Barikani, " target="PP/PLA (75/25)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP/PLA (75/25)" target="Elastic_Modulus_1.53_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP/PLA (75/25)" target="Strength_23.50_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="B. Zazoum, E. Triki, and A. Bachri, “Modeling of m" target="LLDPE">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="LLDPE" target="Strength_32.61_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. Jamsheed, F. M. Rashid, and R. Velmurugan, “An " target="Epoxy (LY 556)">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy (LY 556)" target="Elastic_Modulus_59.85_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="Epoxy (LY 556)" target="Strength_470.74_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="S. Ghafarloo and M. Kokabi, “Mechanical properties" target="Epoxy/PMMA/MHNT">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="P. M. Gyoo, S. Venkataramani, and S. C. Kim, “Morp" target="nylon 66">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="nylon 66" target="Strength_52.04_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="J. Stojšic, P. Raos, and A. Kalendova, “A study of" target="PA12">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA12" target="Elastic_Modulus_1.65_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA12" target="Strength_50.29_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA12" target="J. Stojšić, P. Raos, A. Milinović, and D. Damjanov">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA12" target="Elastic_Modulus_1.70_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA12" target="Strength_65.60_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. H. Gabr and K. Uzawa, “Mechanical, thermal, and" target="PA6">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="Elastic_Modulus_0.91_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="Strength_87.80_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="J. Huang, M. Uhrig, U. Weber, and S. Schmauder, “N">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="Elastic_Modulus_3.55_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="Strength_98.70_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="J.-I. Weon, “Mechanical and Thermal Behavior of Po">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="Elastic_Modulus_4.67_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="M. Moghri, H. Shamaee, H. Shahrajabian, and A. Gha">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="Elastic_Modulus_3.01_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="Strength_87.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="E. Naveau et al., “Effect of clay modification on ">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="Elastic_Modulus_2.80_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6" target="Strength_61.00_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="R. C. Voicu et al., “Prediction of Mechanical Prop" target="BIOPA11">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="BIOPA11" target="Elastic_Modulus_1.45_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="L. Su, C. Fang, and H. Luo, “Functionalized montmo" target="Epoxy resin">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="E. Esmizadeh, G. Naderi, S. Arezoomand, and S. Maz" target="PP/PC">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP/PC" target="Elastic_Modulus_2.00_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. R. Nakhaei, A. Mostafapour, and G. Naderi, “Opt" target="PP/EPDM">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PP/EPDM" target="Elastic_Modulus_0.49_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="E. Amendola, “Epoxy Nanocomposites Based on Silyla" target="DGEBA/MXDA epoxy">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="X. Liu, Q. Wu, L. A. Berglund, J. Fan, and Z. Qi, " target="PA6CN/PP-g-MAH">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6CN/PP-g-MAH" target="Elastic_Modulus_2.39_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PA6CN/PP-g-MAH" target="Strength_85.06_MPa">
+  <data key="d1">has_strength</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="M. A. Pérez, B. L. Rivas, M. Rodríguez, Á. Maldona" target="PPH1">
+  <data key="d1">uses_polymer_matrix</data>
+  <data key="d2">material_composition</data>
+  <data key="d3">1.0</data>
+</edge>
+<edge source="PPH1" target="Elastic_Modulus_4.50_GPa">
+  <data key="d1">has_elastic_modulus</data>
+  <data key="d2">mechanical_property</data>
+  <data key="d3">1.0</data>
+</edge>
+</graph></graphml>

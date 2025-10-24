@@ -1,0 +1,27 @@
+
+NANOCOMPOSITE GRAPH ANALİZİ
+==========================
+
+Graph İstatistikleri:
+- Toplam düğüm sayısı: 158
+- Toplam kenar sayısı: 472
+- Bağlantılı bileşen sayısı: 3
+
+Düğüm Tipleri:
+- Polimer sayısı: 121
+- Modifikasyon sayısı: 5
+- Dispersiyon sayısı: 28
+- Polimer tipi sayısı: 3
+
+En Çok Bağlantıya Sahip 10 Düğüm (Hub Nodes):
+
+1. Modified (bağlantı sayısı: 68, centrality: 0.433)
+2. intercalated (bağlantı sayısı: 62, centrality: 0.395)
+3. Thermoset (bağlantı sayısı: 59, centrality: 0.376)
+4. Thermoplastic (bağlantı sayısı: 58, centrality: 0.369)
+5. modified (bağlantı sayısı: 46, centrality: 0.293)
+6. exfoliated (bağlantı sayısı: 39, centrality: 0.248)
+7. intercalated/exfoliated (bağlantı sayısı: 24, centrality: 0.153)
+8. unmodified (bağlantı sayısı: 18, centrality: 0.115)
+9. High Elastic Performance (bağlantı sayısı: 18, centrality: 0.115)
+10. Epoxy (bağlantı sayısı: 13, centrality: 0.083)

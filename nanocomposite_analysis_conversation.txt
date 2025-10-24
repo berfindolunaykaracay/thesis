@@ -1,0 +1,47 @@
+NANOKOMPOZIT ANALİZ KONUŞMASI
+==================================================
+
+Katılımcılar:
+- DrScientist: Malzeme bilimi uzmanıyım, analitik düşünürüm.
+- DrEngineer: Mühendis bakış açısıyla pratik çözümler ararım.
+
+KONU 1: Bu nanokompozit veri kümesindeki en önemli bulgular nelerdir?
+
+DrScientist:
+[DrScientist]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'Bu nanokompozit veri kümesindeki en önemli bulgular nelerdir?'
+
+DrEngineer:
+[DrEngineer]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'Bu konudaki görüşün: [DrScientist]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'Bu nanokompozit veri kümesindeki en önemli bulgular nelerdir?''
+
+============================================================
+
+KONU 2: MMT yüzde oranının mekanik özelliklere etkisi nasıl?
+
+DrScientist:
+[DrScientist]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'MMT yüzde oranının mekanik özelliklere etkisi nasıl?'
+
+DrEngineer:
+[DrEngineer]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'Bu konudaki görüşün: [DrScientist]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'MMT yüzde oranının mekanik özelliklere etkisi nasıl?''
+
+============================================================
+
+KONU 3: Hangi polimer matrisler en iyi performans gösteriyor?
+
+DrScientist:
+[DrScientist]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'Hangi polimer matrisler en iyi performans gösteriyor?'
+
+DrEngineer:
+[DrEngineer]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'Bu konudaki görüşün: [DrScientist]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'Hangi polimer matrisler en iyi performans gösteriyor?''
+
+============================================================
+
+KONU 4: Gelecek araştırmalar için önerileriniz nelerdir?
+
+DrScientist:
+[DrScientist]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'Gelecek araştırmalar için önerileriniz nelerdir?'
+
+DrEngineer:
+[DrEngineer]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'Bu konudaki görüşün: [DrScientist]: Şu anda ML modelleri olmadan çalışıyorum. Mesajınız: 'Gelecek araştırmalar için önerileriniz nelerdir?''
+
+============================================================
+

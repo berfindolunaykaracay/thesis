@@ -1,0 +1,12 @@
+Nanocomposite Dataset Statistics
+===============================
+
+total_entries: 204
+unique_articles: 200
+unique_polymers: 78
+Nanocomposite Elastic Modulus (GPa)_stats: {'count': 122, 'mean': np.float64(4.871596721311475), 'std': np.float64(13.003759183138044), 'min': np.float64(0.0817), 'max': np.float64(120.0)}
+Nanocomposite Strength (MPa)_stats: {'count': 80, 'mean': np.float64(95.985825), 'std': np.float64(109.4621033897149), 'min': np.float64(1.9), 'max': np.float64(596.32)}
+MMT weight%_stats: {'count': 129, 'mean': np.float64(2.106589147286822), 'std': np.float64(2.0480694019475507), 'min': np.float64(0.1), 'max': np.float64(10.0)}
+Thermoset? Thermoplastic? Elastomer?_distribution: {'Thermoset': 64, 'Thermoplastic': 58, 'Elastomer': 1}
+Dispersion(microcomposite/exfoliated/intercalated/agglomerated)_distribution: {'intercalated': 44, 'exfoliated': 43, 'intercalated/exfoliated': 15, 'exfoliated/intercalated': 8, 'microcomposite': 5, 'agglomerated': 5, '?': 3, 'disordered intercalated/exfoliated': 3, 'intercalated/partially exfoliated': 2, 'partially exfoliated': 1}
+Test Method_distribution: {'Tensile Test': 60, 'Flexural Test (Three Point Bending)': 9, 'Tensile test': 9, 'Dynamic Mechanical Analysis': 6, 'Flexural Test': 5, 'Compression Test': 2, 'Instrumented-indentation': 1, 'Nanoindentation': 1, 'Three-Point Bend': 1, 'Tensile/SENB': 1, 'Short Beam Shear Test': 1, 'Finite Element Method': 1}

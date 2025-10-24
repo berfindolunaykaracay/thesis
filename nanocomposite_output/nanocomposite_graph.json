@@ -1,0 +1,4261 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Polyvinylpyrrolidone (PVP)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": " Polypropylene (PP)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Poly (Methyl Acrylate) (PMA)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy Resin"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Bis-GMA/TTEGDMA-Based Resin Composite"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Polylactic Acid (PLA)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": " Dimethacrylate Copolymer"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PP"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PBT"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PMMA"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PA6"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": " natural rubber (NR)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "epoxy resin"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "polycaprolactone (PCL)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "poly(vinyl alcohol) (PVA)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": " Polyurethane (PU)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Polyamide (PA)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Polyimide (PI)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Polysulfone (PSF)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Polypropylene (PP)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "polystyrene (PS)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "polypropylene (PP)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Poly(epsilon-caprolactone) (PCL)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Polymethyl Methacrylate (PMMA)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PLLA"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Nylon 6\nNitrile Rubber"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Chitosan"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Poly(methyl methacrylate) (PMMA)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "unsaturated polyester"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "nylon 6"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy Epikote 240"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Unsaturated Polyester (UP)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "epoxy"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy/Glass Fiber "
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "EPON 862"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "EPON 863"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "EPON 864"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "EPON 865"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "EPON 866"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "EPON 867"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "EPON 868"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "EPON 869"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA + H137i"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epon 862"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "MGSL135i + H137i"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Araldite LY564"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA DER 331"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA DER 332"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "HDPE"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PLA"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PCL"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA Epoxy (Piperidine)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA Epoxy (Aradur 2954)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA Epoxy (DDS)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "polyamide 6 (PA6)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "L-12 Epoxy"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA epoxy (SC-15)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "epoxy resin (L-12)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "epoxy resin LY556"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "unsaturated polyester resin (UP)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "epoxy resin (Epon 828)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "(DGEBA) epoxy resin"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Nylon 6 "
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Nylon 6"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Polyethylene"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Polypropylene"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Nylon 66"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "NBR"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA Epoxy + DDM"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Vinyl ester"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA Epoxy"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA E51 Epoxy"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Araldite GY 251 epoxy resin"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "epoxy resin (LY-556)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "epoxy + WGFR"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epikote 828 epoxy resin"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Cycom epoxy resin"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy LY556/HY951 + Glass fibre"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy Resin (SR1500)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA Epoxy (Araldite GY6010)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy (SC-15)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy (Araldite GY251)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Plasticized Starch (PS)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "rPET"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "polymide"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Rigid Polyurethane"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PP/PLA (75/25)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PP/PLA (25/75)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "LLDPE"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy (LY 556)"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy/PMMA/MHNT"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "nylon 66"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "nylon 67"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "nylon 68"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "nylon 69"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "nylon 70"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "nylon 71"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "nylon 72"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "nylon 73"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "nylon 74"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Vinyl Ester"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PA12"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "BIOPA11"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "Epoxy resin"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PP/PC"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PP/EPDM"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "DGEBA/MXDA epoxy"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "EPON 828"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PA6CN/PP-g-MAH"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PPH1"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PPH1 with PP-g-MA"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PPH2"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PPH2 with PP-g-MA"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PPH3"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PPH3 with PP-g-MA"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PPH4"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "PPH4 with PP-g-MA"
+    },
+    {
+      "node_type": "polymer",
+      "color": "lightblue",
+      "size": 20,
+      "id": "CNBR"
+    },
+    {
+      "node_type": "modification",
+      "color": "lightgreen",
+      "size": 15,
+      "id": "Unmodified"
+    },
+    {
+      "node_type": "modification",
+      "color": "lightgreen",
+      "size": 15,
+      "id": "Modified"
+    },
+    {
+      "node_type": "modification",
+      "color": "lightgreen",
+      "size": 15,
+      "id": "modified"
+    },
+    {
+      "node_type": "modification",
+      "color": "lightgreen",
+      "size": 15,
+      "id": "Modified "
+    },
+    {
+      "node_type": "modification",
+      "color": "lightgreen",
+      "size": 15,
+      "id": "unmodified"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "exfoliated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated/exfoliated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "microcomposite"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "agglomerated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "exfoliated/intercaleted"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated/microcomposite"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated/exfoliation"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated "
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "exfoliated/intercalated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated/ exfoliated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "exfoliated/intercalated "
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated/ agglomerated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated/partially exfoliated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "disordered intercalated/exfoliated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "Mixed (mostly intercalated)"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "Mixed (intercalated/exfoliated)"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated with agglomeration"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "Mixed"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "Intercalated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "Partially exfoliated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "Partially exfoliated/disordered ntercalated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "Microcomposite"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "Exfoliated/Intercalated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated/ partially exfoliated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "Exfoliated/intercalated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "Exfoliated"
+    },
+    {
+      "node_type": "dispersion",
+      "color": "lightyellow",
+      "size": 15,
+      "id": "intercalated/agglomerated"
+    },
+    {
+      "node_type": "polymer_type",
+      "color": "lightcoral",
+      "size": 18,
+      "id": "Thermoplastic"
+    },
+    {
+      "node_type": "polymer_type",
+      "color": "lightcoral",
+      "size": 18,
+      "id": "Thermoset"
+    },
+    {
+      "node_type": "polymer_type",
+      "color": "lightcoral",
+      "size": 18,
+      "id": "Elastomer"
+    },
+    {
+      "node_type": "performance",
+      "color": "gold",
+      "size": 25,
+      "id": "High Elastic Performance"
+    }
+  ],
+  "links": [
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Polyvinylpyrrolidone (PVP)",
+      "target": "Unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Polyvinylpyrrolidone (PVP)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Polyvinylpyrrolidone (PVP)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 430.76923076923083,
+      "color": "gold",
+      "source": "Polyvinylpyrrolidone (PVP)",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 6,
+      "color": "green",
+      "source": " Polypropylene (PP)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": " Polypropylene (PP)",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": " Polypropylene (PP)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": " Polypropylene (PP)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 6,
+      "color": "blue",
+      "source": " Polypropylene (PP)",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 22.6,
+      "color": "green",
+      "source": "Poly (Methyl Acrylate) (PMA)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 22.6,
+      "color": "blue",
+      "source": "Poly (Methyl Acrylate) (PMA)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Poly (Methyl Acrylate) (PMA)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 5163.636363636363,
+      "color": "gold",
+      "source": "Poly (Methyl Acrylate) (PMA)",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "Epoxy Resin",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "Epoxy Resin",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy Resin",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "Bis-GMA/TTEGDMA-Based Resin Composite",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "Bis-GMA/TTEGDMA-Based Resin Composite",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Bis-GMA/TTEGDMA-Based Resin Composite",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 9,
+      "color": "green",
+      "source": "Polylactic Acid (PLA)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 9,
+      "color": "blue",
+      "source": "Polylactic Acid (PLA)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Polylactic Acid (PLA)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 1.5,
+      "color": "green",
+      "source": " Dimethacrylate Copolymer",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 0.2,
+      "color": "blue",
+      "source": " Dimethacrylate Copolymer",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": " Dimethacrylate Copolymer",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": " Dimethacrylate Copolymer",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1.5,
+      "color": "blue",
+      "source": " Dimethacrylate Copolymer",
+      "target": "agglomerated"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 107.40740740740742,
+      "color": "gold",
+      "source": " Dimethacrylate Copolymer",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PP",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PP",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PP",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PP",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PP",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PP",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PP",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 150.0,
+      "color": "gold",
+      "source": "PP",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 7,
+      "color": "green",
+      "source": "PBT",
+      "target": "Unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7,
+      "color": "blue",
+      "source": "PBT",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PBT",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 9,
+      "color": "green",
+      "source": "PMMA",
+      "target": "Unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "PMMA",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PMMA",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "PMMA",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "PMMA",
+      "target": "intercalated/agglomerated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "PA6",
+      "target": "Unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "PA6",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PA6",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "PA6",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PA6",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2.76,
+      "color": "blue",
+      "source": "PA6",
+      "target": "Exfoliated/intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PA6",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 7,
+      "color": "green",
+      "source": "PA6",
+      "target": "unmodified"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 245.4545454545454,
+      "color": "gold",
+      "source": "PA6",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 3,
+      "color": "green",
+      "source": " natural rubber (NR)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 3,
+      "color": "blue",
+      "source": " natural rubber (NR)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": " natural rubber (NR)",
+      "target": "Elastomer"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 3,
+      "color": "green",
+      "source": "epoxy resin",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "epoxy resin",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "epoxy resin",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7,
+      "color": "blue",
+      "source": "epoxy resin",
+      "target": "exfoliated/intercaleted"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1.5,
+      "color": "blue",
+      "source": "epoxy resin",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "epoxy resin",
+      "target": "exfoliated/intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "epoxy resin",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 8,
+      "color": "blue",
+      "source": "epoxy resin",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "epoxy resin",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "epoxy resin",
+      "target": "intercalated/ exfoliated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 40,
+      "color": "blue",
+      "source": "epoxy resin",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 200.0,
+      "color": "gold",
+      "source": "epoxy resin",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)",
+      "target": "exfoliated/intercaleted"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 102.85714285714285,
+      "color": "gold",
+      "source": "poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1.26,
+      "color": "blue",
+      "source": "polycaprolactone (PCL)",
+      "target": "exfoliated/intercaleted"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "polycaprolactone (PCL)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 80,
+      "color": "green",
+      "source": "poly(vinyl alcohol) (PVA)",
+      "target": "Unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 80,
+      "color": "blue",
+      "source": "poly(vinyl alcohol) (PVA)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "poly(vinyl alcohol) (PVA)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 233.33333333333334,
+      "color": "gold",
+      "source": "poly(vinyl alcohol) (PVA)",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": " Polyurethane (PU)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": " Polyurethane (PU)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": " Polyurethane (PU)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": " Polyurethane (PU)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": " Polyurethane (PU)",
+      "target": "Elastomer"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2.5,
+      "color": "green",
+      "source": "Polyamide (PA)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2.5,
+      "color": "blue",
+      "source": "Polyamide (PA)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Polyamide (PA)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 3.4,
+      "color": "blue",
+      "source": "Polyamide (PA)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 6.5,
+      "color": "blue",
+      "source": "Polyamide (PA)",
+      "target": "exfoliated/intercaleted"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 106.42755681818181,
+      "color": "gold",
+      "source": "Polyamide (PA)",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "Polyimide (PI)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Polyimide (PI)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Polyimide (PI)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Polysulfone (PSF)",
+      "target": "Modified "
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "Polysulfone (PSF)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Polysulfone (PSF)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Polysulfone (PSF)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Polypropylene (PP)",
+      "target": "Modified "
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7,
+      "color": "blue",
+      "source": "Polypropylene (PP)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Polypropylene (PP)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Polypropylene (PP)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Polypropylene (PP)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 7,
+      "color": "green",
+      "source": "Polypropylene (PP)",
+      "target": "modified"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 106.70995670995669,
+      "color": "gold",
+      "source": "Polypropylene (PP)",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "polystyrene (PS)",
+      "target": "Modified "
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "polystyrene (PS)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "polystyrene (PS)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "polystyrene (PS)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 15,
+      "color": "green",
+      "source": "polypropylene (PP)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "polypropylene (PP)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "polypropylene (PP)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 15,
+      "color": "blue",
+      "source": "polypropylene (PP)",
+      "target": "intercalated/microcomposite"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "Poly(epsilon-caprolactone) (PCL)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "Poly(epsilon-caprolactone) (PCL)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Poly(epsilon-caprolactone) (PCL)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Poly(epsilon-caprolactone) (PCL)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "Poly(epsilon-caprolactone) (PCL)",
+      "target": "intercalated/microcomposite"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 20,
+      "color": "green",
+      "source": "Polymethyl Methacrylate (PMMA)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 20,
+      "color": "blue",
+      "source": "Polymethyl Methacrylate (PMMA)",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Polymethyl Methacrylate (PMMA)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 9,
+      "color": "green",
+      "source": "PLLA",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "PLLA",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PLLA",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PLLA",
+      "target": "exfoliated/intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 9,
+      "color": "blue",
+      "source": "PLLA",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Nylon 6\nNitrile Rubber",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Nylon 6\nNitrile Rubber",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "Chitosan",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Chitosan",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 20,
+      "color": "blue",
+      "source": "Chitosan",
+      "target": "intercalated/microcomposite"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 40,
+      "color": "blue",
+      "source": "Chitosan",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 120.94455852156057,
+      "color": "gold",
+      "source": "Chitosan",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Poly(methyl methacrylate) (PMMA)",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Poly(methyl methacrylate) (PMMA)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Poly(methyl methacrylate) (PMMA)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 108.33333333333334,
+      "color": "gold",
+      "source": "Poly(methyl methacrylate) (PMMA)",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "unsaturated polyester",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "unsaturated polyester",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "unsaturated polyester",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "nylon 6",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "nylon 6",
+      "target": "exfoliated/intercalated "
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "nylon 6",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "nylon 6",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "Epoxy Epikote 240",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "Epoxy Epikote 240",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy Epikote 240",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 6,
+      "color": "green",
+      "source": "Unsaturated Polyester (UP)",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1.5,
+      "color": "blue",
+      "source": "Unsaturated Polyester (UP)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Unsaturated Polyester (UP)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 3,
+      "color": "blue",
+      "source": "Unsaturated Polyester (UP)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 6,
+      "color": "blue",
+      "source": "Unsaturated Polyester (UP)",
+      "target": "intercalated/ agglomerated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 3,
+      "color": "green",
+      "source": "Unsaturated Polyester (UP)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "epoxy",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "epoxy",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "epoxy",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "Epoxy/Glass Fiber ",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "Epoxy/Glass Fiber ",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy/Glass Fiber ",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 0.5,
+      "color": "green",
+      "source": "EPON 862",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 0.5,
+      "color": "blue",
+      "source": "EPON 862",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "EPON 862",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 1,
+      "color": "green",
+      "source": "EPON 863",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "EPON 863",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "EPON 863",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 1.5,
+      "color": "green",
+      "source": "EPON 864",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1.5,
+      "color": "blue",
+      "source": "EPON 864",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "EPON 864",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "EPON 865",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "EPON 865",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "EPON 865",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 0.5,
+      "color": "green",
+      "source": "EPON 866",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 0.5,
+      "color": "blue",
+      "source": "EPON 866",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "EPON 866",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 1,
+      "color": "green",
+      "source": "EPON 867",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "EPON 867",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "EPON 867",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 1.5,
+      "color": "green",
+      "source": "EPON 868",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1.5,
+      "color": "blue",
+      "source": "EPON 868",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "EPON 868",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "EPON 869",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "EPON 869",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "EPON 869",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 0.3,
+      "color": "green",
+      "source": "DGEBA + H137i",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 0.3,
+      "color": "blue",
+      "source": "DGEBA + H137i",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA + H137i",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 1,
+      "color": "green",
+      "source": "Epon 862",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "Epon 862",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epon 862",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 0.1,
+      "color": "green",
+      "source": "MGSL135i + H137i",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 0.1,
+      "color": "blue",
+      "source": "MGSL135i + H137i",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "MGSL135i + H137i",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 0.5,
+      "color": "green",
+      "source": "Araldite LY564",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 0.5,
+      "color": "blue",
+      "source": "Araldite LY564",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Araldite LY564",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "DGEBA DER 331",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "DGEBA DER 331",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA DER 331",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 3,
+      "color": "green",
+      "source": "DGEBA DER 332",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 3,
+      "color": "blue",
+      "source": "DGEBA DER 332",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA DER 332",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "DGEBA",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "DGEBA",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 7.5,
+      "color": "green",
+      "source": "HDPE",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "HDPE",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "HDPE",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "HDPE",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 3,
+      "color": "green",
+      "source": "PLA",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "PLA",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PLA",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "PLA",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PCL",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PCL",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PCL",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 20,
+      "color": "green",
+      "source": "DGEBA Epoxy (Piperidine)",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 20,
+      "color": "blue",
+      "source": "DGEBA Epoxy (Piperidine)",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA Epoxy (Piperidine)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 20,
+      "color": "green",
+      "source": "DGEBA Epoxy (Aradur 2954)",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 20,
+      "color": "blue",
+      "source": "DGEBA Epoxy (Aradur 2954)",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA Epoxy (Aradur 2954)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 20,
+      "color": "green",
+      "source": "DGEBA Epoxy (DDS)",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 20,
+      "color": "blue",
+      "source": "DGEBA Epoxy (DDS)",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA Epoxy (DDS)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "polyamide 6 (PA6)",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "polyamide 6 (PA6)",
+      "target": "exfoliated/intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "polyamide 6 (PA6)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "polyamide 6 (PA6)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "polyamide 6 (PA6)",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4.7,
+      "color": "green",
+      "source": "polyamide 6 (PA6)",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7.5,
+      "color": "blue",
+      "source": "polyamide 6 (PA6)",
+      "target": "agglomerated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "polyamide 6 (PA6)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7.2,
+      "color": "blue",
+      "source": "polyamide 6 (PA6)",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4.7,
+      "color": "blue",
+      "source": "polyamide 6 (PA6)",
+      "target": "Microcomposite"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "polyamide 6 (PA6)",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "L-12 Epoxy",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "L-12 Epoxy",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "L-12 Epoxy",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 3,
+      "color": "green",
+      "source": "DGEBA epoxy (SC-15)",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 3,
+      "color": "blue",
+      "source": "DGEBA epoxy (SC-15)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA epoxy (SC-15)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "Epoxy",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 3,
+      "color": "blue",
+      "source": "Epoxy",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Epoxy",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "Epoxy",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7,
+      "color": "blue",
+      "source": "Epoxy",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "Epoxy",
+      "target": "Unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 3,
+      "color": "blue",
+      "source": "Epoxy",
+      "target": "agglomerated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "Epoxy",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "Epoxy",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Epoxy",
+      "target": "Intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "Epoxy",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Epoxy",
+      "target": "intercalated/agglomerated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "epoxy resin (L-12)",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "epoxy resin (L-12)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "epoxy resin (L-12)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 7,
+      "color": "green",
+      "source": "epoxy resin LY556",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7,
+      "color": "blue",
+      "source": "epoxy resin LY556",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "epoxy resin LY556",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4.3,
+      "color": "green",
+      "source": "unsaturated polyester resin (UP)",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4.3,
+      "color": "blue",
+      "source": "unsaturated polyester resin (UP)",
+      "target": "agglomerated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "unsaturated polyester resin (UP)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4.3,
+      "color": "green",
+      "source": "unsaturated polyester resin (UP)",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4.3,
+      "color": "blue",
+      "source": "unsaturated polyester resin (UP)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4.3,
+      "color": "blue",
+      "source": "unsaturated polyester resin (UP)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 7,
+      "color": "green",
+      "source": "epoxy resin (Epon 828)",
+      "target": "modified"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "epoxy resin (Epon 828)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "(DGEBA) epoxy resin",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2.5,
+      "color": "blue",
+      "source": "(DGEBA) epoxy resin",
+      "target": "intercalated/partially exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "(DGEBA) epoxy resin",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "(DGEBA) epoxy resin",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 1.8,
+      "color": "green",
+      "source": "Nylon 6 ",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 6.8,
+      "color": "blue",
+      "source": "Nylon 6 ",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Nylon 6 ",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1.8,
+      "color": "blue",
+      "source": "Nylon 6 ",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 13,
+      "color": "green",
+      "source": "Nylon 6",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7.5,
+      "color": "blue",
+      "source": "Nylon 6",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Nylon 6",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 7.2,
+      "color": "green",
+      "source": "Nylon 6",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7.2,
+      "color": "blue",
+      "source": "Nylon 6",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 6.4,
+      "color": "blue",
+      "source": "Nylon 6",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 107.27272727272728,
+      "color": "gold",
+      "source": "Nylon 6",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5.4,
+      "color": "green",
+      "source": "Polyethylene",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5.4,
+      "color": "blue",
+      "source": "Polyethylene",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Polyethylene",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Polypropylene",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Polypropylene",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Polypropylene",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "Nylon 66",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "Nylon 66",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Nylon 66",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "NBR",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "NBR",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "NBR",
+      "target": "Elastomer"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 40,
+      "color": "green",
+      "source": "NBR",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 40,
+      "color": "blue",
+      "source": "NBR",
+      "target": "Exfoliated/intercalated"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 653.0120481927711,
+      "color": "gold",
+      "source": "NBR",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "DGEBA Epoxy + DDM",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "DGEBA Epoxy + DDM",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA Epoxy + DDM",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "DGEBA Epoxy + DDM",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 7,
+      "color": "green",
+      "source": "Vinyl ester",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7,
+      "color": "blue",
+      "source": "Vinyl ester",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Vinyl ester",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "DGEBA Epoxy",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "DGEBA Epoxy",
+      "target": "disordered intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA Epoxy",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "DGEBA Epoxy",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 0.5,
+      "color": "blue",
+      "source": "DGEBA Epoxy",
+      "target": "Partially exfoliated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "DGEBA Epoxy",
+      "target": "Partially exfoliated/disordered ntercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "DGEBA Epoxy",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "DGEBA Epoxy",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "DGEBA Epoxy",
+      "target": "Exfoliated/Intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "DGEBA E51 Epoxy",
+      "target": "modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "DGEBA E51 Epoxy",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA E51 Epoxy",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "DGEBA E51 Epoxy",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "DGEBA E51 Epoxy",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 15,
+      "color": "green",
+      "source": "Araldite GY 251 epoxy resin",
+      "target": "Unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 15,
+      "color": "blue",
+      "source": "Araldite GY 251 epoxy resin",
+      "target": "microcomposite"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Araldite GY 251 epoxy resin",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 12,
+      "color": "green",
+      "source": "epoxy resin (LY-556)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 12,
+      "color": "blue",
+      "source": "epoxy resin (LY-556)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "epoxy resin (LY-556)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 12,
+      "color": "green",
+      "source": "epoxy + WGFR",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 12,
+      "color": "blue",
+      "source": "epoxy + WGFR",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "epoxy + WGFR",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Epikote 828 epoxy resin",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Epikote 828 epoxy resin",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epikote 828 epoxy resin",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Epikote 828 epoxy resin",
+      "target": "modified"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Cycom epoxy resin",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Cycom epoxy resin",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Cycom epoxy resin",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Cycom epoxy resin",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 7,
+      "color": "green",
+      "source": "Epoxy LY556/HY951 + Glass fibre",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 3,
+      "color": "blue",
+      "source": "Epoxy LY556/HY951 + Glass fibre",
+      "target": "Mixed (mostly intercalated)"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy LY556/HY951 + Glass fibre",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Epoxy LY556/HY951 + Glass fibre",
+      "target": "Mixed (intercalated/exfoliated)"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7,
+      "color": "blue",
+      "source": "Epoxy LY556/HY951 + Glass fibre",
+      "target": "intercalated with agglomeration"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Epoxy LY556/HY951 + Glass fibre",
+      "target": "Mixed"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 118.75000000000003,
+      "color": "gold",
+      "source": "Epoxy LY556/HY951 + Glass fibre",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 6,
+      "color": "green",
+      "source": "Epoxy Resin (SR1500)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 6,
+      "color": "blue",
+      "source": "Epoxy Resin (SR1500)",
+      "target": "Intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy Resin (SR1500)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "DGEBA Epoxy (Araldite GY6010)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "DGEBA Epoxy (Araldite GY6010)",
+      "target": "disordered intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA Epoxy (Araldite GY6010)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 3,
+      "color": "green",
+      "source": "Epoxy (SC-15)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 1,
+      "color": "blue",
+      "source": "Epoxy (SC-15)",
+      "target": "exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy (SC-15)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "Epoxy (SC-15)",
+      "target": "Mixed (intercalated/exfoliated)"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 3,
+      "color": "blue",
+      "source": "Epoxy (SC-15)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 9,
+      "color": "green",
+      "source": "Epoxy (Araldite GY251)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 9,
+      "color": "blue",
+      "source": "Epoxy (Araldite GY251)",
+      "target": "Microcomposite"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy (Araldite GY251)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Plasticized Starch (PS)",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 6,
+      "color": "blue",
+      "source": "Plasticized Starch (PS)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Plasticized Starch (PS)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Plasticized Starch (PS)",
+      "target": "agglomerated"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 161.11111111111111,
+      "color": "gold",
+      "source": "Plasticized Starch (PS)",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "rPET",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "rPET",
+      "target": "intercalated/ partially exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "rPET",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "polymide",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "polymide",
+      "target": "Exfoliated/intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "polymide",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Rigid Polyurethane",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Rigid Polyurethane",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Rigid Polyurethane",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PP/PLA (75/25)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PP/PLA (75/25)",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PP/PLA (75/25)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PP/PLA (25/75)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PP/PLA (25/75)",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PP/PLA (25/75)",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 16,
+      "color": "green",
+      "source": "LLDPE",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 16,
+      "color": "blue",
+      "source": "LLDPE",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "LLDPE",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 9,
+      "color": "green",
+      "source": "Epoxy (LY 556)",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 9,
+      "color": "blue",
+      "source": "Epoxy (LY 556)",
+      "target": "agglomerated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy (LY 556)",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Epoxy (LY 556)",
+      "target": "intercalated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Epoxy/PMMA/MHNT",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "Epoxy/PMMA/MHNT",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy/PMMA/MHNT",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Epoxy/PMMA/MHNT",
+      "target": "intercalated/agglomerated"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "nylon 66",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "nylon 66",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "nylon 66",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "nylon 67",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "nylon 67",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "nylon 67",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "nylon 68",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "nylon 68",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "nylon 68",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "nylon 69",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "nylon 69",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "nylon 69",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "nylon 70",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "nylon 70",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "nylon 70",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "nylon 71",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "nylon 71",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "nylon 71",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 2,
+      "color": "green",
+      "source": "nylon 72",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 2,
+      "color": "blue",
+      "source": "nylon 72",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "nylon 72",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 4,
+      "color": "green",
+      "source": "nylon 73",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 4,
+      "color": "blue",
+      "source": "nylon 73",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "nylon 73",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "nylon 74",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "nylon 74",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "nylon 74",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 7,
+      "color": "green",
+      "source": "Vinyl Ester",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 7,
+      "color": "blue",
+      "source": "Vinyl Ester",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Vinyl Ester",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 6,
+      "color": "green",
+      "source": "PA12",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 11.05,
+      "color": "blue",
+      "source": "PA12",
+      "target": "Exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PA12",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 6,
+      "color": "blue",
+      "source": "PA12",
+      "target": "Exfoliated/intercalated"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 400.0,
+      "color": "gold",
+      "source": "PA12",
+      "target": "High Elastic Performance"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "BIOPA11",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "BIOPA11",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "BIOPA11",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "Epoxy resin",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "Epoxy resin",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "Epoxy resin",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "Epoxy resin",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "Epoxy resin",
+      "target": "Microcomposite"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PP/PC",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PP/PC",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PP/PC",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PP/EPDM",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PP/EPDM",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PP/EPDM",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 3,
+      "color": "green",
+      "source": "DGEBA/MXDA epoxy",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 3,
+      "color": "blue",
+      "source": "DGEBA/MXDA epoxy",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "DGEBA/MXDA epoxy",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 3,
+      "color": "green",
+      "source": "DGEBA/MXDA epoxy",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 10,
+      "color": "green",
+      "source": "EPON 828",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 10,
+      "color": "blue",
+      "source": "EPON 828",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "EPON 828",
+      "target": "Thermoset"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 30,
+      "color": "green",
+      "source": "PA6CN/PP-g-MAH",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 30,
+      "color": "blue",
+      "source": "PA6CN/PP-g-MAH",
+      "target": "intercalated/exfoliated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PA6CN/PP-g-MAH",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PPH1",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PPH1",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PPH1",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PPH1 with PP-g-MA",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PPH1 with PP-g-MA",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PPH1 with PP-g-MA",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PPH2",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PPH2",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PPH2",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PPH2 with PP-g-MA",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PPH2 with PP-g-MA",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PPH2 with PP-g-MA",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PPH3",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PPH3",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PPH3",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PPH3 with PP-g-MA",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PPH3 with PP-g-MA",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PPH3 with PP-g-MA",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PPH4",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PPH4",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PPH4",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 5,
+      "color": "green",
+      "source": "PPH4 with PP-g-MA",
+      "target": "Modified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 5,
+      "color": "blue",
+      "source": "PPH4 with PP-g-MA",
+      "target": "intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "PPH4 with PP-g-MA",
+      "target": "Thermoplastic"
+    },
+    {
+      "relation": "has_modification",
+      "weight": 40,
+      "color": "green",
+      "source": "CNBR",
+      "target": "unmodified"
+    },
+    {
+      "relation": "has_dispersion",
+      "weight": 40,
+      "color": "blue",
+      "source": "CNBR",
+      "target": "Exfoliated/intercalated"
+    },
+    {
+      "relation": "is_type",
+      "weight": 1,
+      "color": "red",
+      "source": "CNBR",
+      "target": "Elastomer"
+    },
+    {
+      "relation": "achieves",
+      "improvement": 819.811320754717,
+      "color": "gold",
+      "source": "CNBR",
+      "target": "High Elastic Performance"
+    }
+  ]
+}

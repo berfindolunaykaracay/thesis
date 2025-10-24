@@ -1,0 +1,67 @@
+
+NANOCOMPOSITE DATASET ANALİZ SONUÇLARI
+=====================================
+
+Toplam Veri Noktası: 791
+Farklı Polimer Sayısı: 121
+
+MMT Ağırlık İstatistikleri:
+- Ortalama: 5.19%
+- Medyan: 4.00%
+- Min-Max: 0.1% - 80.0%
+
+En Popüler 5 Polimer:
+Polymer matrix name
+?              79
+Epoxy          70
+PA6            59
+epoxy resin    45
+PA12           38
+
+Polimer Tipi Dağılımı:
+Thermoset? Thermoplastic? Elastomer?
+Thermoplastic    370
+Thermoset        366
+?                 50
+Elastomer          5
+
+Modifikasyon Durumu:
+Modification (modified/unmodified)
+Modified      463
+modified      192
+unmodified     52
+Unmodified     34
+?              25
+Modified       25
+
+Dispersiyon Tipleri:
+Dispersion(microcomposite/exfoliated/intercalated/agglomerated)
+intercalated                                   284
+exfoliated                                     174
+intercalated/exfoliated                         75
+microcomposite                                  45
+agglomerated                                    41
+Exfoliated                                      40
+Exfoliated/intercalated                         26
+disordered intercalated/exfoliated              14
+intercalated/microcomposite                     12
+?                                               11
+exfoliated/intercaleted                         10
+Microcomposite                                   8
+intercalated/ partially exfoliated               6
+exfoliated/intercalated                          6
+Intercalated                                     6
+Mixed                                            6
+Exfoliated/Intercalated                          4
+exfoliated/intercalated                          3
+intercalated/ exfoliated                         3
+intercalated with agglomeration                  3
+intercalated/agglomerated                        2
+Mixed (intercalated/exfoliated)                  2
+Mixed (mostly intercalated)                      2
+intercalated/ agglomerated                       2
+intercalated                                     2
+Partially exfoliated                             1
+Partially exfoliated/disordered ntercalated      1
+intercalated/exfoliation                         1
+intercalated/partially exfoliated                1

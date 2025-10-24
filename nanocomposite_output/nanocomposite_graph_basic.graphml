@@ -1,0 +1,3163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="edge" attr.name="improvement" attr.type="double" />
+  <key id="d5" for="edge" attr.name="color" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d3" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d2" for="node" attr.name="size" attr.type="long" />
+  <key id="d1" for="node" attr.name="color" attr.type="string" />
+  <key id="d0" for="node" attr.name="node_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Polyvinylpyrrolidone (PVP)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id=" Polypropylene (PP)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Poly (Methyl Acrylate) (PMA)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy Resin">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Bis-GMA/TTEGDMA-Based Resin Composite">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Polylactic Acid (PLA)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id=" Dimethacrylate Copolymer">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PP">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PBT">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PMMA">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PA6">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id=" natural rubber (NR)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="epoxy resin">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="polycaprolactone (PCL)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="poly(vinyl alcohol) (PVA)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id=" Polyurethane (PU)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Polyamide (PA)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Polyimide (PI)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Polysulfone (PSF)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Polypropylene (PP)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="polystyrene (PS)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="polypropylene (PP)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Poly(epsilon-caprolactone) (PCL)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Polymethyl Methacrylate (PMMA)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PLLA">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Nylon 6&#10;Nitrile Rubber">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Chitosan">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Poly(methyl methacrylate) (PMMA)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="unsaturated polyester">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="nylon 6">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy Epikote 240">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Unsaturated Polyester (UP)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="epoxy">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy/Glass Fiber ">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="EPON 862">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="EPON 863">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="EPON 864">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="EPON 865">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="EPON 866">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="EPON 867">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="EPON 868">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="EPON 869">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA + H137i">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epon 862">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="MGSL135i + H137i">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Araldite LY564">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA DER 331">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA DER 332">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="HDPE">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PLA">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PCL">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA Epoxy (Piperidine)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA Epoxy (Aradur 2954)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA Epoxy (DDS)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="polyamide 6 (PA6)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="L-12 Epoxy">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA epoxy (SC-15)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="epoxy resin (L-12)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="epoxy resin LY556">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="unsaturated polyester resin (UP)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="epoxy resin (Epon 828)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="(DGEBA) epoxy resin">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Nylon 6 ">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Nylon 6">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Polyethylene">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Polypropylene">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Nylon 66">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="NBR">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA Epoxy + DDM">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Vinyl ester">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA Epoxy">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA E51 Epoxy">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Araldite GY 251 epoxy resin">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="epoxy resin (LY-556)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="epoxy + WGFR">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epikote 828 epoxy resin">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Cycom epoxy resin">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy LY556/HY951 + Glass fibre">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy Resin (SR1500)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA Epoxy (Araldite GY6010)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy (SC-15)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy (Araldite GY251)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Plasticized Starch (PS)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="rPET">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="polymide">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Rigid Polyurethane">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PP/PLA (75/25)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PP/PLA (25/75)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="LLDPE">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy (LY 556)">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy/PMMA/MHNT">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="nylon 66">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="nylon 67">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="nylon 68">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="nylon 69">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="nylon 70">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="nylon 71">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="nylon 72">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="nylon 73">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="nylon 74">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Vinyl Ester">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PA12">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="BIOPA11">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Epoxy resin">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PP/PC">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PP/EPDM">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="DGEBA/MXDA epoxy">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="EPON 828">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PA6CN/PP-g-MAH">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PPH1">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PPH1 with PP-g-MA">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PPH2">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PPH2 with PP-g-MA">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PPH3">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PPH3 with PP-g-MA">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PPH4">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="PPH4 with PP-g-MA">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="CNBR">
+      <data key="d0">polymer</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">20</data>
+    </node>
+    <node id="Unmodified">
+      <data key="d0">modification</data>
+      <data key="d1">lightgreen</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Modified">
+      <data key="d0">modification</data>
+      <data key="d1">lightgreen</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="modified">
+      <data key="d0">modification</data>
+      <data key="d1">lightgreen</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Modified ">
+      <data key="d0">modification</data>
+      <data key="d1">lightgreen</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="unmodified">
+      <data key="d0">modification</data>
+      <data key="d1">lightgreen</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="exfoliated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated/exfoliated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="microcomposite">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="agglomerated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="exfoliated/intercaleted">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated/microcomposite">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated/exfoliation">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated ">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="exfoliated/intercalated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated/ exfoliated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="exfoliated/intercalated ">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated/ agglomerated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated/partially exfoliated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="disordered intercalated/exfoliated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Mixed (mostly intercalated)">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Mixed (intercalated/exfoliated)">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated with agglomeration">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Mixed">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Intercalated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Partially exfoliated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Partially exfoliated/disordered ntercalated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Microcomposite">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Exfoliated/Intercalated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated/ partially exfoliated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Exfoliated/intercalated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Exfoliated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="intercalated/agglomerated">
+      <data key="d0">dispersion</data>
+      <data key="d1">lightyellow</data>
+      <data key="d2">15</data>
+    </node>
+    <node id="Thermoplastic">
+      <data key="d0">polymer_type</data>
+      <data key="d1">lightcoral</data>
+      <data key="d2">18</data>
+    </node>
+    <node id="Thermoset">
+      <data key="d0">polymer_type</data>
+      <data key="d1">lightcoral</data>
+      <data key="d2">18</data>
+    </node>
+    <node id="Elastomer">
+      <data key="d0">polymer_type</data>
+      <data key="d1">lightcoral</data>
+      <data key="d2">18</data>
+    </node>
+    <node id="High Elastic Performance">
+      <data key="d0">performance</data>
+      <data key="d1">gold</data>
+      <data key="d2">25</data>
+    </node>
+    <edge source="Polyvinylpyrrolidone (PVP)" target="Unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Polyvinylpyrrolidone (PVP)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polyvinylpyrrolidone (PVP)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Polyvinylpyrrolidone (PVP)" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">430.76923076923083</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source=" Polypropylene (PP)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">6</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source=" Polypropylene (PP)" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source=" Polypropylene (PP)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source=" Polypropylene (PP)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source=" Polypropylene (PP)" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">6</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Poly (Methyl Acrylate) (PMA)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">22.6</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Poly (Methyl Acrylate) (PMA)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">22.6</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Poly (Methyl Acrylate) (PMA)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Poly (Methyl Acrylate) (PMA)" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">5163.636363636363</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="Epoxy Resin" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy Resin" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy Resin" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Bis-GMA/TTEGDMA-Based Resin Composite" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Bis-GMA/TTEGDMA-Based Resin Composite" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Bis-GMA/TTEGDMA-Based Resin Composite" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Polylactic Acid (PLA)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">9</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Polylactic Acid (PLA)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">9</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polylactic Acid (PLA)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source=" Dimethacrylate Copolymer" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">1.5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source=" Dimethacrylate Copolymer" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">0.2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source=" Dimethacrylate Copolymer" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source=" Dimethacrylate Copolymer" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source=" Dimethacrylate Copolymer" target="agglomerated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">1.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source=" Dimethacrylate Copolymer" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">107.40740740740742</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="PP" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PP" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PP" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PP" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PP" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PP" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PP" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PP" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">150.0</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="PBT" target="Unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">7</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PBT" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">7</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PBT" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PMMA" target="Unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">9</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PMMA" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PMMA" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PMMA" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PMMA" target="intercalated/agglomerated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PA6" target="Unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PA6" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PA6" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PA6" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PA6" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PA6" target="Exfoliated/intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">2.76</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PA6" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PA6" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">7</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PA6" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">245.4545454545454</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source=" natural rubber (NR)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source=" natural rubber (NR)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source=" natural rubber (NR)" target="Elastomer">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="epoxy resin" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="epoxy resin" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="epoxy resin" target="exfoliated/intercaleted">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">7</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">1.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin" target="exfoliated/intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="epoxy resin" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">8</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="epoxy resin" target="intercalated/ exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">40</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">200.0</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)" target="exfoliated/intercaleted">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV)" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">102.85714285714285</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="polycaprolactone (PCL)" target="exfoliated/intercaleted">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">1.26</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polycaprolactone (PCL)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="poly(vinyl alcohol) (PVA)" target="Unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">80</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="poly(vinyl alcohol) (PVA)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">80</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="poly(vinyl alcohol) (PVA)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="poly(vinyl alcohol) (PVA)" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">233.33333333333334</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source=" Polyurethane (PU)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source=" Polyurethane (PU)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source=" Polyurethane (PU)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source=" Polyurethane (PU)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source=" Polyurethane (PU)" target="Elastomer">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Polyamide (PA)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">2.5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Polyamide (PA)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">2.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polyamide (PA)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Polyamide (PA)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">3.4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polyamide (PA)" target="exfoliated/intercaleted">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">6.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polyamide (PA)" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">106.42755681818181</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="Polyimide (PI)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polyimide (PI)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Polyimide (PI)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polysulfone (PSF)" target="Modified ">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Polysulfone (PSF)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polysulfone (PSF)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Polysulfone (PSF)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polypropylene (PP)" target="Modified ">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Polypropylene (PP)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">7</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polypropylene (PP)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Polypropylene (PP)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polypropylene (PP)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Polypropylene (PP)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">7</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Polypropylene (PP)" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">106.70995670995669</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="polystyrene (PS)" target="Modified ">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="polystyrene (PS)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polystyrene (PS)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="polystyrene (PS)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polypropylene (PP)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">15</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="polypropylene (PP)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polypropylene (PP)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="polypropylene (PP)" target="intercalated/microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">15</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Poly(epsilon-caprolactone) (PCL)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Poly(epsilon-caprolactone) (PCL)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Poly(epsilon-caprolactone) (PCL)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Poly(epsilon-caprolactone) (PCL)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Poly(epsilon-caprolactone) (PCL)" target="intercalated/microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polymethyl Methacrylate (PMMA)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">20</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Polymethyl Methacrylate (PMMA)" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">20</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polymethyl Methacrylate (PMMA)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PLLA" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">9</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PLLA" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PLLA" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PLLA" target="exfoliated/intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PLLA" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">9</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Nylon 6&#10;Nitrile Rubber" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Nylon 6&#10;Nitrile Rubber" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Chitosan" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Chitosan" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Chitosan" target="intercalated/microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">20</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Chitosan" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">40</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Chitosan" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">120.94455852156057</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="Poly(methyl methacrylate) (PMMA)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Poly(methyl methacrylate) (PMMA)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Poly(methyl methacrylate) (PMMA)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Poly(methyl methacrylate) (PMMA)" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">108.33333333333334</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="unsaturated polyester" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="unsaturated polyester" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="unsaturated polyester" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="nylon 6" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="nylon 6" target="exfoliated/intercalated ">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 6" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="nylon 6" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy Epikote 240" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy Epikote 240" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy Epikote 240" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Unsaturated Polyester (UP)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">6</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Unsaturated Polyester (UP)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">1.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Unsaturated Polyester (UP)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Unsaturated Polyester (UP)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Unsaturated Polyester (UP)" target="intercalated/ agglomerated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">6</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Unsaturated Polyester (UP)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="epoxy" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="epoxy" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy/Glass Fiber " target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy/Glass Fiber " target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy/Glass Fiber " target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="EPON 862" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">0.5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="EPON 862" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">0.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="EPON 862" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="EPON 863" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">1</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="EPON 863" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="EPON 863" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="EPON 864" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">1.5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="EPON 864" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">1.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="EPON 864" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="EPON 865" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="EPON 865" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="EPON 865" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="EPON 866" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">0.5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="EPON 866" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">0.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="EPON 866" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="EPON 867" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">1</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="EPON 867" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="EPON 867" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="EPON 868" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">1.5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="EPON 868" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">1.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="EPON 868" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="EPON 869" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="EPON 869" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="EPON 869" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA + H137i" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d7">0.3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA + H137i" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">0.3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA + H137i" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epon 862" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">1</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epon 862" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epon 862" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="MGSL135i + H137i" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">0.1</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="MGSL135i + H137i" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">0.1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="MGSL135i + H137i" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Araldite LY564" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d7">0.5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Araldite LY564" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">0.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Araldite LY564" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA DER 331" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA DER 331" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA DER 331" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA DER 332" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA DER 332" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA DER 332" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="HDPE" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d7">7.5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="HDPE" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="HDPE" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="HDPE" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PLA" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PLA" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PLA" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PLA" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PCL" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PCL" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PCL" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA Epoxy (Piperidine)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">20</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA Epoxy (Piperidine)" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">20</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA Epoxy (Piperidine)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA Epoxy (Aradur 2954)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">20</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA Epoxy (Aradur 2954)" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">20</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA Epoxy (Aradur 2954)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA Epoxy (DDS)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">20</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA Epoxy (DDS)" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">20</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA Epoxy (DDS)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="exfoliated/intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d7">4.7</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="agglomerated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">7.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">7.2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="Microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">4.7</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polyamide 6 (PA6)" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="L-12 Epoxy" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="L-12 Epoxy" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="L-12 Epoxy" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA epoxy (SC-15)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA epoxy (SC-15)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA epoxy (SC-15)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">7</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy" target="Unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy" target="agglomerated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy" target="Intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy" target="intercalated/agglomerated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin (L-12)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="epoxy resin (L-12)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin (L-12)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="epoxy resin LY556" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">7</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="epoxy resin LY556" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">7</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin LY556" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="unsaturated polyester resin (UP)" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d7">4.3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="unsaturated polyester resin (UP)" target="agglomerated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">4.3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="unsaturated polyester resin (UP)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="unsaturated polyester resin (UP)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">4.3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="unsaturated polyester resin (UP)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">4.3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="unsaturated polyester resin (UP)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">4.3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin (Epon 828)" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">7</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="epoxy resin (Epon 828)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="(DGEBA) epoxy resin" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="(DGEBA) epoxy resin" target="intercalated/partially exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">2.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="(DGEBA) epoxy resin" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="(DGEBA) epoxy resin" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Nylon 6 " target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">1.8</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Nylon 6 " target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">6.8</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Nylon 6 " target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Nylon 6 " target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">1.8</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Nylon 6" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">13</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Nylon 6" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">7.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Nylon 6" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Nylon 6" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">7.2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Nylon 6" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">7.2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Nylon 6" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">6.4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Nylon 6" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">107.27272727272728</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="Polyethylene" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d7">5.4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Polyethylene" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">5.4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polyethylene" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Polypropylene" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Polypropylene" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Polypropylene" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Nylon 66" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Nylon 66" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Nylon 66" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="NBR" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="NBR" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="NBR" target="Elastomer">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="NBR" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">40</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="NBR" target="Exfoliated/intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">40</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="NBR" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">653.0120481927711</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="DGEBA Epoxy + DDM" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA Epoxy + DDM" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA Epoxy + DDM" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA Epoxy + DDM" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Vinyl ester" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">7</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Vinyl ester" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">7</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Vinyl ester" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA Epoxy" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA Epoxy" target="disordered intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA Epoxy" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA Epoxy" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA Epoxy" target="Partially exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">0.5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA Epoxy" target="Partially exfoliated/disordered ntercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA Epoxy" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA Epoxy" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA Epoxy" target="Exfoliated/Intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA E51 Epoxy" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA E51 Epoxy" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA E51 Epoxy" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA E51 Epoxy" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA E51 Epoxy" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Araldite GY 251 epoxy resin" target="Unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">15</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Araldite GY 251 epoxy resin" target="microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">15</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Araldite GY 251 epoxy resin" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="epoxy resin (LY-556)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">12</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="epoxy resin (LY-556)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">12</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy resin (LY-556)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="epoxy + WGFR" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">12</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="epoxy + WGFR" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">12</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="epoxy + WGFR" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epikote 828 epoxy resin" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epikote 828 epoxy resin" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epikote 828 epoxy resin" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epikote 828 epoxy resin" target="modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Cycom epoxy resin" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Cycom epoxy resin" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Cycom epoxy resin" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Cycom epoxy resin" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy LY556/HY951 + Glass fibre" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">7</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy LY556/HY951 + Glass fibre" target="Mixed (mostly intercalated)">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy LY556/HY951 + Glass fibre" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy LY556/HY951 + Glass fibre" target="Mixed (intercalated/exfoliated)">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy LY556/HY951 + Glass fibre" target="intercalated with agglomeration">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">7</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy LY556/HY951 + Glass fibre" target="Mixed">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy LY556/HY951 + Glass fibre" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">118.75000000000003</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="Epoxy Resin (SR1500)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">6</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy Resin (SR1500)" target="Intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">6</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy Resin (SR1500)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA Epoxy (Araldite GY6010)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA Epoxy (Araldite GY6010)" target="disordered intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA Epoxy (Araldite GY6010)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy (SC-15)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy (SC-15)" target="exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">1</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy (SC-15)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy (SC-15)" target="Mixed (intercalated/exfoliated)">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy (SC-15)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy (Araldite GY251)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">9</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy (Araldite GY251)" target="Microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">9</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy (Araldite GY251)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Plasticized Starch (PS)" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Plasticized Starch (PS)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">6</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Plasticized Starch (PS)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Plasticized Starch (PS)" target="agglomerated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Plasticized Starch (PS)" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">161.11111111111111</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="rPET" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="rPET" target="intercalated/ partially exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="rPET" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="polymide" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="polymide" target="Exfoliated/intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="polymide" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Rigid Polyurethane" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Rigid Polyurethane" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Rigid Polyurethane" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PP/PLA (75/25)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PP/PLA (75/25)" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PP/PLA (75/25)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PP/PLA (25/75)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PP/PLA (25/75)" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PP/PLA (25/75)" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="LLDPE" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">16</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="LLDPE" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">16</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="LLDPE" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy (LY 556)" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">9</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy (LY 556)" target="agglomerated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">9</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy (LY 556)" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy (LY 556)" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy/PMMA/MHNT" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy/PMMA/MHNT" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy/PMMA/MHNT" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy/PMMA/MHNT" target="intercalated/agglomerated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 66" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="nylon 66" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 66" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="nylon 67" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="nylon 67" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 67" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="nylon 68" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="nylon 68" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 68" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="nylon 69" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="nylon 69" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 69" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="nylon 70" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="nylon 70" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 70" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="nylon 71" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="nylon 71" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 71" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="nylon 72" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">2</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="nylon 72" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">2</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 72" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="nylon 73" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">4</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="nylon 73" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">4</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 73" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="nylon 74" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="nylon 74" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="nylon 74" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Vinyl Ester" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">7</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Vinyl Ester" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">7</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Vinyl Ester" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PA12" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">6</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PA12" target="Exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d7">11.05</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PA12" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PA12" target="Exfoliated/intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">6</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PA12" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">400.0</data>
+      <data key="d5">gold</data>
+    </edge>
+    <edge source="BIOPA11" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="BIOPA11" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="BIOPA11" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy resin" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy resin" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="Epoxy resin" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="Epoxy resin" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="Epoxy resin" target="Microcomposite">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PP/PC" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PP/PC" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PP/PC" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PP/EPDM" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PP/EPDM" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PP/EPDM" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA/MXDA epoxy" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="DGEBA/MXDA epoxy" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">3</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="DGEBA/MXDA epoxy" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="DGEBA/MXDA epoxy" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">3</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="EPON 828" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">10</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="EPON 828" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">10</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="EPON 828" target="Thermoset">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PA6CN/PP-g-MAH" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">30</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PA6CN/PP-g-MAH" target="intercalated/exfoliated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">30</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PA6CN/PP-g-MAH" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PPH1" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PPH1" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PPH1" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PPH1 with PP-g-MA" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PPH1 with PP-g-MA" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PPH1 with PP-g-MA" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PPH2" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PPH2" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PPH2" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PPH2 with PP-g-MA" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PPH2 with PP-g-MA" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PPH2 with PP-g-MA" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PPH3" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PPH3" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PPH3" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PPH3 with PP-g-MA" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PPH3 with PP-g-MA" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PPH3 with PP-g-MA" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PPH4" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PPH4" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PPH4" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="PPH4 with PP-g-MA" target="Modified">
+      <data key="d3">has_modification</data>
+      <data key="d4">5</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="PPH4 with PP-g-MA" target="intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">5</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="PPH4 with PP-g-MA" target="Thermoplastic">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="CNBR" target="unmodified">
+      <data key="d3">has_modification</data>
+      <data key="d4">40</data>
+      <data key="d5">green</data>
+    </edge>
+    <edge source="CNBR" target="Exfoliated/intercalated">
+      <data key="d3">has_dispersion</data>
+      <data key="d4">40</data>
+      <data key="d5">blue</data>
+    </edge>
+    <edge source="CNBR" target="Elastomer">
+      <data key="d3">is_type</data>
+      <data key="d4">1</data>
+      <data key="d5">red</data>
+    </edge>
+    <edge source="CNBR" target="High Elastic Performance">
+      <data key="d3">achieves</data>
+      <data key="d6">819.811320754717</data>
+      <data key="d5">gold</data>
+    </edge>
+  </graph>
+</graphml>
