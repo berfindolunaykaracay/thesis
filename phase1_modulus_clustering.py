@@ -232,8 +232,8 @@ class ModulusClusteringAnalysis:
             net = Network(height="800px", width="100%", bgcolor="#ffffff", 
                          font_color="black", notebook=False)
             
-            # Configure physics
-            net.barnes_hut()
+            # Configure physics with overlap prevention
+            net.barnes_hut(overlap=1)
             
             # Add nodes
             for node, attrs in G.nodes(data=True):
