@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+
+            <div style="padding: 20px; background-color: #f8f9fa; margin: 10px; border-radius: 5px; border: 2px solid #FF6B6B;">
+                <h2 style="color: #FF6B6B;">Cluster C1: Soft elastomeric</h2>
+                <p><strong>Modulus range:</strong> 0-0.1 GPa</p>
+                <p><strong>n_samples:</strong> 23 | <strong>avg ΔE%:</strong> 357.2% | <strong>% modified:</strong> 60.9%</p>
+                <p><strong>Legend:</strong> 🔵 Blue: Polymer matrices | 🟢 Green: Modified composites | 🔴 Red: Unmodified composites</p>
+                <p><strong>Edge width:</strong> Proportional to improvement magnitude | <strong>Edge color:</strong> Green (positive) / Red (negative)</p>
+            </div>
+            
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#3498db", "font": {"color": "black"}, "id": "Epoxy", "label": "Epoxy\n(E=0.03 GPa)", "shape": "dot", "size": 20}, {"color": "#3498db", "font": {"color": "black"}, "id": "PA6", "label": "PA6\n(E=0.04 GPa)", "shape": "dot", "size": 20}, {"color": "#3498db", "font": {"color": "black"}, "id": "NBR", "label": "NBR\n(E=0.00 GPa)", "shape": "dot", "size": 20}, {"color": "#3498db", "font": {"color": "black"}, "id": "CNBR", "label": "CNBR\n(E=0.00 GPa)", "shape": "dot", "size": 20}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_62", "label": "Epoxy_composite_62", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_63", "label": "Epoxy_composite_63", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_64", "label": "Epoxy_composite_64", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PA6_composite_98", "label": "PA6_composite_98", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PA6_composite_99", "label": "PA6_composite_99", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PA6_composite_100", "label": "PA6_composite_100", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PA6_composite_101", "label": "PA6_composite_101", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_370", "label": "Epoxy_composite_370", "shape": "dot", "size": 15}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "NBR_composite_799", "label": "NBR_composite_799", "shape": "dot", "size": 15}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "NBR_composite_800", "label": "NBR_composite_800", "shape": "dot", "size": 15}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "NBR_composite_801", "label": "NBR_composite_801", "shape": "dot", "size": 15}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "NBR_composite_802", "label": "NBR_composite_802", "shape": "dot", "size": 15}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "CNBR_composite_803", "label": "CNBR_composite_803", "shape": "dot", "size": 15}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "CNBR_composite_804", "label": "CNBR_composite_804", "shape": "dot", "size": 15}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "CNBR_composite_805", "label": "CNBR_composite_805", "shape": "dot", "size": 15}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "CNBR_composite_806", "label": "CNBR_composite_806", "shape": "dot", "size": 15}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "Epoxy_composite_899", "label": "Epoxy_composite_899", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_900", "label": "Epoxy_composite_900", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_901", "label": "Epoxy_composite_901", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_902", "label": "Epoxy_composite_902", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_903", "label": "Epoxy_composite_903", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_904", "label": "Epoxy_composite_904", "shape": "dot", "size": 15}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_905", "label": "Epoxy_composite_905", "shape": "dot", "size": 15}]);
+                  edges = new vis.DataSet([{"color": "red", "from": "Epoxy", "title": "Improvement: -2.3%", "to": "Epoxy_composite_62", "width": 0.22727272727272715}, {"color": "red", "from": "Epoxy", "title": "Improvement: -19.6%", "to": "Epoxy_composite_63", "width": 1.9617224880382775}, {"color": "red", "from": "Epoxy", "title": "Improvement: -23.9%", "to": "Epoxy_composite_64", "width": 2.392344497607654}, {"color": "green", "from": "Epoxy", "title": "Improvement: 200.0%", "to": "Epoxy_composite_370", "width": 10}, {"color": "green", "from": "Epoxy", "title": "Improvement: 2.1%", "to": "Epoxy_composite_899", "width": 0.20833333333333393}, {"color": "green", "from": "Epoxy", "title": "Improvement: 35.4%", "to": "Epoxy_composite_900", "width": 3.541666666666667}, {"color": "red", "from": "Epoxy", "title": "Improvement: -27.1%", "to": "Epoxy_composite_901", "width": 2.7083333333333326}, {"color": "red", "from": "Epoxy", "title": "Improvement: -27.1%", "to": "Epoxy_composite_902", "width": 2.7083333333333326}, {"color": "red", "from": "Epoxy", "title": "Improvement: -10.4%", "to": "Epoxy_composite_903", "width": 1.0416666666666659}, {"color": "green", "from": "Epoxy", "title": "Improvement: 150.0%", "to": "Epoxy_composite_904", "width": 10}, {"color": "green", "from": "Epoxy", "title": "Improvement: 391.7%", "to": "Epoxy_composite_905", "width": 10}, {"color": "green", "from": "PA6", "title": "Improvement: 151.4%", "to": "PA6_composite_98", "width": 10}, {"color": "green", "from": "PA6", "title": "Improvement: 442.9%", "to": "PA6_composite_99", "width": 10}, {"color": "green", "from": "PA6", "title": "Improvement: 1048.6%", "to": "PA6_composite_100", "width": 10}, {"color": "green", "from": "PA6", "title": "Improvement: 2180.0%", "to": "PA6_composite_101", "width": 10}, {"color": "green", "from": "NBR", "title": "Improvement: 171.1%", "to": "NBR_composite_799", "width": 10}, {"color": "green", "from": "NBR", "title": "Improvement: 351.8%", "to": "NBR_composite_800", "width": 10}, {"color": "green", "from": "NBR", "title": "Improvement: 472.3%", "to": "NBR_composite_801", "width": 10}, {"color": "green", "from": "NBR", "title": "Improvement: 653.0%", "to": "NBR_composite_802", "width": 10}, {"color": "green", "from": "CNBR", "title": "Improvement: 206.6%", "to": "CNBR_composite_803", "width": 10}, {"color": "green", "from": "CNBR", "title": "Improvement: 442.5%", "to": "CNBR_composite_804", "width": 10}, {"color": "green", "from": "CNBR", "title": "Improvement: 607.5%", "to": "CNBR_composite_805", "width": 10}, {"color": "green", "from": "CNBR", "title": "Improvement: 819.8%", "to": "CNBR_composite_806", "width": 10}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -8000,
+            "springConstant": 0.001,
+            "springLength": 100
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

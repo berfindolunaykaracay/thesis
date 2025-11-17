@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase 1: Modulus-Based Clustering Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .cluster-box {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+            transition: all 0.3s;
+        }
+        .cluster-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .cluster-box h3 {
+            margin-top: 0;
+        }
+        .c1 { border-color: #FF6B6B; }
+        .c2 { border-color: #4ECDC4; }
+        .c3 { border-color: #45B7D1; }
+        .c4 { border-color: #96CEB4; }
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        .stats {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .summary-img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Phase 1: Conference Stage Analysis</h1>
+        <h2>Elastic Modulus-Based Clustering for Polymer-MMT Nanocomposites</h2>
+        
+        <p>This analysis implements a modulus-based clustering approach to reveal interpretable performance 
+        patterns in modified and unmodified polymer–MMT nanocomposites, following the methodology outlined 
+        for the conference paper.</p>
+        
+        <h3>Key Findings:</h3>
+        <ul>
+            <li><strong>Total Samples:</strong> 927 (789 modified, 138 unmodified)</li>
+            <li><strong>Clustering Basis:</strong> Elastic modulus of polymer matrix (not composite)</li>
+            <li><strong>Analysis:</strong> Graph construction, centrality evaluation, and modified vs unmodified comparison</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Cluster-wise Interactive Graphs</h2>
+        <div class="grid">
+            <div class="cluster-box c1">
+                <h3>C1: Soft Elastomeric</h3>
+                <p><strong>Range:</strong> E < 0.1 GPa</p>
+                <p><strong>Samples:</strong> 23 (14 modified)</p>
+                <p><strong>Knowledge Hub:</strong> PA6</p>
+                <p><strong>Avg Improvement:</strong><br>
+                Modified: 320.7% | Unmodified: 414.1%</p>
+                <a href="cluster_C1_graph.html">View Graph →</a>
+            </div>
+            
+            <div class="cluster-box c2">
+                <h3>C2: Semi-soft Thermoplastic</h3>
+                <p><strong>Range:</strong> 0.1-0.5 GPa</p>
+                <p><strong>Samples:</strong> 47 (44 modified)</p>
+                <p><strong>Knowledge Hub:</strong> PMA</p>
+                <p><strong>Avg Improvement:</strong><br>
+                Modified: 320.8% | Unmodified: 98.1%</p>
+                <a href="cluster_C2_graph.html">View Graph →</a>
+            </div>
+            
+            <div class="cluster-box c3">
+                <h3>C3: Intermediate</h3>
+                <p><strong>Range:</strong> 0.5-1.0 GPa</p>
+                <p><strong>Samples:</strong> 82 (70 modified)</p>
+                <p><strong>Knowledge Hub:</strong> Epoxy</p>
+                <p><strong>Avg Improvement:</strong><br>
+                Modified: 46.0% | Unmodified: 33.5%</p>
+                <a href="cluster_C3_graph.html">View Graph →</a>
+            </div>
+            
+            <div class="cluster-box c4">
+                <h3>C4: Rigid Polymer</h3>
+                <p><strong>Range:</strong> E > 1.0 GPa</p>
+                <p><strong>Samples:</strong> 757 (643 modified)</p>
+                <p><strong>Knowledge Hub:</strong> Epoxy</p>
+                <p><strong>Avg Improvement:</strong><br>
+                Modified: 31.5% | Unmodified: 42.1%</p>
+                <a href="cluster_C4_graph.html">View Graph →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Summary Visualization</h2>
+        <img src="cluster_summary.png" alt="Cluster Summary" class="summary-img">
+        
+        <h3>Conference Summary Report</h3>
+        <pre id="summary-content"></pre>
+    </div>
+
+    <div class="container">
+        <h2>Interpretation</h2>
+        <p>The analysis reveals how material stiffness regime governs knowledge graph topology:</p>
+        <ul>
+            <li><strong>Soft systems (C1-C2):</strong> Show higher improvement percentages but more dispersed, exploratory graphs</li>
+            <li><strong>Rigid systems (C3-C4):</strong> Display dense, interface-limited graphs with more consistent but lower improvements</li>
+            <li><strong>Modified systems:</strong> Generally show higher weighted centrality, evidence of organized structure–property mapping</li>
+        </ul>
+        
+        <h3>Graph Legend</h3>
+        <div class="stats">
+            <p><strong>Node Colors:</strong></p>
+            <ul>
+                <li>🔵 Blue: Polymer matrices</li>
+                <li>🟢 Green: Modified composites</li>
+                <li>🔴 Red: Unmodified composites</li>
+            </ul>
+            <p><strong>Edge Properties:</strong></p>
+            <ul>
+                <li>Width: Proportional to improvement magnitude</li>
+                <li>Color: Green (positive improvement) / Red (negative improvement)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Load and display summary content
+        fetch('conference_summary.txt')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('summary-content').textContent = text;
+            })
+            .catch(error => {
+                document.getElementById('summary-content').textContent = 'Error loading summary report';
+            });
+    </script>
+</body>
+</html>

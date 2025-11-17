@@ -4,36 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nanocomposite Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 { color: #333; text-align: center; }
+        h2 { 
+            color: #666; 
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .highlight {
+            background-color: #e8f5e8;
+            border-left: 4px solid #4CAF50;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .new-badge {
+            background-color: #ff4444;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        ul { line-height: 1.6; }
+        a { 
+            text-decoration: none; 
+            color: #0066cc;
+        }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-    <h1>Nanocomposite Analysis Interactive Graphs</h1>
+    <div class="container">
+        <h1>Nanocomposite Analysis Interactive Graphs</h1>
+        
+        <div class="highlight">
+            <h2>🎯 Phase 1: Modulus-Based Clustering Analysis <span class="new-badge">NEW</span></h2>
+            <p><strong>Conference Paper Implementation:</strong> Elastic modulus-based clustering revealing structure-property relationships in polymer-MMT nanocomposites.</p>
+            
+            <h3>📊 Interactive Cluster Graphs:</h3>
+            <ul>
+                <li><a href="phase1_output/cluster_C1_graph.html">C1: Soft Elastomeric (E < 0.1 GPa)</a> - 23 samples, 357.2% avg improvement</li>
+                <li><a href="phase1_output/cluster_C2_graph.html">C2: Semi-soft Thermoplastic (0.1-0.5 GPa)</a> - 47 samples, 306.6% avg improvement</li>
+                <li><a href="phase1_output/cluster_C3_graph.html">C3: Intermediate (0.5-1.0 GPa)</a> - 82 samples, 44.2% avg improvement</li>
+                <li><a href="phase1_output/cluster_C4_graph.html">C4: Rigid Polymer (> 1.0 GPa)</a> - 757 samples, 33.1% avg improvement</li>
+            </ul>
+            
+            <h3>📈 Analysis Reports:</h3>
+            <ul>
+                <li><a href="phase1_output/index.html">Complete Phase 1 Dashboard</a></li>
+                <li><a href="phase1_output/conference_summary.txt">Conference Summary Report</a></li>
+                <li><a href="phase1_output/centrality_evaluation_detailed.txt">Detailed Centrality Analysis</a></li>
+                <li><a href="phase1_output/cluster_summary.png">Summary Visualization (PNG)</a></li>
+            </ul>
+            
+            <p><strong>Key Finding:</strong> Material stiffness regime governs knowledge graph topology - soft systems show more connected, focused responses while rigid systems display fragmented, diverse behaviors.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Modification Analysis</h2>
+        <ul>
+            <li><a href="modification_interactive_output/modified_all_samples_clean.html">Modified Samples</a></li>
+            <li><a href="modification_interactive_output/unmodified_all_samples_clean.html">Unmodified Samples</a></li>
+        </ul>
+    </div>
     
-    <h2>Modification Analysis</h2>
-    <ul>
-        <li><a href="modification_interactive_output/modified_all_samples_clean.html">Modified Samples</a></li>
-        <li><a href="modification_interactive_output/unmodified_all_samples_clean.html">Unmodified Samples</a></li>
-    </ul>
-    
-    <h2>Positive/Negative Analysis</h2>
-    <ul>
-        <li><strong>Elastic Modulus:</strong>
-            <ul>
-                <li><a href="elastic_modulus_direct_output_new/positive_positive_graph.html">Positive-Positive</a></li>
-                <li><a href="elastic_modulus_direct_output_new/positive_negative_graph.html">Positive-Negative</a></li>
-            </ul>
-        </li>
-        <li><strong>Strain:</strong>
-            <ul>
-                <li><a href="strain_direct_output_new/positive_positive_graph.html">Positive-Positive</a></li>
-                <li><a href="strain_direct_output_new/positive_negative_graph.html">Positive-Negative</a></li>
-            </ul>
-        </li>
-        <li><strong>Strength:</strong>
-            <ul>
-                <li><a href="strength_direct_output_new/positive_positive_graph.html">Positive-Positive</a></li>
-                <li><a href="strength_direct_output_new/positive_negative_graph.html">Positive-Negative</a></li>
-            </ul>
-        </li>
-    </ul>
+    <div class="container">
+        <h2>Positive/Negative Analysis</h2>
+        <ul>
+            <li><strong>Elastic Modulus:</strong>
+                <ul>
+                    <li><a href="elastic_modulus_direct_output_new/positive_positive_graph.html">Positive-Positive</a></li>
+                    <li><a href="elastic_modulus_direct_output_new/positive_negative_graph.html">Positive-Negative</a></li>
+                </ul>
+            </li>
+            <li><strong>Strain:</strong>
+                <ul>
+                    <li><a href="strain_direct_output_new/positive_positive_graph.html">Positive-Positive</a></li>
+                    <li><a href="strain_direct_output_new/positive_negative_graph.html">Positive-Negative</a></li>
+                </ul>
+            </li>
+            <li><strong>Strength:</strong>
+                <ul>
+                    <li><a href="strength_direct_output_new/positive_positive_graph.html">Positive-Positive</a></li>
+                    <li><a href="strength_direct_output_new/positive_negative_graph.html">Positive-Negative</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
