@@ -232,8 +232,27 @@ class ModulusClusteringAnalysis:
             net = Network(height="800px", width="100%", bgcolor="#ffffff", 
                          font_color="black", notebook=False)
             
-            # Configure physics with overlap prevention
-            net.barnes_hut(overlap=1)
+            # Configure physics based on cluster size
+            node_count = G.number_of_nodes()
+            if node_count > 200:  # Large clusters like C4
+                net.set_options("""
+                var options = {
+                  "physics": {
+                    "enabled": true,
+                    "barnesHut": {
+                      "gravitationalConstant": -15000,
+                      "centralGravity": 0.1,
+                      "springLength": 300,
+                      "springConstant": 0.0001,
+                      "damping": 0.6,
+                      "avoidOverlap": 1
+                    },
+                    "stabilization": {"iterations": 2000}
+                  }
+                }
+                """)
+            else:  # Smaller clusters
+                net.barnes_hut(overlap=1)
             
             # Add nodes
             for node, attrs in G.nodes(data=True):
