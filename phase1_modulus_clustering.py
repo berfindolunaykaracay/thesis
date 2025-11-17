@@ -233,7 +233,7 @@ class ModulusClusteringAnalysis:
                          font_color="black", notebook=False)
             
             # Configure physics
-            net.barnes_hut(gravity=-8000, central_gravity=0.3, spring_length=100)
+            net.barnes_hut()
             
             # Add nodes
             for node, attrs in G.nodes(data=True):
