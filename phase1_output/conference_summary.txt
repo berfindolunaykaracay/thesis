@@ -27,6 +27,6 @@ C3 - Intermediate regime:
 
 C4 - Rigid polymer regime:
   Range: 1.0-inf GPa
-  Modified: 643 samples, avg improvement: 31.5%
+  Modified: 643 samples, avg improvement: 31.4%
   Unmodified: 114 samples, avg improvement: 42.1%
   Knowledge hub: Epoxy

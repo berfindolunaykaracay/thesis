@@ -116,35 +116,41 @@ class ModulusClusteringAnalysis:
             # Add composite nodes and edges
             for idx, row in cluster_df.iterrows():
                 polymer = row['Polymer matrix name']
-                
+
                 # Create unique composite node ID
                 composite_id = f"{polymer}_composite_{idx}"
-                
-                # Determine node color based on modification
-                if row['is_modified']:
-                    node_color = '#27ae60'  # Green for modified
+
+                # Get improvement value
+                improvement = row.get('Elastic Modulus improvement (%)', 0)
+                if pd.notna(improvement):
+                    improvement = float(improvement)
                 else:
-                    node_color = '#e74c3c'  # Red for unmodified
-                    
+                    improvement = 0
+
+                # Determine node color based on improvement (as per document)
+                # Green/red nodes: composites - colored by improvement
+                if improvement >= 0:
+                    node_color = '#27ae60'  # Green for positive improvement
+                else:
+                    node_color = '#e74c3c'  # Red for negative improvement
+
                 # Add composite node
                 if pd.notna(row.get('Nanocomposite Elastic Modulus (GPa)')):
                     G.add_node(composite_id,
                               node_type='composite',
                               polymer=polymer,
                               modulus=row['Nanocomposite Elastic Modulus (GPa)'],
+                              improvement=improvement,
                               modified=row['is_modified'],
                               color=node_color,
                               size=15)
-                    
+
                     # Add edge with weight based on improvement
-                    improvement = row.get('Elastic Modulus improvement (%)', 0)
-                    if pd.notna(improvement):
-                        # Edge weight is absolute improvement percentage
-                        weight = abs(float(improvement)) if pd.notna(improvement) else 0
-                        G.add_edge(polymer, composite_id, 
-                                  weight=weight,
-                                  improvement=float(improvement),
-                                  edge_color='green' if improvement > 0 else 'red')
+                    # Edge weight is absolute improvement percentage
+                    weight = abs(improvement)
+                    G.add_edge(polymer, composite_id,
+                              weight=weight,
+                              improvement=improvement)
             
             self.graphs[cluster_id] = G
             print(f"\nCluster {cluster_id}: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
@@ -237,23 +243,29 @@ class ModulusClusteringAnalysis:
             if node_count > 200:  # Large clusters like C4
                 net.set_options("""
                 var options = {
+                  "configure": {
+                    "enabled": true,
+                    "filter": ["physics"]
+                  },
                   "physics": {
                     "enabled": true,
                     "barnesHut": {
-                      "gravitationalConstant": -15000,
-                      "centralGravity": 0.1,
-                      "springLength": 300,
-                      "springConstant": 0.0001,
-                      "damping": 0.6,
+                      "gravitationalConstant": -80000,
+                      "centralGravity": 0.01,
+                      "springLength": 500,
+                      "springConstant": 0.001,
+                      "damping": 0.5,
                       "avoidOverlap": 1
                     },
-                    "stabilization": {"iterations": 2000}
+                    "stabilization": {"iterations": 3000}
                   }
                 }
                 """)
             else:  # Smaller clusters
                 net.barnes_hut(overlap=1)
-            
+                # Add physics control panel
+                net.show_buttons(filter_=['physics'])
+
             # Add nodes
             for node, attrs in G.nodes(data=True):
                 label = node
@@ -261,12 +273,11 @@ class ModulusClusteringAnalysis:
                     label = f"{node}\n(E={attrs['modulus']:.2f} GPa)"
                 net.add_node(node, label=label, color=attrs['color'], size=attrs['size'])
             
-            # Add edges
+            # Add edges - weighted by improvement magnitude
             for source, target, attrs in G.edges(data=True):
-                color = attrs.get('edge_color', 'gray')
-                width = min(attrs['weight'] / 10, 10)  # Scale edge width
+                width = min(attrs['weight'] / 10, 10)  # Scale edge width by improvement %
                 title = f"Improvement: {attrs.get('improvement', 0):.1f}%"
-                net.add_edge(source, target, color=color, width=width, title=title)
+                net.add_edge(source, target, color='gray', width=width, title=title)
             
             # Add cluster info to visualization
             cluster_df = self.df[self.df['cluster'] == cluster_id]
@@ -288,8 +299,8 @@ class ModulusClusteringAnalysis:
                 <h2 style="color: {self.clusters[cluster_id]['color']};">Cluster {cluster_id}: {self.clusters[cluster_id]['name']}</h2>
                 <p><strong>Modulus range:</strong> {self.clusters[cluster_id]['range'][0]}-{self.clusters[cluster_id]['range'][1]} GPa</p>
                 <p><strong>n_samples:</strong> {n_samples} | <strong>avg ΔE%:</strong> {avg_improvement:.1f}% | <strong>% modified:</strong> {pct_modified:.1f}%</p>
-                <p><strong>Legend:</strong> 🔵 Blue: Polymer matrices | 🟢 Green: Modified composites | 🔴 Red: Unmodified composites</p>
-                <p><strong>Edge width:</strong> Proportional to improvement magnitude | <strong>Edge color:</strong> Green (positive) / Red (negative)</p>
+                <p><strong>Legend:</strong> 🔵 Blue: Polymer matrices | 🟢 Green: Positive improvement | 🔴 Red: Negative improvement</p>
+                <p><strong>Edge width:</strong> Proportional to improvement magnitude (%)</p>
             </div>
             """
             
