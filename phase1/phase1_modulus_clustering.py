@@ -13,7 +13,7 @@ from typing import Dict, List, Tuple
 import os
 
 # Dataset configuration
-DATASET_PATH = "DATASET 1.xlsx"
+DATASET_PATH = "../DATASET 1.xlsx"
 
 class ModulusClusteringAnalysis:
     """Implements Phase 1: Modulus-based clustering and graph analysis"""
@@ -228,7 +228,7 @@ class ModulusClusteringAnalysis:
         
     def visualize_cluster_graphs(self):
         """Create interactive visualizations for each cluster"""
-        os.makedirs('phase1_output', exist_ok=True)
+        os.makedirs('output', exist_ok=True)
         
         for cluster_id, G in self.graphs.items():
             if G.number_of_nodes() == 0:
@@ -343,7 +343,7 @@ class ModulusClusteringAnalysis:
                 report.append(f"  Knowledge hub: {top_polymer}")
         
         # Save report
-        with open('phase1_output/conference_summary.txt', 'w') as f:
+        with open('output/conference_summary.txt', 'w') as f:
             f.write('\n'.join(report))
             
         print("\nSummary report saved to phase1_output/conference_summary.txt")
@@ -380,7 +380,7 @@ class ModulusClusteringAnalysis:
             ax.grid(True, alpha=0.3)
             
         plt.tight_layout()
-        plt.savefig('phase1_output/cluster_summary.png', dpi=300)
+        plt.savefig('output/cluster_summary.png', dpi=300)
         plt.close()
         
     def run_phase1_analysis(self):
