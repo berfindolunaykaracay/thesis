@@ -3,18 +3,386 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nanocomposite Analysis</title>
+    <title>Polymer-MMT Nanocomposite Knowledge Graph Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #eee;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #4ECDC4, #44A08D);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #888;
+        }
+        .phase-section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .phase-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid;
+        }
+        .phase-1 .phase-header { border-color: #FF6B6B; }
+        .phase-2 .phase-header { border-color: #4ECDC4; }
+        .archive .phase-header { border-color: #888; }
+
+        .phase-badge {
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 0.9em;
+        }
+        .phase-1 .phase-badge { background: #FF6B6B; color: #fff; }
+        .phase-2 .phase-badge { background: #4ECDC4; color: #1a1a2e; }
+        .archive .phase-badge { background: #888; color: #fff; }
+
+        .phase-title {
+            font-size: 1.5em;
+        }
+        .phase-desc {
+            color: #aaa;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: rgba(255,255,255,0.08);
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.12);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .card-title {
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+        .card-desc {
+            font-size: 0.9em;
+            color: #999;
+        }
+        .card-type {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.75em;
+            margin-top: 10px;
+        }
+        .type-html { background: #e74c3c; }
+        .type-png { background: #3498db; }
+        .type-txt { background: #27ae60; }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .metric-box {
+            background: rgba(0,0,0,0.2);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .metric-value {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #4ECDC4;
+        }
+        .metric-label {
+            font-size: 0.85em;
+            color: #888;
+        }
+
+        .collapsible {
+            cursor: pointer;
+        }
+        .collapsible-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .collapsible-content.active {
+            max-height: 2000px;
+        }
+        .toggle-btn {
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .toggle-btn:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Nanocomposite Analysis Interactive Graphs</h1>
-    <ul>
-        <li><a href="elastic_modulus_dashboard.html">Elastic Modulus Dashboard</a></li>
-        <li><a href="modification_interactive_output/modified_all_samples_clean.html">Modified Samples</a></li>
-        <li><a href="modification_interactive_output/unmodified_all_samples_clean.html">Unmodified Samples</a></li>
-        <li><a href="nanocomposite_output/nanocomposite_interactive_graph.html">Nanocomposite Interactive Graph</a></li>
-        <li><a href="elastic_modulus_direct_output/elastic_modulus_direct_graph.html">Elastic Modulus Direct Graph</a></li>
-        <li><a href="strain_direct_output/strain_direct_graph.html">Strain Direct Graph</a></li>
-        <li><a href="strength_direct_output/strength_direct_graph.html">Strength Direct Graph</a></li>
-    </ul>
+    <div class="container">
+        <header>
+            <h1>Polymer-MMT Nanocomposite Analysis</h1>
+            <p class="subtitle">Knowledge Graph-Based Structure-Property Relationship Study</p>
+        </header>
+
+        <!-- Phase 1: Conference Paper -->
+        <section class="phase-section phase-1">
+            <div class="phase-header">
+                <span class="phase-badge">PHASE 1</span>
+                <span class="phase-title">Conference Paper - Elastic Modulus Clustering</span>
+            </div>
+            <p class="phase-desc">
+                Modulus-based clustering analysis (C1-C4) demonstrating how material stiffness regime
+                governs knowledge graph topology. Clusters defined by neat polymer elastic modulus ranges.
+            </p>
+
+            <div class="metrics-grid">
+                <div class="metric-box">
+                    <div class="metric-value">4</div>
+                    <div class="metric-label">Clusters (C1-C4)</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">927</div>
+                    <div class="metric-label">Total Samples</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">60.9%</div>
+                    <div class="metric-label">Modified Samples</div>
+                </div>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #FF6B6B;">Cluster Graphs (Interactive)</h3>
+            <div class="cards-grid">
+                <a href="phase1/output/cluster_C1_graph.html" class="card">
+                    <div class="card-title">C1: Soft Elastomeric</div>
+                    <div class="card-desc">E < 0.1 GPa | PU, PDMS, PVA</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="phase1/output/cluster_C2_graph.html" class="card">
+                    <div class="card-title">C2: Semi-soft Thermoplastic</div>
+                    <div class="card-desc">0.1-0.5 GPa | EVA, PVP</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="phase1/output/cluster_C3_graph.html" class="card">
+                    <div class="card-title">C3: Intermediate</div>
+                    <div class="card-desc">0.5-1.0 GPa | PMMA, PS</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="phase1/output/cluster_C4_graph.html" class="card">
+                    <div class="card-title">C4: Rigid Polymer</div>
+                    <div class="card-desc">E > 1 GPa | PA6, PET, PC</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #FF6B6B;">Reports & Summaries</h3>
+            <div class="cards-grid">
+                <a href="phase1/output/cluster_summary.png" class="card">
+                    <div class="card-title">Cluster Summary Figure</div>
+                    <div class="card-desc">Matrix modulus vs improvement scatter plots</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="phase1/output/conference_summary.txt" class="card">
+                    <div class="card-title">Conference Summary</div>
+                    <div class="card-desc">Cluster statistics and knowledge hubs</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="phase1/output/centrality_evaluation_detailed.txt" class="card">
+                    <div class="card-title">Centrality Evaluation</div>
+                    <div class="card-desc">Detailed centrality metrics per cluster</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Phase 2: Full Paper & Thesis -->
+        <section class="phase-section phase-2">
+            <div class="phase-header">
+                <span class="phase-badge">PHASE 2</span>
+                <span class="phase-title">Full Paper & Thesis - Multi-Property Integration</span>
+            </div>
+            <p class="phase-desc">
+                Extended analysis integrating Elastic Modulus (ΔE%), Strength (Δσ%), and Strain-to-Failure (Δε%)
+                using the same clustering backbone. Includes centrality metrics, modified vs unmodified comparison,
+                and edge stability analysis aligned with Buehler's knowledge extraction framework.
+            </p>
+
+            <div class="metrics-grid">
+                <div class="metric-box">
+                    <div class="metric-value">3</div>
+                    <div class="metric-label">Property Layers</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">397</div>
+                    <div class="metric-label">Samples (all 3 props)</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">12/12</div>
+                    <div class="metric-label">Modified > Unmodified</div>
+                </div>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #4ECDC4;">Integrated 3-Layer Motif Diagrams</h3>
+            <div class="cards-grid">
+                <a href="phase2/output/integrated_motif_C1.html" class="card">
+                    <div class="card-title">C1: Integrated Motif</div>
+                    <div class="card-desc">ΔE%, Δσ%, Δε% combined view</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="phase2/output/integrated_motif_C2.html" class="card">
+                    <div class="card-title">C2: Integrated Motif</div>
+                    <div class="card-desc">ΔE%, Δσ%, Δε% combined view</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="phase2/output/integrated_motif_C3.html" class="card">
+                    <div class="card-title">C3: Integrated Motif</div>
+                    <div class="card-desc">ΔE%, Δσ%, Δε% combined view</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="phase2/output/integrated_motif_C4.html" class="card">
+                    <div class="card-title">C4: Integrated Motif</div>
+                    <div class="card-desc">ΔE%, Δσ%, Δε% combined view</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #4ECDC4;">Analysis & Visualizations</h3>
+            <div class="cards-grid">
+                <a href="phase2/output/centrality_heatmap.png" class="card">
+                    <div class="card-title">Centrality Heatmap</div>
+                    <div class="card-desc">Weighted degree + betweenness across clusters</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="phase2/output/edge_stability_plots.png" class="card">
+                    <div class="card-title">Edge Stability Plots</div>
+                    <div class="card-desc">Improvement distribution per property</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="phase2/output/modified_vs_unmodified_comparison.png" class="card">
+                    <div class="card-title">Modified vs Unmodified</div>
+                    <div class="card-desc">Centrality comparison by modification status</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="phase2/output/phase2_report.txt" class="card">
+                    <div class="card-title">Full Analysis Report</div>
+                    <div class="card-desc">Comprehensive metrics and findings</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Archive: Previous Work -->
+        <section class="phase-section archive">
+            <div class="phase-header collapsible" onclick="toggleArchive()">
+                <span class="phase-badge">ARCHIVE</span>
+                <span class="phase-title">Previous Exploratory Work</span>
+            </div>
+            <button class="toggle-btn" onclick="toggleArchive()">Show/Hide Archive</button>
+
+            <div class="collapsible-content" id="archiveContent">
+                <p class="phase-desc" style="margin-top: 20px;">
+                    Earlier exploratory analyses and visualizations before the structured phase approach.
+                </p>
+                <div class="cards-grid">
+                    <a href="archive_previous/elastic_modulus_dashboard.html" class="card">
+                        <div class="card-title">Elastic Modulus Dashboard</div>
+                        <div class="card-desc">Original modulus analysis</div>
+                        <span class="card-type type-html">HTML</span>
+                    </a>
+                    <a href="archive_previous/modification_interactive_output/modified_all_samples_clean.html" class="card">
+                        <div class="card-title">Modified Samples</div>
+                        <div class="card-desc">Modified nanocomposite network</div>
+                        <span class="card-type type-html">HTML</span>
+                    </a>
+                    <a href="archive_previous/modification_interactive_output/unmodified_all_samples_clean.html" class="card">
+                        <div class="card-title">Unmodified Samples</div>
+                        <div class="card-desc">Unmodified nanocomposite network</div>
+                        <span class="card-type type-html">HTML</span>
+                    </a>
+                    <a href="archive_previous/nanocomposite_output/nanocomposite_interactive_graph.html" class="card">
+                        <div class="card-title">Nanocomposite Graph</div>
+                        <div class="card-desc">Full interactive network</div>
+                        <span class="card-type type-html">HTML</span>
+                    </a>
+                    <a href="archive_previous/elastic_modulus_direct_output/elastic_modulus_direct_graph.html" class="card">
+                        <div class="card-title">Elastic Modulus Direct</div>
+                        <div class="card-desc">Direct modulus visualization</div>
+                        <span class="card-type type-html">HTML</span>
+                    </a>
+                    <a href="archive_previous/strain_direct_output/strain_direct_graph.html" class="card">
+                        <div class="card-title">Strain Direct Graph</div>
+                        <div class="card-desc">Strain-to-failure analysis</div>
+                        <span class="card-type type-html">HTML</span>
+                    </a>
+                    <a href="archive_previous/strength_direct_output/strength_direct_graph.html" class="card">
+                        <div class="card-title">Strength Direct Graph</div>
+                        <div class="card-desc">Strength analysis</div>
+                        <span class="card-type type-html">HTML</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Polymer-MMT Nanocomposite Knowledge Graph Analysis | Berfin Karacay</p>
+            <p style="margin-top: 5px;">Based on Buehler's Generative Knowledge Extraction Framework</p>
+        </footer>
+    </div>
+
+    <script>
+        function toggleArchive() {
+            const content = document.getElementById('archiveContent');
+            content.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
