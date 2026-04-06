@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSE 2026 - Elastic Modulus as a Regime-Aware Descriptor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+        .reveal-viewport { background: #ffffff; }
+
+        .reveal {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 32px;
+            color: #222;
+        }
+
+        .reveal h1 {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 1.9em;
+            font-weight: 600;
+            color: #1a365d;
+            line-height: 1.25;
+        }
+
+        .reveal h2 {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #1a365d;
+            text-align: left;
+            border-bottom: 3px solid #2c5282;
+            padding-bottom: 0.3em;
+            margin-bottom: 0.6em;
+        }
+
+        .reveal ul { list-style: none; margin: 0; padding: 0; }
+
+        .reveal li {
+            font-size: 1.05em;
+            line-height: 1.5;
+            margin-bottom: 0.6em;
+            padding-left: 1.2em;
+            position: relative;
+        }
+
+        .reveal li::before {
+            content: "●";
+            color: #2c5282;
+            position: absolute;
+            left: 0;
+            font-size: 0.7em;
+        }
+
+        .reveal strong { color: #1a365d; }
+
+        .reveal .red { color: #c53030; }
+        .reveal .green { color: #276749; }
+
+        /* Title slide */
+        .title-slide { text-align: center; padding-top: 2em; }
+        .title-slide h1 { border: none; font-size: 1.7em; line-height: 1.3; }
+        .title-slide .authors { font-size: 1em; color: #444; margin-top: 1.5em; }
+        .title-slide .affiliation { font-size: 0.9em; color: #666; margin-top: 0.3em; }
+        .title-slide .conference { font-size: 0.95em; color: #2c5282; margin-top: 2em; font-weight: 600; }
+
+        /* Key message box */
+        .key-box {
+            background: #ebf8ff;
+            border-left: 5px solid #2c5282;
+            padding: 0.8em 1.2em;
+            margin: 1em 0;
+            font-size: 0.95em;
+        }
+
+        /* Tables */
+        .reveal table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85em;
+            margin: 0.8em 0;
+        }
+        .reveal th {
+            background: #2c5282;
+            color: white;
+            padding: 0.6em 0.8em;
+            text-align: left;
+        }
+        .reveal td {
+            padding: 0.5em 0.8em;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .reveal tr:nth-child(even) { background: #f7fafc; }
+
+        /* Framework */
+        .framework {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.8em;
+            margin: 1.5em 0;
+        }
+        .step-box {
+            background: #2c5282;
+            color: white;
+            padding: 1em 1.3em;
+            border-radius: 8px;
+            text-align: center;
+            min-width: 180px;
+        }
+        .step-num { font-size: 0.75em; opacity: 0.85; }
+        .step-title { font-size: 0.95em; font-weight: 600; margin-top: 0.2em; }
+        .arrow { font-size: 1.8em; color: #2c5282; }
+
+        /* Equation */
+        .equation {
+            background: #f7fafc;
+            padding: 0.8em 1.5em;
+            border-radius: 6px;
+            font-family: 'Times New Roman', serif;
+            font-size: 1.2em;
+            text-align: center;
+            margin: 1em 0;
+            border: 1px solid #e2e8f0;
+        }
+
+        /* Two columns */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5em;
+            align-items: start;
+        }
+
+        /* Findings */
+        .finding {
+            background: #f0fff4;
+            border-left: 4px solid #276749;
+            padding: 0.7em 1em;
+            margin: 0.5em 0;
+            font-size: 0.95em;
+        }
+
+        /* Conclusions */
+        .conclusion {
+            background: #1a365d;
+            color: white;
+            padding: 0.9em 1.2em;
+            margin: 0.5em 0;
+            border-radius: 6px;
+            font-size: 0.95em;
+        }
+        .conclusion strong { color: #90cdf4; }
+
+        /* Image */
+        .img-box {
+            text-align: center;
+        }
+        .img-box img {
+            max-width: 100%;
+            max-height: 420px;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+        }
+
+        /* Graph placeholder */
+        .graph-frame {
+            width: 100%;
+            height: 380px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #fff;
+        }
+        .graph-frame iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* References */
+        .references { font-size: 0.75em; }
+        .references p { margin: 0.3em 0; }
+
+        /* Legend */
+        .legend {
+            display: flex;
+            gap: 2em;
+            justify-content: center;
+            margin: 0.5em 0;
+            font-size: 0.85em;
+        }
+        .legend-item { display: flex; align-items: center; gap: 0.4em; }
+        .dot { width: 14px; height: 14px; border-radius: 50%; }
+        .dot-green { background: #38a169; }
+        .dot-red { background: #e53e3e; }
+
+        /* Progress & slide number */
+        .reveal .progress { background: rgba(44,82,130,0.2); height: 3px; }
+        .reveal .progress span { background: #2c5282; }
+        .reveal .slide-number { font-size: 14px; color: #718096; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- SLIDE 1: Title -->
+            <section class="title-slide">
+                <h1>Elastic Modulus as a Regime-Aware<br>Computational Descriptor for<br>Knowledge Extraction in<br>Polymer/Clay Nanocomposites</h1>
+                <p class="authors">
+                    <strong>Berfin Dolunay Karacay</strong>, Selin Sivis,<br>
+                    Ayse Cagil Kandemir, Gokce Nur Yilmaz
+                </p>
+                <p class="affiliation">TED University, Ankara, Turkey</p>
+                <p class="conference">MSE Congress 2026</p>
+            </section>
+
+            <!-- SLIDE 2: Problem -->
+            <section>
+                <h2>Problem Statement</h2>
+                <ul>
+                    <li>ML models treat elastic modulus as a <strong>single scalar target</strong></li>
+                    <li>Systems from <strong>0.01 GPa to 10 GPa</strong> are pooled together</li>
+                    <li>50% improvement in soft rubber ≠ 50% in rigid epoxy</li>
+                </ul>
+                <div class="key-box">
+                    <strong>Core Issue:</strong> Identical numerical changes correspond to fundamentally different mechanical behaviors across stiffness regimes.
+                </div>
+            </section>
+
+            <!-- SLIDE 3: Why Regime-Aware -->
+            <section>
+                <h2>Why Regime-Aware Analysis?</h2>
+                <ul>
+                    <li>Black-box ML models lose <strong>physical interpretability</strong></li>
+                    <li>Models learn <strong>spurious correlations</strong> between unrelated systems</li>
+                    <li>Results <strong>do not transfer</strong> across material classes</li>
+                </ul>
+                <div class="key-box">
+                    <strong>Our Approach:</strong> Introduce stiffness-aware abstraction <em>before</em> data-driven analysis.
+                </div>
+            </section>
+
+            <!-- SLIDE 4: Framework -->
+            <section>
+                <h2>Proposed Framework</h2>
+                <div class="framework">
+                    <div class="step-box">
+                        <div class="step-num">STEP 1</div>
+                        <div class="step-title">Stiffness-Based<br>Clustering</div>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="step-box">
+                        <div class="step-num">STEP 2</div>
+                        <div class="step-title">Graph<br>Construction</div>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="step-box">
+                        <div class="step-num">STEP 3</div>
+                        <div class="step-title">Centrality-Based<br>Interpretation</div>
+                    </div>
+                </div>
+                <p style="text-align: center; color: #718096; font-size: 0.85em; margin-top: 1em;">
+                    Graph-based knowledge extraction without black-box prediction
+                </p>
+            </section>
+
+            <!-- SLIDE 5: Dataset -->
+            <section>
+                <h2>Dataset</h2>
+                <ul>
+                    <li><strong>927 data points</strong> from <strong>148 publications</strong></li>
+                    <li>Montmorillonite (MMT) clay nanocomposites</li>
+                    <li>789 surface-modified, 138 unmodified samples</li>
+                    <li>Polymer modulus range: &lt;0.1 GPa to &gt;1.0 GPa</li>
+                </ul>
+                <p style="color: #718096; font-size: 0.8em; margin-top: 1em;">
+                    Sources: Scopus, ScienceDirect, Web of Science
+                </p>
+            </section>
+
+            <!-- SLIDE 6: Regimes -->
+            <section>
+                <h2>Four Stiffness Regimes</h2>
+                <table>
+                    <tr>
+                        <th>Regime</th>
+                        <th>Range (GPa)</th>
+                        <th>n</th>
+                        <th>Behavior</th>
+                    </tr>
+                    <tr>
+                        <td><strong>C1</strong> Soft Elastomeric</td>
+                        <td>E &lt; 0.1</td>
+                        <td>23</td>
+                        <td>High amplification, unstable</td>
+                    </tr>
+                    <tr>
+                        <td><strong>C2</strong> Semi-soft</td>
+                        <td>0.1 ≤ E &lt; 0.5</td>
+                        <td>47</td>
+                        <td>Maximum tunability, chaotic</td>
+                    </tr>
+                    <tr>
+                        <td><strong>C3</strong> Intermediate</td>
+                        <td>0.5 ≤ E &lt; 1.0</td>
+                        <td>82</td>
+                        <td>Controlled reinforcement</td>
+                    </tr>
+                    <tr>
+                        <td><strong>C4</strong> Rigid</td>
+                        <td>E ≥ 1.0</td>
+                        <td>757</td>
+                        <td>Interface-limited, saturation</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- SLIDE 7: Graph Construction -->
+            <section>
+                <h2>Graph Construction</h2>
+                <ul>
+                    <li><strong>Nodes</strong> = polymer matrices and composites</li>
+                    <li><strong>Edges</strong> = relative elastic modulus change (ΔE%)</li>
+                    <li>Separate graph for each stiffness regime</li>
+                </ul>
+                <div class="equation">
+                    ΔE(%) = (E<sub>composite</sub> − E<sub>neat</sub>) / E<sub>neat</sub> × 100
+                </div>
+            </section>
+
+            <!-- SLIDE 8: Centrality Metrics -->
+            <section>
+                <h2>Centrality Metrics</h2>
+                <ul>
+                    <li><strong>Weighted Degree Centrality</strong><br>
+                        <span style="color: #718096; font-size: 0.85em;">→ Functional importance (total modulus contribution)</span></li>
+                    <li><strong>Betweenness Centrality</strong><br>
+                        <span style="color: #718096; font-size: 0.85em;">→ Bridging role between response patterns</span></li>
+                    <li><strong>Edge-Weight Dispersion</strong><br>
+                        <span style="color: #718096; font-size: 0.85em;">→ Response stability and predictability</span></li>
+                </ul>
+            </section>
+
+            <!-- SLIDE 9: C1 Results -->
+            <section>
+                <h2>Results: C1 – Soft Elastomeric (E &lt; 0.1 GPa)</h2>
+                <div class="two-col">
+                    <div>
+                        <ul>
+                            <li>Highest relative changes<br><strong class="red">(up to 2000%)</strong></li>
+                            <li>Both strong gains and losses</li>
+                            <li>Low predictability</li>
+                        </ul>
+                        <div class="key-box" style="margin-top: 0.8em;">
+                            <strong>Amplified but unstable</strong>
+                        </div>
+                    </div>
+                    <div class="graph-frame">
+                        <iframe src="../phase1/output/cluster_C1_graph.html"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 10: C2 Results -->
+            <section>
+                <h2>Results: C2 – Semi-soft (0.1–0.5 GPa)</h2>
+                <div class="two-col">
+                    <div>
+                        <ul>
+                            <li>Densest network structure</li>
+                            <li>Same matrix → <strong>variable outcomes</strong></li>
+                            <li>Mechanically sensitive zone</li>
+                        </ul>
+                        <div class="key-box" style="margin-top: 0.8em;">
+                            <strong>Maximum tunability, chaotic</strong>
+                        </div>
+                    </div>
+                    <div class="graph-frame">
+                        <iframe src="../phase1/output/cluster_C2_graph.html"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 11: C3-C4 Results -->
+            <section>
+                <h2>Results: C3 & C4 – Intermediate & Rigid</h2>
+                <div class="two-col">
+                    <div>
+                        <ul>
+                            <li><strong>C3:</strong> Controlled reinforcement</li>
+                            <li><strong>C4:</strong> Interface-limited, saturation</li>
+                            <li>More organized networks</li>
+                        </ul>
+                        <div class="key-box" style="margin-top: 0.8em;">
+                            <strong>Increasing order, decreasing variability</strong>
+                        </div>
+                    </div>
+                    <div class="graph-frame">
+                        <iframe src="../phase1/output/cluster_C4_graph.html"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 12: Surface Modification -->
+            <section>
+                <h2>Effect of Surface Modification</h2>
+                <div class="img-box">
+                    <img src="../phase1/output/cluster_summary.png" alt="Scatter plots">
+                </div>
+                <div class="legend">
+                    <div class="legend-item"><div class="dot dot-green"></div> Modified MMT</div>
+                    <div class="legend-item"><div class="dot dot-red"></div> Unmodified MMT</div>
+                </div>
+                <div class="key-box" style="margin-top: 0.5em;">
+                    Modification <strong>organizes and stabilizes</strong> – does not universally maximize improvement.
+                </div>
+            </section>
+
+            <!-- SLIDE 13: Key Findings -->
+            <section>
+                <h2>Key Findings</h2>
+                <div class="finding">
+                    <strong>1.</strong> Elastic modulus must be interpreted <strong>regime-wise</strong>
+                </div>
+                <div class="finding">
+                    <strong>2.</strong> Soft → Rigid: amplification ↓, stability ↑
+                </div>
+                <div class="finding">
+                    <strong>3.</strong> Surface modification = <strong>organizational mechanism</strong>
+                </div>
+                <div class="finding">
+                    <strong>4.</strong> Graph representation → <strong>explainable extraction</strong>
+                </div>
+            </section>
+
+            <!-- SLIDE 14: Conclusions -->
+            <section>
+                <h2>Conclusions</h2>
+                <div class="conclusion">
+                    Regime-aware abstraction is <strong>necessary before ML</strong>
+                </div>
+                <div class="conclusion">
+                    Framework transforms <strong>heterogeneous data → structured knowledge</strong>
+                </div>
+                <div class="conclusion">
+                    Applicable for <strong>knowledge-guided materials design</strong>
+                </div>
+            </section>
+
+            <!-- SLIDE 15: References -->
+            <section>
+                <h2>References</h2>
+                <div class="references">
+                    <p>[1] Buehler (2024). Graph-based knowledge extraction. arXiv:2403.11996</p>
+                    <p>[2] Freeman (1978). Centrality in social networks. Social Networks, 1(3).</p>
+                    <p>[3] Barabási & Albert (1999). Scale-free networks. Science, 286.</p>
+                    <p>[4] Sinha Ray & Okamoto (2003). Polymer nanocomposites. Prog. Polym. Sci., 28.</p>
+                </div>
+                <div style="margin-top: 1.5em; padding: 0.8em; background: #f7fafc; border-radius: 6px; font-size: 0.8em;">
+                    <strong>Dataset:</strong> <a href="https://osf.io/g5scz" style="color: #2c5282;">osf.io/g5scz</a><br>
+                    <strong>Contact:</strong> bdolunay.karacay@tedu.edu.tr
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            transitionSpeed: 'fast',
+            center: false,
+            width: 1280,
+            height: 720,
+            margin: 0.06,
+            progress: true,
+            controls: true
+        });
+    </script>
+</body>
+</html>
