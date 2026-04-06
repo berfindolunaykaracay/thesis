@@ -371,7 +371,8 @@ class IntegratedPropertyAnalysis:
                 net.show_buttons(filter_=['physics'])
 
             # Save and add header
-            filename = f"phase2_output/integrated_motif_{cluster_id}.html"
+            os.makedirs('output', exist_ok=True)
+            filename = f"output/integrated_motif_{cluster_id}.html"
             net.save_graph(filename)
 
             # Add custom header with legend

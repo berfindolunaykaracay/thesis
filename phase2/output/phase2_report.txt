@@ -2,9 +2,9 @@
 Phase 2: Full Paper & Thesis - Integrated Analysis Report
 ======================================================================
 
-Total samples with all 3 properties: 397
-Modified samples: 357
-Unmodified samples: 40
+Total samples with all 3 properties: 429
+Modified samples: 368
+Unmodified samples: 61
 
 ======================================================================
 Cluster C1: Soft elastomeric
@@ -164,28 +164,28 @@ Samples: 19 (Modified: 16, Unmodified: 3)
 Cluster C3: Intermediate
 ======================================================================
 Modulus range: 0.5-1.0 GPa
-Samples: 34 (Modified: 28, Unmodified: 6)
+Samples: 36 (Modified: 30, Unmodified: 6)
 
   ΔE% Statistics:
-    Mean: 44.8%
-    Std: 53.2%
+    Mean: 44.5%
+    Std: 51.9%
     Min: -16.7% | Max: 227.5%
-    Positive: 31 (91.2%)
-    Negative: 3 (8.8%)
+    Positive: 33 (91.7%)
+    Negative: 3 (8.3%)
 
   Δσ% Statistics:
-    Mean: 16.9%
-    Std: 18.5%
+    Mean: 16.4%
+    Std: 18.2%
     Min: -31.2% | Max: 67.1%
-    Positive: 29 (85.3%)
-    Negative: 2 (5.9%)
+    Positive: 30 (83.3%)
+    Negative: 2 (5.6%)
 
   Δε% Statistics:
     Mean: -32.9%
-    Std: 20.3%
+    Std: 19.7%
     Min: -79.2% | Max: -6.3%
     Positive: 0 (0.0%)
-    Negative: 34 (100.0%)
+    Negative: 36 (100.0%)
 
   --- Centrality Metrics ---
 
@@ -195,11 +195,11 @@ Samples: 34 (Modified: 28, Unmodified: 6)
       - PP: 416.7
       - Nylon66: 346.5
     Betweenness (Translational Hub):
-      - Nylon66: 0.0462
-      - HDPE: 0.0192
-      - PP: 0.0192
-    Edge Weight Variance (Stability): 2471.5
-    Edge Weight Std Dev: 49.7
+      - Nylon66: 0.0399
+      - HDPE: 0.0166
+      - PP: 0.0166
+    Edge Weight Variance (Stability): 2363.2
+    Edge Weight Std Dev: 48.6
 
   Δσ%:
     Weighted Degree (Functional Importance):
@@ -207,11 +207,11 @@ Samples: 34 (Modified: 28, Unmodified: 6)
       - Nylon66: 138.5
       - PA6: 96.3
     Betweenness (Translational Hub):
-      - PP: 0.0481
-      - Nylon66: 0.0462
-      - HDPE: 0.0192
-    Edge Weight Variance (Stability): 242.4
-    Edge Weight Std Dev: 15.6
+      - PP: 0.0415
+      - Nylon66: 0.0399
+      - HDPE: 0.0166
+    Edge Weight Variance (Stability): 239.1
+    Edge Weight Std Dev: 15.5
 
   Δε%:
     Weighted Degree (Functional Importance):
@@ -219,27 +219,27 @@ Samples: 34 (Modified: 28, Unmodified: 6)
       - HDPE: 214.3
       - PLA/PBAT: 210.4
     Betweenness (Translational Hub):
-      - Nylon66: 0.0462
-      - HDPE: 0.0192
-      - PP: 0.0192
-    Edge Weight Variance (Stability): 400.1
-    Edge Weight Std Dev: 20.0
+      - Nylon66: 0.0399
+      - HDPE: 0.0166
+      - PP: 0.0166
+    Edge Weight Variance (Stability): 377.9
+    Edge Weight Std Dev: 19.4
 
   --- Modified vs Unmodified Comparison ---
   (Higher weighted centrality = organized structure-property mapping)
 
   ΔE%:
-    Modified: WD=1464.4 (n=28)
+    Modified: WD=1544.0 (n=30)
     Unmodified: WD=159.7 (n=6)
     Higher centrality: Modified
 
   Δσ%:
-    Modified: WD=552.0 (n=28)
+    Modified: WD=569.3 (n=30)
     Unmodified: WD=106.3 (n=6)
     Higher centrality: Modified
 
   Δε%:
-    Modified: WD=956.2 (n=28)
+    Modified: WD=1022.9 (n=30)
     Unmodified: WD=163.1 (n=6)
     Higher centrality: Modified
 
@@ -247,83 +247,83 @@ Samples: 34 (Modified: 28, Unmodified: 6)
 Cluster C4: Rigid polymer
 ======================================================================
 Modulus range: 1.0-inf GPa
-Samples: 337 (Modified: 307, Unmodified: 30)
+Samples: 367 (Modified: 316, Unmodified: 51)
 
   ΔE% Statistics:
-    Mean: 27.0%
-    Std: 43.4%
+    Mean: 26.5%
+    Std: 42.5%
     Min: -90.0% | Max: 431.8%
-    Positive: 301 (89.3%)
-    Negative: 34 (10.1%)
+    Positive: 327 (89.1%)
+    Negative: 38 (10.4%)
 
   Δσ% Statistics:
-    Mean: 5.2%
-    Std: 28.2%
+    Mean: 5.4%
+    Std: 27.4%
     Min: -76.7% | Max: 230.2%
-    Positive: 212 (62.9%)
-    Negative: 121 (35.9%)
+    Positive: 232 (63.2%)
+    Negative: 131 (35.7%)
 
   Δε% Statistics:
-    Mean: -21.1%
-    Std: 47.1%
+    Mean: -22.4%
+    Std: 45.9%
     Min: -99.6% | Max: 200.0%
-    Positive: 77 (22.8%)
-    Negative: 249 (73.9%)
+    Positive: 79 (21.5%)
+    Negative: 277 (75.5%)
 
   --- Centrality Metrics ---
 
   ΔE%:
     Weighted Degree (Functional Importance):
+      - Epoxy: 2274.5
       - PA6: 2095.0
       - Nylon 6: 2072.5
-      - Epoxy: 2052.8
     Betweenness (Translational Hub):
-      - Epoxy: 0.0841
-      - DGEBA: 0.0227
-      - Nylon 6: 0.0134
-    Edge Weight Variance (Stability): 1723.5
-    Edge Weight Std Dev: 41.5
+      - Epoxy: 0.0837
+      - DGEBA: 0.0191
+      - Nylon 6: 0.0113
+    Edge Weight Variance (Stability): 1626.8
+    Edge Weight Std Dev: 40.3
 
   Δσ%:
     Weighted Degree (Functional Importance):
-      - Epoxy: 2088.4
+      - Epoxy: 2194.7
       - Nylon 6: 1077.3
       - DGEBA: 748.3
     Betweenness (Translational Hub):
-      - Epoxy: 0.0833
-      - DGEBA: 0.0223
-      - Nylon 6: 0.0134
-    Edge Weight Variance (Stability): 463.7
-    Edge Weight Std Dev: 21.5
+      - Epoxy: 0.0830
+      - DGEBA: 0.0188
+      - Nylon 6: 0.0113
+    Edge Weight Variance (Stability): 443.5
+    Edge Weight Std Dev: 21.1
 
   Δε%:
     Weighted Degree (Functional Importance):
-      - Epoxy: 2840.8
+      - Epoxy: 3135.8
       - Nylon 6: 2728.5
       - DGEBA: 2381.8
     Betweenness (Translational Hub):
-      - Epoxy: 0.0921
-      - DGEBA: 0.0223
-      - PP: 0.0166
-    Edge Weight Variance (Stability): 1124.8
-    Edge Weight Std Dev: 33.5
+      - Epoxy: 0.0910
+      - DGEBA: 0.0188
+      - PP: 0.0167
+    Edge Weight Variance (Stability): 1088.5
+    Edge Weight Std Dev: 33.0
 
   --- Modified vs Unmodified Comparison ---
   (Higher weighted centrality = organized structure-property mapping)
 
   ΔE%:
-    Modified: WD=9456.0 (n=307)
-    Unmodified: WD=548.5 (n=30)
+    Modified: WD=9684.0 (n=316)
+    Unmodified: WD=1193.9 (n=51)
     Higher centrality: Modified
 
   Δσ%:
-    Modified: WD=5653.2 (n=307)
-    Unmodified: WD=687.0 (n=30)
+    Modified: WD=5742.5 (n=316)
+    Unmodified: WD=979.3 (n=51)
     Higher centrality: Modified
 
   Δε%:
-    Modified: WD=12160.9 (n=307)
-    Unmodified: WD=1031.1 (n=30)
+    Modified: WD=12491.8 (n=316)
+    Unmodified: WD=1795.1 (n=51)
     Higher centrality: Modified
 
 ======================================================================
