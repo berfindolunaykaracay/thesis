@@ -23,7 +23,7 @@ try:
     driver = webdriver.Chrome(options=chrome_options)
 
     base_path = "/Users/berfinkaracay/Desktop/Thesis/phase1/output"
-    output_path = "/Users/berfinkaracay/Desktop/Thesis/MSE2026"
+    output_path = "/Users/berfinkaracay/Desktop/Thesis/UBMK2026"
 
     graphs = [
         ("cluster_C1_graph.html", "cluster_C1_graph.png"),
@@ -50,12 +50,12 @@ except ImportError:
     print("\nAlternatively, you can manually screenshot the graphs:")
     print("1. Open each HTML file in browser")
     print("2. Take screenshot")
-    print("3. Save to MSE2026 folder")
+    print("3. Save to UBMK2026 folder")
     sys.exit(1)
 except Exception as e:
     print(f"Error: {e}")
     print("\nManual export instructions:")
     print("1. Open phase1/output/cluster_C1_graph.html in browser")
-    print("2. Screenshot and save as MSE2026/cluster_C1_graph.png")
+    print("2. Screenshot and save as UBMK2026/cluster_C1_graph.png")
     print("3. Repeat for C2, C3, C4")
     sys.exit(1)

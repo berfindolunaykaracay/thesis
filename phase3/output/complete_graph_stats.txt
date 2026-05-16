@@ -1,0 +1,21 @@
+=== Phase 3 / Complete Graph stats ===
+
+  Number of nodes                 : 1214
+  Number of edges                 : 13394
+  Average node degree             : 22.066
+  Max node degree                 : 1128
+  Median node degree              : 12
+  Density                         : 0.018191
+  Components                      : 1
+    polymer nodes                 : 54
+    modification nodes            : 2
+    dispersion nodes              : 13
+    category nodes                : 3
+    article nodes                 : 153
+    test_method nodes             : 18
+    data_source nodes             : 2
+    property_bin nodes            : 27
+    sample nodes                  : 942
+    sample_concept edges          : 6594
+    concept_concept edges         : 1659
+    sample_property edges         : 5141

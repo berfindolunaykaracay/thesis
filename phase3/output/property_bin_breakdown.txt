@@ -1,0 +1,43 @@
+=== Property bin populations (her bin'e kaç sample düştü) ===
+
+--- matrix_modulus ---
+  E<1 GPa (soft)               : 156 samples
+  E 1-3 GPa                    : 532 samples
+  E 3-10 GPa                   : 206 samples
+  E>10 GPa (rigid)             : 26 samples
+
+--- matrix_strength ---
+  σ<10 MPa (C1)                : 29 samples
+  σ 10-30 MPa (C2)             : 72 samples
+  σ 30-60 MPa (C3)             : 249 samples
+  σ>60 MPa (C4)                : 396 samples
+
+--- matrix_strain ---
+  ε<5 (brittle)                : 295 samples
+  ε 5-50 (moderate)            : 119 samples
+  ε>50 (ductile)               : 33 samples
+
+--- dE_modulus ---
+  ΔE<0 (degraded)              : 80 samples
+  ΔE 0-50%                     : 632 samples
+  ΔE 50-200%                   : 168 samples
+  ΔE>200%                      : 39 samples
+
+--- dsigma_strength ---
+  Δσ<0 (degraded)              : 181 samples
+  Δσ 0-50%                     : 485 samples
+  Δσ 50-200%                   : 48 samples
+  Δσ>200%                      : 13 samples
+
+--- de_strain ---
+  Δε<-50%                      : 118 samples
+  Δε -50 to 0                  : 220 samples
+  Δε 0-50%                     : 75 samples
+  Δε>50%                       : 27 samples
+
+--- MMT_loading ---
+  MMT<1 wt%                    : 31 samples
+  MMT 1-3 wt%                  : 272 samples
+  MMT 3-7 wt%                  : 463 samples
+  MMT>7 wt%                    : 176 samples
+

@@ -1,0 +1,34 @@
+=== Phase 1: Conference Stage Analysis ===
+
+Strength-Based Clustering Results
+
+Dataset total: 942
+Clusterable (matrix strength available): 746
+Edge-eligible (full strength data): 727
+Modified samples: 650
+Unmodified samples: 96
+
+
+C1 - Low strength regime:
+  Range: 0-10 MPa
+  Modified: 19 samples, avg improvement: 969.5%
+  Unmodified: 9 samples, avg improvement: 43.3%
+  Knowledge hub: PMA
+
+C2 - Medium-low strength regime:
+  Range: 10-30 MPa
+  Modified: 65 samples, avg improvement: 34.5%
+  Unmodified: 7 samples, avg improvement: 18.8%
+  Knowledge hub: Epoxy
+
+C3 - Medium strength regime:
+  Range: 30-60 MPa
+  Modified: 226 samples, avg improvement: 9.3%
+  Unmodified: 23 samples, avg improvement: 13.5%
+  Knowledge hub: Epoxy
+
+C4 - High strength regime:
+  Range: 60-inf MPa
+  Modified: 332 samples, avg improvement: 6.0%
+  Unmodified: 46 samples, avg improvement: 18.9%
+  Knowledge hub: PA6

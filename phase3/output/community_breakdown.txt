@@ -1,0 +1,36 @@
+=== Communities — FULL graph (6 communities) ===
+
+Community 1: 65 nodes — {'article': 46, 'polymer': 12, 'dispersion': 2, 'category': 1, 'modification': 1, 'test_method': 3}
+  non-article members (first 8): ['PA8', 'PLLA', 'intercalated/exfoliated', 'PA7', 'PCL', 'PHBV', 'intercalated/microcomposite', 'PA12']
+
+Community 2: 60 nodes — {'article': 43, 'category': 1, 'test_method': 5, 'dispersion': 5, 'polymer': 6}
+  non-article members (first 8): ['Thermoset', 'Compression Test', 'agglomerated', 'Dimethacrylate Copolymer', 'Epoxy', 'Flexural Test', 'microcomposite', 'DGEAC']
+
+Community 3: 48 nodes — {'article': 29, 'polymer': 15, 'test_method': 1, 'data_source': 1, 'category': 1, 'dispersion': 1}
+  non-article members (first 8): ['PA6/PP', 'PMA', 'PA66', 'PLA/PP', 'NBR/PU', 'Tensile Test', 'NR', 'PI']
+
+Community 4: 47 nodes — {'article': 25, 'test_method': 8, 'polymer': 8, 'dispersion': 4, 'modification': 1, 'data_source': 1}
+  non-article members (first 8): ['Instrumented-indentation', 'PVA', 'Partially exfoliated/disordered intercalated', 'PBT', 'Chitosan', 'Partially exfoliated', 'rPET', 'MGSL135i']
+
+Community 5: 20 nodes — {'article': 6, 'polymer': 12, 'test_method': 1, 'dispersion': 1}
+  non-article members (first 8): ['PPH2/PP', 'PPH4', 'BIOPA11', 'PPH4/PP', 'PPH3', 'PPH2', 'PP/EPDM', 'FEM (COMSOL)']
+
+Community 6: 5 nodes — {'article': 4, 'polymer': 1}
+  non-article members (first 8): ['PMMA']
+
+
+
+=== Communities — CONCEPT-ONLY (92 nodes, articles removed; 4 communities) ===
+
+Community 1: 31 nodes — {'category': 1, 'polymer': 25, 'test_method': 3, 'dispersion': 1, 'data_source': 1}
+  members (first 12): ['Thermoplastic', 'PSF', 'PPH2/PP', 'PA6/PP', 'PPH4', 'HDPE', 'PE', 'PBT', 'PA8', 'PPH4/PP', 'PPH3', 'PP/PLA']
+
+Community 2: 25 nodes — {'test_method': 8, 'polymer': 8, 'category': 1, 'dispersion': 7, 'modification': 1}
+  members (first 12): ['DMA/SEN', 'UP', 'Thermoset', 'Partially exfoliated/disordere', 'Mixed', 'Compression Test', 'Modified', 'Compact Tension', 'DGEBA', 'disordered intercalated/exfoli', 'Bis-GMA/TTEGDMA', 'Vinyl Ester']
+
+Community 3: 23 nodes — {'data_source': 1, 'polymer': 14, 'test_method': 3, 'dispersion': 4, 'category': 1}
+  members (first 12): ['Simulated', 'BIOPA11', 'Finite Element Method', 'PA', 'PLLA', 'intercalated/exfoliated', 'NBR', 'CNBR', 'PLA/PBAT', 'PU', 'Chitosan', 'FEM (COMSOL)']
+
+Community 4: 13 nodes — {'test_method': 4, 'polymer': 7, 'modification': 1, 'dispersion': 1}
+  members (first 12): ['Tensile/SENB', 'Instrumented-indentation', 'PMMA', 'PVA', 'PVP', 'SENB/DMA', 'Unmodified', 'PS', 'Tensile/DMA', 'PI', 'PA12', 'PLA']
+

@@ -37,45 +37,37 @@ class StrengthClusteringAnalysis:
         # Clean column names
         self.df.columns = [col.strip() for col in self.df.columns]
 
-        # Print all column names to help identify correct ones
-        print("Available columns:")
-        for col in self.df.columns:
-            if 'strength' in col.lower() or 'Strength' in col:
-                print(f"  - {col}")
+        self.n_total = len(self.df)
 
-        # Essential columns for Phase 1 (Strength-based)
-        required_cols = [
+        # Clustering key — must be present
+        clustering_keys = [
             'Polymer matrix name',
             'Polymer matrix Strength (MPa)',
+            'Modification (modified/unmodified)',
+        ]
+        # Edge attributes — needed for graph edges, but row can still be clustered without them
+        edge_cols = [
             'Nanocomposite Strength (MPa)',
             'Strength improvement (%)',
-            'Modification (modified/unmodified)'
         ]
 
-        # Check if columns exist
-        missing_cols = [col for col in required_cols if col not in self.df.columns]
+        missing_cols = [c for c in clustering_keys + edge_cols if c not in self.df.columns]
         if missing_cols:
             print(f"Warning: Missing columns {missing_cols}")
 
-        # Drop rows with missing data in ANY required column (keep only complete data)
-        print(f"Total rows before cleaning: {len(self.df)}")
-        self.df = self.df.dropna(subset=required_cols)
-        print(f"Rows with complete data: {len(self.df)}")
+        # Drop only rows missing the clustering key
+        self.df = self.df.dropna(subset=clustering_keys)
+        self.n_clusterable = len(self.df)
 
-        # Convert strength to float
-        self.df['Polymer matrix Strength (MPa)'] = pd.to_numeric(
-            self.df['Polymer matrix Strength (MPa)'], errors='coerce'
-        )
+        # Track which rows have edge data
+        self.df['has_edge_data'] = self.df[edge_cols].notna().all(axis=1)
+        self.n_edge_eligible = self.df['has_edge_data'].sum()
 
-        # Convert improvement percentages to numeric
-        self.df['Strength improvement (%)'] = pd.to_numeric(
-            self.df['Strength improvement (%)'], errors='coerce'
-        )
-
-        # Clean modification column
         self.df['is_modified'] = self.df['Modification (modified/unmodified)'].str.lower() == 'modified'
 
-        print(f"Loaded {len(self.df)} samples after preprocessing")
+        print(f"Total rows in dataset:        {self.n_total}")
+        print(f"Clusterable (matrix strength dolu): {self.n_clusterable}  (-{self.n_total - self.n_clusterable})")
+        print(f"Edge-eligible (tüm strength sütunları dolu): {self.n_edge_eligible}  (-{self.n_clusterable - self.n_edge_eligible})")
 
     def assign_clusters(self):
         """Assign each polymer to a cluster based on neat polymer strength"""
@@ -327,7 +319,9 @@ class StrengthClusteringAnalysis:
         report.append("Strength-Based Clustering Results\n")
 
         # Overall statistics
-        report.append(f"Total samples: {len(self.df)}")
+        report.append(f"Dataset total: {self.n_total}")
+        report.append(f"Clusterable (matrix strength available): {self.n_clusterable}")
+        report.append(f"Edge-eligible (full strength data): {self.n_edge_eligible}")
         report.append(f"Modified samples: {self.df['is_modified'].sum()}")
         report.append(f"Unmodified samples: {(~self.df['is_modified']).sum()}\n")
 

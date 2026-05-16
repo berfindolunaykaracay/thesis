@@ -64,7 +64,31 @@
         }
         .phase-1 .phase-badge { background: #FF6B6B; color: #fff; }
         .phase-2 .phase-badge { background: #4ECDC4; color: #1a1a2e; }
+        .phase-3 .phase-badge { background: #27ae60; color: #fff; }
         .archive .phase-badge { background: #888; color: #fff; }
+        .whats-new {
+            background: linear-gradient(135deg, rgba(39,174,96,0.15) 0%, rgba(78,205,196,0.08) 100%);
+            border: 1px solid rgba(39,174,96,0.3);
+            border-radius: 15px;
+            padding: 25px 30px;
+            margin-bottom: 30px;
+        }
+        .whats-new h2 {
+            color: #27ae60;
+            font-size: 1.4em;
+            margin-bottom: 12px;
+        }
+        .whats-new ul {
+            margin-left: 20px;
+            color: #ccc;
+            line-height: 1.7;
+        }
+        .whats-new li {
+            margin-bottom: 6px;
+        }
+        .whats-new strong {
+            color: #4ECDC4;
+        }
 
         .phase-title {
             font-size: 1.5em;
@@ -173,6 +197,38 @@
             <h1>Polymer-MMT Nanocomposite Analysis</h1>
             <p class="subtitle">Knowledge Graph-Based Structure-Property Relationship Study</p>
         </header>
+
+        <!-- What's New / Recent Updates -->
+        <section class="whats-new">
+            <h2>What's New — Recent Updates</h2>
+            <p style="color:#bbb; margin-bottom:14px;">
+                This update extends the project with a Buehler-inspired knowledge-graph analysis stage (Phase 3),
+                along with a thorough dataset cleanup and quality-control pass on the original 942-row dataset.
+            </p>
+            <ul>
+                <li><strong>Dataset cleanup:</strong>
+                    case/whitespace normalization across categorical fields (e.g. <code>Modified</code> variants merged);
+                    semantic merges (PA6 ↔ Nylon 6, PA66 ↔ Nylon66, Three-Point Bend ↔ Flexural Test (3PB));
+                    missing-data markers (<code>?</code>) converted to NaN so improvements with negatives can be analyzed;
+                    a unit-error correction on row 183 (Epoxy matrix strength 0.12 MPa → 12 MPa).
+                </li>
+                <li><strong>arcsinh transformation:</strong>
+                    six new arcsinh columns added next to existing Log10 columns. Unlike log10, arcsinh accepts
+                    negative values, so improvement columns (where log10 produced many NaN) become usable —
+                    e.g. the strain-improvement column went from 91 to 440 usable values (4.8× recovery).
+                </li>
+                <li><strong>Phase 3 — Buehler-style knowledge graph:</strong>
+                    deterministic concept-graph construction from the categorical fields,
+                    transformer-based node embeddings (all-MiniLM-L6-v2, 384-d),
+                    cosine-similarity semantic graph, and a complete graph that places every experiment and
+                    every numerical regime as a node alongside the 245 categorical concepts.
+                </li>
+                <li><strong>Transparent reporting in Phase 2 &amp; UBMK 2026 scripts:</strong>
+                    filtering logic now distinguishes "dataset total / clusterable / edge-eligible" honestly
+                    (e.g. UBMK 2026 reports 942 → 746 → 727 instead of a single misleading number).
+                </li>
+            </ul>
+        </section>
 
         <!-- Phase 1: Conference Paper -->
         <section class="phase-section phase-1">
@@ -320,40 +376,35 @@
             </div>
         </section>
 
-        <!-- MSE 2026 Conference -->
+        <!-- UBMK 2026 Conference -->
         <section class="phase-section" style="border: 1px solid rgba(255,193,7,0.3);">
             <div class="phase-header" style="border-color: #ffc107;">
-                <span class="phase-badge" style="background: #ffc107; color: #1a1a2e;">MSE 2026</span>
-                <span class="phase-title">Conference Presentation - Strength Clustering</span>
+                <span class="phase-badge" style="background: #ffc107; color: #1a1a2e;">UBMK 2026</span>
+                <span class="phase-title">Strength Clustering</span>
             </div>
             <p class="phase-desc">
-                MSE Congress 2026 presentation: Elastic Modulus as a Regime-Aware Computational Descriptor.
+                UBMK 2026 presentation: Elastic Modulus as a Regime-Aware Computational Descriptor.
                 Strength-based clustering analysis for polymer-MMT nanocomposites.
             </p>
 
-            <h3 style="margin: 25px 0 15px; color: #ffc107;">Presentation & Graphs</h3>
+            <h3 style="margin: 25px 0 15px; color: #ffc107;">Cluster Graphs</h3>
             <div class="cards-grid">
-                <a href="MSE2026/presentation.html" class="card">
-                    <div class="card-title">Conference Presentation</div>
-                    <div class="card-desc">Interactive Reveal.js slides for MSE 2026</div>
-                    <span class="card-type type-html">HTML</span>
-                </a>
-                <a href="MSE2026/output/cluster_C1_graph.html" class="card">
+                <a href="UBMK2026/output/cluster_C1_graph.html" class="card">
                     <div class="card-title">C1: Low Strength</div>
                     <div class="card-desc">0-10 MPa strength range</div>
                     <span class="card-type type-html">HTML</span>
                 </a>
-                <a href="MSE2026/output/cluster_C2_graph.html" class="card">
+                <a href="UBMK2026/output/cluster_C2_graph.html" class="card">
                     <div class="card-title">C2: Medium-low Strength</div>
                     <div class="card-desc">10-30 MPa strength range</div>
                     <span class="card-type type-html">HTML</span>
                 </a>
-                <a href="MSE2026/output/cluster_C3_graph.html" class="card">
+                <a href="UBMK2026/output/cluster_C3_graph.html" class="card">
                     <div class="card-title">C3: Medium Strength</div>
                     <div class="card-desc">30-60 MPa strength range</div>
                     <span class="card-type type-html">HTML</span>
                 </a>
-                <a href="MSE2026/output/cluster_C4_graph.html" class="card">
+                <a href="UBMK2026/output/cluster_C4_graph.html" class="card">
                     <div class="card-title">C4: High Strength</div>
                     <div class="card-desc">&gt;60 MPa strength range</div>
                     <span class="card-type type-html">HTML</span>
@@ -362,19 +413,130 @@
 
             <h3 style="margin: 25px 0 15px; color: #ffc107;">Summary & Figures</h3>
             <div class="cards-grid">
-                <a href="MSE2026/output/cluster_summary.png" class="card">
+                <a href="UBMK2026/output/cluster_summary.png" class="card">
                     <div class="card-title">Cluster Summary</div>
                     <div class="card-desc">Matrix strength vs improvement scatter plots</div>
                     <span class="card-type type-png">PNG</span>
                 </a>
-                <a href="MSE2026/output/network_graphs_collage.png" class="card">
+                <a href="UBMK2026/output/network_graphs_collage.png" class="card">
                     <div class="card-title">Network Graphs Collage</div>
                     <div class="card-desc">All cluster graphs combined</div>
                     <span class="card-type type-png">PNG</span>
                 </a>
-                <a href="MSE2026/output/conference_summary.txt" class="card">
+                <a href="UBMK2026/output/conference_summary.txt" class="card">
                     <div class="card-title">Conference Summary</div>
                     <div class="card-desc">Cluster statistics and findings</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Phase 3: Buehler-style Knowledge Graph -->
+        <section class="phase-section phase-3">
+            <div class="phase-header">
+                <span class="phase-badge">PHASE 3</span>
+                <span class="phase-title">Buehler-Inspired Knowledge Graph Analysis</span>
+            </div>
+            <p class="phase-desc">
+                Adaptation of Buehler (2024) §2.1–2.2 methodology to the tabular polymer-MMT dataset.
+                A deterministic concept graph is built from categorical fields, enriched with arcsinh-space
+                numerical statistics on every node and edge. Concept descriptions are then encoded by a
+                sentence-transformer (all-MiniLM-L6-v2, 384-d) and compared via cosine similarity to
+                reveal semantic structure that the co-occurrence graph alone cannot.
+            </p>
+
+            <div class="metrics-grid">
+                <div class="metric-box">
+                    <div class="metric-value">245</div>
+                    <div class="metric-label">Concept Nodes</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">942</div>
+                    <div class="metric-label">Experiment Samples</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">27</div>
+                    <div class="metric-label">Physical Property Bins</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">384</div>
+                    <div class="metric-label">Embedding Dimensions</div>
+                </div>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #27ae60;">Interactive Graphs</h3>
+            <div class="cards-grid">
+                <a href="phase3/output/global_graph.html" class="card">
+                    <div class="card-title">Global Concept Graph</div>
+                    <div class="card-desc">245 categorical concepts, 1,659 co-occurrence edges (Buehler §2.1 analog)</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="phase3/output/semantic_graph.html" class="card">
+                    <div class="card-title">Semantic Similarity Graph</div>
+                    <div class="card-desc">92 nodes connected by transformer-based cosine similarity (Buehler §2.2 analog)</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="phase3/output/complete_graph.html" class="card">
+                    <div class="card-title">Complete Graph (All Data)</div>
+                    <div class="card-desc">1,214 nodes: concepts + 942 samples + 27 physical-regime bins</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #27ae60;">Figures</h3>
+            <div class="cards-grid">
+                <a href="phase3/output/embedding_2d.png" class="card">
+                    <div class="card-title">UMAP 2-D Embedding</div>
+                    <div class="card-desc">Concept embeddings projected to 2-D (articles excluded)</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="phase3/output/degree_distribution.png" class="card">
+                    <div class="card-title">Degree Distribution</div>
+                    <div class="card-desc">Log-log plot with power-law fit (α = 0.602)</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #27ae60;">Reports</h3>
+            <div class="cards-grid">
+                <a href="phase3/output/graph_stats.txt" class="card">
+                    <div class="card-title">Graph Statistics</div>
+                    <div class="card-desc">Buehler Table 1 analog: nodes, edges, density, α</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="phase3/output/community_breakdown.txt" class="card">
+                    <div class="card-title">Community Breakdown</div>
+                    <div class="card-desc">Full + concept-only communities (greedy modularity)</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="phase3/output/top_hubs.txt" class="card">
+                    <div class="card-title">Top Hubs</div>
+                    <div class="card-desc">Highest centrality concepts per node type</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="phase3/output/top_similar.txt" class="card">
+                    <div class="card-title">Semantic Neighbors</div>
+                    <div class="card-desc">Top-5 cosine-similar concepts (articles filtered out)</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="phase3/output/path_examples.txt" class="card">
+                    <div class="card-title">Path Examples</div>
+                    <div class="card-desc">Disparate-concept paths: graph distance vs semantic distance</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="phase3/output/node_descriptions.txt" class="card">
+                    <div class="card-title">Node Descriptions</div>
+                    <div class="card-desc">Buehler-style text encoded for each concept</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="phase3/output/property_bin_breakdown.txt" class="card">
+                    <div class="card-title">Property Bin Populations</div>
+                    <div class="card-desc">How many samples fall in each physical regime</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="phase3/output/complete_graph_stats.txt" class="card">
+                    <div class="card-title">Complete Graph Stats</div>
+                    <div class="card-desc">Statistics for the all-data graph (1,214 nodes)</div>
                     <span class="card-type type-txt">TXT</span>
                 </a>
             </div>

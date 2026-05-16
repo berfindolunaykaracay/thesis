@@ -61,16 +61,17 @@ class IntegratedPropertyAnalysis:
         self.df = pd.read_excel(self.dataset_path)
         self.df.columns = [col.strip() for col in self.df.columns]
 
-        # Convert all improvement columns to numeric
+        self.n_total = len(self.df)
+
+        # Convert all improvement columns to numeric (no-op if already float)
         for prop, config in self.property_configs.items():
             self.df[config['col']] = pd.to_numeric(self.df[config['col']], errors='coerce')
 
-        # Convert modulus to numeric
         self.df['Polymer matrix elastic modulus (GPa)'] = pd.to_numeric(
             self.df['Polymer matrix elastic modulus (GPa)'], errors='coerce'
         )
 
-        # Filter for samples with all 3 properties
+        # Phase 2 = integrated analysis → all 3 improvement properties required
         required_cols = [
             'Polymer matrix name',
             'Polymer matrix elastic modulus (GPa)',
@@ -80,14 +81,16 @@ class IntegratedPropertyAnalysis:
         ]
 
         self.df = self.df.dropna(subset=required_cols)
+        self.n_with_all3 = len(self.df)
 
-        # Clean modification column
         if 'Modification (modified/unmodified)' in self.df.columns:
             self.df['is_modified'] = self.df['Modification (modified/unmodified)'].str.lower() == 'modified'
         else:
             self.df['is_modified'] = False
 
-        print(f"Loaded {len(self.df)} samples with all 3 properties")
+        print(f"Dataset total:                {self.n_total}")
+        print(f"With all 3 improvement props: {self.n_with_all3}  ({self.n_with_all3/self.n_total*100:.1f}% of dataset)")
+        print(f"Dropped (missing ≥1 prop):    {self.n_total - self.n_with_all3}")
 
     def assign_clusters(self):
         """Assign clusters based on neat polymer modulus"""
@@ -607,9 +610,10 @@ class IntegratedPropertyAnalysis:
         report.append("=" * 70)
         report.append("Phase 2: Full Paper & Thesis - Integrated Analysis Report")
         report.append("=" * 70)
-        report.append(f"\nTotal samples with all 3 properties: {len(self.df)}")
-        report.append(f"Modified samples: {self.df['is_modified'].sum()}")
-        report.append(f"Unmodified samples: {(~self.df['is_modified']).sum()}")
+        report.append(f"\nDataset total:                {self.n_total}")
+        report.append(f"With all 3 improvement props: {self.n_with_all3}  ({self.n_with_all3/self.n_total*100:.1f}% of dataset)")
+        report.append(f"Modified samples:             {self.df['is_modified'].sum()}")
+        report.append(f"Unmodified samples:           {(~self.df['is_modified']).sum()}")
 
         # Cluster-wise analysis
         for cluster_id in ['C1', 'C2', 'C3', 'C4']:

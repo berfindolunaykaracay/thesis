@@ -1,0 +1,754 @@
+[polymer:PVP]
+PVP is a polymer matrix used in 3 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.90 GPa, strength 69.60 MPa. With clay reinforcement, average modulus improvement 204.3%, strength improvement 272.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.71, arcsinh strength improvement 6.21. Typical MMT loading 2.2 wt%.
+
+[polymer:PP]
+PP is a polymer matrix used in 71 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 1.60 GPa, strength 32.22 MPa, strain to failure 6.60. With clay reinforcement, average modulus improvement 30.5%, strength improvement 11.3%, strain-to-failure change -15.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.57, arcsinh strength improvement 2.64, arcsinh strain change -1.41. Typical MMT loading 4.4 wt%.
+
+[polymer:PMA]
+PMA is a polymer matrix used in 6 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 0.11 GPa, strength 0.30 MPa, strain to failure 18.00. With clay reinforcement, average modulus improvement 2053.0%, strength improvement 2661.1%, strain-to-failure change -78.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 7.80, arcsinh strength improvement 8.35, arcsinh strain change -4.89. Typical MMT loading 15.0 wt%.
+
+[polymer:Epoxy]
+Epoxy is a polymer matrix used in 283 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 8.26 GPa, strength 147.96 MPa, strain to failure 25.57. With clay reinforcement, average modulus improvement 32.9%, strength improvement 19.4%, strain-to-failure change -1.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.88, arcsinh strength improvement 1.25, arcsinh strain change -1.45. Typical MMT loading 3.8 wt%.
+
+[polymer:Bis-GMA/TTEGDMA]
+Bis-GMA/TTEGDMA is a polymer matrix used in 5 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.00 GPa, strength 112.50 MPa, strain to failure 4.50. With clay reinforcement, average modulus improvement -0.3%, strength improvement -10.5%, strain-to-failure change -15.6%. In outlier-robust arcsinh space: arcsinh modulus improvement -0.33, arcsinh strength improvement -2.81, arcsinh strain change -3.34. Typical MMT loading 6.0 wt%.
+
+[polymer:PLA]
+PLA is a polymer matrix used in 17 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.78 GPa, strength 58.65 MPa, strain to failure 92.88. With clay reinforcement, average modulus improvement 19.2%, strength improvement 13.4%, strain-to-failure change -20.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.43, arcsinh strength improvement 2.50, arcsinh strain change -1.22. Typical MMT loading 3.6 wt%.
+
+[polymer:Dimethacrylate Copolymer]
+Dimethacrylate Copolymer is a polymer matrix used in 4 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 0.54 GPa, strength 19.50 MPa. With clay reinforcement, average modulus improvement 62.0%, strength improvement 26.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.50, arcsinh strength improvement 2.57. Typical MMT loading 0.8 wt%.
+
+[polymer:PBT]
+PBT is a polymer matrix used in 4 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.10 GPa. With clay reinforcement, average modulus improvement 49.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.50. Typical MMT loading 4.0 wt%.
+
+[polymer:PMMA]
+PMMA is a polymer matrix used in 22 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.01 GPa, strength 47.79 MPa, strain to failure 2.36. With clay reinforcement, average modulus improvement 55.4%, strength improvement 38.1%, strain-to-failure change 54.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.22, arcsinh strength improvement 3.70, arcsinh strain change 1.24. Typical MMT loading 10.4 wt%.
+
+[polymer:PA6]
+PA6 is a polymer matrix used in 193 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.26 GPa, strength 67.84 MPa, strain to failure 14.59. With clay reinforcement, average modulus improvement 67.4%, strength improvement 16.6%, strain-to-failure change -53.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.91, arcsinh strength improvement 2.75, arcsinh strain change -4.30. Typical MMT loading 4.1 wt%.
+
+[polymer:NR]
+NR is a polymer matrix used in 3 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 5.50 GPa, strength 22.00 MPa, strain to failure 4.41. With clay reinforcement, average modulus improvement 22.4%, strength improvement 0.0%, strain-to-failure change -3.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.25, arcsinh strength improvement 0.61, arcsinh strain change -1.55. Typical MMT loading 2.0 wt%.
+
+[polymer:PHBV]
+PHBV is a polymer matrix used in 3 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.50 GPa, strength 37.50 MPa, strain to failure 3.00. With clay reinforcement, average modulus improvement 60.0%, strength improvement -9.6%, strain-to-failure change -58.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.66, arcsinh strength improvement -1.47, arcsinh strain change -4.60. Typical MMT loading 3.0 wt%.
+
+[polymer:PCL]
+PCL is a polymer matrix used in 18 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 0.25 GPa, strength 231.70 MPa, strain to failure 2.27. With clay reinforcement, average modulus improvement 27.1%, strength improvement 21.2%, strain-to-failure change -2.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.94, arcsinh strength improvement 3.57, arcsinh strain change 0.51. Typical MMT loading 3.9 wt%.
+
+[polymer:PVA]
+PVA is a polymer matrix used in 8 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 6.00 GPa, strength 220.00 MPa. With clay reinforcement, average modulus improvement 183.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.77. Typical MMT loading 45.0 wt%.
+
+[polymer:PU]
+PU is a polymer matrix used in 5 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 1.75 GPa, strength 58.00 MPa, strain to failure 0.68. With clay reinforcement, average modulus improvement 41.5%, strength improvement 8.6%, strain-to-failure change -33.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.14, arcsinh strength improvement 1.77, arcsinh strain change -4.20. Typical MMT loading 2.4 wt%.
+
+[polymer:PA]
+PA is a polymer matrix used in 7 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.01 GPa. With clay reinforcement, average modulus improvement 54.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.55. Typical MMT loading 3.5 wt%.
+
+[polymer:PI]
+PI is a polymer matrix used in 3 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.01 GPa. With clay reinforcement, average modulus improvement 29.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.91. Typical MMT loading 3.0 wt%.
+
+[polymer:PSF]
+PSF is a polymer matrix used in 3 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.00 GPa. With clay reinforcement, average modulus improvement 16.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.74. Typical MMT loading 3.0 wt%.
+
+[polymer:PS]
+PS is a polymer matrix used in 13 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 1.58 GPa, strength 28.62 MPa, strain to failure 50.45. With clay reinforcement, average modulus improvement 42.3%, strength improvement 25.2%, strain-to-failure change -36.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.01, arcsinh strength improvement 3.47, arcsinh strain change -4.12. Typical MMT loading 2.9 wt%.
+
+[polymer:PLLA]
+PLLA is a polymer matrix used in 8 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.05 GPa, strength 46.20 MPa, strain to failure 62.00. With clay reinforcement, average modulus improvement 24.8%, strength improvement 6.0%, strain-to-failure change -49.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.75, arcsinh strength improvement 2.10, arcsinh strain change -3.66. Typical MMT loading 4.5 wt%.
+
+[polymer:Chitosan]
+Chitosan is a polymer matrix used in 4 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 9.74 GPa, strength 2.94 MPa, strain to failure 55.00. With clay reinforcement, average modulus improvement 51.3%, strength improvement 30.4%, strain-to-failure change -21.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.00, arcsinh strength improvement 2.48, arcsinh strain change -3.65. Typical MMT loading 25.0 wt%.
+
+[polymer:PA6/PP]
+PA6/PP is a polymer matrix used in 5 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.12 GPa, strength 44.47 MPa, strain to failure 600.00. With clay reinforcement, average modulus improvement -3.8%, strength improvement 34.8%, strain-to-failure change -58.3%. In outlier-robust arcsinh space: arcsinh modulus improvement -0.73, arcsinh strength improvement 3.84, arcsinh strain change -4.66. Typical MMT loading 15.4 wt%.
+
+[polymer:PLA/PP]
+PLA/PP is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 1.00 GPa, strength 32.70 MPa, strain to failure 600.00. With clay reinforcement, average modulus improvement 30.0%, strength improvement 11.6%, strain-to-failure change -66.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.09, arcsinh strength improvement 3.15, arcsinh strain change -4.89. Typical MMT loading 5.0 wt%.
+
+[polymer:NBR/PU]
+NBR/PU is a polymer matrix used in 3 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.78 GPa, strength 46.00 MPa, strain to failure 2.00. With clay reinforcement, average modulus improvement 19.3%, strength improvement 5.1%, strain-to-failure change -28.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.60, arcsinh strength improvement 2.29, arcsinh strain change -3.84. Typical MMT loading 3.0 wt%.
+
+[polymer:PVC]
+PVC is a polymer matrix used in 2 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.78 GPa, strength 46.00 MPa, strain to failure 2.00. With clay reinforcement, average modulus improvement 27.2%, strength improvement 3.3%, strain-to-failure change -70.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.99, arcsinh strength improvement 1.85, arcsinh strain change -4.94. Typical MMT loading 12.5 wt%.
+
+[polymer:PE]
+PE is a polymer matrix used in 2 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 1.40 GPa, strength 36.15 MPa, strain to failure 70.00. With clay reinforcement, average modulus improvement 62.3%, strength improvement 37.3%, strain-to-failure change -85.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.80, arcsinh strength improvement 4.30, arcsinh strain change -5.14. Typical MMT loading 5.2 wt%.
+
+[polymer:UP]
+UP is a polymer matrix used in 19 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 4.98 GPa, strength 114.73 MPa, strain to failure 3.11. With clay reinforcement, average modulus improvement 11.2%, strength improvement 9.2%, strain-to-failure change 19.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.07, arcsinh strength improvement 0.85, arcsinh strain change 1.63. Typical MMT loading 4.0 wt%.
+
+[polymer:PA7]
+PA7 is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.50 GPa. With clay reinforcement, average modulus improvement 18.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.62. Typical MMT loading 5.0 wt%.
+
+[polymer:PA8]
+PA8 is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.50 GPa. With clay reinforcement, average modulus improvement 11.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.13. Typical MMT loading 5.0 wt%.
+
+[polymer:DGEBA]
+DGEBA is a polymer matrix used in 90 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.43 GPa, strength 63.05 MPa, strain to failure 3.95. With clay reinforcement, average modulus improvement 13.4%, strength improvement -1.7%, strain-to-failure change -17.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.91, arcsinh strength improvement -0.45, arcsinh strain change -2.09. Typical MMT loading 5.8 wt%.
+
+[polymer:MGSL135i]
+MGSL135i is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.28 GPa, strength 63.80 MPa. With clay reinforcement, average modulus improvement 7.0%, strength improvement -0.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.65, arcsinh strength improvement -0.45. Typical MMT loading 0.1 wt%.
+
+[polymer:HDPE]
+HDPE is a polymer matrix used in 6 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 0.85 GPa, strength 17.25 MPa, strain to failure 0.52. With clay reinforcement, average modulus improvement 10.1%, strength improvement 23.8%, strain-to-failure change -35.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.94, arcsinh strength improvement 3.45, arcsinh strain change -4.01. Typical MMT loading 3.1 wt%.
+
+[polymer:PA66]
+PA66 is a polymer matrix used in 10 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 1.02 GPa, strength 49.02 MPa, strain to failure 4.80. With clay reinforcement, average modulus improvement 38.6%, strength improvement 16.0%, strain-to-failure change -36.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.32, arcsinh strength improvement 3.43, arcsinh strain change -4.29. Typical MMT loading 3.7 wt%.
+
+[polymer:NBR]
+NBR is a polymer matrix used in 5 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 0.00 GPa. With clay reinforcement, average modulus improvement 412.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 6.60. Typical MMT loading 22.0 wt%.
+
+[polymer:Vinyl Ester]
+Vinyl Ester is a polymer matrix used in 6 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.49 GPa, strength 71.10 MPa, strain to failure 2.54. With clay reinforcement, average modulus improvement 7.0%, strength improvement -6.4%, strain-to-failure change -12.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.39, arcsinh strength improvement -2.41, arcsinh strain change -3.12. Typical MMT loading 4.7 wt%.
+
+[polymer:rPET]
+rPET is a polymer matrix used in 6 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.45 GPa, strength 48.90 MPa, strain to failure 3.75. With clay reinforcement, average modulus improvement 13.6%, strength improvement 15.3%, strain-to-failure change -15.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.28, arcsinh strength improvement 3.33, arcsinh strain change -3.30. Typical MMT loading 2.7 wt%.
+
+[polymer:PP/PLA]
+PP/PLA is a polymer matrix used in 10 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 1.90 GPa, strength 36.22 MPa, strain to failure 130.55. With clay reinforcement, average modulus improvement 15.9%, strength improvement -12.1%, strain-to-failure change -55.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.83, arcsinh strength improvement -1.82, arcsinh strain change -4.46. Typical MMT loading 4.2 wt%.
+
+[polymer:LLDPE]
+LLDPE is a polymer matrix used in 6 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 0.21 GPa, strength 32.34 MPa. With clay reinforcement, average modulus improvement 47.0%, strength improvement -8.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.15, arcsinh strength improvement -2.21. Typical MMT loading 7.5 wt%.
+
+[polymer:PA12]
+PA12 is a polymer matrix used in 38 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 1.46 GPa, strength 54.32 MPa. With clay reinforcement, average modulus improvement 46.5%, strength improvement 5.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.17, arcsinh strength improvement 1.81. Typical MMT loading 6.0 wt%.
+
+[polymer:BIOPA11]
+BIOPA11 is a polymer matrix used in 4 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 1.19 GPa. With clay reinforcement, average modulus improvement 57.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.50. Typical MMT loading 6.5 wt%.
+
+[polymer:PP/PC]
+PP/PC is a polymer matrix used in 7 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 1.49 GPa, strain to failure 0.83. With clay reinforcement, average modulus improvement 38.3%, strain-to-failure change -58.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.32, arcsinh strain change -4.74. Typical MMT loading 5.7 wt%.
+
+[polymer:PP/EPDM]
+PP/EPDM is a polymer matrix used in 8 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 0.57 GPa. With clay reinforcement, average modulus improvement 6.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.32. Typical MMT loading 5.0 wt%.
+
+[polymer:EPON 828]
+EPON 828 is a polymer matrix used in 4 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.82 GPa, strength 59.06 MPa, strain to failure 0.03. With clay reinforcement, average modulus improvement 9.5%, strength improvement -21.0%, strain-to-failure change -35.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.75, arcsinh strength improvement -3.04, arcsinh strain change -3.40. Typical MMT loading 5.0 wt%.
+
+[polymer:PPH1]
+PPH1 is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.94 GPa. With clay reinforcement, average modulus improvement 14.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.34. Typical MMT loading 5.0 wt%.
+
+[polymer:PPH1/PP]
+PPH1/PP is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.94 GPa. With clay reinforcement, average modulus improvement 26.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.97. Typical MMT loading 5.0 wt%.
+
+[polymer:PPH2]
+PPH2 is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.89 GPa. With clay reinforcement, average modulus improvement 3.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.84. Typical MMT loading 5.0 wt%.
+
+[polymer:PPH2/PP]
+PPH2/PP is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.89 GPa. With clay reinforcement, average modulus improvement 5.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.48. Typical MMT loading 5.0 wt%.
+
+[polymer:PPH3]
+PPH3 is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.19 GPa. With clay reinforcement, average modulus improvement 14.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.40. Typical MMT loading 5.0 wt%.
+
+[polymer:PPH3/PP]
+PPH3/PP is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.19 GPa. With clay reinforcement, average modulus improvement 17.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.56. Typical MMT loading 5.0 wt%.
+
+[polymer:PPH4]
+PPH4 is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.94 GPa. With clay reinforcement, average modulus improvement 4.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.21. Typical MMT loading 5.0 wt%.
+
+[polymer:PPH4/PP]
+PPH4/PP is a polymer matrix used in 1 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 3.94 GPa. With clay reinforcement, average modulus improvement 13.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.27. Typical MMT loading 5.0 wt%.
+
+[polymer:CNBR]
+CNBR is a polymer matrix used in 4 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 0.00 GPa. With clay reinforcement, average modulus improvement 519.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 6.83. Typical MMT loading 25.0 wt%.
+
+[polymer:PLA/PBAT]
+PLA/PBAT is a polymer matrix used in 7 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 0.49 GPa, strength 30.02 MPa, strain to failure 0.26. With clay reinforcement, average modulus improvement 39.9%, strength improvement -17.7%, strain-to-failure change -55.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.33, arcsinh strength improvement -1.89, arcsinh strain change -3.73. Typical MMT loading 3.0 wt%.
+
+[polymer:DGEAC]
+DGEAC is a polymer matrix used in 5 montmorillonite clay nanocomposite experiments. Associated polymer matrices have average elastic modulus 2.30 GPa, strength 30.00 MPa, strain to failure 0.01. With clay reinforcement, average modulus improvement 24.3%, strength improvement 50.7%, strain-to-failure change 93.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.77, arcsinh strength improvement 4.56, arcsinh strain change 5.19. Typical MMT loading 3.0 wt%.
+
+[modification:Unmodified]
+Unmodified montmorillonite clay state, used in 119 experiments. Associated polymer matrices have average elastic modulus 8.79 GPa, strength 177.11 MPa, strain to failure 11.50. With clay reinforcement, average modulus improvement 68.2%, strength improvement 20.0%, strain-to-failure change -25.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.45, arcsinh strength improvement 2.23, arcsinh strain change -3.01. Typical MMT loading 8.8 wt%.
+
+[modification:Modified]
+Modified montmorillonite clay state, used in 823 experiments. Associated polymer matrices have average elastic modulus 3.20 GPa, strength 76.76 MPa, strain to failure 26.19. With clay reinforcement, average modulus improvement 54.7%, strength improvement 38.6%, strain-to-failure change -20.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.29, arcsinh strength improvement 1.54, arcsinh strain change -2.31. Typical MMT loading 4.6 wt%.
+
+[dispersion:exfoliated]
+exfoliated dispersion morphology of clay in polymer, observed in 283 experiments. Associated polymer matrices have average elastic modulus 2.42 GPa, strength 72.38 MPa, strain to failure 59.07. With clay reinforcement, average modulus improvement 86.6%, strength improvement 99.3%, strain-to-failure change -20.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.83, arcsinh strength improvement 2.50, arcsinh strain change -2.32. Typical MMT loading 4.9 wt%.
+
+[dispersion:intercalated/exfoliated]
+intercalated/exfoliated dispersion morphology of clay in polymer, observed in 158 experiments. Associated polymer matrices have average elastic modulus 2.02 GPa, strength 67.58 MPa, strain to failure 21.71. With clay reinforcement, average modulus improvement 63.0%, strength improvement 8.0%, strain-to-failure change -31.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.76, arcsinh strength improvement 1.07, arcsinh strain change -3.10. Typical MMT loading 5.6 wt%.
+
+[dispersion:intercalated]
+intercalated dispersion morphology of clay in polymer, observed in 333 experiments. Associated polymer matrices have average elastic modulus 4.36 GPa, strength 112.46 MPa, strain to failure 6.61. With clay reinforcement, average modulus improvement 31.5%, strength improvement 14.9%, strain-to-failure change -23.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.93, arcsinh strength improvement 1.56, arcsinh strain change -2.61. Typical MMT loading 4.1 wt%.
+
+[dispersion:microcomposite]
+microcomposite dispersion morphology of clay in polymer, observed in 73 experiments. Associated polymer matrices have average elastic modulus 9.46 GPa, strength 88.34 MPa, strain to failure 5.18. With clay reinforcement, average modulus improvement 46.8%, strength improvement -2.2%, strain-to-failure change -3.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.34, arcsinh strength improvement 0.41, arcsinh strain change -0.80. Typical MMT loading 11.0 wt%.
+
+[dispersion:agglomerated]
+agglomerated dispersion morphology of clay in polymer, observed in 41 experiments. Associated polymer matrices have average elastic modulus 8.83 GPa, strength 117.31 MPa, strain to failure 4.57. With clay reinforcement, average modulus improvement 30.7%, strength improvement 4.1%, strain-to-failure change -31.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.30, arcsinh strength improvement 0.92, arcsinh strain change -4.02. Typical MMT loading 2.8 wt%.
+
+[dispersion:intercalated/microcomposite]
+intercalated/microcomposite dispersion morphology of clay in polymer, observed in 12 experiments. Associated polymer matrices have average elastic modulus 1.83 GPa, strength 30.51 MPa, strain to failure 55.00. With clay reinforcement, average modulus improvement 180.1%, strength improvement 12.5%, strain-to-failure change -9.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.11, arcsinh strength improvement 3.19, arcsinh strain change -2.90. Typical MMT loading 11.4 wt%.
+
+[dispersion:intercalated/agglomerated]
+intercalated/agglomerated dispersion morphology of clay in polymer, observed in 11 experiments. Associated polymer matrices have average elastic modulus 4.43 GPa, strength 103.05 MPa, strain to failure 0.02. With clay reinforcement, average modulus improvement 27.6%, strength improvement 13.8%, strain-to-failure change 30.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.18, arcsinh strength improvement 1.51, arcsinh strain change 1.43. Typical MMT loading 5.4 wt%.
+
+[dispersion:intercalated/partially exfoliated]
+intercalated/partially exfoliated dispersion morphology of clay in polymer, observed in 7 experiments. Associated polymer matrices have average elastic modulus 2.39 GPa, strength 48.90 MPa, strain to failure 3.75. With clay reinforcement, average modulus improvement 15.3%, strength improvement 15.3%, strain-to-failure change -15.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.37, arcsinh strength improvement 3.33, arcsinh strain change -3.30. Typical MMT loading 2.6 wt%.
+
+[dispersion:disordered intercalated/exfoliated]
+disordered intercalated/exfoliated dispersion morphology of clay in polymer, observed in 14 experiments. Associated polymer matrices have average elastic modulus 2.67 GPa, strength 82.37 MPa, strain to failure 7.13. With clay reinforcement, average modulus improvement 16.1%, strength improvement -5.6%, strain-to-failure change -24.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.13, arcsinh strength improvement -0.97, arcsinh strain change -1.82. Typical MMT loading 3.7 wt%.
+
+[dispersion:Mixed (mostly intercalated)]
+Mixed (mostly intercalated) dispersion morphology of clay in polymer, observed in 2 experiments. Associated polymer matrices have average elastic modulus 7.10 GPa, strength 270.00 MPa. With clay reinforcement, average modulus improvement 11.3%, strength improvement 11.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.09, arcsinh strength improvement 3.05. Typical MMT loading 2.0 wt%.
+
+[dispersion:Mixed]
+Mixed dispersion morphology of clay in polymer, observed in 6 experiments. Associated polymer matrices have average elastic modulus 11.20 GPa, strength 183.75 MPa. With clay reinforcement, average modulus improvement 66.7%, strength improvement 32.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.64, arcsinh strength improvement 4.05. Typical MMT loading 3.0 wt%.
+
+[dispersion:Partially exfoliated]
+Partially exfoliated dispersion morphology of clay in polymer, observed in 1 experiments. Associated polymer matrices have average elastic modulus 1.91 GPa, strength 54.00 MPa, strain to failure 4.50. With clay reinforcement, average modulus improvement 18.4%, strength improvement 3.7%, strain-to-failure change -22.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.61, arcsinh strength improvement 2.02, arcsinh strain change -3.79. Typical MMT loading 0.5 wt%.
+
+[dispersion:Partially exfoliated/disordered intercalated]
+Partially exfoliated/disordered intercalated dispersion morphology of clay in polymer, observed in 1 experiments. Associated polymer matrices have average elastic modulus 1.91 GPa, strength 54.00 MPa, strain to failure 4.50. With clay reinforcement, average modulus improvement 25.2%, strength improvement 14.8%, strain-to-failure change -33.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.92, arcsinh strength improvement 3.39, arcsinh strain change -4.20. Typical MMT loading 1.0 wt%.
+
+[category:Thermoplastic]
+Thermoplastic polymer family, used in 494 experiments. Associated polymer matrices have average elastic modulus 2.05 GPa, strength 57.92 MPa, strain to failure 32.52. With clay reinforcement, average modulus improvement 77.1%, strength improvement 60.6%, strain-to-failure change -36.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.87, arcsinh strength improvement 2.52, arcsinh strain change -3.16. Typical MMT loading 5.6 wt%.
+
+[category:Thermoset]
+Thermoset polymer family, used in 425 experiments. Associated polymer matrices have average elastic modulus 6.35 GPa, strength 124.87 MPa, strain to failure 16.29. With clay reinforcement, average modulus improvement 23.5%, strength improvement 7.6%, strain-to-failure change -12.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.60, arcsinh strength improvement 0.66, arcsinh strain change -1.77. Typical MMT loading 4.3 wt%.
+
+[category:Elastomer]
+Elastomer polymer family, used in 23 experiments. Associated polymer matrices have average elastic modulus 1.17 GPa, strength 18.85 MPa, strain to failure 1.49. With clay reinforcement, average modulus improvement 201.2%, strength improvement 160.0%, strain-to-failure change 96.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.92, arcsinh strength improvement 3.54, arcsinh strain change 1.50. Typical MMT loading 11.2 wt%.
+
+[article:Biocompatible organic coating fabrication via polymer/clay nanocomposites: Evaluation of mechanical improvements, Kandemir et al., Polym. Comp. 2023]
+Research article: Biocompatible organic coating fabrication via polymer/clay nanocomposites: Evaluation of mechanical improvements, Kandem. Contains 3 experiments. Associated polymer matrices have average elastic modulus 3.90 GPa, strength 69.60 MPa. With clay reinforcement, average modulus improvement 204.3%, strength improvement 272.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.71, arcsinh strength improvement 6.21. Typical MMT loading 2.2 wt%.
+
+[article:Development of Hashin-Shtrikman model to determine the roles and properties of interphases in clay/CaCO3/PP ternary nanocomposite, Zare et al., Appl. Clay Sci. 2017]
+Research article: Development of Hashin-Shtrikman model to determine the roles and properties of interphases in clay/CaCO3/PP ternary nano. Contains 12 experiments. Associated polymer matrices have average elastic modulus 2.17 GPa, strength 40.00 MPa, strain to failure 8.50. With clay reinforcement, average modulus improvement 21.2%, strength improvement 8.8%, strain-to-failure change 3.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.69, arcsinh strength improvement 2.85, arcsinh strain change 1.54. Typical MMT loading 4.0 wt%.
+
+[article:Tuning the Mechanical Properties of Poly(Methyl Acrylate) via Surface-Functionalized Montmorillonite Nanosheets, Rauschendorfer et al., Macromol. Mater. Eng. 2020]
+Research article: Tuning the Mechanical Properties of Poly(Methyl Acrylate) via Surface-Functionalized Montmorillonite Nanosheets, Rausche. Contains 6 experiments. Associated polymer matrices have average elastic modulus 0.11 GPa, strength 0.30 MPa, strain to failure 18.00. With clay reinforcement, average modulus improvement 2053.0%, strength improvement 2661.1%, strain-to-failure change -78.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 7.80, arcsinh strength improvement 8.35, arcsinh strain change -4.89. Typical MMT loading 15.0 wt%.
+
+[article:Correlating the rheological and mechanical response of polyurethane nanocomposites containing hyperbranched polymers, Plummer et al., Polymer (Guildf). 2005]
+Research article: Correlating the rheological and mechanical response of polyurethane nanocomposites containing hyperbranched polymers, Pl. Contains 6 experiments. Associated polymer matrices have average elastic modulus 1.18 GPa, strength 63.68 MPa, strain to failure 2.16. With clay reinforcement, average modulus improvement 13.3%, strength improvement -4.1%, strain-to-failure change -40.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.40, arcsinh strength improvement 0.14, arcsinh strain change -4.37. Typical MMT loading 1.3 wt%.
+
+[article:Effect of type and concentration of nanoclay on the mechanical and physicochemical properties of bis-GMA/TTEGDMA dental resins, Encalada-Alayola et al., Polymers (Basel). 2020]
+Research article: Effect of type and concentration of nanoclay on the mechanical and physicochemical properties of bis-GMA/TTEGDMA dental . Contains 5 experiments. Associated polymer matrices have average elastic modulus 3.00 GPa, strength 112.50 MPa, strain to failure 4.50. With clay reinforcement, average modulus improvement -0.3%, strength improvement -10.5%, strain-to-failure change -15.6%. In outlier-robust arcsinh space: arcsinh modulus improvement -0.33, arcsinh strength improvement -2.81, arcsinh strain change -3.34. Typical MMT loading 6.0 wt%.
+
+[article:Enhanced ductility and tensile properties of hybrid montmorillonite/cellulose nanowhiskers reinforced polylactic acid nanocomposites , Arjmandi et al., J. Mater. Sci. 2015]
+Research article: Enhanced ductility and tensile properties of hybrid montmorillonite/cellulose nanowhiskers reinforced polylactic acid na. Contains 5 experiments. Associated polymer matrices have average elastic modulus 4.20 GPa, strength 63.00 MPa, strain to failure 1.25. With clay reinforcement, average modulus improvement 12.1%, strength improvement 63.0%, strain-to-failure change -67.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.07, arcsinh strength improvement 4.84, arcsinh strain change -4.87. Typical MMT loading 5.0 wt%.
+
+[article:The use of montmorillonite clays as reinforcing fillers for dental adhesives, De Menezes et al., Mater. Res. 2016]
+Research article: The use of montmorillonite clays as reinforcing fillers for dental adhesives, De Menezes et al., Mater. Res. 2016. Contains 4 experiments. Associated polymer matrices have average elastic modulus 0.54 GPa, strength 19.50 MPa. With clay reinforcement, average modulus improvement 62.0%, strength improvement 26.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.50, arcsinh strength improvement 2.57. Typical MMT loading 0.8 wt%.
+
+[article:An approach to study the roles of percolation threshold and interphase in tensile modulus of polymer/clay nanocomposites, Zare , J. Colloid Interface Sci. 2017]
+Research article: An approach to study the roles of percolation threshold and interphase in tensile modulus of polymer/clay nanocomposites. Contains 3 experiments. Associated polymer matrices have average elastic modulus 2.17 GPa. With clay reinforcement, average modulus improvement 12.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.21. Typical MMT loading 3.0 wt%.
+
+[article:Efficiency of stress transfer between polymer matrix and nanoplatelets in clay / polymer nanocomposites, Zare et al., Appl. Clay Sci. 2017]
+Research article: Efficiency of stress transfer between polymer matrix and nanoplatelets in clay / polymer nanocomposites, Zare et al., Ap. Contains 17 experiments. Associated polymer matrices have average elastic modulus 1.96 GPa. With clay reinforcement, average modulus improvement 32.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.89. Typical MMT loading 4.3 wt%.
+
+[article:Effect of halloysite nanotubes and organically modified bentonite clay hybrid filler system on the properties of natural rubber, Abhisha et al., J. Elastomers Plast. 2020]
+Research article: Effect of halloysite nanotubes and organically modified bentonite clay hybrid filler system on the properties of natural. Contains 3 experiments. Associated polymer matrices have average elastic modulus 5.50 GPa, strength 22.00 MPa, strain to failure 4.41. With clay reinforcement, average modulus improvement 22.4%, strength improvement 0.0%, strain-to-failure change -3.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.25, arcsinh strength improvement 0.61, arcsinh strain change -1.55. Typical MMT loading 2.0 wt%.
+
+[article:Deformation mechanism of epoxy/clay nanocomposite, Akbari et al., Eur. Polym. J. 2007]
+Research article: Deformation mechanism of epoxy/clay nanocomposite, Akbari et al., Eur. Polym. J. 2007. Contains 3 experiments. Associated polymer matrices have average elastic modulus 0.08 GPa, strength 69.80 MPa. With clay reinforcement, average modulus improvement -15.3%, strength improvement -17.0%. In outlier-robust arcsinh space: arcsinh modulus improvement -3.03, arcsinh strength improvement -3.49. Typical MMT loading 3.2 wt%.
+
+[article:PHBV nanocomposites based on organomodified montmorillonite and halloysite: The effect of clay type on the morphology and thermal and mechanical properties, Carli et al., Compos. Part A Appl. Sci. Manuf. 2011]
+Research article: PHBV nanocomposites based on organomodified montmorillonite and halloysite: The effect of clay type on the morphology an. Contains 3 experiments. Associated polymer matrices have average elastic modulus 3.50 GPa, strength 37.50 MPa, strain to failure 3.00. With clay reinforcement, average modulus improvement 60.0%, strength improvement -9.6%, strain-to-failure change -58.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.66, arcsinh strength improvement -1.47, arcsinh strain change -4.60. Typical MMT loading 3.0 wt%.
+
+[article:Effects of montmorillonite, sepiolite, and halloysite clays on the morphology and properties of polycaprolactone bionanocomposites, Kassa et al., Polym. Polym. Compos. 2020]
+Research article: Effects of montmorillonite, sepiolite, and halloysite clays on the morphology and properties of polycaprolactone bionano. Contains 3 experiments. Associated polymer matrices have average elastic modulus 0.45 GPa, strength 450.00 MPa, strain to failure 3.90. With clay reinforcement, average modulus improvement 26.7%, strength improvement 26.7%, strain-to-failure change -9.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.84, arcsinh strength improvement 3.84, arcsinh strain change -0.98. Typical MMT loading 1.5 wt%.
+
+[article:Toughness and Fracture Properties in Nacre-Mimetic Clay / Polymer Nanocomposites, Morits et al., 2017]
+Research article: Toughness and Fracture Properties in Nacre-Mimetic Clay / Polymer Nanocomposites, Morits et al., 2017. Contains 8 experiments. Associated polymer matrices have average elastic modulus 6.00 GPa, strength 220.00 MPa. With clay reinforcement, average modulus improvement 183.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.77. Typical MMT loading 45.0 wt%.
+
+[article:A new approach for prediction of elastic modulus of polymer/nanoclay composites by considering interfacial debonding: Experimental and numerical investigations, Heydari-Meybodi et al., Compos. Sci. Technol. 2015]
+Research article: A new approach for prediction of elastic modulus of polymer/nanoclay composites by considering interfacial debonding: Ex. Contains 3 experiments. Associated polymer matrices have average elastic modulus 6.44 GPa, strength 41.00 MPa, strain to failure 2.25. With clay reinforcement, average modulus improvement 10.0%, strength improvement -4.9%, strain-to-failure change -18.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.94, arcsinh strength improvement -1.13, arcsinh strain change -3.14. Typical MMT loading 5.0 wt%.
+
+[article:On the tensile behavior of clay-epoxy nanocomposite considering interphase debonding damage via mixed-mode cohesive zone material, Maleki Moghadam et al., Compos. Part B Eng. 2016]
+Research article: On the tensile behavior of clay-epoxy nanocomposite considering interphase debonding damage via mixed-mode cohesive zone. Contains 6 experiments. Associated polymer matrices have average elastic modulus 3.00 GPa. With clay reinforcement, average modulus improvement 188.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.83. Typical MMT loading 8.0 wt%.
+
+[article:Simulation of Young’s modulus for clay-reinforced nanocomposites assuming mechanical percolation, clay-interphase networks and interfacial linkage, Zare et al., J. Mater. Res. Technol. 2020]
+Research article: Simulation of Young’s modulus for clay-reinforced nanocomposites assuming mechanical percolation, clay-interphase networ. Contains 3 experiments. Associated polymer matrices have average elastic modulus 1.00 GPa. With clay reinforcement, average modulus improvement 70.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.44. Typical MMT loading 3.0 wt%.
+
+[article:Development of a model for modulus of polymer halloysite nanotube nanocomposites by the interphase zones around dispersed and networked nanotubes, Zare et al., Sci. Rep. 2022]
+Research article: Development of a model for modulus of polymer halloysite nanotube nanocomposites by the interphase zones around disperse. Contains 3 experiments. Associated polymer matrices have average elastic modulus 1.00 GPa. With clay reinforcement, average modulus improvement 50.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 0.46. Typical MMT loading 4.3 wt%.
+
+[article:Effects of critical interfacial shear modulus between polymer matrix and nanoclay on the effective interphase properties and tensile modulus of nanocomposites, Zare et al., Constr. Build. Mater. 2020]
+Research article: Effects of critical interfacial shear modulus between polymer matrix and nanoclay on the effective interphase properties. Contains 4 experiments. Associated polymer matrices have average elastic modulus 1.00 GPa. With clay reinforcement, average modulus improvement 25.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.79. Typical MMT loading 4.0 wt%.
+
+[article:Mechanics of polymer-clay nanocomposites, Rao et al., 2007]
+Research article: Mechanics of polymer-clay nanocomposites, Rao et al., 2007. Contains 4 experiments. Associated polymer matrices have average elastic modulus 0.04 GPa. With clay reinforcement, average modulus improvement 955.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 7.13. Typical MMT loading 11.2 wt%.
+
+[article:3D multiscale modeling to predict the elastic modulus of polymer/nanoclay composites considering realistic interphase property, Heydari-Meybodi et al., 2016]
+Research article: 3D multiscale modeling to predict the elastic modulus of polymer/nanoclay composites considering realistic interphase pr. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.50 GPa. With clay reinforcement, average modulus improvement 191.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.74. Typical MMT loading 3.5 wt%.
+
+[article:Okamato M. - Polymer Clay Nanocomposites- American Scientific Publishers (2004) - table 13]
+Research article: Okamato M. - Polymer Clay Nanocomposites- American Scientific Publishers (2004) - table 13. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.76 GPa. With clay reinforcement, average modulus improvement 66.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.75. Typical MMT loading 5.0 wt%.
+
+[article:Mechanical Properties of Clay-Reinforced Polyamide, Varlot et al., Journal of Poly. Sci., 2002]
+Research article: Mechanical Properties of Clay-Reinforced Polyamide, Varlot et al., Journal of Poly. Sci., 2002. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.82 GPa. With clay reinforcement, average modulus improvement 60.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.70. Typical MMT loading 3.2 wt%.
+
+[article:Effect of Clay on Properties of Polyimide-Clay Nanocomposites, Wang et al., Journal of Applied Polymer Science, 2007]
+Research article: Effect of Clay on Properties of Polyimide-Clay Nanocomposites, Wang et al., Journal of Applied Polymer Science, 2007. Contains 3 experiments. Associated polymer matrices have average elastic modulus 2.01 GPa. With clay reinforcement, average modulus improvement 29.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.91. Typical MMT loading 3.0 wt%.
+
+[article:Polymer Nanocomposites, Mai et al., Woodhead, 2006]
+Research article: Polymer Nanocomposites, Mai et al., Woodhead, 2006. Contains 7 experiments. Associated polymer matrices have average elastic modulus 1.97 GPa. With clay reinforcement, average modulus improvement 42.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.29. Typical MMT loading 22.1 wt%.
+
+[article:L, A Utracki - Clay- Containing Polymeric Nanocomposites Volume 1 (2004) - Figure 57]
+Research article: L, A Utracki - Clay- Containing Polymeric Nanocomposites Volume 1 (2004) - Figure 57. Contains 3 experiments. Associated polymer matrices have average elastic modulus 4.80 GPa. With clay reinforcement, average modulus improvement 14.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.37. Typical MMT loading 5.3 wt%.
+
+[article:L, A Utracki - Clay- Containing Polymeric Nanocomposites Volume 1 (2004) - Table 30]
+Research article: L, A Utracki - Clay- Containing Polymeric Nanocomposites Volume 1 (2004) - Table 30. Contains 4 experiments. Associated polymer matrices have average elastic modulus 1.13 GPa. With clay reinforcement, average modulus improvement 15.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.42. Typical MMT loading 1.5 wt%.
+
+[article:L, A Utracki - Clay-Containing Polymeric Nanocomposites Volume 1 (2004)- figure 47]
+Research article: L, A Utracki - Clay-Containing Polymeric Nanocomposites Volume 1 (2004)- figure 47. Contains 5 experiments. Associated polymer matrices have average elastic modulus 1.41 GPa. With clay reinforcement, average modulus improvement 121.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.34. Typical MMT loading 3.6 wt%.
+
+[article:Synthesis, Structure, Mechanical Properties, and thermal stabilty of some polysulfone/organoclay nanocomposites, Sur et al., Polymer, 2001]
+Research article: Synthesis, Structure, Mechanical Properties, and thermal stabilty of some polysulfone/organoclay nanocomposites, Sur et . Contains 3 experiments. Associated polymer matrices have average elastic modulus 2.00 GPa. With clay reinforcement, average modulus improvement 16.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.74. Typical MMT loading 3.0 wt%.
+
+[article:Mechanical Properties of Polypropylene/Clay Nanocomposites: Effect of Clay Content, Polymer/Clay Compatibility, and Processing Conditions, Tarapow et al., Journal of Applied Polymer Science, 2008]
+Research article: Mechanical Properties of Polypropylene/Clay Nanocomposites: Effect of Clay Content, Polymer/Clay Compatibility, and Proc. Contains 4 experiments. Associated polymer matrices have average elastic modulus 1.43 GPa, strength 33.60 MPa, strain to failure 0.31. With clay reinforcement, average modulus improvement 20.3%, strength improvement -0.1%, strain-to-failure change -56.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.51, arcsinh strength improvement 0.02, arcsinh strain change -4.69. Typical MMT loading 2.4 wt%.
+
+[article:Polystyrene-Sepiolite Clay Nanocomposites with Enahnced Mechanical and Thermal Properties, Rehman et al., 2022]
+Research article: Polystyrene-Sepiolite Clay Nanocomposites with Enahnced Mechanical and Thermal Properties, Rehman et al., 2022. Contains 3 experiments. Associated polymer matrices have average elastic modulus 3.03 GPa, strength 38.74 MPa, strain to failure 0.02. With clay reinforcement, average modulus improvement 19.3%, strength improvement 14.3%, strain-to-failure change -16.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.24, arcsinh strength improvement 3.28, arcsinh strain change -3.41. Typical MMT loading 2.3 wt%.
+
+[article:Mechanical Properties of PP/Clay Nanocomposites Prepared from Masterbatch, Chafdiz et al., Key Engineering Materials, 2019]
+Research article: Mechanical Properties of PP/Clay Nanocomposites Prepared from Masterbatch, Chafdiz et al., Key Engineering Materials, 20. Contains 6 experiments. Associated polymer matrices have average elastic modulus 1.52 GPa, strength 37.40 MPa. With clay reinforcement, average modulus improvement 59.1%, strength improvement 10.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.73, arcsinh strength improvement 3.04. Typical MMT loading 10.0 wt%.
+
+[article:Mechanical and thermo-mechanical properties of nanoclay/epoxy composites: synergistic effects of silanization and surfactant application, Baştürk et al., Materials Research Express, 2018]
+Research article: Mechanical and thermo-mechanical properties of nanoclay/epoxy composites: synergistic effects of silanization and surfac. Contains 6 experiments. Associated polymer matrices have average elastic modulus 1.90 GPa, strength 73.00 MPa, strain to failure 5.00. With clay reinforcement, average modulus improvement 16.1%, strength improvement -9.8%, strain-to-failure change -20.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.59, arcsinh strength improvement -2.59, arcsinh strain change -3.59. Typical MMT loading 1.2 wt%.
+
+[article:Lepoittevin B, Pantoustier N, Devalckenaere M, et al.
+ Poly(epsilon-caprolactone)/clay nanocomposites by in-situ intercalative
+ polymerization catalyzed by dibutyltindimethoxide. Macromolecule
+ 2002; 35(22): 8385-90.]
+Research article: Lepoittevin B, Pantoustier N, Devalckenaere M, et al.  Poly(epsilon-caprolactone)/clay nanocomposites by in-situ interca. Contains 12 experiments. Associated polymer matrices have average elastic modulus 0.22 GPa. With clay reinforcement, average modulus improvement 27.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.49. Typical MMT loading 4.8 wt%.
+
+[article:Enhancement of the Properties of Hybridizing Epoxy and Nanoclay for Mechanical, Industrial, and Biomedical Applications]
+Research article: Enhancement of the Properties of Hybridizing Epoxy and Nanoclay for Mechanical, Industrial, and Biomedical Applications. Contains 6 experiments. Associated polymer matrices have average elastic modulus 0.12 GPa, strength 2.11 MPa. With clay reinforcement, average modulus improvement 49.4%, strength improvement 139.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.56, arcsinh strength improvement 4.94. Typical MMT loading 2.0 wt%.
+
+[article:Lee DC, Jang LW. Preparation and characterization of PMMA-clay
+ hybrid composite by emulsion polymerization. J Appl Polym Sci
+ 1996; 61(7): 1117-22.]
+Research article: Lee DC, Jang LW. Preparation and characterization of PMMA-clay  hybrid composite by emulsion polymerization. J Appl Poly. Contains 2 experiments. Associated polymer matrices have average elastic modulus 3.06 GPa, strength 53.95 MPa, strain to failure 4.23. With clay reinforcement, average modulus improvement 54.9%, strength improvement 15.0%, strain-to-failure change -16.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.70, arcsinh strength improvement 3.40, arcsinh strain change -1.86. Typical MMT loading 15.0 wt%.
+
+[article:Marras SI, Zuburtikudis I, Panayiotou C. Nanostructure vs. microstructure:
+ morphological and thermomechanical characterization of
+ poly(L-lactic acid)/layered silicate hybrids. Eur Polym J 2007;
+ 43(6): 2191-06.]
+Research article: Marras SI, Zuburtikudis I, Panayiotou C. Nanostructure vs. microstructure:  morphological and thermomechanical character. Contains 8 experiments. Associated polymer matrices have average elastic modulus 2.05 GPa, strength 46.20 MPa, strain to failure 62.00. With clay reinforcement, average modulus improvement 24.8%, strength improvement 6.0%, strain-to-failure change -49.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.75, arcsinh strength improvement 2.10, arcsinh strain change -3.66. Typical MMT loading 4.5 wt%.
+
+[article:Okada A, Usuki A. The chemistry of polymer-clay hybrids. Mater Sci Eng C 1995; 3(2): 109-15.]
+Research article: Okada A, Usuki A. The chemistry of polymer-clay hybrids. Mater Sci Eng C 1995; 3(2): 109-15.. Contains 2 experiments. Associated polymer matrices have average elastic modulus 1.10 GPa, strength 69.00 MPa. With clay reinforcement, average modulus improvement 40.9%, strength improvement 55.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.15, arcsinh strength improvement 4.70. Typical MMT loading 4.6 wt%.
+
+[article:Oriakhi CO. Nano sandwiches. Chem Br 1995; 34: 59-62.]
+Research article: Oriakhi CO. Nano sandwiches. Chem Br 1995; 34: 59-62.. Contains 2 experiments. Associated polymer matrices have average elastic modulus 3.50 GPa. With clay reinforcement, average modulus improvement 4.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.11. Typical MMT loading 1.5 wt%.
+
+[article:Zanetti M, Camino G, Canavese D, Morgan AB, Lamelas FJ, Wilkie CA. Fire retardant halogen-antimony-clay synergism in polypropylene layered silicate nanocomposites. Chem Mater 2002; 14(1): 189-93.]
+Research article: Zanetti M, Camino G, Canavese D, Morgan AB, Lamelas FJ, Wilkie CA. Fire retardant halogen-antimony-clay synergism in pol. Contains 2 experiments. Associated polymer matrices have average elastic modulus 0.46 GPa. With clay reinforcement, average modulus improvement 106.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.36. Typical MMT loading 5.0 wt%.
+
+[article:Fabrication and Mechanical Properties of Chitosan-Montmorillonite]
+Research article: Fabrication and Mechanical Properties of Chitosan-Montmorillonite. Contains 4 experiments. Associated polymer matrices have average elastic modulus 9.74 GPa, strength 2.94 MPa, strain to failure 55.00. With clay reinforcement, average modulus improvement 51.3%, strength improvement 30.4%, strain-to-failure change -21.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.00, arcsinh strength improvement 2.48, arcsinh strain change -3.65. Typical MMT loading 25.0 wt%.
+
+[article:Z. Shanti Kiran, V. Suresh Babu, K. V. L. Soma Sekhar, P. Muvvala, M. Kameswara Reddy, and S. Gugulothu, “Tensile and flexural characteristics of an epoxy-glass composite reinforced with Cloisite 15A nanoclay,” Iranian Polymer Journal (English Edition), vol. 30, no. 8, pp. 831–841, Aug. 2021, doi: 10.1007/s13726-021-00934-9.]
+Research article: Z. Shanti Kiran, V. Suresh Babu, K. V. L. Soma Sekhar, P. Muvvala, M. Kameswara Reddy, and S. Gugulothu, “Tensile and fl. Contains 4 experiments. Typical MMT loading 5.0 wt%.
+
+[article:I. Ozsoy, A. Demirkol, A. Mimaroglu, H. Unal, and Z. Demir, “The influence of micro- And nano-filler content on the mechanical properties of epoxy composites,” Strojniski Vestnik/Journal of Mechanical Engineering, vol. 61, no. 10, pp. 601–609, 2015, doi: 10.5545/sv-jme.2015.2632.]
+Research article: I. Ozsoy, A. Demirkol, A. Mimaroglu, H. Unal, and Z. Demir, “The influence of micro- And nano-filler content on the mech. Contains 3 experiments. Associated polymer matrices have average elastic modulus 82.00 GPa, strength 2850.00 MPa, strain to failure 6.00. With clay reinforcement, average modulus improvement -36.2%, strength improvement 15.8%, strain-to-failure change -58.3%. In outlier-robust arcsinh space: arcsinh modulus improvement -4.27, arcsinh strength improvement 3.37, arcsinh strain change -4.73. Typical MMT loading 5.8 wt%.
+
+[article:P. N. Harshita, D. K. Rathore, R. K. Prusty, and B. C. Ray, “Extrapolation of Mechanical Strengthening Effect in Nanoclay/Epoxy Nanocomposites to Elevated Temperature Environments,” Transactions of the Indian Institute of Metals, vol. 71, no. 8, pp. 2015–2024, Aug. 2018, doi: 10.1007/s12666-018-1334-8.]
+Research article: P. N. Harshita, D. K. Rathore, R. K. Prusty, and B. C. Ray, “Extrapolation of Mechanical Strengthening Effect in Nanocla. Contains 3 experiments. Associated polymer matrices have average elastic modulus 2.65 GPa, strength 88.00 MPa. With clay reinforcement, average modulus improvement 18.9%, strength improvement 8.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.59, arcsinh strength improvement 2.66. Typical MMT loading 1.5 wt%.
+
+[article:S. S. Chee and M. Jawaid, “The effect of bi-functionalized MMT on morphology, thermal stability, dynamic mechanical, and tensile properties of epoxy/organoclay nanocomposites,” Polymers, vol. 11, no. 12, Dec. 2019, doi: 10.3390/polym11122012.]
+Research article: S. S. Chee and M. Jawaid, “The effect of bi-functionalized MMT on morphology, thermal stability, dynamic mechanical, and. Contains 4 experiments. Associated polymer matrices have average elastic modulus 0.50 GPa, strength 27.00 MPa. With clay reinforcement, average modulus improvement 164.5%, strength improvement 73.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.78, arcsinh strength improvement 4.90. Typical MMT loading 1.9 wt%.
+
+[article:S. S. Ray, “Recent trends and future outlooks in the field of clay-containing polymer nanocomposites,” Macromolecular Chemistry and Physics, vol. 215, no. 12, pp. 1162–1179, 2014, doi: 10.1002/macp.201400069.]
+Research article: S. S. Ray, “Recent trends and future outlooks in the field of clay-containing polymer nanocomposites,” Macromolecular Ch. Contains 32 experiments. Associated polymer matrices have average elastic modulus 1.99 GPa, strength 40.78 MPa, strain to failure 220.47. With clay reinforcement, average modulus improvement 23.9%, strength improvement 6.2%, strain-to-failure change -46.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.76, arcsinh strength improvement 2.22, arcsinh strain change -4.36. Typical MMT loading 4.7 wt%.
+
+[article:P. Saikia, “Clay nanostructures for biomedical applications,” in Two-Dimensional Nanostructures for Biomedical Technology: A Bridge between Material Science and Bioengineering, Elsevier, 2019, pp. 137–172. doi: 10.1016/B978-0-12-817650-4.00005-X.]
+Research article: P. Saikia, “Clay nanostructures for biomedical applications,” in Two-Dimensional Nanostructures for Biomedical Technolog. Contains 5 experiments. Associated polymer matrices have average elastic modulus 1.20 GPa, strength 65.00 MPa, strain to failure 3.00. With clay reinforcement, average modulus improvement 136.7%, strength improvement 66.2%, strain-to-failure change 130.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.48, arcsinh strength improvement 4.85, arcsinh strain change 5.51. Typical MMT loading 3.0 wt%.
+
+[article:G. Örçen and D. Bayram, “Effect of nanoclay on the mechanical and thermal properties of glass fiber-reinforced epoxy composites,” Journal of Materials Science, vol. 59, no. 8, pp. 3467–3487, Feb. 2024, doi: 10.1007/s10853-024-09387-w.]
+Research article: G. Örçen and D. Bayram, “Effect of nanoclay on the mechanical and thermal properties of glass fiber-reinforced epoxy com. Contains 3 experiments. Associated polymer matrices have average elastic modulus 22.09 GPa, strength 448.38 MPa. With clay reinforcement, average modulus improvement 5.8%, strength improvement 28.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.43, arcsinh strength improvement 4.03. Typical MMT loading 1.0 wt%.
+
+[article:N. Merah and O. Mohamed, “Nanoclay and water uptake effects on mechanical properties of unsaturated polyester,” Journal of Nanomaterials, vol. 2019, 2019, doi: 10.1155/2019/8130419.]
+Research article: N. Merah and O. Mohamed, “Nanoclay and water uptake effects on mechanical properties of unsaturated polyester,” Journal . Contains 4 experiments. Associated polymer matrices have average elastic modulus 1.10 GPa, strength 30.00 MPa, strain to failure 3.00. With clay reinforcement, average modulus improvement 11.8%, strength improvement 39.7%, strain-to-failure change 35.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.93, arcsinh strength improvement 4.12, arcsinh strain change 4.12. Typical MMT loading 2.5 wt%.
+
+[article:A. M. Abdel-Gawad, A. R. Ramadan, A. Flores, and A. M. K. Esawi, “Fabrication of Nylon 6-Montmorillonite Clay Nanocomposites with Enhanced Structural and Mechanical Properties by Solution Compounding,” Polymers, vol. 14, no. 21, Nov. 2022, doi: 10.3390/polym14214471.]
+Research article: A. M. Abdel-Gawad, A. R. Ramadan, A. Flores, and A. M. K. Esawi, “Fabrication of Nylon 6-Montmorillonite Clay Nanocompos. Contains 3 experiments. Associated polymer matrices have average elastic modulus 3.50 GPa. With clay reinforcement, average modulus improvement 16.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.48. Typical MMT loading 5.0 wt%.
+
+[article:T. A. Nguyen, T. M. H. Pham, T. H. Dang, T. H. Do, and Q. T. Nguyen, “Study on Mechanical Properties and Fire Resistance of Epoxy Nanocomposite Reinforced with Environmentally Friendly Additive: Nanoclay I.30E,” Journal of Chemistry, vol. 2020, 2020, doi: 10.1155/2020/3460645.]
+Research article: T. A. Nguyen, T. M. H. Pham, T. H. Dang, T. H. Do, and Q. T. Nguyen, “Study on Mechanical Properties and Fire Resistance. Contains 4 experiments. Associated polymer matrices have average elastic modulus 55.90 GPa. With clay reinforcement, average modulus improvement 7.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.61. Typical MMT loading 2.5 wt%.
+
+[article:Kusmono and Z. Arifin Mohd Ishak, “Effect of clay addition on mechanical properties of unsaturated polyester/glass fiber composites,” International Journal of Polymer Science, vol. 2013, 2013, doi: 10.1155/2013/797109.]
+Research article: Kusmono and Z. Arifin Mohd Ishak, “Effect of clay addition on mechanical properties of unsaturated polyester/glass fiber. Contains 6 experiments. Associated polymer matrices have average elastic modulus 5.60 GPa, strength 103.00 MPa. With clay reinforcement, average modulus improvement 1.2%, strength improvement 3.6%. In outlier-robust arcsinh space: arcsinh modulus improvement -0.30, arcsinh strength improvement 0.14. Typical MMT loading 4.0 wt%.
+
+[article:S. Kowshik, M. Shettar, N. Rangaswamy, G. Chate, and P. Somdee, “Effect of nanoclay on mechanical, flammability, and water absorption properties of glass fiber-epoxy composite,” Cogent Engineering, vol. 9, no. 1, 2022, doi: 10.1080/23311916.2022.2069070.]
+Research article: S. Kowshik, M. Shettar, N. Rangaswamy, G. Chate, and P. Somdee, “Effect of nanoclay on mechanical, flammability, and wat. Contains 4 experiments. Associated polymer matrices have strength 238.50 MPa. With clay reinforcement, average strength improvement 10.0%. In outlier-robust arcsinh space: arcsinh strength improvement 2.97. Typical MMT loading 3.0 wt%.
+
+[article:S. U. Hamim and R. P. Singh, “Effect of Hygrothermal Aging on the Mechanical Properties of Fluorinated and Nonfluorinated Clay-Epoxy Nanocomposites,” International Scholarly Research Notices, vol. 2014, pp. 1–13, Oct. 2014, doi: 10.1155/2014/489453.]
+Research article: S. U. Hamim and R. P. Singh, “Effect of Hygrothermal Aging on the Mechanical Properties of Fluorinated and Nonfluorinate. Contains 8 experiments. Associated polymer matrices have average elastic modulus 3.04 GPa, strength 97.50 MPa. With clay reinforcement, average modulus improvement 6.7%, strength improvement 7.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.26, arcsinh strength improvement 2.21. Typical MMT loading 1.2 wt%.
+
+[article:N. Domun, H. Hadavinia, T. Zhang, T. Sainsbury, G. H. Liaghat, and S. Vahid, “Improving the fracture toughness and the strength of epoxy using nanomaterials-a review of the current status,” Nanoscale, vol. 7, no. 23. Royal Society of Chemistry, pp. 10294–10329, Jun. 21, 2015. doi: 10.1039/c5nr01354b.]
+Research article: N. Domun, H. Hadavinia, T. Zhang, T. Sainsbury, G. H. Liaghat, and S. Vahid, “Improving the fracture toughness and the s. Contains 8 experiments. Associated polymer matrices have average elastic modulus 2.66 GPa, strength 60.57 MPa, strain to failure 3.73. With clay reinforcement, average modulus improvement 10.9%, strength improvement 10.8%, strain-to-failure change -19.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.31, arcsinh strength improvement 1.93, arcsinh strain change -1.38. Typical MMT loading 1.8 wt%.
+
+[article:A. Cerit, M. E. Marti, U. Soydal, S. Kocaman, and G. Ahmetli, “Effect of Modification with Various Epoxide Compounds on Mechanical, Thermal, and Coating Properties of Epoxy Resin,” International Journal of Polymer Science, vol. 2016, 2016, doi: 10.1155/2016/4968365.]
+Research article: A. Cerit, M. E. Marti, U. Soydal, S. Kocaman, and G. Ahmetli, “Effect of Modification with Various Epoxide Compounds on . Contains 4 experiments. Associated polymer matrices have average elastic modulus 5.59 GPa, strength 41.75 MPa, strain to failure 0.49. With clay reinforcement, average modulus improvement 8.2%, strength improvement 26.9%, strain-to-failure change 5.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.61, arcsinh strength improvement 3.89, arcsinh strain change 1.53. Typical MMT loading 25.0 wt%.
+
+[article:A. Dantas de Oliveira and C. Augusto Gonçalves Beatrice, “Polymer Nanocomposites with Different Types of Nanofiller,” in Nanocomposites - Recent Evolutions, IntechOpen, 2019. doi: 10.5772/intechopen.81329.]
+Research article: A. Dantas de Oliveira and C. Augusto Gonçalves Beatrice, “Polymer Nanocomposites with Different Types of Nanofiller,” in. Contains 3 experiments. Associated polymer matrices have average elastic modulus 0.74 GPa, strength 20.50 MPa, strain to failure 0.35. With clay reinforcement, average modulus improvement 11.7%, strength improvement 9.6%, strain-to-failure change -14.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.06, arcsinh strength improvement 2.90, arcsinh strain change -3.30. Typical MMT loading 5.0 wt%.
+
+[article:K. Müller et al., “Review on the processing and properties of polymer nanocomposites and nanocoatings and their applications in the packaging, automotive and solar energy fields,” Nanomaterials, vol. 7, no. 4. MDPI AG, Apr. 01, 2017. doi: 10.3390/nano7040074.]
+Research article: K. Müller et al., “Review on the processing and properties of polymer nanocomposites and nanocoatings and their applicat. Contains 4 experiments. Associated polymer matrices have average elastic modulus 1.10 GPa, strength 28.00 MPa, strain to failure 0.12. With clay reinforcement, average modulus improvement 17.5%, strength improvement 15.2%, strain-to-failure change 16.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.50, arcsinh strength improvement 3.34, arcsinh strain change 3.44. Typical MMT loading 4.0 wt%.
+
+[article:S. Fakhreddini-Najafabadi, M. Torabi, and F. Taheri-Behrooz, “An investigation on the effects of synthesis on the mechanical properties of nanoclay/epoxy,” Journal of Materials Research and Technology, vol. 15, pp. 5375–5395, Nov. 2021, doi: 10.1016/j.jmrt.2021.10.129.]
+Research article: S. Fakhreddini-Najafabadi, M. Torabi, and F. Taheri-Behrooz, “An investigation on the effects of synthesis on the mechan. Contains 4 experiments. Associated polymer matrices have average elastic modulus 2.10 GPa, strength 60.00 MPa, strain to failure 0.05. With clay reinforcement, average modulus improvement 18.5%, strength improvement 7.1%, strain-to-failure change 38.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.55, arcsinh strength improvement 2.58, arcsinh strain change 4.29. Typical MMT loading 4.0 wt%.
+
+[article:M. H. Mat Yazik, M. T. H. Sultan, A. U. M. Shah, M. Jawaid, and N. Mazlan, “Effect of nanoclay content on the thermal, mechanical and shape memory properties of epoxy nanocomposites,” Polymer Bulletin, vol. 77, no. 11, pp. 5913–5931, Nov. 2020, doi: 10.1007/s00289-019-03049-7.]
+Research article: M. H. Mat Yazik, M. T. H. Sultan, A. U. M. Shah, M. Jawaid, and N. Mazlan, “Effect of nanoclay content on the thermal, m. Contains 3 experiments. Associated polymer matrices have average elastic modulus 0.17 GPa, strength 13.40 MPa, strain to failure 0.65. With clay reinforcement, average modulus improvement 25.5%, strength improvement 15.7%, strain-to-failure change 4.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.81, arcsinh strength improvement 3.30, arcsinh strain change 1.99. Typical MMT loading 3.0 wt%.
+
+[article:S. Firdosh, H. N. Narasimha Murthy, G. Angadi, and N. Raghavendra, “Investigation of water absorption characteristics of nano-gelcoat for marine application,” Progress in Organic Coatings, vol. 114, pp. 173–187, Jan. 2018, doi: 10.1016/j.porgcoat.2017.10.004.]
+Research article: S. Firdosh, H. N. Narasimha Murthy, G. Angadi, and N. Raghavendra, “Investigation of water absorption characteristics of. Contains 4 experiments. Associated polymer matrices have average elastic modulus 2.40 GPa, strength 65.00 MPa. With clay reinforcement, average modulus improvement 12.0%, strength improvement 4.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.02, arcsinh strength improvement 2.08. Typical MMT loading 1.6 wt%.
+
+[article:J. Zhang, S. Deng, Y. Wang, and L. Ye, “Role of rigid nanoparticles and CTBN rubber in the toughening of epoxies with different cross-linking densities,” Composites Part A: Applied Science and Manufacturing, vol. 80, pp. 82–94, Jan. 2016, doi: 10.1016/j.compositesa.2015.10.017.]
+Research article: J. Zhang, S. Deng, Y. Wang, and L. Ye, “Role of rigid nanoparticles and CTBN rubber in the toughening of epoxies with di. Contains 17 experiments. Associated polymer matrices have average elastic modulus 2.87 GPa, strength 74.07 MPa, strain to failure 3.48. With clay reinforcement, average modulus improvement -5.0%, strength improvement -11.9%, strain-to-failure change 19.9%. In outlier-robust arcsinh space: arcsinh modulus improvement -0.97, arcsinh strength improvement -2.51, arcsinh strain change 0.63. Typical MMT loading 14.1 wt%.
+
+[article:C. Wolf, H. Angellier-Coussy, N. Gontard, F. Doghieri, and V. Guillard, “How the shape of fillers affects the barrier properties of polymer/non-porous particles nanocomposites: A review,” Journal of Membrane Science, vol. 556. Elsevier B.V., pp. 393–418, Jun. 15, 2018. doi: 10.1016/j.memsci.2018.03.085.]
+Research article: C. Wolf, H. Angellier-Coussy, N. Gontard, F. Doghieri, and V. Guillard, “How the shape of fillers affects the barrier pr. Contains 3 experiments. Associated polymer matrices have average elastic modulus 1.45 GPa, strength 49.50 MPa, strain to failure 0.07. With clay reinforcement, average modulus improvement 13.1%, strength improvement 19.6%, strain-to-failure change -33.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.23, arcsinh strength improvement 3.42, arcsinh strain change -4.03. Typical MMT loading 3.0 wt%.
+
+[article:M. Shettar, S. Kowshik, Gowrishankar, P. Hiremath, and S. Sharma, “Water Sorption-Desorption-Resorption Effects on Mechanical Properties of Epoxy-Nanoclay Nanocomposites,” International Journal of Automotive and Mechanical Engineering, vol. 19, no. 1, pp. 9478–9486, 2022, doi: 10.15282/ijame.19.1.2022.11.0730.]
+Research article: M. Shettar, S. Kowshik, Gowrishankar, P. Hiremath, and S. Sharma, “Water Sorption-Desorption-Resorption Effects on Mecha. Contains 2 experiments. Associated polymer matrices have strength 54.20 MPa. With clay reinforcement, average strength improvement 5.3%. In outlier-robust arcsinh space: arcsinh strength improvement 2.35. Typical MMT loading 3.0 wt%.
+
+[article:A. Tcherbi-Narteh, M. Hosur, and S. Jeelani, “Effects of Different Montmorillonite Nanoclay Loading on Cure Behavior and Properties of Diglycidyl Ether of Bisphenol A Epoxy,” Journal of Nanomaterials, vol. 2016, 2016, doi: 10.1155/2016/3840348.]
+Research article: A. Tcherbi-Narteh, M. Hosur, and S. Jeelani, “Effects of Different Montmorillonite Nanoclay Loading on Cure Behavior and. Contains 3 experiments. Associated polymer matrices have average elastic modulus 2.00 GPa. With clay reinforcement, average modulus improvement 7.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.43. Typical MMT loading 2.0 wt%.
+
+[article:M. Shettar, U. A. Kini, S. Sharma, P. Hiremath, and G. C. G. Gowrishankar, “Hygrothermal chamber aging effect on mechanical behavior and morphology of glass fiber-epoxy-nanoclay composites,” Materials Research Express, vol. 7, no. 1, 2020, doi: 10.1088/2053-1591/ab6405.]
+Research article: M. Shettar, U. A. Kini, S. Sharma, P. Hiremath, and G. C. G. Gowrishankar, “Hygrothermal chamber aging effect on mechani. Contains 6 experiments. Associated polymer matrices have average elastic modulus 5.33 GPa, strength 266.67 MPa. With clay reinforcement, average modulus improvement 9.7%, strength improvement 9.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.93, arcsinh strength improvement 2.85. Typical MMT loading 3.0 wt%.
+
+[article:M. Shettar, C. S. S. Kowshik, M. Manjunath, and P. Hiremath, “Experimental investigation on mechanical and wear properties of nanoclay-epoxy composites,” Journal of Materials Research and Technology, vol. 9, no. 4, pp. 9108–9116, Jan. 2020, doi: 10.1016/j.jmrt.2020.06.058.]
+Research article: M. Shettar, C. S. S. Kowshik, M. Manjunath, and P. Hiremath, “Experimental investigation on mechanical and wear properti. Contains 3 experiments. Associated polymer matrices have strength 54.00 MPa. With clay reinforcement, average strength improvement 4.4%. In outlier-robust arcsinh space: arcsinh strength improvement 2.06. Typical MMT loading 3.7 wt%.
+
+[article:R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T. Ramakrishnan, “Structural, morphological and mechanical behaviour of glass fibre reinforced epoxy nanoclay composites,” International Journal of Advanced Manufacturing Technology, vol. 93, no. 1–4, pp. 527–535, Oct. 2017, doi: 10.1007/s00170-017-0565-x.]
+Research article: R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T. Ramakrishnan, “Structural, morphological and mechanical behaviour of. Contains 16 experiments. Associated polymer matrices have average elastic modulus 8.47 GPa, strength 226.88 MPa. With clay reinforcement, average modulus improvement 34.9%, strength improvement 19.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.86, arcsinh strength improvement 3.16. Typical MMT loading 4.0 wt%.
+
+[article:N. Rull, R. P. Ollier, G. Francucci, E. S. Rodriguez, and V. A. Alvarez, “Effect of the addition of nanoclays on the water absorption and mechanical properties of glass fiber/up resin composites,” Journal of Composite Materials, vol. 49, no. 13, pp. 1629–1637, Jun. 2015, doi: 10.1177/0021998314538869.]
+Research article: N. Rull, R. P. Ollier, G. Francucci, E. S. Rodriguez, and V. A. Alvarez, “Effect of the addition of nanoclays on the wat. Contains 3 experiments. Associated polymer matrices have average elastic modulus 9.30 GPa, strength 274.00 MPa. With clay reinforcement, average modulus improvement 3.6%, strength improvement -1.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.53, arcsinh strength improvement -0.30. Typical MMT loading 4.3 wt%.
+
+[article:Rashmi, N. M. Renukappa, B. Suresha, R. M. Devarajaiah, and K. N. Shivakumar, “Dry sliding wear behaviour of organo-modified montmorillonite filled epoxy nanocomposites using Taguchi’s techniques,” Materials and Design, vol. 32, no. 8–9, pp. 4528–4536, 2011, doi: 10.1016/j.matdes.2011.03.028.]
+Research article: Rashmi, N. M. Renukappa, B. Suresha, R. M. Devarajaiah, and K. N. Shivakumar, “Dry sliding wear behaviour of organo-modi. Contains 3 experiments. Associated polymer matrices have average elastic modulus 1.44 GPa, strength 47.50 MPa, strain to failure 10.39. With clay reinforcement, average modulus improvement 32.4%, strength improvement -27.5%, strain-to-failure change -0.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.12, arcsinh strength improvement -3.99, arcsinh strain change 0.26. Typical MMT loading 4.7 wt%.
+
+[article:D. Ratna, N. R. Manoj, R. Varley, R. K. Singh Raman, and G. P. Simon, “Clay-reinforced epoxy nanocomposites,” Polymer International, vol. 52, no. 9, pp. 1403–1407, Sep. 2003, doi: 10.1002/pi.1166.]
+Research article: D. Ratna, N. R. Manoj, R. Varley, R. K. Singh Raman, and G. P. Simon, “Clay-reinforced epoxy nanocomposites,” Polymer In. Contains 2 experiments. Associated polymer matrices have average elastic modulus 2.03 GPa. With clay reinforcement, average modulus improvement 39.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.30. Typical MMT loading 3.8 wt%.
+
+[article:A. Okada and A. Usuki, “Twenty years of polymer-clay nanocomposites,” Macromolecular Materials and Engineering, vol. 291, no. 12, pp. 1449–1476, Dec. 2006, doi: 10.1002/mame.200600260.]
+Research article: A. Okada and A. Usuki, “Twenty years of polymer-clay nanocomposites,” Macromolecular Materials and Engineering, vol. 291. Contains 10 experiments. Associated polymer matrices have average elastic modulus 1.01 GPa, strength 59.47 MPa. With clay reinforcement, average modulus improvement 75.8%, strength improvement 29.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.79, arcsinh strength improvement 3.95. Typical MMT loading 5.6 wt%.
+
+[article:T. P. Mohan, M. R. Kumar, and R. Velmurugan, “Thermal, mechanical and vibration characteristics of epoxy-clay nanocomposites,” Journal of Materials Science, vol. 41, no. 18, pp. 5915–5925, Aug. 2006, doi: 10.1007/s10853-006-0278-2.]
+Research article: T. P. Mohan, M. R. Kumar, and R. Velmurugan, “Thermal, mechanical and vibration characteristics of epoxy-clay nanocompos. Contains 5 experiments. Associated polymer matrices have average elastic modulus 2.90 GPa, strength 61.10 MPa. With clay reinforcement, average modulus improvement 39.0%, strength improvement 4.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.30, arcsinh strength improvement 1.81. Typical MMT loading 4.2 wt%.
+
+[article:R. Aradhya and N. M. Renukappa, “Mechanical and Tribological Properties of Epoxy Nano Composites for High Voltage Applications.” [Online]. Available: www.intechopen.com]
+Research article: R. Aradhya and N. M. Renukappa, “Mechanical and Tribological Properties of Epoxy Nano Composites for High Voltage Applic. Contains 9 experiments. Associated polymer matrices have average elastic modulus 2.12 GPa, strength 55.37 MPa, strain to failure 7.77. With clay reinforcement, average modulus improvement 19.5%, strength improvement -20.8%, strain-to-failure change -2.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.37, arcsinh strength improvement -3.47, arcsinh strain change -0.36. Typical MMT loading 4.7 wt%.
+
+[article:M. Al-Qadhi, N. Merah, and Z. M. Gasem, “Mechanical properties and water uptake of epoxy-clay nanocomposites containing different clay loadings,” Journal of Materials Science, vol. 48, no. 10, pp. 3798–3804, May 2013, doi: 10.1007/s10853-013-7180-5.]
+Research article: M. Al-Qadhi, N. Merah, and Z. M. Gasem, “Mechanical properties and water uptake of epoxy-clay nanocomposites containing . Contains 5 experiments. Associated polymer matrices have average elastic modulus 2.54 GPa, strength 86.00 MPa, strain to failure 6.02. With clay reinforcement, average modulus improvement 24.3%, strength improvement -16.0%, strain-to-failure change -57.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.55, arcsinh strength improvement -2.39, arcsinh strain change -4.58. Typical MMT loading 4.3 wt%.
+
+[article:X. Li, Z. Zhan, G. Peng, and W. Wang, “A new method for preparing completely exfoliated epoxy/clay nanocomposites: Nano-disassembling method,” Polymer Bulletin, vol. 67, no. 4, pp. 719–727, Aug. 2011, doi: 10.1007/s00289-011-0496-x.]
+Research article: X. Li, Z. Zhan, G. Peng, and W. Wang, “A new method for preparing completely exfoliated epoxy/clay nanocomposites: Nano-. Contains 12 experiments. Associated polymer matrices have average elastic modulus 0.90 GPa, strength 35.00 MPa. With clay reinforcement, average modulus improvement 16.6%, strength improvement 20.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.43, arcsinh strength improvement 2.49. Typical MMT loading 5.8 wt%.
+
+[article:C. K. Lam and K. T. Lau, “Optimization effect of micro hardness by nanoclay clusters in nanoclay/epoxy composites,” Journal of Thermoplastic Composite Materials, vol. 22, no. 2, pp. 213–225, Mar. 2009, doi: 10.1177/0892705708091856.]
+Research article: C. K. Lam and K. T. Lau, “Optimization effect of micro hardness by nanoclay clusters in nanoclay/epoxy composites,” Jour. Contains 5 experiments. Associated polymer matrices have average elastic modulus 100.00 GPa, strength 320.00 MPa, strain to failure 0.03. With clay reinforcement, average modulus improvement 13.0%, strength improvement -58.6%, strain-to-failure change 60.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.08, arcsinh strength improvement -4.76, arcsinh strain change 0.55. Typical MMT loading 7.4 wt%.
+
+[article:M. A. Kumar, K. H. Reddy, Y. V. M. Reddy, G. R. Reddy, and S. V. Naidu, “Improvement of tensile and flexural properties in epoxy/clay nanocomposites reinforced with weave glass fiber reel,” International Journal of Polymeric Materials and Polymeric Biomaterials, vol. 59, no. 11, pp. 854–862, Nov. 2010, doi: 10.1080/00914037.2010.504144.]
+Research article: M. A. Kumar, K. H. Reddy, Y. V. M. Reddy, G. R. Reddy, and S. V. Naidu, “Improvement of tensile and flexural properties . Contains 8 experiments. Associated polymer matrices have average elastic modulus 1.04 GPa, strength 21.90 MPa. With clay reinforcement, average modulus improvement 23.9%, strength improvement 68.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.90, arcsinh strength improvement 4.61. Typical MMT loading 5.5 wt%.
+
+[article:A. Jumahat, W. W. Amir, C. Soutis, and S. Kasolang, “Flexural response of nanoclay-modified epoxy polymers,” Materials Research Innovations, vol. 18, pp. S6-280-S6-285, Dec. 2014, doi: 10.1179/1432891714Z.0000000001021.]
+Research article: A. Jumahat, W. W. Amir, C. Soutis, and S. Kasolang, “Flexural response of nanoclay-modified epoxy polymers,” Materials R. Contains 9 experiments. Associated polymer matrices have average elastic modulus 3.37 GPa, strength 130.44 MPa, strain to failure 5.13. With clay reinforcement, average modulus improvement 15.2%, strength improvement -7.1%, strain-to-failure change -29.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.37, arcsinh strength improvement -1.10, arcsinh strain change -3.91. Typical MMT loading 3.0 wt%.
+
+[article:A. Jumahat, C. Soutis, J. Mahmud, and N. Ahmad, “Compressive properties of nanoclay/epoxy nanocomposites,” in Procedia Engineering, Elsevier Ltd, 2012, pp. 1607–1613. doi: 10.1016/j.proeng.2012.07.357.]
+Research article: A. Jumahat, C. Soutis, J. Mahmud, and N. Ahmad, “Compressive properties of nanoclay/epoxy nanocomposites,” in Procedia E. Contains 6 experiments. Associated polymer matrices have average elastic modulus 3.07 GPa, strength 169.03 MPa, strain to failure 29.58. With clay reinforcement, average modulus improvement 12.0%, strength improvement -5.0%, strain-to-failure change 15.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.09, arcsinh strength improvement -0.29, arcsinh strain change 0.88. Typical MMT loading 3.0 wt%.
+
+[article:A. Jumahat, C. Soutis, F. R. Jones, and A. Hodzic, “Compressive behaviour of nanoclay modified aerospace grade epoxy polymer,” Plastics, Rubber and Composites, vol. 41, no. 6, pp. 225–232, Jul. 2012, doi: 10.1179/1743289811Y.0000000028.]
+Research article: A. Jumahat, C. Soutis, F. R. Jones, and A. Hodzic, “Compressive behaviour of nanoclay modified aerospace grade epoxy pol. Contains 9 experiments. Associated polymer matrices have average elastic modulus 4.01 GPa, strength 187.69 MPa, strain to failure 31.64. With clay reinforcement, average modulus improvement 14.8%, strength improvement 5.6%, strain-to-failure change 8.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.35, arcsinh strength improvement 1.81, arcsinh strain change 1.49. Typical MMT loading 3.0 wt%.
+
+[article:M. Esteves, A. Ramalho, J. A. M. Ferreira, and J. P. Nobre, “Tribological and mechanical behaviour of epoxy/nanoclay composites,” Tribology Letters, vol. 52, no. 1, pp. 1–10, Oct. 2013, doi: 10.1007/s11249-013-0174-2.]
+Research article: M. Esteves, A. Ramalho, J. A. M. Ferreira, and J. P. Nobre, “Tribological and mechanical behaviour of epoxy/nanoclay com. Contains 3 experiments. Associated polymer matrices have average elastic modulus 3.00 GPa, strength 68.00 MPa. With clay reinforcement, average modulus improvement 2.2%, strength improvement -7.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 0.87, arcsinh strength improvement -2.64. Typical MMT loading 3.3 wt%.
+
+[article:M. Al-Qadhi, N. Merah, Z. M. Gasem, N. Abu-Dheir, and B. J. A. Aleem, “Effect of water and crude oil on mechanical and thermal properties of epoxy-clay nanocomposites,” Polymer Composites, vol. 35, no. 2, pp. 318–326, Feb. 2014, doi: 10.1002/pc.22664.]
+Research article: M. Al-Qadhi, N. Merah, Z. M. Gasem, N. Abu-Dheir, and B. J. A. Aleem, “Effect of water and crude oil on mechanical and t. Contains 4 experiments. Associated polymer matrices have average elastic modulus 2.70 GPa, strength 60.00 MPa, strain to failure 6.00. With clay reinforcement, average modulus improvement 14.4%, strength improvement -5.8%, strain-to-failure change 37.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.17, arcsinh strength improvement -2.41, arcsinh strain change 4.29. Typical MMT loading 4.5 wt%.
+
+[article:Y. Ali, M. Al-Qadhi, N. Merah, and A. Rafiq, “Influence of degassing and nanoclay loading on physical and flexural properties of epoxy,” in Defect and Diffusion Forum, Trans Tech Publications Ltd, 2015, pp. 237–243. doi: 10.4028/www.scientific.net/DDF.365.237.]
+Research article: Y. Ali, M. Al-Qadhi, N. Merah, and A. Rafiq, “Influence of degassing and nanoclay loading on physical and flexural prope. Contains 5 experiments. Associated polymer matrices have average elastic modulus 2.78 GPa, strength 100.19 MPa, strain to failure 9.65. With clay reinforcement, average modulus improvement 9.2%, strength improvement 7.8%, strain-to-failure change -46.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.68, arcsinh strength improvement 2.24, arcsinh strain change -4.46. Typical MMT loading 2.5 wt%.
+
+[article:T. K. Bindu Sharmila, E. P. Ayswarya, B. T. Abraham, P. M. Sabura Begum, and E. T. Thachil, “Fabrication of partially exfoliated and disordered intercalated cloisite epoxy nanocomposites via in situ polymerization: Mechanical, dynamic mechanical, thermal and barrier properties,” Applied Clay Science, vol. 102, pp. 220–230, Dec. 2014, doi: 10.1016/j.clay.2014.09.043.]
+Research article: T. K. Bindu Sharmila, E. P. Ayswarya, B. T. Abraham, P. M. Sabura Begum, and E. T. Thachil, “Fabrication of partially ex. Contains 6 experiments. Associated polymer matrices have average elastic modulus 1.91 GPa, strength 54.00 MPa, strain to failure 4.50. With clay reinforcement, average modulus improvement 32.0%, strength improvement 7.1%, strain-to-failure change -50.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.12, arcsinh strength improvement 2.43, arcsinh strain change -4.52. Typical MMT loading 2.6 wt%.
+
+[article:S. B. Basturk and S. C. Erbas, “Mechanical and thermo-mechanical properties of nanoclay/epoxy composites: Synergistic effects of silanization and surfactant application,” Materials Research Express, vol. 5, no. 9, Sep. 2018, doi: 10.1088/2053-1591/aad60c.]
+Research article: S. B. Basturk and S. C. Erbas, “Mechanical and thermo-mechanical properties of nanoclay/epoxy composites: Synergistic ef. Contains 12 experiments. Associated polymer matrices have average elastic modulus 2.36 GPa, strength 82.69 MPa, strain to failure 5.11. With clay reinforcement, average modulus improvement 0.7%, strength improvement -5.5%, strain-to-failure change -33.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 0.42, arcsinh strength improvement -0.98, arcsinh strain change -4.20. Typical MMT loading 1.2 wt%.
+
+[article:S. Zainuddin, M. v. Hosur, Y. Zhou, A. T. Narteh, A. Kumar, and S. Jeelani, “Experimental and numerical investigations on flexural and thermal properties of nanoclay-epoxy nanocomposites,” Materials Science and Engineering: A, vol. 527, no. 29–30, pp. 7920–7926, Nov. 2010, doi: 10.1016/j.msea.2010.08.078.]
+Research article: S. Zainuddin, M. v. Hosur, Y. Zhou, A. T. Narteh, A. Kumar, and S. Jeelani, “Experimental and numerical investigations o. Contains 3 experiments. Associated polymer matrices have average elastic modulus 2.93 GPa, strength 97.00 MPa. With clay reinforcement, average modulus improvement 7.8%, strength improvement 3.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.35, arcsinh strength improvement 1.48. Typical MMT loading 2.0 wt%.
+
+[article:H. Alamri and I. M. Low, “Effect of water absorption on the mechanical properties of nano-filler reinforced epoxy nanocomposites,” Materials and Design, vol. 42, pp. 214–222, Dec. 2012, doi: 10.1016/j.matdes.2012.05.060.]
+Research article: H. Alamri and I. M. Low, “Effect of water absorption on the mechanical properties of nano-filler reinforced epoxy nanoco. Contains 18 experiments. Associated polymer matrices have average elastic modulus 0.80 GPa, strength 54.95 MPa. With clay reinforcement, average modulus improvement 76.9%, strength improvement 10.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.01, arcsinh strength improvement 2.62. Typical MMT loading 3.0 wt%.
+
+[article:M. L. Chan, K. T. Lau, T. T. Wong, M. P. Ho, and D. Hui, “Mechanism of reinforcement in a nanoclay/polymer composite,” Composites Part B: Engineering, vol. 42, no. 6, pp. 1708–1712, Sep. 2011, doi: 10.1016/j.compositesb.2011.03.011.]
+Research article: M. L. Chan, K. T. Lau, T. T. Wong, M. P. Ho, and D. Hui, “Mechanism of reinforcement in a nanoclay/polymer composite,” C. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.12 GPa, strength 52.40 MPa. With clay reinforcement, average modulus improvement 29.5%, strength improvement 4.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.97, arcsinh strength improvement 1.89. Typical MMT loading 4.8 wt%.
+
+[article:A. Yasmin, J. J. Luo, J. L. Abot, and I. M. Daniel, “Mechanical and thermal behavior of clay/epoxy nanocomposites,” Composites Science and Technology, vol. 66, no. 14, pp. 2415–2422, Nov. 2006, doi: 10.1016/j.compscitech.2006.03.011.]
+Research article: A. Yasmin, J. J. Luo, J. L. Abot, and I. M. Daniel, “Mechanical and thermal behavior of clay/epoxy nanocomposites,” Comp. Contains 12 experiments. Associated polymer matrices have average elastic modulus 2.75 GPa, strength 65.00 MPa, strain to failure 2.50. With clay reinforcement, average modulus improvement 18.2%, strength improvement -19.2%, strain-to-failure change -31.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.34, arcsinh strength improvement -3.46, arcsinh strain change -3.89. Typical MMT loading 4.7 wt%.
+
+[article:M. Silani, S. Ziaei-Rad, M. Esfahanian, and V. B. C. Tan, “On the experimental and numerical investigation of clay/epoxy nanocomposites,” Composite Structures, vol. 94, no. 11, pp. 3142–3148, Nov. 2012, doi: 10.1016/j.compstruct.2012.04.033.]
+Research article: M. Silani, S. Ziaei-Rad, M. Esfahanian, and V. B. C. Tan, “On the experimental and numerical investigation of clay/epoxy. Contains 2 experiments. Associated polymer matrices have average elastic modulus 2.80 GPa, strength 45.00 MPa, strain to failure 3.50. With clay reinforcement, average modulus improvement 7.3%, strength improvement 7.8%, strain-to-failure change -18.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.67, arcsinh strength improvement 2.65, arcsinh strain change -3.45. Typical MMT loading 3.5 wt%.
+
+[article:F. Zaïri, J. M. Gloaguen, M. Naït-Abdelaziz, A. Mesbah, and J. M. Lefebvre, “Study of the effect of size and clay structural parameters on the yield and post-yield response of polymer/clay nanocomposites via a multiscale micromechanical modelling,” Acta Materialia, vol. 59, no. 10, pp. 3851–3863, 2011, doi: 10.1016/j.actamat.2011.03.009.]
+Research article: F. Zaïri, J. M. Gloaguen, M. Naït-Abdelaziz, A. Mesbah, and J. M. Lefebvre, “Study of the effect of size and clay struct. Contains 8 experiments. Associated polymer matrices have average elastic modulus 2.04 GPa, strength 59.59 MPa, strain to failure 0.15. With clay reinforcement, average modulus improvement 83.8%, strength improvement 17.6%, strain-to-failure change -20.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.78, arcsinh strength improvement 2.99, arcsinh strain change -3.69. Typical MMT loading 4.0 wt%.
+
+[article:J. Zicans, R. Merijs Meri, M. Kalniņš, R. Maksimovs, and J. Jansons, “Modeling and experimental investigations of elastic and creep properties of thermoplastic polymer nanocomposites,” ZAMM Zeitschrift fur Angewandte Mathematik und Mechanik, vol. 95, no. 10, pp. 1198–1110, Oct. 2015, doi: 10.1002/zamm.201400288.]
+Research article: J. Zicans, R. Merijs Meri, M. Kalniņš, R. Maksimovs, and J. Jansons, “Modeling and experimental investigations of elasti. Contains 6 experiments. Associated polymer matrices have average elastic modulus 0.39 GPa, strength 9.70 MPa, strain to failure 4.29. With clay reinforcement, average modulus improvement 69.8%, strength improvement 43.6%, strain-to-failure change -41.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.74, arcsinh strength improvement 4.32, arcsinh strain change -4.28. Typical MMT loading 3.0 wt%.
+
+[article:R. Merijs Meri et al., “Elasticity and long-term behavior of recycled polyethylene terephthalate (rPET)/montmorillonite (MMT) composites,” Composite Structures, vol. 111, no. 1, pp. 453–458, May 2014, doi: 10.1016/J.COMPSTRUCT.2014.01.017.]
+Research article: R. Merijs Meri et al., “Elasticity and long-term behavior of recycled polyethylene terephthalate (rPET)/montmorillonite . Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.45 GPa, strength 48.90 MPa, strain to failure 3.75. With clay reinforcement, average modulus improvement 13.6%, strength improvement 15.3%, strain-to-failure change -15.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.28, arcsinh strength improvement 3.33, arcsinh strain change -3.30. Typical MMT loading 2.7 wt%.
+
+[article:H. W. Wang, H. W. Ji, W. Q. Shao, and H. Miao, “Finite element modeling for particle-reinforced polymer composites for wind energy application,” in Advanced Materials Research, 2011, pp. 2177–2180. doi: 10.4028/www.scientific.net/AMR.189-193.2177.]
+Research article: H. W. Wang, H. W. Ji, W. Q. Shao, and H. Miao, “Finite element modeling for particle-reinforced polymer composites for w. Contains 1 experiments. Associated polymer matrices have average elastic modulus 4.20 GPa. With clay reinforcement, average modulus improvement 20.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.69. Typical MMT loading 5.0 wt%.
+
+[article:R. D. Maksimov and E. Plume, “ELASTIC PROPERTIES OF A POLYURETHANE/ MONTMORILLONITE NANOCOMPOSITE,” 2012.]
+Research article: R. D. Maksimov and E. Plume, “ELASTIC PROPERTIES OF A POLYURETHANE/ MONTMORILLONITE NANOCOMPOSITE,” 2012.. Contains 3 experiments. Associated polymer matrices have average elastic modulus 2.30 GPa. With clay reinforcement, average modulus improvement 42.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.10. Typical MMT loading 3.0 wt%.
+
+[article:H. Ebadi-Dehaghani, H. A. Khonakdar, M. Barikani, and S. H. Jafari, “Experimental and theoretical analyses of mechanical properties of PP/PLA/clay nanocomposites,” Composites Part B: Engineering, vol. 69, pp. 133–144, 2015, doi: 10.1016/j.compositesb.2014.09.006.]
+Research article: H. Ebadi-Dehaghani, H. A. Khonakdar, M. Barikani, and S. H. Jafari, “Experimental and theoretical analyses of mechanical. Contains 10 experiments. Associated polymer matrices have average elastic modulus 1.90 GPa, strength 36.22 MPa, strain to failure 130.55. With clay reinforcement, average modulus improvement 15.9%, strength improvement -12.1%, strain-to-failure change -55.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.83, arcsinh strength improvement -1.82, arcsinh strain change -4.46. Typical MMT loading 4.2 wt%.
+
+[article:R. Mohsenzadeh, “Experimental studies on mechanical properties and toughening mechanisms of PA6/zeolite nanocomposites,” Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, vol. 235, no. 23, pp. 7233–7240, Dec. 2021, doi: 10.1177/09544062211005798.]
+Research article: R. Mohsenzadeh, “Experimental studies on mechanical properties and toughening mechanisms of PA6/zeolite nanocomposites,”. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.50 GPa, strength 71.25 MPa. With clay reinforcement, average modulus improvement 39.8%, strength improvement 19.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.33, arcsinh strength improvement 3.63. Typical MMT loading 5.0 wt%.
+
+[article:B. Zazoum, E. Triki, and A. Bachri, “Modeling of mechanical properties of clay-reinforced polymer nanocomposites using deep neural network,” Materials, vol. 13, no. 19, Oct. 2020, doi: 10.3390/MA13194266.]
+Research article: B. Zazoum, E. Triki, and A. Bachri, “Modeling of mechanical properties of clay-reinforced polymer nanocomposites using d. Contains 6 experiments. Associated polymer matrices have average elastic modulus 0.21 GPa, strength 32.34 MPa. With clay reinforcement, average modulus improvement 47.0%, strength improvement -8.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.15, arcsinh strength improvement -2.21. Typical MMT loading 7.5 wt%.
+
+[article:A. N. Wilkinson et al., “Tensile properties of melt intercalated polyamide 6 - Montmorillonite nanocomposites,” Composites Science and Technology, vol. 67, no. 15–16, pp. 3360–3368, Dec. 2007, doi: 10.1016/j.compscitech.2007.03.024.]
+Research article: A. N. Wilkinson et al., “Tensile properties of melt intercalated polyamide 6 - Montmorillonite nanocomposites,” Composit. Contains 4 experiments. Associated polymer matrices have average elastic modulus 4.62 GPa, strength 76.00 MPa, strain to failure 47.20. With clay reinforcement, average modulus improvement 69.8%, strength improvement 16.0%, strain-to-failure change -90.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.87, arcsinh strength improvement 3.25, arcsinh strain change -5.19. Typical MMT loading 5.0 wt%.
+
+[article:M. Jamsheed, F. M. Rashid, and R. Velmurugan, “An experimental investigation on the effect of montmorillonite nanoclay on the mechanical properties of Ti6Al4V titanium-based carbon fiber/epoxy laminates,” Polymer Composites, 2025, doi: 10.1002/pc.29745.]
+Research article: M. Jamsheed, F. M. Rashid, and R. Velmurugan, “An experimental investigation on the effect of montmorillonite nanoclay o. Contains 5 experiments. Associated polymer matrices have average elastic modulus 97.22 GPa, strength 756.30 MPa, strain to failure 1.90. With clay reinforcement, average modulus improvement -21.1%, strength improvement -12.3%, strain-to-failure change -23.9%. In outlier-robust arcsinh space: arcsinh modulus improvement -3.64, arcsinh strength improvement -2.67, arcsinh strain change -3.68. Typical MMT loading 5.0 wt%.
+
+[article:G. Ravichandran, G. Rathnakar, N. Santhosh, R. Chennakeshava, and M. A. Hashmi, “Enhancement of mechanical properties of epoxy/halloysite nanotube (HNT) nanocomposites,” SN Applied Sciences, vol. 1, no. 4, Apr. 2019, doi: 10.1007/s42452-019-0323-9.]
+Research article: G. Ravichandran, G. Rathnakar, N. Santhosh, R. Chennakeshava, and M. A. Hashmi, “Enhancement of mechanical properties of. Contains 4 experiments. Associated polymer matrices have average elastic modulus 5.50 GPa, strength 191.40 MPa. With clay reinforcement, average modulus improvement 29.1%, strength improvement 31.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.05, arcsinh strength improvement 4.13. Typical MMT loading 2.5 wt%.
+
+[article:S. Ghafarloo and M. Kokabi, “Mechanical properties of epoxy clay nanocomposites,” in Advanced Materials Research, 2010, pp. 145–148. doi: 10.4028/www.scientific.net/AMR.123-125.145.]
+Research article: S. Ghafarloo and M. Kokabi, “Mechanical properties of epoxy clay nanocomposites,” in Advanced Materials Research, 2010, . Contains 8 experiments. Associated polymer matrices have average elastic modulus 2.55 GPa, strength 81.00 MPa. With clay reinforcement, average modulus improvement 12.4%, strength improvement 5.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.01, arcsinh strength improvement 1.84. Typical MMT loading 3.5 wt%.
+
+[article:A. Ebrahimi Jahromi, H. R. Ebrahimi Jahromi, F. Hemmati, M. R. Saeb, V. Goodarzi, and K. Formela, “Morphology and mechanical properties of polyamide/clay nanocomposites toughened with NBR/NBR-g-GMA: A comparative study,” Composites Part B: Engineering, vol. 90, pp. 478–484, Apr. 2016, doi: 10.1016/j.compositesb.2015.12.042.]
+Research article: A. Ebrahimi Jahromi, H. R. Ebrahimi Jahromi, F. Hemmati, M. R. Saeb, V. Goodarzi, and K. Formela, “Morphology and mechan. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.65 GPa, strength 65.50 MPa. With clay reinforcement, average modulus improvement 14.9%, strength improvement -22.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.46, arcsinh strength improvement -2.58. Typical MMT loading 3.0 wt%.
+
+[article:P. M. Gyoo, S. Venkataramani, and S. C. Kim, “Morphology, thermal, and mechanical properties of polyamide 66/clay nanocomposites with epoxy-modified organoclay,” Journal of Applied Polymer Science, vol. 101, no. 3, pp. 1711–1722, Aug. 2006, doi: 10.1002/app.23339.]
+Research article: P. M. Gyoo, S. Venkataramani, and S. C. Kim, “Morphology, thermal, and mechanical properties of polyamide 66/clay nanoco. Contains 9 experiments. Associated polymer matrices have average elastic modulus 0.86 GPa, strength 47.13 MPa, strain to failure 4.80. With clay reinforcement, average modulus improvement 38.5%, strength improvement 15.4%, strain-to-failure change -36.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.32, arcsinh strength improvement 3.40, arcsinh strain change -4.29. Typical MMT loading 3.7 wt%.
+
+[article:R. Aradhya and N. M. Renukappa, “Mechanical and Tribological Properties of Epoxy Nano Composites for High Voltage Applications,” in Nanorods and Nanocomposites, IntechOpen, 2020. doi: 10.5772/intechopen.88236.]
+Research article: R. Aradhya and N. M. Renukappa, “Mechanical and Tribological Properties of Epoxy Nano Composites for High Voltage Applic. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.47 GPa, strength 59.30 MPa, strain to failure 6.46. With clay reinforcement, average modulus improvement 19.7%, strength improvement -16.9%, strain-to-failure change -6.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.25, arcsinh strength improvement -3.20, arcsinh strain change -1.43. Typical MMT loading 4.7 wt%.
+
+[article:J. Stojšic, P. Raos, and A. Kalendova, “A study of structure and tensile properties of polyamide 12/clay nanocomposites,” Polymer Composites, vol. 37, no. 3, pp. 684–691, Mar. 2016, doi: 10.1002/pc.23225.]
+Research article: J. Stojšic, P. Raos, and A. Kalendova, “A study of structure and tensile properties of polyamide 12/clay nanocomposites,. Contains 19 experiments. Associated polymer matrices have average elastic modulus 1.52 GPa, strength 47.94 MPa. With clay reinforcement, average modulus improvement 40.8%, strength improvement -0.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.30, arcsinh strength improvement 0.53. Typical MMT loading 6.0 wt%.
+
+[article:M. H. Gabr and K. Uzawa, “Mechanical, thermal, and interfacial shear properties of polyamide/nanoclay nanocomposites: Study the effect of nanoclay on the micromechanism of fracture,” Journal of Thermoplastic Composite Materials, vol. 31, no. 4, pp. 447–464, Apr. 2018, doi: 10.1177/0892705717705692.]
+Research article: M. H. Gabr and K. Uzawa, “Mechanical, thermal, and interfacial shear properties of polyamide/nanoclay nanocomposites: St. Contains 6 experiments. Associated polymer matrices have average elastic modulus 1.47 GPa, strength 64.90 MPa, strain to failure 0.08. With clay reinforcement, average modulus improvement 21.4%, strength improvement 4.6%, strain-to-failure change -12.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.45, arcsinh strength improvement 0.16, arcsinh strain change -3.13. Typical MMT loading 2.0 wt%.
+
+[article:R. C. Voicu et al., “Prediction of Mechanical Properties of Nano-Clay-Based Biopolymeric Composites,” Nanomaterials, vol. 14, no. 17, Sep. 2024, doi: 10.3390/nano14171403.]
+Research article: R. C. Voicu et al., “Prediction of Mechanical Properties of Nano-Clay-Based Biopolymeric Composites,” Nanomaterials, vol. Contains 4 experiments. Associated polymer matrices have average elastic modulus 1.19 GPa. With clay reinforcement, average modulus improvement 57.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.50. Typical MMT loading 6.5 wt%.
+
+[article:L. Su, C. Fang, and H. Luo, “Functionalized montmorillonite/epoxy resin nanocomposites with enhanced thermal and mechanical properties,” RSC Advances, vol. 14, no. 42, pp. 31251–31258, Oct. 2024, doi: 10.1039/d4ra03125c.]
+Research article: L. Su, C. Fang, and H. Luo, “Functionalized montmorillonite/epoxy resin nanocomposites with enhanced thermal and mechani. Contains 4 experiments. Associated polymer matrices have average elastic modulus 1.67 GPa. With clay reinforcement, average modulus improvement 34.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.11. Typical MMT loading 5.8 wt%.
+
+[article:E. Manias, A. Touny, L. Wu, K. Strawhecker, B. Lu, and T. C. Chung, “Polypropylene/montmorillonite nanocomposites. Review of the synthetic routes and materials properties,” Chemistry of Materials, vol. 13, no. 10. pp. 3516–3523, 2001. doi: 10.1021/cm0110627.]
+Research article: E. Manias, A. Touny, L. Wu, K. Strawhecker, B. Lu, and T. C. Chung, “Polypropylene/montmorillonite nanocomposites. Revie. Contains 6 experiments. Associated polymer matrices have average elastic modulus 0.60 GPa, strength 25.00 MPa, strain to failure 0.80. With clay reinforcement, average modulus improvement 52.8%, strength improvement 10.0%, strain-to-failure change -20.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 0.96, arcsinh strength improvement 1.84, arcsinh strain change -3.57. Typical MMT loading 3.3 wt%.
+
+[article:A. A. Azeez, K. Y. Rhee, S. J. Park, and D. Hui, “Epoxy clay nanocomposites - Processing, properties and applications: A review,” Composites Part B: Engineering, vol. 45, no. 1, pp. 308–320, 2013, doi: 10.1016/j.compositesb.2012.04.012.]
+Research article: A. A. Azeez, K. Y. Rhee, S. J. Park, and D. Hui, “Epoxy clay nanocomposites - Processing, properties and applications: A. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.80 GPa, strength 68.33 MPa, strain to failure 8.50. With clay reinforcement, average modulus improvement 26.8%, strength improvement 1.7%, strain-to-failure change -54.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.92, arcsinh strength improvement 0.79, arcsinh strain change -4.56. Typical MMT loading 4.5 wt%.
+
+[article:A. Nordin, R. Baosheng, J. Noda, and K. Goda, “Effect of Nanoclay Loading on Mechanical Properties of Nanocomposites.”]
+Research article: A. Nordin, R. Baosheng, J. Noda, and K. Goda, “Effect of Nanoclay Loading on Mechanical Properties of Nanocomposites.”. Contains 3 experiments. Associated polymer matrices have average elastic modulus 1.85 GPa, strength 40.40 MPa, strain to failure 2.85. With clay reinforcement, average modulus improvement 5.0%, strength improvement -13.1%, strain-to-failure change -17.7%. In outlier-robust arcsinh space: arcsinh modulus improvement -0.60, arcsinh strength improvement -2.64, arcsinh strain change -3.41. Typical MMT loading 2.0 wt%.
+
+[article:E. Esmizadeh, G. Naderi, S. Arezoomand, and S. Mazinani, “Fabrication and characterization properties of polypropylene/polycarbonate/clay nanocomposites prepared with twin-screw extruder,” Science and Engineering of Composite Materials, vol. 25, no. 1, pp. 31–39, Jan. 2018, doi: 10.1515/secm-2015-0406.]
+Research article: E. Esmizadeh, G. Naderi, S. Arezoomand, and S. Mazinani, “Fabrication and characterization properties of polypropylene/p. Contains 7 experiments. Associated polymer matrices have average elastic modulus 1.49 GPa, strain to failure 0.83. With clay reinforcement, average modulus improvement 38.3%, strain-to-failure change -58.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.32, arcsinh strain change -4.74. Typical MMT loading 5.7 wt%.
+
+[article:M. R. Nakhaei, A. Mostafapour, and G. Naderi, “Optimization of mechanical properties of PP/EPDM/ clay nanocomposite fabricated by friction stir processing with response surface methodology and neural networks,” Polymer Composites, vol. 38, pp. E421–E432, Sep. 2017, doi: 10.1002/pc.23942.]
+Research article: M. R. Nakhaei, A. Mostafapour, and G. Naderi, “Optimization of mechanical properties of PP/EPDM/ clay nanocomposite fabr. Contains 8 experiments. Associated polymer matrices have average elastic modulus 0.57 GPa. With clay reinforcement, average modulus improvement 6.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.32. Typical MMT loading 5.0 wt%.
+
+[article:J. Huang, M. Uhrig, U. Weber, and S. Schmauder, “Numerical Simulation of Mechanical Properties of Nano Particle Modified Polyamide 6 via RVE Modeling,” Journal of Materials Science and Chemical Engineering, vol. 03, no. 01, pp. 95–102, 2015, doi: 10.4236/msce.2015.31014.]
+Research article: J. Huang, M. Uhrig, U. Weber, and S. Schmauder, “Numerical Simulation of Mechanical Properties of Nano Particle Modified. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.44 GPa, strength 77.80 MPa, strain to failure 6.00. With clay reinforcement, average modulus improvement 68.2%, strength improvement 30.9%, strain-to-failure change -15.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.87, arcsinh strength improvement 4.10, arcsinh strain change -3.27. Typical MMT loading 2.0 wt%.
+
+[article:J.-I. Weon, “Mechanical and Thermal Behavior of Polyamide-6/Clay Nanocomposite Using Continuum-based Micromechanical Modeling,” 2009.]
+Research article: J.-I. Weon, “Mechanical and Thermal Behavior of Polyamide-6/Clay Nanocomposite Using Continuum-based Micromechanical Mod. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.10 GPa. With clay reinforcement, average modulus improvement 18.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.65. Typical MMT loading 2.0 wt%.
+
+[article:E. Amendola, “Epoxy Nanocomposites Based on Silylated Montmorillonite: Effect of the Coupling Agents Structure on the Mechanical Properties,” The Open Macromolecules Journal, vol. 6, no. 1, pp. 33–36, May 2012, doi: 10.2174/1874343901206010033.]
+Research article: E. Amendola, “Epoxy Nanocomposites Based on Silylated Montmorillonite: Effect of the Coupling Agents Structure on the Me. Contains 9 experiments. Associated polymer matrices have average elastic modulus 3.07 GPa, strength 0.14 MPa. With clay reinforcement, average modulus improvement -3.2%, strength improvement 32.2%. In outlier-robust arcsinh space: arcsinh modulus improvement -0.80, arcsinh strength improvement 4.00. Typical MMT loading 2.3 wt%.
+
+[article:S. Bayar, F. Delale, and B. M. Liaw, “EFFECT OF TEMPERATURE ON MECHANICAL PROPERTIES OF NANOCLAY REINFORCED POLYMERIC NANOCOMPOSITES-PART I: EXPERIMENTAL RESULTS* by.”]
+Research article: S. Bayar, F. Delale, and B. M. Liaw, “EFFECT OF TEMPERATURE ON MECHANICAL PROPERTIES OF NANOCLAY REINFORCED POLYMERIC NA. Contains 9 experiments. Associated polymer matrices have average elastic modulus 1.92 GPa, strength 40.21 MPa, strain to failure 0.58. With clay reinforcement, average modulus improvement 21.2%, strength improvement 0.1%, strain-to-failure change -15.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.44, arcsinh strength improvement 0.60, arcsinh strain change -1.12. Typical MMT loading 4.5 wt%.
+
+[article:M. Moghri, H. Shamaee, H. Shahrajabian, and A. Ghannadzadeh, “The effect of different parameters on mechanical properties of PA-6/clay nanocomposite through genetic algorithm and response surface methods,” International Nano Letters, vol. 5, no. 3, pp. 133–140, Sep. 2015, doi: 10.1007/s40089-015-0146-7.]
+Research article: M. Moghri, H. Shamaee, H. Shahrajabian, and A. Ghannadzadeh, “The effect of different parameters on mechanical propertie. Contains 27 experiments. Associated polymer matrices have average elastic modulus 3.00 GPa, strength 82.00 MPa. With clay reinforcement, average modulus improvement 16.6%, strength improvement 7.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.30, arcsinh strength improvement 2.62. Typical MMT loading 4.0 wt%.
+
+[article:X. Liu, Q. Wu, L. A. Berglund, J. Fan, and Z. Qi, “Polyamide 6-clay nanocomposites/polypropylene-grafted-maleic anhydride alloys.” [Online]. Available: www.elsevier.nl/locate/polymer]
+Research article: X. Liu, Q. Wu, L. A. Berglund, J. Fan, and Z. Qi, “Polyamide 6-clay nanocomposites/polypropylene-grafted-maleic anhydrid. Contains 3 experiments. Associated polymer matrices have average elastic modulus 2.87 GPa, strength 52.32 MPa. With clay reinforcement, average modulus improvement -21.6%, strength improvement 53.5%. In outlier-robust arcsinh space: arcsinh modulus improvement -3.75, arcsinh strength improvement 4.66. Typical MMT loading 20.0 wt%.
+
+[article:M. Quaresimin, M. Salviato, and M. Zappalorto, “Fracture and interlaminar properties of clay-modified epoxies and their glass reinforced laminates,” Engineering Fracture Mechanics, vol. 81, pp. 80–93, Feb. 2012, doi: 10.1016/j.engfracmech.2011.10.004.]
+Research article: M. Quaresimin, M. Salviato, and M. Zappalorto, “Fracture and interlaminar properties of clay-modified epoxies and their . Contains 6 experiments. Associated polymer matrices have average elastic modulus 3.35 GPa, strength 72.00 MPa, strain to failure 7.00. With clay reinforcement, average modulus improvement 1.7%, strength improvement -13.9%, strain-to-failure change -66.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.11, arcsinh strength improvement -3.10, arcsinh strain change -4.89. Typical MMT loading 3.0 wt%.
+
+[article:H. U. Zaman, P. D. Hun, R. A. Khan, and K. B. Yoon, “Polypropylene/clay nanocomposites: Effect of compatibilizers on the morphology, mechanical properties and crystallization behaviors,” Journal of Thermoplastic Composite Materials, vol. 27, no. 3, pp. 338–349, Mar. 2014, doi: 10.1177/0892705712446017.]
+Research article: H. U. Zaman, P. D. Hun, R. A. Khan, and K. B. Yoon, “Polypropylene/clay nanocomposites: Effect of compatibilizers on the. Contains 9 experiments. Associated polymer matrices have average elastic modulus 1.03 GPa, strength 28.20 MPa, strain to failure 1.09. With clay reinforcement, average modulus improvement 22.9%, strength improvement 20.8%, strain-to-failure change -28.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.61, arcsinh strength improvement 3.64, arcsinh strain change -3.98. Typical MMT loading 5.0 wt%.
+
+[article:M. A. Pérez, B. L. Rivas, M. Rodríguez, Á. Maldonado, and C. Venegas, “PolyProPylene/clay nanocomPosites. synthesis and characterization,” 2010.]
+Research article: M. A. Pérez, B. L. Rivas, M. Rodríguez, Á. Maldonado, and C. Venegas, “PolyProPylene/clay nanocomPosites. synthesis and . Contains 8 experiments. Associated polymer matrices have average elastic modulus 3.74 GPa. With clay reinforcement, average modulus improvement 12.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.01. Typical MMT loading 5.0 wt%.
+
+[article:I. M. Daniel, H. Miyagawa, E. E. Gdoutos, and J. J. Luo, “Processing and Characterization of Epoxy/Clay Nanocomposites.”]
+Research article: I. M. Daniel, H. Miyagawa, E. E. Gdoutos, and J. J. Luo, “Processing and Characterization of Epoxy/Clay Nanocomposites.”. Contains 4 experiments. Associated polymer matrices have average elastic modulus 2.38 GPa, strength 36.00 MPa. With clay reinforcement, average modulus improvement 39.0%, strength improvement -24.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.12, arcsinh strength improvement -2.09. Typical MMT loading 5.6 wt%.
+
+[article:J. Stojšić, P. Raos, A. Milinović, and D. Damjanović, “A Study of the Flexural Properties of PA12/Clay Nanocomposites,” Polymers, vol. 14, no. 3, Feb. 2022, doi: 10.3390/polym14030434.]
+Research article: J. Stojšić, P. Raos, A. Milinović, and D. Damjanović, “A Study of the Flexural Properties of PA12/Clay Nanocomposites,” . Contains 19 experiments. Associated polymer matrices have average elastic modulus 1.40 GPa, strength 60.70 MPa. With clay reinforcement, average modulus improvement 52.3%, strength improvement 11.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.04, arcsinh strength improvement 3.08. Typical MMT loading 6.0 wt%.
+
+[article:E. Naveau et al., “Effect of clay modification on the structure and mechanical properties of polyamide-6 nanocomposites,” European Polymer Journal, vol. 47, no. 1, pp. 5–15, Jan. 2011, doi: 10.1016/j.eurpolymj.2010.10.031.]
+Research article: E. Naveau et al., “Effect of clay modification on the structure and mechanical properties of polyamide-6 nanocomposites,. Contains 11 experiments. Associated polymer matrices have average elastic modulus 2.40 GPa, strength 55.00 MPa. With clay reinforcement, average modulus improvement 30.7%, strength improvement 14.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.00, arcsinh strength improvement 3.26. Typical MMT loading 4.2 wt%.
+
+[article:C. Jo and H. E. Naguib, “Processing, characterization, and modeling of polymer/clay nanocomposite foams,” Journal of Physics: Conference Series, vol. 61, no. 1, pp. 861–868, Apr. 2007, doi: 10.1088/1742-6596/61/1/172.]
+Research article: C. Jo and H. E. Naguib, “Processing, characterization, and modeling of polymer/clay nanocomposite foams,” Journal of Phy. Contains 6 experiments. Associated polymer matrices have average elastic modulus 1.87 GPa, strength 14.50 MPa, strain to failure 0.37. With clay reinforcement, average modulus improvement 12.5%, strength improvement 22.4%, strain-to-failure change -41.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.13, arcsinh strength improvement 2.98, arcsinh strain change -4.26. Typical MMT loading 1.2 wt%.
+
+[article:L. B. Manfredi, H. de Santis, and A. Vázquez, “Influence of the addition of montmorillonite to the matrix of unidirectional glass fibre/epoxy composites on their mechanical and water absorption properties,” Composites Part A: Applied Science and Manufacturing, vol. 39, no. 11, pp. 1726–1731, Nov. 2008, doi: 10.1016/j.compositesa.2008.07.016.]
+Research article: L. B. Manfredi, H. de Santis, and A. Vázquez, “Influence of the addition of montmorillonite to the matrix of unidirectio. Contains 2 experiments. Associated polymer matrices have average elastic modulus 10.50 GPa, strength 100.00 MPa. With clay reinforcement, average modulus improvement 14.3%, strength improvement 27.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.30, arcsinh strength improvement 3.99. Typical MMT loading 4.0 wt%.
+
+[article:M. Dua and P. Mertiny, “COMPARISON OF THE ELASTIC MODULUS OF ELASTOMER CLAY NANOCOMPOSITES PREDICTED BY VARIOUS MECHANICAL MODELS,” 2021.]
+Research article: M. Dua and P. Mertiny, “COMPARISON OF THE ELASTIC MODULUS OF ELASTOMER CLAY NANOCOMPOSITES PREDICTED BY VARIOUS MECHANIC. Contains 8 experiments. Associated polymer matrices have average elastic modulus 0.00 GPa. With clay reinforcement, average modulus improvement 465.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 6.72. Typical MMT loading 25.0 wt%.
+
+[article:“Polyamide-6/Clay Nanocomposites: A Critical Review.”]
+Research article: “Polyamide-6/Clay Nanocomposites: A Critical Review.”. Contains 5 experiments. Associated polymer matrices have average elastic modulus 1.36 GPa, strength 69.00 MPa, strain to failure 2.14. With clay reinforcement, average modulus improvement 257.5%, strength improvement 20.3%, strain-to-failure change -56.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 6.13, arcsinh strength improvement 2.53, arcsinh strain change -3.15. Typical MMT loading 3.4 wt%.
+
+[article:S. Sinha Ray and M. Okamoto, “Polymer/layered silicate nanocomposites: A review from preparation to processing,” Progress in Polymer Science (Oxford), vol. 28, no. 11. pp. 1539–1641, Nov. 2003. doi: 10.1016/j.progpolymsci.2003.08.002.]
+Research article: S. Sinha Ray and M. Okamoto, “Polymer/layered silicate nanocomposites: A review from preparation to processing,” Progres. Contains 9 experiments. Associated polymer matrices have average elastic modulus 2.52 GPa, strength 66.60 MPa, strain to failure 1.00. With clay reinforcement, average modulus improvement 85.1%, strength improvement 32.3%, strain-to-failure change -66.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.83, arcsinh strength improvement 4.08, arcsinh strain change -3.73. Typical MMT loading 4.8 wt%.
+
+[article:“Effect of Nanoclay on Quasi Static Perforation of Thin Polymer Composites Laminates.”]
+Research article: “Effect of Nanoclay on Quasi Static Perforation of Thin Polymer Composites Laminates.”. Contains 2 experiments. Associated polymer matrices have average elastic modulus 9.57 GPa, strength 191.90 MPa, strain to failure 3.34. With clay reinforcement, average modulus improvement 15.7%, strength improvement 16.8%, strain-to-failure change -14.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.43, arcsinh strength improvement 3.50, arcsinh strain change -3.34. Typical MMT loading 2.2 wt%.
+
+[article:M. Chinnapandi, A. P. Sharma, B. Ashok Kumar Reddy, and R. Velmurugan, “Mechanical and thermal properties of glass fiber reinforced polymer-clay nanocomposites,” in Journal of Physics: Conference Series, Institute of Physics, 2024. doi: 10.1088/1742-6596/2817/1/012020.]
+Research article: M. Chinnapandi, A. P. Sharma, B. Ashok Kumar Reddy, and R. Velmurugan, “Mechanical and thermal properties of glass fiber. Contains 4 experiments. Associated polymer matrices have average elastic modulus 3.45 GPa, strength 53.00 MPa, strain to failure 0.02. With clay reinforcement, average modulus improvement 54.1%, strength improvement 84.0%, strain-to-failure change 16.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.63, arcsinh strength improvement 4.58, arcsinh strain change -0.33. Typical MMT loading 2.5 wt%.
+
+[article:A. P. Sharma, M. Purusothaman, T. P. Mohan, K. Kanny, and R. Velmurugan, “Mechanical behavior of GFRP-Polymer sandwich composites with montmorillonite nanoclay,” in Journal of Physics: Conference Series, Institute of Physics, 2024. doi: 10.1088/1742-6596/2817/1/012017.]
+Research article: A. P. Sharma, M. Purusothaman, T. P. Mohan, K. Kanny, and R. Velmurugan, “Mechanical behavior of GFRP-Polymer sandwich c. Contains 2 experiments. Associated polymer matrices have average elastic modulus 3.45 GPa, strength 53.00 MPa, strain to failure 0.02. With clay reinforcement, average modulus improvement 59.1%, strength improvement 109.4%, strain-to-failure change 29.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.76, arcsinh strength improvement 5.19, arcsinh strain change 2.09. Typical MMT loading 3.0 wt%.
+
+[article:M. Akbarzadeh et al., “Machine learning-driven optimization and prediction of poly(lactic acid)/poly(butylene-adipate-co-terephthalate)/clay blend nanocomposites in structure–property relationships: A combination of experimental and computational techniques,” Polymer Engineering and Science, Mar. 2024, doi: 10.1002/pen.27054.]
+Research article: M. Akbarzadeh et al., “Machine learning-driven optimization and prediction of poly(lactic acid)/poly(butylene-adipate-co. Contains 7 experiments. Associated polymer matrices have average elastic modulus 0.49 GPa, strength 30.02 MPa, strain to failure 0.26. With clay reinforcement, average modulus improvement 39.9%, strength improvement -17.7%, strain-to-failure change -55.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.33, arcsinh strength improvement -1.89, arcsinh strain change -3.73. Typical MMT loading 3.0 wt%.
+
+[article:L. Shen, W. C. Tjiu, and T. Liu, “Nanoindentation and morphological studies on injection-molded nylon-6 nanocomposites,” Polymer, vol. 46, no. 25, pp. 11969–11977, Nov. 2005, doi: 10.1016/j.polymer.2005.10.006.
+  ]
+Research article: L. Shen, W. C. Tjiu, and T. Liu, “Nanoindentation and morphological studies on injection-molded nylon-6 nanocomposites,”. Contains 6 experiments. Associated polymer matrices have average elastic modulus 1.21 GPa, strength 54.00 MPa. With clay reinforcement, average modulus improvement 87.1%, strength improvement 126.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.12, arcsinh strength improvement 5.50. Typical MMT loading 6.7 wt%.
+
+[article:J. W. Cho and D. R. Paul, “Nylon 6 nanocomposites by melt compounding.” [Online]. Available: www.elsevier.nl/locate/polymer
+  ]
+Research article: J. W. Cho and D. R. Paul, “Nylon 6 nanocomposites by melt compounding.” [Online]. Available: www.elsevier.nl/locate/poly. Contains 5 experiments. Associated polymer matrices have average elastic modulus 2.35 GPa, strength 65.08 MPa, strain to failure 0.52. With clay reinforcement, average modulus improvement 34.4%, strength improvement 23.5%, strain-to-failure change -59.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.09, arcsinh strength improvement 3.75, arcsinh strain change -4.44. Typical MMT loading 4.4 wt%.
+
+[article:A. Ranade, N. A. D’Souza, B. Gnade, and A. Dharia, “Nylon-6 and Montmorillonite-Layered Silicate (MLS) nanocomposites,” Journal of Plastic Film and Sheeting, vol. 19, no. 4, pp. 271–285, Oct. 2003, doi: 10.1177/8756087903042810.
+  ]
+Research article: A. Ranade, N. A. D’Souza, B. Gnade, and A. Dharia, “Nylon-6 and Montmorillonite-Layered Silicate (MLS) nanocomposites,” . Contains 4 experiments. Associated polymer matrices have average elastic modulus 1.20 GPa, strength 28.00 MPa. With clay reinforcement, average modulus improvement -8.3%, strength improvement 19.6%. In outlier-robust arcsinh space: arcsinh modulus improvement -1.15, arcsinh strength improvement 3.59. Typical MMT loading 2.8 wt%.
+
+[article:T. V. González, C. G. Salazar, J. R. de La Rosa, and V. González, “Nylon 6/organoclay nanocomposites by extrusion,” Journal of Applied Polymer Science, vol. 108, no. 5, pp. 2923–2933, Jun. 2008, doi: 10.1002/app.27307.
+  ]
+Research article: T. V. González, C. G. Salazar, J. R. de La Rosa, and V. González, “Nylon 6/organoclay nanocomposites by extrusion,” Jour. Contains 6 experiments. Associated polymer matrices have average elastic modulus 1.99 GPa, strength 60.88 MPa, strain to failure 0.23. With clay reinforcement, average modulus improvement 27.5%, strength improvement -37.4%, strain-to-failure change -85.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.24, arcsinh strength improvement -2.23, arcsinh strain change -5.14. Typical MMT loading 3.0 wt%.
+
+[article:T. D. Fornes, P. J. Yoon, H. Keskkula, and D. R. Paul, “Nylon 6 nanocomposites: the effect of matrix molecular weight.” [Online]. Available: www.elsevier.com/locate/polymer
+  ]
+Research article: T. D. Fornes, P. J. Yoon, H. Keskkula, and D. R. Paul, “Nylon 6 nanocomposites: the effect of matrix molecular weight.” . Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.76 GPa, strength 69.70 MPa, strain to failure 0.04. With clay reinforcement, average modulus improvement 66.0%, strength improvement 25.7%, strain-to-failure change -27.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.75, arcsinh strength improvement 3.88, arcsinh strain change -3.85. Typical MMT loading 5.0 wt%.
+
+[article:S. Xie, S. Zhang, B. Zhao, H. Qin, F. Wang, and M. Yang, “Tensile fracture morphologies of nylon-6/montmorillonite nanocomposites,” Polymer International, vol. 54, no. 12, pp. 1673–1680, Nov. 2005, doi: 10.1002/pi.1901.
+  ]
+Research article: S. Xie, S. Zhang, B. Zhao, H. Qin, F. Wang, and M. Yang, “Tensile fracture morphologies of nylon-6/montmorillonite nanoc. Contains 5 experiments. Associated polymer matrices have average elastic modulus 2.90 GPa, strength 88.90 MPa, strain to failure 1.54. With clay reinforcement, average modulus improvement 35.9%, strength improvement 8.8%, strain-to-failure change -57.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.03, arcsinh strength improvement 2.80, arcsinh strain change -4.53. Typical MMT loading 5.0 wt%.
+
+[article:M. Al-Qadhi and N. Merah, “Mechanical and physical properties of polymer-based nanocomposites containing different types of clay,” Polymer Composites, vol. 36, no. 11, pp. 1998–2007, Nov. 2015, doi: 10.1002/pc.23109.
+  ]
+Research article: M. Al-Qadhi and N. Merah, “Mechanical and physical properties of polymer-based nanocomposites containing different types. Contains 5 experiments. Associated polymer matrices have average elastic modulus 2.54 GPa, strength 85.00 MPa, strain to failure 0.06. With clay reinforcement, average modulus improvement 25.6%, strength improvement -15.5%, strain-to-failure change -46.2%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.67, arcsinh strength improvement -2.40, arcsinh strain change -4.36. Typical MMT loading 4.3 wt%.
+
+[article:X. Jia et al., “Highly moisture-resistant epoxy composites: An approach based on liquid nano-reinforcement containing well-dispersed activated montmorillonite,” RSC Advances, vol. 5, no. 56, pp. 44853–44864, 2015, doi: 10.1039/c5ra06397c.
+
+
+]
+Research article: X. Jia et al., “Highly moisture-resistant epoxy composites: An approach based on liquid nano-reinforcement containing we. Contains 5 experiments. Associated polymer matrices have average elastic modulus 2.30 GPa, strength 30.00 MPa, strain to failure 0.01. With clay reinforcement, average modulus improvement 24.3%, strength improvement 50.7%, strain-to-failure change 93.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.77, arcsinh strength improvement 4.56, arcsinh strain change 5.19. Typical MMT loading 3.0 wt%.
+
+[article:Wang K, Wang L, Wu J, Chen L, He C. Preparation of highly exfoliated epoxy/clay nanocomposites by slurry compounding: process and mechanisms. Langmuir 2005;21:3613–8.]
+Research article: Wang K, Wang L, Wu J, Chen L, He C. Preparation of highly exfoliated epoxy/clay nanocomposites by slurry compounding: pr. Contains 7 experiments. Associated polymer matrices have average elastic modulus 1.60 GPa. With clay reinforcement, average modulus improvement 33.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.11. Typical MMT loading 2.9 wt%.
+
+[article:Kornmann X, Berglund LA, Sterte J. Nanocomposites based on Montmorillonite and unsaturated polyester. Polym Eng Sci 1998;38:1351–8.]
+Research article: Kornmann X, Berglund LA, Sterte J. Nanocomposites based on Montmorillonite and unsaturated polyester. Polym Eng Sci 1998. Contains 4 experiments. Associated polymer matrices have average elastic modulus 2.87 GPa, strength 59.00 MPa. With clay reinforcement, average modulus improvement 21.5%, strength improvement -8.9%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.71, arcsinh strength improvement -1.84. Typical MMT loading 6.2 wt%.
+
+[article:P. I. Xidas and K. S. Triantafyllidis, “Effect of the type of alkylammonium ion clay modifier on the structure and thermal/mechanical properties of glassy and rubbery epoxy-clay nanocomposites,” European Polymer Journal, vol. 46, no. 3, pp. 404–417, Mar. 2010, doi: 10.1016/j.eurpolymj.2009.11.004.
+  ]
+Research article: P. I. Xidas and K. S. Triantafyllidis, “Effect of the type of alkylammonium ion clay modifier on the structure and therm. Contains 17 experiments. Associated polymer matrices have average elastic modulus 1.78 GPa, strength 36.88 MPa, strain to failure 0.10. With clay reinforcement, average modulus improvement 33.4%, strength improvement 125.2%, strain-to-failure change 67.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 1.17, arcsinh strength improvement 1.52, arcsinh strain change 0.20. Typical MMT loading 4.1 wt%.
+
+[article:Luo JJ, Daniel IM. Characterization and modeling of mechanical behavior of polymer/clay nanocomposites. Compos Sci Technol 2003;63 :1607–16.]
+Research article: Luo JJ, Daniel IM. Characterization and modeling of mechanical behavior of polymer/clay nanocomposites. Compos Sci Techn. Contains 2 experiments. Associated polymer matrices have average elastic modulus 2.58 GPa, strength 15.00 MPa, strain to failure 0.02. With clay reinforcement, average modulus improvement 32.8%, strength improvement 55.0%, strain-to-failure change 50.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.09, arcsinh strength improvement 4.70, arcsinh strain change 4.55. Typical MMT loading 5.0 wt%.
+
+[article:Wang, K.; Ahzi, S.; Boumbimba, R.M.; Bahlouli, N.; Addiego, F.; Remond, Y. Micromechanical modeling of the elastic behavior of polypropylene based organoclay nanocomposites under a wide range of temperatures and strain rates/frequencies. Mech. Mater. 2013, 64, 56–68.]
+Research article: Wang, K.; Ahzi, S.; Boumbimba, R.M.; Bahlouli, N.; Addiego, F.; Remond, Y. Micromechanical modeling of the elastic behav. Contains 8 experiments. Associated polymer matrices have average elastic modulus 2.28 GPa. With clay reinforcement, average modulus improvement 20.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.67. Typical MMT loading 2.6 wt%.
+
+[article:Wetzel B, Rosso P, Haupert F, Friedrich K. Epoxy nanocomposites – fracture]
+Research article: Wetzel B, Rosso P, Haupert F, Friedrich K. Epoxy nanocomposites – fracture. Contains 6 experiments. Associated polymer matrices have average elastic modulus 2.60 GPa, strength 126.00 MPa, strain to failure 0.07. With clay reinforcement, average modulus improvement 15.1%, strength improvement 7.3%, strain-to-failure change -6.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.97, arcsinh strength improvement 2.45, arcsinh strain change -1.89. Typical MMT loading 3.7 wt%.
+
+[article:and toughening mechanisms. Eng Fract Mech 2006;73:2375–98.]
+Research article: and toughening mechanisms. Eng Fract Mech 2006;73:2375–98.. Contains 12 experiments. Associated polymer matrices have average elastic modulus 2.70 GPa, strength 88.47 MPa, strain to failure 2.05. With clay reinforcement, average modulus improvement 45.0%, strength improvement 21.7%, strain-to-failure change -46.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.20, arcsinh strength improvement 3.55, arcsinh strain change -3.58. Typical MMT loading 4.2 wt%.
+
+[article:T. Fornes, D. Hunter, and D. Paul, Effect of sodium montmor- illonite source on nylon 6/clay nanocomposites, Polymer, vol. 45, no. 7, pp. 2321–2331, 2004. DOI: 10.1016/j.polymer.2004.01. 061.]
+Research article: T. Fornes, D. Hunter, and D. Paul, Effect of sodium montmor- illonite source on nylon 6/clay nanocomposites, Polymer, vo. Contains 4 experiments. Associated polymer matrices have average elastic modulus 2.75 GPa, strength 69.70 MPa, strain to failure 3.04. With clay reinforcement, average modulus improvement 60.9%, strength improvement 27.0%, strain-to-failure change -71.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.67, arcsinh strength improvement 3.93, arcsinh strain change -4.89. Typical MMT loading 4.2 wt%.
+
+[article:T. D. Fornes, D. L. Hunter, D. R. Paul, Macromolecules 2004, 37, 1793 – 1798.]
+Research article: T. D. Fornes, D. L. Hunter, D. R. Paul, Macromolecules 2004, 37, 1793 – 1798.. Contains 3 experiments. Associated polymer matrices have average elastic modulus 2.75 GPa, strength 69.70 MPa, strain to failure 3.04. With clay reinforcement, average modulus improvement 38.4%, strength improvement 16.3%, strain-to-failure change -57.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.30, arcsinh strength improvement 3.45, arcsinh strain change -4.71. Typical MMT loading 3.1 wt%.
+
+[test_method:Instrumented-indentation]
+Instrumented-indentation mechanical test method, applied in 3 experiments. Associated polymer matrices have average elastic modulus 3.90 GPa, strength 69.60 MPa. With clay reinforcement, average modulus improvement 204.3%, strength improvement 272.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 5.71, arcsinh strength improvement 6.21. Typical MMT loading 2.2 wt%.
+
+[test_method:Tensile Test]
+Tensile Test mechanical test method, applied in 714 experiments. Associated polymer matrices have average elastic modulus 3.55 GPa, strength 82.49 MPa, strain to failure 26.64. With clay reinforcement, average modulus improvement 63.2%, strength improvement 42.8%, strain-to-failure change -23.6%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.38, arcsinh strength improvement 1.60, arcsinh strain change -2.54. Typical MMT loading 5.2 wt%.
+
+[test_method:Flexural Test]
+Flexural Test mechanical test method, applied in 66 experiments. Associated polymer matrices have average elastic modulus 3.36 GPa, strength 115.73 MPa, strain to failure 1.72. With clay reinforcement, average modulus improvement 26.9%, strength improvement 8.4%, strain-to-failure change -5.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.75, arcsinh strength improvement 1.76, arcsinh strain change -1.97. Typical MMT loading 4.3 wt%.
+
+[test_method:Flexural Test (Three Point Bending)]
+Flexural Test (Three Point Bending) mechanical test method, applied in 69 experiments. Associated polymer matrices have average elastic modulus 9.83 GPa, strength 121.83 MPa, strain to failure 4.05. With clay reinforcement, average modulus improvement 51.6%, strength improvement 4.3%, strain-to-failure change -20.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.68, arcsinh strength improvement 1.21, arcsinh strain change -3.41. Typical MMT loading 7.7 wt%.
+
+[test_method:Nanoindentation]
+Nanoindentation mechanical test method, applied in 10 experiments. Associated polymer matrices have average elastic modulus 2.68 GPa, strength 30.92 MPa. With clay reinforcement, average modulus improvement 46.3%, strength improvement 86.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.85, arcsinh strength improvement 4.85. Typical MMT loading 4.9 wt%.
+
+[test_method:Tensile/SENB]
+Tensile/SENB mechanical test method, applied in 3 experiments. Associated polymer matrices have average elastic modulus 2.63 GPa, strength 66.55 MPa, strain to failure 4.21. With clay reinforcement, average modulus improvement 6.1%, strength improvement -6.7%, strain-to-failure change -40.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.34, arcsinh strength improvement 0.17, arcsinh strain change -4.39. Typical MMT loading 1.8 wt%.
+
+[test_method:Tensile/DMA]
+Tensile/DMA mechanical test method, applied in 1 experiments. Associated polymer matrices have average elastic modulus 2.76 GPa, strength 64.10 MPa, strain to failure 3.24. With clay reinforcement, average modulus improvement 26.4%, strength improvement 16.5%, strain-to-failure change 2.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.97, arcsinh strength improvement 3.50, arcsinh strain change 1.64. Typical MMT loading 1.0 wt%.
+
+[test_method:TEM/SEM/CT]
+TEM/SEM/CT mechanical test method, applied in 1 experiments. Associated polymer matrices have average elastic modulus 3.28 GPa, strength 63.80 MPa. With clay reinforcement, average modulus improvement 7.0%, strength improvement -0.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.65, arcsinh strength improvement -0.45. Typical MMT loading 0.1 wt%.
+
+[test_method:SENB/DMA]
+SENB/DMA mechanical test method, applied in 1 experiments. Associated polymer matrices have average elastic modulus 2.60 GPa, strength 24.00 MPa. With clay reinforcement, average modulus improvement -3.8%, strength improvement 25.0%. In outlier-robust arcsinh space: arcsinh modulus improvement -2.06, arcsinh strength improvement 3.91. Typical MMT loading 0.5 wt%.
+
+[test_method:DMA/SEN]
+DMA/SEN mechanical test method, applied in 1 experiments. Associated polymer matrices have average elastic modulus 1.77 GPa, strength 46.00 MPa. With clay reinforcement, average modulus improvement 31.1%, strength improvement 14.1%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.13, arcsinh strength improvement 3.34. Typical MMT loading 3.0 wt%.
+
+[test_method:Compact Tension]
+Compact Tension mechanical test method, applied in 1 experiments. Associated polymer matrices have average elastic modulus 2.96 GPa, strength 87.00 MPa. With clay reinforcement, average modulus improvement 8.1%, strength improvement 51.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.79, arcsinh strength improvement 4.64. Typical MMT loading 4.0 wt%.
+
+[test_method:Dynamic Mechanical Analysis]
+Dynamic Mechanical Analysis mechanical test method, applied in 43 experiments. Associated polymer matrices have average elastic modulus 2.21 GPa, strength 35.70 MPa, strain to failure 0.05. With clay reinforcement, average modulus improvement 16.6%, strength improvement 33.8%, strain-to-failure change 0.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 2.39, arcsinh strength improvement 3.93, arcsinh strain change -0.60. Typical MMT loading 3.5 wt%.
+
+[test_method:Compression Test]
+Compression Test mechanical test method, applied in 15 experiments. Associated polymer matrices have average elastic modulus 3.63 GPa, strength 180.23 MPa, strain to failure 30.82. With clay reinforcement, average modulus improvement 13.7%, strength improvement 1.4%, strain-to-failure change 11.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.25, arcsinh strength improvement 0.97, arcsinh strain change 1.25. Typical MMT loading 3.0 wt%.
+
+[test_method:Impact Test]
+Impact Test mechanical test method, applied in 4 experiments. Associated polymer matrices have strength 52.50 MPa. With clay reinforcement, average strength improvement 17.1%. In outlier-robust arcsinh space: arcsinh strength improvement 2.10. Typical MMT loading 4.0 wt%.
+
+[test_method:Short Beam Shear Test]
+Short Beam Shear Test mechanical test method, applied in 3 experiments. Associated polymer matrices have average elastic modulus 3.00 GPa, strength 68.00 MPa. With clay reinforcement, average modulus improvement 2.2%, strength improvement -7.4%. In outlier-robust arcsinh space: arcsinh modulus improvement 0.87, arcsinh strength improvement -2.64. Typical MMT loading 3.3 wt%.
+
+[test_method:Finite Element Method]
+Finite Element Method mechanical test method, applied in 1 experiments. Associated polymer matrices have average elastic modulus 4.20 GPa. With clay reinforcement, average modulus improvement 20.0%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.69. Typical MMT loading 5.0 wt%.
+
+[test_method:FEM (COMSOL)]
+FEM (COMSOL) mechanical test method, applied in 2 experiments. Associated polymer matrices have average elastic modulus 1.19 GPa. With clay reinforcement, average modulus improvement 57.3%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.50. Typical MMT loading 6.5 wt%.
+
+[test_method:Split Hopkinson Pressure Bar]
+Split Hopkinson Pressure Bar mechanical test method, applied in 4 experiments. Associated polymer matrices have average elastic modulus 2.95 GPa. With clay reinforcement, average modulus improvement 20.5%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.68. Typical MMT loading 2.6 wt%.
+
+[data_source:Experimental]
+Experimental data source (897 entries). Associated polymer matrices have average elastic modulus 4.01 GPa, strength 90.26 MPa, strain to failure 24.99. With clay reinforcement, average modulus improvement 51.0%, strength improvement 36.2%, strain-to-failure change -21.8%. In outlier-robust arcsinh space: arcsinh modulus improvement 3.25, arcsinh strength improvement 1.60, arcsinh strain change -2.42. Typical MMT loading 5.2 wt%.
+
+[data_source:Simulated]
+Simulated data source (45 entries). Associated polymer matrices have average elastic modulus 2.27 GPa, strength 56.72 MPa, strain to failure 2.01. With clay reinforcement, average modulus improvement 163.2%, strength improvement 48.1%, strain-to-failure change -2.7%. In outlier-robust arcsinh space: arcsinh modulus improvement 4.57, arcsinh strength improvement 2.87, arcsinh strain change -1.68. Typical MMT loading 4.8 wt%.
+

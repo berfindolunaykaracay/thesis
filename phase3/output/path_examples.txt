@@ -1,0 +1,38 @@
+=== Buehler-style path examples ===
+Graph shortest path AND cosine similarity score per pair.
+
+
+--- PA6  →  Epoxy ---
+Graph shortest path (2 hops):
+   polymer       : PA6
+   modification  : Modified
+   polymer       : Epoxy
+Embedding cosine similarity: 0.650
+
+--- Modified  →  Unmodified ---
+Graph shortest path (2 hops):
+   modification  : Modified
+   polymer       : Epoxy
+   modification  : Unmodified
+Embedding cosine similarity: 0.987
+
+--- exfoliated  →  agglomerated ---
+Graph shortest path (2 hops):
+   dispersion    : exfoliated
+   polymer       : Epoxy
+   dispersion    : agglomerated
+Embedding cosine similarity: 0.945
+
+--- Elastomer  →  Thermoset ---
+Graph shortest path (2 hops):
+   category      : Elastomer
+   polymer       : Epoxy
+   category      : Thermoset
+Embedding cosine similarity: 0.818
+
+--- PA6  →  Elastomer ---
+Graph shortest path (2 hops):
+   polymer       : PA6
+   modification  : Unmodified
+   category      : Elastomer
+Embedding cosine similarity: 0.600

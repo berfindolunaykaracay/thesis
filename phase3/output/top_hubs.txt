@@ -1,0 +1,178 @@
+=== Top 10 hubs by centrality, per node type ===
+
+--- polymer ---
+  by weighted_degree:
+    1698.0000  Epoxy
+    1158.0000  PA6
+    540.0000  DGEBA
+    426.0000  PP
+    228.0000  PA12
+    132.0000  PMMA
+    114.0000  UP
+    108.0000  PCL
+    102.0000  PLA
+    78.0000  PS
+  by betweenness:
+    0.0181  Epoxy
+    0.0061  PA6
+    0.0023  DGEBA
+    0.0011  PP
+    0.0003  PA
+    0.0002  UP
+    0.0002  PMMA
+    0.0001  PLA
+    0.0001  PCL
+    0.0001  PS
+  by eigenvector:
+    0.1865  Epoxy
+    0.1439  PA6
+    0.0621  DGEBA
+    0.0541  PP
+    0.0268  PA12
+    0.0163  PMMA
+    0.0139  PCL
+    0.0136  PLA
+    0.0127  UP
+    0.0093  PS
+
+--- modification ---
+  by weighted_degree:
+    4938.0000  Modified
+    714.0000  Unmodified
+  by betweenness:
+    0.2265  Modified
+    0.0149  Unmodified
+  by eigenvector:
+    0.4714  Modified
+    0.0652  Unmodified
+
+--- dispersion ---
+  by weighted_degree:
+    1998.0000  intercalated
+    1698.0000  exfoliated
+    948.0000  intercalated/exfoliated
+    438.0000  microcomposite
+    246.0000  agglomerated
+    84.0000  disordered intercalated/exfoliated
+    72.0000  intercalated/microcomposite
+    66.0000  intercalated/agglomerated
+    42.0000  intercalated/partially exfoliated
+    36.0000  Mixed
+  by betweenness:
+    0.0667  intercalated
+    0.0560  exfoliated
+    0.0188  intercalated/exfoliated
+    0.0033  microcomposite
+    0.0007  agglomerated
+    0.0005  intercalated/agglomerated
+    0.0003  intercalated/microcomposite
+    0.0001  intercalated/partially exfoliated
+    0.0000  disordered intercalated/exfoliated
+    0.0000  Mixed
+  by eigenvector:
+    0.2284  intercalated
+    0.1954  exfoliated
+    0.1062  intercalated/exfoliated
+    0.0478  microcomposite
+    0.0256  agglomerated
+    0.0093  disordered intercalated/exfoliated
+    0.0084  intercalated/microcomposite
+    0.0072  intercalated/agglomerated
+    0.0039  intercalated/partially exfoliated
+    0.0036  Mixed
+
+--- category ---
+  by weighted_degree:
+    2964.0000  Thermoplastic
+    2550.0000  Thermoset
+    138.0000  Elastomer
+  by betweenness:
+    0.0759  Thermoplastic
+    0.0585  Thermoset
+    0.0007  Elastomer
+  by eigenvector:
+    0.3135  Thermoplastic
+    0.2632  Thermoset
+    0.0140  Elastomer
+
+--- article ---
+  by weighted_degree:
+    192.0000  S. S. Ray, “Recent trends and future outlooks in the field of clay-containing po
+    162.0000  M. Moghri, H. Shamaee, H. Shahrajabian, and A. Ghannadzadeh, “The effect of diff
+    114.0000  J. Stojšić, P. Raos, A. Milinović, and D. Damjanović, “A Study of the Flexural P
+    114.0000  J. Stojšic, P. Raos, and A. Kalendova, “A study of structure and tensile propert
+    108.0000  H. Alamri and I. M. Low, “Effect of water absorption on the mechanical propertie
+    102.0000  P. I. Xidas and K. S. Triantafyllidis, “Effect of the type of alkylammonium ion 
+    102.0000  J. Zhang, S. Deng, Y. Wang, and L. Ye, “Role of rigid nanoparticles and CTBN rub
+    102.0000  Efficiency of stress transfer between polymer matrix and nanoplatelets in clay /
+    96.0000  R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T. Ramakrishnan, “Structural, m
+    72.0000  and toughening mechanisms. Eng Fract Mech 2006;73:2375–98.
+  by betweenness:
+    0.0003  S. S. Ray, “Recent trends and future outlooks in the field of clay-containing po
+    0.0003  N. Domun, H. Hadavinia, T. Zhang, T. Sainsbury, G. H. Liaghat, and S. Vahid, “Im
+    0.0002  A. Okada and A. Usuki, “Twenty years of polymer-clay nanocomposites,” Macromolec
+    0.0002  M. A. Pérez, B. L. Rivas, M. Rodríguez, Á. Maldonado, and C. Venegas, “PolyProPy
+    0.0001  R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T. Ramakrishnan, “Structural, m
+    0.0000  Efficiency of stress transfer between polymer matrix and nanoplatelets in clay /
+    0.0000  A. M. Abdel-Gawad, A. R. Ramadan, A. Flores, and A. M. K. Esawi, “Fabrication of
+    0.0000  R. C. Voicu et al., “Prediction of Mechanical Properties of Nano-Clay-Based Biop
+    0.0000  R. Aradhya and N. M. Renukappa, “Mechanical and Tribological Properties of Epoxy
+    0.0000  S. Bayar, F. Delale, and B. M. Liaw, “EFFECT OF TEMPERATURE ON MECHANICAL PROPER
+  by eigenvector:
+    0.0260  S. S. Ray, “Recent trends and future outlooks in the field of clay-containing po
+    0.0236  M. Moghri, H. Shamaee, H. Shahrajabian, and A. Ghannadzadeh, “The effect of diff
+    0.0154  J. Stojšic, P. Raos, and A. Kalendova, “A study of structure and tensile propert
+    0.0132  P. I. Xidas and K. S. Triantafyllidis, “Effect of the type of alkylammonium ion 
+    0.0126  J. Zhang, S. Deng, Y. Wang, and L. Ye, “Role of rigid nanoparticles and CTBN rub
+    0.0120  Efficiency of stress transfer between polymer matrix and nanoplatelets in clay /
+    0.0117  H. Alamri and I. M. Low, “Effect of water absorption on the mechanical propertie
+    0.0116  J. Stojšić, P. Raos, A. Milinović, and D. Damjanović, “A Study of the Flexural P
+    0.0115  R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T. Ramakrishnan, “Structural, m
+    0.0096  A. Yasmin, J. J. Luo, J. L. Abot, and I. M. Daniel, “Mechanical and thermal beha
+
+--- test_method ---
+  by weighted_degree:
+    4284.0000  Tensile Test
+    414.0000  Flexural Test (Three Point Bending)
+    396.0000  Flexural Test
+    258.0000  Dynamic Mechanical Analysis
+    90.0000  Compression Test
+    60.0000  Nanoindentation
+    24.0000  Split Hopkinson Pressure Bar
+    24.0000  Impact Test
+    18.0000  Tensile/SENB
+    18.0000  Short Beam Shear Test
+  by betweenness:
+    0.1283  Tensile Test
+    0.0025  Dynamic Mechanical Analysis
+    0.0019  Flexural Test
+    0.0016  Flexural Test (Three Point Bending)
+    0.0002  Nanoindentation
+    0.0000  Compression Test
+    0.0000  Impact Test
+    0.0000  Tensile/SENB
+    0.0000  Tensile/DMA
+    0.0000  TEM/SEM/CT
+  by eigenvector:
+    0.4320  Tensile Test
+    0.0411  Flexural Test (Three Point Bending)
+    0.0395  Flexural Test
+    0.0276  Dynamic Mechanical Analysis
+    0.0103  Compression Test
+    0.0060  Nanoindentation
+    0.0026  Split Hopkinson Pressure Bar
+    0.0024  Impact Test
+    0.0021  Short Beam Shear Test
+    0.0014  Tensile/SENB
+
+--- data_source ---
+  by weighted_degree:
+    5382.0000  Experimental
+    270.0000  Simulated
+  by betweenness:
+    0.2631  Experimental
+    0.0030  Simulated
+  by eigenvector:
+    0.4897  Experimental
+    0.0280  Simulated
+

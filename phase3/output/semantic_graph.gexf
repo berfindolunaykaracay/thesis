@@ -1,0 +1,4078 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-16">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="21" title="cosine" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="node_type" type="string" />
+      <attribute id="1" title="mean_matrix_modulus" type="double" />
+      <attribute id="2" title="mean_matrix_modulus_arcsinh" type="double" />
+      <attribute id="3" title="n_matrix_modulus" type="long" />
+      <attribute id="4" title="mean_matrix_strength" type="double" />
+      <attribute id="5" title="mean_matrix_strength_arcsinh" type="double" />
+      <attribute id="6" title="n_matrix_strength" type="long" />
+      <attribute id="7" title="mean_matrix_strain" type="double" />
+      <attribute id="8" title="mean_matrix_strain_arcsinh" type="double" />
+      <attribute id="9" title="n_matrix_strain" type="long" />
+      <attribute id="10" title="mean_dE_modulus" type="double" />
+      <attribute id="11" title="mean_dE_modulus_arcsinh" type="double" />
+      <attribute id="12" title="n_dE_modulus" type="long" />
+      <attribute id="13" title="mean_dsigma_strength" type="double" />
+      <attribute id="14" title="mean_dsigma_strength_arcsinh" type="double" />
+      <attribute id="15" title="n_dsigma_strength" type="long" />
+      <attribute id="16" title="mean_de_strain" type="double" />
+      <attribute id="17" title="mean_de_strain_arcsinh" type="double" />
+      <attribute id="18" title="n_de_strain" type="long" />
+      <attribute id="19" title="mean_MMT_pct" type="double" />
+      <attribute id="20" title="n_rows" type="long" />
+    </attributes>
+    <nodes>
+      <node id="polymer:PVP" label="PVP">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.9" />
+          <attvalue for="2" value="2.070169239927711" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="69.6" />
+          <attvalue for="5" value="4.935963352440429" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="204.27350427350427" />
+          <attvalue for="11" value="5.714355601099666" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="272.65325670498095" />
+          <attvalue for="14" value="6.207673160197522" />
+          <attvalue for="15" value="3" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="2.1666666666666665" />
+          <attvalue for="20" value="3" />
+        </attvalues>
+      </node>
+      <node id="polymer:PP" label="PP">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="1.6038714285714284" />
+          <attvalue for="2" value="1.201025887443178" />
+          <attvalue for="3" value="70" />
+          <attvalue for="4" value="32.215576923076924" />
+          <attvalue for="5" value="4.150273059498039" />
+          <attvalue for="6" value="52" />
+          <attvalue for="7" value="6.595706521739133" />
+          <attvalue for="8" value="1.688100284444633" />
+          <attvalue for="9" value="46" />
+          <attvalue for="10" value="30.504557570402493" />
+          <attvalue for="11" value="3.574476458243214" />
+          <attvalue for="12" value="70" />
+          <attvalue for="13" value="11.283646809366267" />
+          <attvalue for="14" value="2.636285180342349" />
+          <attvalue for="15" value="52" />
+          <attvalue for="16" value="-15.747436885731366" />
+          <attvalue for="17" value="-1.4077011019617627" />
+          <attvalue for="18" value="46" />
+          <attvalue for="19" value="4.361971830985915" />
+          <attvalue for="20" value="71" />
+        </attvalues>
+      </node>
+      <node id="polymer:PMA" label="PMA">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="0.11" />
+          <attvalue for="2" value="0.1097793659205434" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="0.3" />
+          <attvalue for="5" value="0.2956730475634224" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="18.0" />
+          <attvalue for="8" value="3.584289651861328" />
+          <attvalue for="9" value="6" />
+          <attvalue for="10" value="2053.030303030303" />
+          <attvalue for="11" value="7.797373595822026" />
+          <attvalue for="12" value="6" />
+          <attvalue for="13" value="2661.111111111111" />
+          <attvalue for="14" value="8.353181226988482" />
+          <attvalue for="15" value="6" />
+          <attvalue for="16" value="-78.88888888888887" />
+          <attvalue for="17" value="-4.892483955835416" />
+          <attvalue for="18" value="6" />
+          <attvalue for="19" value="15.033333333333331" />
+          <attvalue for="20" value="6" />
+        </attvalues>
+      </node>
+      <node id="polymer:Epoxy" label="Epoxy">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="8.25982030075188" />
+          <attvalue for="2" value="1.793566454793347" />
+          <attvalue for="3" value="266" />
+          <attvalue for="4" value="147.95846153846156" />
+          <attvalue for="5" value="4.933085042771549" />
+          <attvalue for="6" value="247" />
+          <attvalue for="7" value="25.570958730158733" />
+          <attvalue for="8" value="1.9350895314650578" />
+          <attvalue for="9" value="126" />
+          <attvalue for="10" value="32.90151998179699" />
+          <attvalue for="11" value="2.878053900436494" />
+          <attvalue for="12" value="266" />
+          <attvalue for="13" value="19.426573462288303" />
+          <attvalue for="14" value="1.2527769171072773" />
+          <attvalue for="15" value="243" />
+          <attvalue for="16" value="-1.8591639998868037" />
+          <attvalue for="17" value="-1.4467282837523219" />
+          <attvalue for="18" value="120" />
+          <attvalue for="19" value="3.8286219081272086" />
+          <attvalue for="20" value="283" />
+        </attvalues>
+      </node>
+      <node id="polymer:Bis-GMA/TTEGDMA" label="Bis-GMA/TTEGDMA">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="1.8184464592320668" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="112.5" />
+          <attvalue for="5" value="5.416120154705589" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="4.5" />
+          <attvalue for="8" value="2.209347708615334" />
+          <attvalue for="9" value="5" />
+          <attvalue for="10" value="-0.3333333333333263" />
+          <attvalue for="11" value="-0.3274501502372518" />
+          <attvalue for="12" value="5" />
+          <attvalue for="13" value="-10.542222222222222" />
+          <attvalue for="14" value="-2.811866562591716" />
+          <attvalue for="15" value="5" />
+          <attvalue for="16" value="-15.555555555555557" />
+          <attvalue for="17" value="-3.343405138249442" />
+          <attvalue for="18" value="5" />
+          <attvalue for="19" value="6.0" />
+          <attvalue for="20" value="5" />
+        </attvalues>
+      </node>
+      <node id="polymer:PLA" label="PLA">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.7829411764705885" />
+          <attvalue for="2" value="1.6682681708427016" />
+          <attvalue for="3" value="17" />
+          <attvalue for="4" value="58.64705882352941" />
+          <attvalue for="5" value="4.731014900824293" />
+          <attvalue for="6" value="17" />
+          <attvalue for="7" value="92.87999999999998" />
+          <attvalue for="8" value="2.0282188678399815" />
+          <attvalue for="9" value="13" />
+          <attvalue for="10" value="19.231667025784674" />
+          <attvalue for="11" value="3.42861680309954" />
+          <attvalue for="12" value="17" />
+          <attvalue for="13" value="13.436255791018763" />
+          <attvalue for="14" value="2.50253761528628" />
+          <attvalue for="15" value="13" />
+          <attvalue for="16" value="-20.650542406311637" />
+          <attvalue for="17" value="-1.223684531245651" />
+          <attvalue for="18" value="13" />
+          <attvalue for="19" value="3.5588235294117645" />
+          <attvalue for="20" value="17" />
+        </attvalues>
+      </node>
+      <node id="polymer:Dimethacrylate Copolymer" label="Dimethacrylate Copolymer">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="0.54" />
+          <attvalue for="2" value="0.5166998237890377" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="19.5" />
+          <attvalue for="5" value="3.664218460886437" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="62.037037037037024" />
+          <attvalue for="11" value="4.500919055565363" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="26.92307692307693" />
+          <attvalue for="14" value="2.57427803580511" />
+          <attvalue for="15" value="4" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="0.8" />
+          <attvalue for="20" value="4" />
+        </attvalues>
+      </node>
+      <node id="polymer:PBT" label="PBT">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.1" />
+          <attvalue for="2" value="1.487482836641271" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="49.02380952380952" />
+          <attvalue for="11" value="4.4968345378412256" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="4.0" />
+          <attvalue for="20" value="4" />
+        </attvalues>
+      </node>
+      <node id="polymer:PMMA" label="PMMA">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.014090909090909" />
+          <attvalue for="2" value="1.4201453778069444" />
+          <attvalue for="3" value="22" />
+          <attvalue for="4" value="47.79" />
+          <attvalue for="5" value="4.390746952858989" />
+          <attvalue for="6" value="10" />
+          <attvalue for="7" value="2.3595000000000006" />
+          <attvalue for="8" value="1.3525261057676026" />
+          <attvalue for="9" value="10" />
+          <attvalue for="10" value="55.411176561072054" />
+          <attvalue for="11" value="4.217787835868804" />
+          <attvalue for="12" value="22" />
+          <attvalue for="13" value="38.07043558850788" />
+          <attvalue for="14" value="3.6952739870414897" />
+          <attvalue for="15" value="10" />
+          <attvalue for="16" value="53.98345153664303" />
+          <attvalue for="17" value="1.2447867243961996" />
+          <attvalue for="18" value="10" />
+          <attvalue for="19" value="10.386363636363637" />
+          <attvalue for="20" value="22" />
+        </attvalues>
+      </node>
+      <node id="polymer:PA6" label="PA6">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.2588341968911916" />
+          <attvalue for="2" value="1.4754603322235227" />
+          <attvalue for="3" value="193" />
+          <attvalue for="4" value="67.84182191780822" />
+          <attvalue for="5" value="4.884633135635078" />
+          <attvalue for="6" value="146" />
+          <attvalue for="7" value="14.589794520547944" />
+          <attvalue for="8" value="1.4098410039147764" />
+          <attvalue for="9" value="73" />
+          <attvalue for="10" value="67.39988400289495" />
+          <attvalue for="11" value="3.910099732701686" />
+          <attvalue for="12" value="192" />
+          <attvalue for="13" value="16.566321285851128" />
+          <attvalue for="14" value="2.745847990906739" />
+          <attvalue for="15" value="143" />
+          <attvalue for="16" value="-53.518367321045034" />
+          <attvalue for="17" value="-4.3015531207439" />
+          <attvalue for="18" value="72" />
+          <attvalue for="19" value="4.0861139896373055" />
+          <attvalue for="20" value="193" />
+        </attvalues>
+      </node>
+      <node id="polymer:NR" label="NR">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="5.5" />
+          <attvalue for="2" value="2.406059125298017" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="22.0" />
+          <attvalue for="5" value="3.784705763099433" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="4.41" />
+          <attvalue for="8" value="2.189635580351719" />
+          <attvalue for="9" value="3" />
+          <attvalue for="10" value="22.424242424242422" />
+          <attvalue for="11" value="3.2485768622741147" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="2.960594732333751e-15" />
+          <attvalue for="14" value="0.6051218461364214" />
+          <attvalue for="15" value="3" />
+          <attvalue for="16" value="-3.7037037037037117" />
+          <attvalue for="17" value="-1.546942321221443" />
+          <attvalue for="18" value="3" />
+          <attvalue for="19" value="2.0" />
+          <attvalue for="20" value="3" />
+        </attvalues>
+      </node>
+      <node id="polymer:PHBV" label="PHBV">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.5" />
+          <attvalue for="2" value="1.965720471649651" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="37.5" />
+          <attvalue for="5" value="4.317665843925401" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="3.0" />
+          <attvalue for="8" value="1.818446459232067" />
+          <attvalue for="9" value="3" />
+          <attvalue for="10" value="59.99999999999998" />
+          <attvalue for="11" value="4.66110236293931" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="-9.6" />
+          <attvalue for="14" value="-1.4724698148252287" />
+          <attvalue for="15" value="3" />
+          <attvalue for="16" value="-58.888888888888886" />
+          <attvalue for="17" value="-4.599124491872363" />
+          <attvalue for="18" value="3" />
+          <attvalue for="19" value="3.0" />
+          <attvalue for="20" value="3" />
+        </attvalues>
+      </node>
+      <node id="polymer:PCL" label="PCL">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="0.24733333333333332" />
+          <attvalue for="2" value="0.24377668320466622" />
+          <attvalue for="3" value="18" />
+          <attvalue for="4" value="231.70000000000005" />
+          <attvalue for="5" value="5.046093639461881" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="2.275" />
+          <attvalue for="8" value="1.3406967768452371" />
+          <attvalue for="9" value="6" />
+          <attvalue for="10" value="27.108448317598643" />
+          <attvalue for="11" value="2.9360724637810933" />
+          <attvalue for="12" value="18" />
+          <attvalue for="13" value="21.16915422885572" />
+          <attvalue for="14" value="3.5703897789179333" />
+          <attvalue for="15" value="6" />
+          <attvalue for="16" value="-2.5641025641025625" />
+          <attvalue for="17" value="0.506341389217171" />
+          <attvalue for="18" value="6" />
+          <attvalue for="19" value="3.9099999999999997" />
+          <attvalue for="20" value="18" />
+        </attvalues>
+      </node>
+      <node id="polymer:PVA" label="PVA">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="2.491779852644912" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="220.0" />
+          <attvalue for="5" value="6.086779892161543" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="183.33333333333331" />
+          <attvalue for="11" value="5.770417965841419" />
+          <attvalue for="12" value="8" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="45.0" />
+          <attvalue for="20" value="8" />
+        </attvalues>
+      </node>
+      <node id="polymer:PU" label="PU">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="1.752" />
+          <attvalue for="2" value="1.2745671625494857" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="58.0" />
+          <attvalue for="5" value="4.753664499113497" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.68" />
+          <attvalue for="8" value="0.6362049697957392" />
+          <attvalue for="9" value="2" />
+          <attvalue for="10" value="41.47919588592801" />
+          <attvalue for="11" value="4.140639677423152" />
+          <attvalue for="12" value="5" />
+          <attvalue for="13" value="8.620689655172415" />
+          <attvalue for="14" value="1.7706496950262705" />
+          <attvalue for="15" value="2" />
+          <attvalue for="16" value="-33.33333333333333" />
+          <attvalue for="17" value="-4.199930001980373" />
+          <attvalue for="18" value="2" />
+          <attvalue for="19" value="2.4" />
+          <attvalue for="20" value="5" />
+        </attvalues>
+      </node>
+      <node id="polymer:PA" label="PA">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.0137142857142853" />
+          <attvalue for="2" value="1.8133845786380225" />
+          <attvalue for="3" value="7" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="54.88636363636364" />
+          <attvalue for="11" value="4.551498588329619" />
+          <attvalue for="12" value="7" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="3.4571428571428577" />
+          <attvalue for="20" value="7" />
+        </attvalues>
+      </node>
+      <node id="polymer:PI" label="PI">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.006" />
+          <attvalue for="2" value="1.446315541316044" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="29.17912927883019" />
+          <attvalue for="11" value="3.9081948758191714" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="3.0" />
+          <attvalue for="20" value="3" />
+        </attvalues>
+      </node>
+      <node id="polymer:PSF" label="PSF">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="1.4436354751788099" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="16.33333333333333" />
+          <attvalue for="11" value="1.737796588372319" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="3.0" />
+          <attvalue for="20" value="3" />
+        </attvalues>
+      </node>
+      <node id="polymer:PS" label="PS">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="1.5815384615384613" />
+          <attvalue for="2" value="1.0608823118794446" />
+          <attvalue for="3" value="13" />
+          <attvalue for="4" value="28.624615384615392" />
+          <attvalue for="5" value="3.676340009264025" />
+          <attvalue for="6" value="13" />
+          <attvalue for="7" value="50.44652307692306" />
+          <attvalue for="8" value="2.0269332158469697" />
+          <attvalue for="9" value="13" />
+          <attvalue for="10" value="42.314360019440365" />
+          <attvalue for="11" value="4.010527273265874" />
+          <attvalue for="12" value="13" />
+          <attvalue for="13" value="25.201854169218713" />
+          <attvalue for="14" value="3.4712224365843274" />
+          <attvalue for="15" value="13" />
+          <attvalue for="16" value="-36.57846531450404" />
+          <attvalue for="17" value="-4.116974694989339" />
+          <attvalue for="18" value="13" />
+          <attvalue for="19" value="2.923076923076923" />
+          <attvalue for="20" value="13" />
+        </attvalues>
+      </node>
+      <node id="polymer:PLLA" label="PLLA">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.05" />
+          <attvalue for="2" value="1.465775129148317" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="46.2" />
+          <attvalue for="5" value="4.526244084815486" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="62.0" />
+          <attvalue for="8" value="4.820346595681746" />
+          <attvalue for="9" value="8" />
+          <attvalue for="10" value="24.756097560975615" />
+          <attvalue for="11" value="3.749201971053009" />
+          <attvalue for="12" value="8" />
+          <attvalue for="13" value="5.979437229437224" />
+          <attvalue for="14" value="2.0953780754359674" />
+          <attvalue for="15" value="8" />
+          <attvalue for="16" value="-48.991935483870975" />
+          <attvalue for="17" value="-3.655204127837571" />
+          <attvalue for="18" value="8" />
+          <attvalue for="19" value="4.5" />
+          <attvalue for="20" value="8" />
+        </attvalues>
+      </node>
+      <node id="polymer:Chitosan" label="Chitosan">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="9.74" />
+          <attvalue for="2" value="2.972013193626772" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="2.94" />
+          <attvalue for="5" value="1.799300071640245" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="55.0" />
+          <attvalue for="8" value="4.700563000177195" />
+          <attvalue for="9" value="4" />
+          <attvalue for="10" value="51.257700205338814" />
+          <attvalue for="11" value="4.000062435760676" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="30.357142857142854" />
+          <attvalue for="14" value="2.480981360936541" />
+          <attvalue for="15" value="4" />
+          <attvalue for="16" value="-21.81818181818182" />
+          <attvalue for="17" value="-3.645271775747998" />
+          <attvalue for="18" value="4" />
+          <attvalue for="19" value="25.0" />
+          <attvalue for="20" value="4" />
+        </attvalues>
+      </node>
+      <node id="polymer:PA6/PP" label="PA6/PP">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.122" />
+          <attvalue for="2" value="1.4184584387146253" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="44.471999999999994" />
+          <attvalue for="5" value="4.462672712598754" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="600.0" />
+          <attvalue for="8" value="7.090077530219813" />
+          <attvalue for="9" value="2" />
+          <attvalue for="10" value="-3.7616724738675993" />
+          <attvalue for="11" value="-0.7288717802115365" />
+          <attvalue for="12" value="5" />
+          <attvalue for="13" value="34.812691131498475" />
+          <attvalue for="14" value="3.837771088974411" />
+          <attvalue for="15" value="5" />
+          <attvalue for="16" value="-58.333333333333336" />
+          <attvalue for="17" value="-4.657980904895306" />
+          <attvalue for="18" value="2" />
+          <attvalue for="19" value="15.4" />
+          <attvalue for="20" value="5" />
+        </attvalues>
+      </node>
+      <node id="polymer:PLA/PP" label="PLA/PP">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.881373587019543" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="32.7" />
+          <attvalue for="5" value="4.180755976510198" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="600.0" />
+          <attvalue for="8" value="7.090077530219813" />
+          <attvalue for="9" value="1" />
+          <attvalue for="10" value="30.0" />
+          <attvalue for="11" value="4.09462222433053" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="11.62079510703363" />
+          <attvalue for="14" value="3.147789499507291" />
+          <attvalue for="15" value="1" />
+          <attvalue for="16" value="-66.66666666666666" />
+          <attvalue for="17" value="-4.892908503694372" />
+          <attvalue for="18" value="1" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:NBR/PU" label="NBR/PU">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.78" />
+          <attvalue for="2" value="1.74648078220208" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="46.0" />
+          <attvalue for="5" value="4.521906703564322" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="2.0" />
+          <attvalue for="8" value="1.4436354751788099" />
+          <attvalue for="9" value="3" />
+          <attvalue for="10" value="19.304556354916084" />
+          <attvalue for="11" value="3.6001300628687667" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="5.0724637681159415" />
+          <attvalue for="14" value="2.288767982697427" />
+          <attvalue for="15" value="3" />
+          <attvalue for="16" value="-28.333333333333332" />
+          <attvalue for="17" value="-3.838638628976883" />
+          <attvalue for="18" value="3" />
+          <attvalue for="19" value="3.0" />
+          <attvalue for="20" value="3" />
+        </attvalues>
+      </node>
+      <node id="polymer:PVC" label="PVC">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.78" />
+          <attvalue for="2" value="1.74648078220208" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="46.0" />
+          <attvalue for="5" value="4.521906703564322" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="2.0" />
+          <attvalue for="8" value="1.44363547517881" />
+          <attvalue for="9" value="2" />
+          <attvalue for="10" value="27.158273381294975" />
+          <attvalue for="11" value="3.994970689186081" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="3.2608695652173916" />
+          <attvalue for="14" value="1.8473027661338566" />
+          <attvalue for="15" value="2" />
+          <attvalue for="16" value="-70.0" />
+          <attvalue for="17" value="-4.93913667619001" />
+          <attvalue for="18" value="2" />
+          <attvalue for="19" value="12.5" />
+          <attvalue for="20" value="2" />
+        </attvalues>
+      </node>
+      <node id="polymer:PE" label="PE">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="1.401" />
+          <attvalue for="2" value="0.9104379030887508" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="36.15" />
+          <attvalue for="5" value="3.776636892289071" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="70.0" />
+          <attvalue for="8" value="4.941693439113287" />
+          <attvalue for="9" value="1" />
+          <attvalue for="10" value="62.309368191721134" />
+          <attvalue for="11" value="4.798816904746605" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="37.30242360379347" />
+          <attvalue for="14" value="4.2968251167649925" />
+          <attvalue for="15" value="2" />
+          <attvalue for="16" value="-85.71428571428571" />
+          <attvalue for="17" value="-5.144200712761853" />
+          <attvalue for="18" value="1" />
+          <attvalue for="19" value="5.2" />
+          <attvalue for="20" value="2" />
+        </attvalues>
+      </node>
+      <node id="polymer:UP" label="UP">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="4.982625" />
+          <attvalue for="2" value="2.0541342871886266" />
+          <attvalue for="3" value="16" />
+          <attvalue for="4" value="114.72631578947369" />
+          <attvalue for="5" value="5.15882756073743" />
+          <attvalue for="6" value="19" />
+          <attvalue for="7" value="3.1133333333333333" />
+          <attvalue for="8" value="1.8525677625680697" />
+          <attvalue for="9" value="6" />
+          <attvalue for="10" value="11.189724596803119" />
+          <attvalue for="11" value="2.0678577234695226" />
+          <attvalue for="12" value="16" />
+          <attvalue for="13" value="9.237129061904318" />
+          <attvalue for="14" value="0.8450348418870219" />
+          <attvalue for="15" value="19" />
+          <attvalue for="16" value="19.09846972721224" />
+          <attvalue for="17" value="1.6328193624252345" />
+          <attvalue for="18" value="6" />
+          <attvalue for="19" value="4.021052631578947" />
+          <attvalue for="20" value="19" />
+        </attvalues>
+      </node>
+      <node id="polymer:PA7" label="PA7">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.5" />
+          <attvalue for="2" value="1.965720471649651" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="18.57142857142858" />
+          <attvalue for="11" value="3.615495547182506" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:PA8" label="PA8">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.5" />
+          <attvalue for="2" value="1.965720471649651" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="11.42857142857143" />
+          <attvalue for="11" value="3.131172256483588" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:DGEBA" label="DGEBA">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.431877777777778" />
+          <attvalue for="2" value="1.5791123755535776" />
+          <attvalue for="3" value="90" />
+          <attvalue for="4" value="63.04557692307693" />
+          <attvalue for="5" value="4.653380834509411" />
+          <attvalue for="6" value="78" />
+          <attvalue for="7" value="3.9520555555555563" />
+          <attvalue for="8" value="1.8018303165849152" />
+          <attvalue for="9" value="54" />
+          <attvalue for="10" value="13.354996397042036" />
+          <attvalue for="11" value="1.9088643417620352" />
+          <attvalue for="12" value="90" />
+          <attvalue for="13" value="-1.718755242131564" />
+          <attvalue for="14" value="-0.44635499386220034" />
+          <attvalue for="15" value="78" />
+          <attvalue for="16" value="-17.271602150869462" />
+          <attvalue for="17" value="-2.0903415284109084" />
+          <attvalue for="18" value="54" />
+          <attvalue for="19" value="5.81" />
+          <attvalue for="20" value="90" />
+        </attvalues>
+      </node>
+      <node id="polymer:MGSL135i" label="MGSL135i">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.28" />
+          <attvalue for="2" value="1.903457711087746" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="63.8" />
+          <attvalue for="5" value="4.848961783674723" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="7.012195121951219" />
+          <attvalue for="11" value="2.645843941138239" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="-0.4702194357366727" />
+          <attvalue for="14" value="-0.4544179450669802" />
+          <attvalue for="15" value="1" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="0.1" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:HDPE" label="HDPE">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="0.8450000000000001" />
+          <attvalue for="2" value="0.7653503355721633" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="17.25" />
+          <attvalue for="5" value="3.5238220037280557" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="0.5249999999999999" />
+          <attvalue for="8" value="0.4979440605841498" />
+          <attvalue for="9" value="6" />
+          <attvalue for="10" value="10.066382171645333" />
+          <attvalue for="11" value="2.939009760572293" />
+          <attvalue for="12" value="6" />
+          <attvalue for="13" value="23.844367015098722" />
+          <attvalue for="14" value="3.448902547120755" />
+          <attvalue for="15" value="6" />
+          <attvalue for="16" value="-35.714285714285715" />
+          <attvalue for="17" value="-4.006654803853785" />
+          <attvalue for="18" value="6" />
+          <attvalue for="19" value="3.0833333333333335" />
+          <attvalue for="20" value="6" />
+        </attvalues>
+      </node>
+      <node id="polymer:PA66" label="PA66">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="1.0177" />
+          <attvalue for="2" value="0.8643275493903303" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="49.016999999999996" />
+          <attvalue for="5" value="4.5798384381377675" />
+          <attvalue for="6" value="10" />
+          <attvalue for="7" value="4.8" />
+          <attvalue for="8" value="2.272441327386595" />
+          <attvalue for="9" value="9" />
+          <attvalue for="10" value="38.62998418139944" />
+          <attvalue for="11" value="4.322197450630874" />
+          <attvalue for="12" value="10" />
+          <attvalue for="13" value="15.970140616862443" />
+          <attvalue for="14" value="3.4348866524471524" />
+          <attvalue for="15" value="10" />
+          <attvalue for="16" value="-36.875" />
+          <attvalue for="17" value="-4.2854268442719485" />
+          <attvalue for="18" value="9" />
+          <attvalue for="19" value="3.7" />
+          <attvalue for="20" value="10" />
+        </attvalues>
+      </node>
+      <node id="polymer:NBR" label="NBR">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="0.00166" />
+          <attvalue for="2" value="0.001659999237618279" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="412.0481927710843" />
+          <attvalue for="11" value="6.604257001040464" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="22.0" />
+          <attvalue for="20" value="5" />
+        </attvalues>
+      </node>
+      <node id="polymer:Vinyl Ester" label="Vinyl Ester">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.4900000000000007" />
+          <attvalue for="2" value="1.962969625838473" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="71.10000000000001" />
+          <attvalue for="5" value="4.957283967630715" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="2.5399999999999996" />
+          <attvalue for="8" value="1.66198518020018" />
+          <attvalue for="9" value="6" />
+          <attvalue for="10" value="6.972301814708689" />
+          <attvalue for="11" value="2.38670276908865" />
+          <attvalue for="12" value="6" />
+          <attvalue for="13" value="-6.371308016877632" />
+          <attvalue for="14" value="-2.4051152852281086" />
+          <attvalue for="15" value="6" />
+          <attvalue for="16" value="-12.335958005249344" />
+          <attvalue for="17" value="-3.1194965825752337" />
+          <attvalue for="18" value="6" />
+          <attvalue for="19" value="4.666666666666667" />
+          <attvalue for="20" value="6" />
+        </attvalues>
+      </node>
+      <node id="polymer:rPET" label="rPET">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.4499999999999997" />
+          <attvalue for="2" value="1.628499819284191" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="48.9" />
+          <attvalue for="5" value="4.583027020543194" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="3.75" />
+          <attvalue for="8" value="2.032224621533814" />
+          <attvalue for="9" value="6" />
+          <attvalue for="10" value="13.605442176870739" />
+          <attvalue for="11" value="3.2776515420150454" />
+          <attvalue for="12" value="6" />
+          <attvalue for="13" value="15.298037247685963" />
+          <attvalue for="14" value="3.332816815514189" />
+          <attvalue for="15" value="6" />
+          <attvalue for="16" value="-15.555555555555557" />
+          <attvalue for="17" value="-3.3004625106420264" />
+          <attvalue for="18" value="6" />
+          <attvalue for="19" value="2.6666666666666665" />
+          <attvalue for="20" value="6" />
+        </attvalues>
+      </node>
+      <node id="polymer:PP/PLA" label="PP/PLA">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="1.9034999999999997" />
+          <attvalue for="2" value="1.374847454469543" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="36.22" />
+          <attvalue for="5" value="4.274540769361887" />
+          <attvalue for="6" value="10" />
+          <attvalue for="7" value="130.54999999999998" />
+          <attvalue for="8" value="4.292328828606456" />
+          <attvalue for="9" value="10" />
+          <attvalue for="10" value="15.937186466639522" />
+          <attvalue for="11" value="2.8338802495129967" />
+          <attvalue for="12" value="10" />
+          <attvalue for="13" value="-12.061999904351344" />
+          <attvalue for="14" value="-1.8200978206511962" />
+          <attvalue for="15" value="10" />
+          <attvalue for="16" value="-55.76537126786964" />
+          <attvalue for="17" value="-4.456417197517462" />
+          <attvalue for="18" value="10" />
+          <attvalue for="19" value="4.2" />
+          <attvalue for="20" value="10" />
+        </attvalues>
+      </node>
+      <node id="polymer:LLDPE" label="LLDPE">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="0.209" />
+          <attvalue for="2" value="0.2075075982956501" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="32.34" />
+          <attvalue for="5" value="4.169690983212699" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="47.04944178628389" />
+          <attvalue for="11" value="4.145168758877966" />
+          <attvalue for="12" value="6" />
+          <attvalue for="13" value="-8.925994640280367" />
+          <attvalue for="14" value="-2.206065870984912" />
+          <attvalue for="15" value="6" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="7.5" />
+          <attvalue for="20" value="6" />
+        </attvalues>
+      </node>
+      <node id="polymer:PA12" label="PA12">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="1.4599999999999997" />
+          <attvalue for="2" value="1.1718941543766856" />
+          <attvalue for="3" value="38" />
+          <attvalue for="4" value="54.31999999999999" />
+          <attvalue for="5" value="4.681182447129468" />
+          <attvalue for="6" value="38" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="46.52255639097745" />
+          <attvalue for="11" value="4.172545295023894" />
+          <attvalue for="12" value="38" />
+          <attvalue for="13" value="5.818937303526281" />
+          <attvalue for="14" value="1.8058573964358622" />
+          <attvalue for="15" value="38" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="6.0" />
+          <attvalue for="20" value="38" />
+        </attvalues>
+      </node>
+      <node id="polymer:BIOPA11" label="BIOPA11">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="1.192" />
+          <attvalue for="2" value="1.010841566702161" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="57.25671140939599" />
+          <attvalue for="11" value="4.497875216121216" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="6.5" />
+          <attvalue for="20" value="4" />
+        </attvalues>
+      </node>
+      <node id="polymer:PP/PC" label="PP/PC">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="1.4857142857142855" />
+          <attvalue for="2" value="1.1852135938865855" />
+          <attvalue for="3" value="7" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.8285714285714285" />
+          <attvalue for="8" value="0.7452889746609351" />
+          <attvalue for="9" value="7" />
+          <attvalue for="10" value="38.29606842737096" />
+          <attvalue for="11" value="4.320163393558812" />
+          <attvalue for="12" value="7" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="-58.392857142857146" />
+          <attvalue for="17" value="-4.7358569620391" />
+          <attvalue for="18" value="7" />
+          <attvalue for="19" value="5.714285714285714" />
+          <attvalue for="20" value="7" />
+        </attvalues>
+      </node>
+      <node id="polymer:PP/EPDM" label="PP/EPDM">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="0.5684" />
+          <attvalue for="2" value="0.5415399835232162" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="6.57107670654468" />
+          <attvalue for="11" value="1.3215660504261804" />
+          <attvalue for="12" value="8" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="8" />
+        </attvalues>
+      </node>
+      <node id="polymer:EPON 828" label="EPON 828">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.8177" />
+          <attvalue for="2" value="1.759165425831232" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="59.06" />
+          <attvalue for="5" value="4.771772721765593" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.032" />
+          <attvalue for="8" value="0.03199454118171622" />
+          <attvalue for="9" value="4" />
+          <attvalue for="10" value="9.450083401355716" />
+          <attvalue for="11" value="2.752948204761241" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="-21.03792753132408" />
+          <attvalue for="14" value="-3.043360256281961" />
+          <attvalue for="15" value="4" />
+          <attvalue for="16" value="-35.9375" />
+          <attvalue for="17" value="-3.3953717269372463" />
+          <attvalue for="18" value="4" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="4" />
+        </attvalues>
+      </node>
+      <node id="polymer:PPH1" label="PPH1">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.941" />
+          <attvalue for="2" value="2.080302720629994" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="14.08272012179651" />
+          <attvalue for="11" value="3.339353896040053" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:PPH1/PP" label="PPH1/PP">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.941" />
+          <attvalue for="2" value="2.080302720629994" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="26.51611266176097" />
+          <attvalue for="11" value="3.971255130319285" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:PPH2" label="PPH2">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.89" />
+          <attvalue for="2" value="2.067682493923463" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="3.08483290488431" />
+          <attvalue for="11" value="1.844936992891165" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:PPH2/PP" label="PPH2/PP">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.89" />
+          <attvalue for="2" value="2.067682493923463" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="5.912596401028277" />
+          <attvalue for="11" value="2.477308000377429" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:PPH3" label="PPH3">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.19" />
+          <attvalue for="2" value="1.876876580878288" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="14.92163009404389" />
+          <attvalue for="11" value="3.397079951737128" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:PPH3/PP" label="PPH3/PP">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.19" />
+          <attvalue for="2" value="1.876876580878288" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="17.61755485893416" />
+          <attvalue for="11" value="3.562847518070041" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:PPH4" label="PPH4">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.936" />
+          <attvalue for="2" value="2.079072244827072" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="4.496951219512208" />
+          <attvalue for="11" value="2.208686121679376" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:PPH4/PP" label="PPH4/PP">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="3.936" />
+          <attvalue for="2" value="2.079072244827072" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="13.1859756097561" />
+          <attvalue for="11" value="3.273735756527309" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="polymer:CNBR" label="CNBR">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="0.00212" />
+          <attvalue for="2" value="0.002119998411981878" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="519.1037735849056" />
+          <attvalue for="11" value="6.828559405620045" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="25.0" />
+          <attvalue for="20" value="4" />
+        </attvalues>
+      </node>
+      <node id="polymer:PLA/PBAT" label="PLA/PBAT">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="0.4940000000000001" />
+          <attvalue for="2" value="0.4706570839945754" />
+          <attvalue for="3" value="7" />
+          <attvalue for="4" value="30.018571428571423" />
+          <attvalue for="5" value="4.054854013947548" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="0.2557142857142857" />
+          <attvalue for="8" value="0.22664859699272752" />
+          <attvalue for="9" value="7" />
+          <attvalue for="10" value="39.86945852205939" />
+          <attvalue for="11" value="3.3261378740776673" />
+          <attvalue for="12" value="7" />
+          <attvalue for="13" value="-17.671330758158454" />
+          <attvalue for="14" value="-1.8886762865016415" />
+          <attvalue for="15" value="7" />
+          <attvalue for="16" value="-55.65402597402597" />
+          <attvalue for="17" value="-3.731413935140369" />
+          <attvalue for="18" value="7" />
+          <attvalue for="19" value="3.0" />
+          <attvalue for="20" value="7" />
+        </attvalues>
+      </node>
+      <node id="polymer:DGEAC" label="DGEAC">
+        <attvalues>
+          <attvalue for="0" value="polymer" />
+          <attvalue for="1" value="2.3" />
+          <attvalue for="2" value="1.570278543484978" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="30.0" />
+          <attvalue for="5" value="4.09462222433053" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.015" />
+          <attvalue for="8" value="0.0149994375569455" />
+          <attvalue for="9" value="5" />
+          <attvalue for="10" value="24.347826086956527" />
+          <attvalue for="11" value="3.774810727853919" />
+          <attvalue for="12" value="5" />
+          <attvalue for="13" value="50.666666666666664" />
+          <attvalue for="14" value="4.560932488129484" />
+          <attvalue for="15" value="5" />
+          <attvalue for="16" value="93.33333333333336" />
+          <attvalue for="17" value="5.193703047962623" />
+          <attvalue for="18" value="5" />
+          <attvalue for="19" value="3.0" />
+          <attvalue for="20" value="5" />
+        </attvalues>
+      </node>
+      <node id="modification:Unmodified" label="Unmodified">
+        <attvalues>
+          <attvalue for="0" value="modification" />
+          <attvalue for="1" value="8.788679999999994" />
+          <attvalue for="2" value="1.7471479857683392" />
+          <attvalue for="3" value="119" />
+          <attvalue for="4" value="177.10758333333334" />
+          <attvalue for="5" value="4.800943273649518" />
+          <attvalue for="6" value="96" />
+          <attvalue for="7" value="11.495105263157896" />
+          <attvalue for="8" value="1.825355215957226" />
+          <attvalue for="9" value="57" />
+          <attvalue for="10" value="68.19357376668567" />
+          <attvalue for="11" value="3.454902251700983" />
+          <attvalue for="12" value="119" />
+          <attvalue for="13" value="20.029899374270443" />
+          <attvalue for="14" value="2.230546180043649" />
+          <attvalue for="15" value="85" />
+          <attvalue for="16" value="-25.16474962546806" />
+          <attvalue for="17" value="-3.005875332553529" />
+          <attvalue for="18" value="54" />
+          <attvalue for="19" value="8.7781512605042" />
+          <attvalue for="20" value="119" />
+        </attvalues>
+      </node>
+      <node id="modification:Modified" label="Modified">
+        <attvalues>
+          <attvalue for="0" value="modification" />
+          <attvalue for="1" value="3.2034749063670414" />
+          <attvalue for="2" value="1.459314496579812" />
+          <attvalue for="3" value="801" />
+          <attvalue for="4" value="76.76409692307692" />
+          <attvalue for="5" value="4.6668526127175" />
+          <attvalue for="6" value="650" />
+          <attvalue for="7" value="26.192900256410258" />
+          <attvalue for="8" value="1.8851966280715278" />
+          <attvalue for="9" value="390" />
+          <attvalue for="10" value="54.7175910878232" />
+          <attvalue for="11" value="3.2932722908031637" />
+          <attvalue for="12" value="800" />
+          <attvalue for="13" value="38.555968488505016" />
+          <attvalue for="14" value="1.543134663196162" />
+          <attvalue for="15" value="642" />
+          <attvalue for="16" value="-20.738075262875952" />
+          <attvalue for="17" value="-2.3130490087114253" />
+          <attvalue for="18" value="386" />
+          <attvalue for="19" value="4.626974483596598" />
+          <attvalue for="20" value="823" />
+        </attvalues>
+      </node>
+      <node id="dispersion:exfoliated" label="exfoliated">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="2.417242553191489" />
+          <attvalue for="2" value="1.4163504088190817" />
+          <attvalue for="3" value="282" />
+          <attvalue for="4" value="72.38425" />
+          <attvalue for="5" value="4.546300437300674" />
+          <attvalue for="6" value="224" />
+          <attvalue for="7" value="59.07447751937985" />
+          <attvalue for="8" value="2.396561307537608" />
+          <attvalue for="9" value="129" />
+          <attvalue for="10" value="86.64262742881215" />
+          <attvalue for="11" value="3.831528506514697" />
+          <attvalue for="12" value="282" />
+          <attvalue for="13" value="99.29899389660494" />
+          <attvalue for="14" value="2.5012367732360565" />
+          <attvalue for="15" value="216" />
+          <attvalue for="16" value="-20.456847417501855" />
+          <attvalue for="17" value="-2.3184697250519526" />
+          <attvalue for="18" value="125" />
+          <attvalue for="19" value="4.928763250883393" />
+          <attvalue for="20" value="283" />
+        </attvalues>
+      </node>
+      <node id="dispersion:intercalated/exfoliated" label="intercalated/exfoliated">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="2.019486493506493" />
+          <attvalue for="2" value="1.3116942999764918" />
+          <attvalue for="3" value="154" />
+          <attvalue for="4" value="67.5842537313433" />
+          <attvalue for="5" value="4.722945609279685" />
+          <attvalue for="6" value="134" />
+          <attvalue for="7" value="21.711421686746984" />
+          <attvalue for="8" value="2.0550009093081028" />
+          <attvalue for="9" value="83" />
+          <attvalue for="10" value="63.02993150243191" />
+          <attvalue for="11" value="3.7595517951698043" />
+          <attvalue for="12" value="154" />
+          <attvalue for="13" value="8.03243481725929" />
+          <attvalue for="14" value="1.0666184083512324" />
+          <attvalue for="15" value="134" />
+          <attvalue for="16" value="-31.894008904117758" />
+          <attvalue for="17" value="-3.099607739276635" />
+          <attvalue for="18" value="83" />
+          <attvalue for="19" value="5.645949367088607" />
+          <attvalue for="20" value="158" />
+        </attvalues>
+      </node>
+      <node id="dispersion:intercalated" label="intercalated">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="4.359508411214954" />
+          <attvalue for="2" value="1.5279938914996762" />
+          <attvalue for="3" value="321" />
+          <attvalue for="4" value="112.4556554621849" />
+          <attvalue for="5" value="4.6521144599448965" />
+          <attvalue for="6" value="238" />
+          <attvalue for="7" value="6.614530882352941" />
+          <attvalue for="8" value="1.4561073873942296" />
+          <attvalue for="9" value="136" />
+          <attvalue for="10" value="31.451755947975634" />
+          <attvalue for="11" value="2.9262187086746883" />
+          <attvalue for="12" value="320" />
+          <attvalue for="13" value="14.905209652608265" />
+          <attvalue for="14" value="1.5601254362124861" />
+          <attvalue for="15" value="230" />
+          <attvalue for="16" value="-23.08891503737729" />
+          <attvalue for="17" value="-2.6101649006873546" />
+          <attvalue for="18" value="136" />
+          <attvalue for="19" value="4.073273273273274" />
+          <attvalue for="20" value="333" />
+        </attvalues>
+      </node>
+      <node id="dispersion:microcomposite" label="microcomposite">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="9.456819178082192" />
+          <attvalue for="2" value="1.9079997921618232" />
+          <attvalue for="3" value="73" />
+          <attvalue for="4" value="88.342234375" />
+          <attvalue for="5" value="4.858600487836652" />
+          <attvalue for="6" value="64" />
+          <attvalue for="7" value="5.17793103448276" />
+          <attvalue for="8" value="1.2762927197898246" />
+          <attvalue for="9" value="58" />
+          <attvalue for="10" value="46.82806045678461" />
+          <attvalue for="11" value="2.3365348910103863" />
+          <attvalue for="12" value="73" />
+          <attvalue for="13" value="-2.23289275106271" />
+          <attvalue for="14" value="0.4067715996033262" />
+          <attvalue for="15" value="61" />
+          <attvalue for="16" value="-3.4506100823453028" />
+          <attvalue for="17" value="-0.8037109391573124" />
+          <attvalue for="18" value="55" />
+          <attvalue for="19" value="10.98904109589041" />
+          <attvalue for="20" value="73" />
+        </attvalues>
+      </node>
+      <node id="dispersion:agglomerated" label="agglomerated">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="8.825048780487805" />
+          <attvalue for="2" value="1.5301106716132225" />
+          <attvalue for="3" value="41" />
+          <attvalue for="4" value="117.30682926829269" />
+          <attvalue for="5" value="4.943681276962863" />
+          <attvalue for="6" value="41" />
+          <attvalue for="7" value="4.574" />
+          <attvalue for="8" value="2.119895234563813" />
+          <attvalue for="9" value="15" />
+          <attvalue for="10" value="30.681427221096296" />
+          <attvalue for="11" value="2.2995829449230496" />
+          <attvalue for="12" value="41" />
+          <attvalue for="13" value="4.0888602557416" />
+          <attvalue for="14" value="0.9188225163123854" />
+          <attvalue for="15" value="41" />
+          <attvalue for="16" value="-31.376761364714604" />
+          <attvalue for="17" value="-4.019222348700547" />
+          <attvalue for="18" value="15" />
+          <attvalue for="19" value="2.848780487804878" />
+          <attvalue for="20" value="41" />
+        </attvalues>
+      </node>
+      <node id="dispersion:intercalated/microcomposite" label="intercalated/microcomposite">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="1.8331666666666664" />
+          <attvalue for="2" value="0.9971897823422201" />
+          <attvalue for="3" value="12" />
+          <attvalue for="4" value="30.508" />
+          <attvalue for="5" value="3.811857267780071" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="55.0" />
+          <attvalue for="8" value="4.700563000177195" />
+          <attvalue for="9" value="1" />
+          <attvalue for="10" value="180.14804598129717" />
+          <attvalue for="11" value="5.113287516007057" />
+          <attvalue for="12" value="12" />
+          <attvalue for="13" value="12.472625413801888" />
+          <attvalue for="14" value="3.187186198251319" />
+          <attvalue for="15" value="5" />
+          <attvalue for="16" value="-9.090909090909092" />
+          <attvalue for="17" value="-2.903433459354621" />
+          <attvalue for="18" value="1" />
+          <attvalue for="19" value="11.441666666666668" />
+          <attvalue for="20" value="12" />
+        </attvalues>
+      </node>
+      <node id="dispersion:intercalated/agglomerated" label="intercalated/agglomerated">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="4.427777777777777" />
+          <attvalue for="2" value="2.0376221425572254" />
+          <attvalue for="3" value="9" />
+          <attvalue for="4" value="103.04545454545455" />
+          <attvalue for="5" value="4.941903843330199" />
+          <attvalue for="6" value="11" />
+          <attvalue for="7" value="0.022575" />
+          <attvalue for="8" value="0.022570776142553435" />
+          <attvalue for="9" value="4" />
+          <attvalue for="10" value="27.608367402560265" />
+          <attvalue for="11" value="3.1822867437507543" />
+          <attvalue for="12" value="9" />
+          <attvalue for="13" value="13.805942445411704" />
+          <attvalue for="14" value="1.5144776895988274" />
+          <attvalue for="15" value="11" />
+          <attvalue for="16" value="30.55555555555556" />
+          <attvalue for="17" value="1.4259342951233993" />
+          <attvalue for="18" value="4" />
+          <attvalue for="19" value="5.363636363636363" />
+          <attvalue for="20" value="11" />
+        </attvalues>
+      </node>
+      <node id="dispersion:intercalated/partially exfoliated" label="intercalated/partially exfoliated">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="2.39" />
+          <attvalue for="2" value="1.6039958371691072" />
+          <attvalue for="3" value="7" />
+          <attvalue for="4" value="48.9" />
+          <attvalue for="5" value="4.583027020543194" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="3.75" />
+          <attvalue for="8" value="2.032224621533814" />
+          <attvalue for="9" value="6" />
+          <attvalue for="10" value="15.321202372574637" />
+          <attvalue for="11" value="3.37180644871286" />
+          <attvalue for="12" value="7" />
+          <attvalue for="13" value="15.298037247685963" />
+          <attvalue for="14" value="3.332816815514189" />
+          <attvalue for="15" value="6" />
+          <attvalue for="16" value="-15.555555555555557" />
+          <attvalue for="17" value="-3.3004625106420264" />
+          <attvalue for="18" value="6" />
+          <attvalue for="19" value="2.642857142857143" />
+          <attvalue for="20" value="7" />
+        </attvalues>
+      </node>
+      <node id="dispersion:disordered intercalated/exfoliated" label="disordered intercalated/exfoliated">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="2.6714285714285717" />
+          <attvalue for="2" value="1.708466944060501" />
+          <attvalue for="3" value="14" />
+          <attvalue for="4" value="82.36615384615386" />
+          <attvalue for="5" value="5.083757536802533" />
+          <attvalue for="6" value="13" />
+          <attvalue for="7" value="7.130769230769231" />
+          <attvalue for="8" value="2.6379652238054225" />
+          <attvalue for="9" value="13" />
+          <attvalue for="10" value="16.050743956765597" />
+          <attvalue for="11" value="3.1304892614439472" />
+          <attvalue for="12" value="14" />
+          <attvalue for="13" value="-5.5780683368266955" />
+          <attvalue for="14" value="-0.9724975937048987" />
+          <attvalue for="15" value="13" />
+          <attvalue for="16" value="-24.861528398099065" />
+          <attvalue for="17" value="-1.8158474439185865" />
+          <attvalue for="18" value="13" />
+          <attvalue for="19" value="3.7142857142857144" />
+          <attvalue for="20" value="14" />
+        </attvalues>
+      </node>
+      <node id="dispersion:Mixed (mostly intercalated)" label="Mixed (mostly intercalated)">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="7.1" />
+          <attvalue for="2" value="2.658164806954139" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="270.0" />
+          <attvalue for="5" value="6.291572568895961" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="11.26760563380282" />
+          <attvalue for="11" value="3.085179934696588" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="11.666666666666664" />
+          <attvalue for="14" value="3.0516509869469672" />
+          <attvalue for="15" value="2" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="2.0" />
+          <attvalue for="20" value="2" />
+        </attvalues>
+      </node>
+      <node id="dispersion:Mixed" label="Mixed">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="11.199999999999998" />
+          <attvalue for="2" value="3.111048011822666" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="183.75" />
+          <attvalue for="5" value="5.549886689834852" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="66.66666666666667" />
+          <attvalue for="11" value="4.641204789819889" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="32.5925925925926" />
+          <attvalue for="14" value="4.053028336691356" />
+          <attvalue for="15" value="6" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="3.0" />
+          <attvalue for="20" value="6" />
+        </attvalues>
+      </node>
+      <node id="dispersion:Partially exfoliated" label="Partially exfoliated">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="1.909" />
+          <attvalue for="2" value="1.402182325310426" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="54.0" />
+          <attvalue for="5" value="4.682216949982902" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="4.5" />
+          <attvalue for="8" value="2.209347708615334" />
+          <attvalue for="9" value="1" />
+          <attvalue for="10" value="18.3865898376113" />
+          <attvalue for="11" value="3.60550744641586" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="3.703703703703703" />
+          <attvalue for="14" value="2.020226535422754" />
+          <attvalue for="15" value="1" />
+          <attvalue for="16" value="-22.22222222222222" />
+          <attvalue for="17" value="-3.794745835770083" />
+          <attvalue for="18" value="1" />
+          <attvalue for="19" value="0.5" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="dispersion:Partially exfoliated/disordered intercalated" label="Partially exfoliated/disordered intercalated">
+        <attvalues>
+          <attvalue for="0" value="dispersion" />
+          <attvalue for="1" value="1.909" />
+          <attvalue for="2" value="1.402182325310426" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="54.0" />
+          <attvalue for="5" value="4.682216949982902" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="4.5" />
+          <attvalue for="8" value="2.209347708615334" />
+          <attvalue for="9" value="1" />
+          <attvalue for="10" value="25.19643792561551" />
+          <attvalue for="11" value="3.92024336783514" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="14.81481481481481" />
+          <attvalue for="14" value="3.389911982880154" />
+          <attvalue for="15" value="1" />
+          <attvalue for="16" value="-33.33333333333333" />
+          <attvalue for="17" value="-4.199930001980373" />
+          <attvalue for="18" value="1" />
+          <attvalue for="19" value="1.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="category:Thermoplastic" label="Thermoplastic">
+        <attvalues>
+          <attvalue for="0" value="category" />
+          <attvalue for="1" value="2.0541322515212985" />
+          <attvalue for="2" value="1.3448892930820182" />
+          <attvalue for="3" value="493" />
+          <attvalue for="4" value="57.92366486486487" />
+          <attvalue for="5" value="4.50891406334753" />
+          <attvalue for="6" value="370" />
+          <attvalue for="7" value="32.51524487179487" />
+          <attvalue for="8" value="1.945553778689197" />
+          <attvalue for="9" value="234" />
+          <attvalue for="10" value="77.14914474545162" />
+          <attvalue for="11" value="3.8729429747622595" />
+          <attvalue for="12" value="492" />
+          <attvalue for="13" value="60.55084034114873" />
+          <attvalue for="14" value="2.5191342358008577" />
+          <attvalue for="15" value="355" />
+          <attvalue for="16" value="-35.96264742441308" />
+          <attvalue for="17" value="-3.1557284710684925" />
+          <attvalue for="18" value="233" />
+          <attvalue for="19" value="5.636639676113361" />
+          <attvalue for="20" value="494" />
+        </attvalues>
+      </node>
+      <node id="category:Thermoset" label="Thermoset">
+        <attvalues>
+          <attvalue for="0" value="category" />
+          <attvalue for="1" value="6.353902222222222" />
+          <attvalue for="2" value="1.7295154590177884" />
+          <attvalue for="3" value="405" />
+          <attvalue for="4" value="124.87092541436465" />
+          <attvalue for="5" value="4.957010481656018" />
+          <attvalue for="6" value="362" />
+          <attvalue for="7" value="16.28679296482412" />
+          <attvalue for="8" value="1.8672151548109992" />
+          <attvalue for="9" value="199" />
+          <attvalue for="10" value="23.471755595201326" />
+          <attvalue for="11" value="2.6026975839844733" />
+          <attvalue for="12" value="405" />
+          <attvalue for="13" value="7.596948335254371" />
+          <attvalue for="14" value="0.6604473534038591" />
+          <attvalue for="15" value="358" />
+          <attvalue for="16" value="-12.077830202905506" />
+          <attvalue for="17" value="-1.7660344942936996" />
+          <attvalue for="18" value="193" />
+          <attvalue for="19" value="4.259058823529411" />
+          <attvalue for="20" value="425" />
+        </attvalues>
+      </node>
+      <node id="category:Elastomer" label="Elastomer">
+        <attvalues>
+          <attvalue for="0" value="category" />
+          <attvalue for="1" value="1.1735781818181819" />
+          <attvalue for="2" value="0.6062427125101033" />
+          <attvalue for="3" value="22" />
+          <attvalue for="4" value="18.8542857142857" />
+          <attvalue for="5" value="2.2577681956188846" />
+          <attvalue for="6" value="14" />
+          <attvalue for="7" value="1.4866428571428578" />
+          <attvalue for="8" value="0.8883237311997739" />
+          <attvalue for="9" value="14" />
+          <attvalue for="10" value="201.16672353070064" />
+          <attvalue for="11" value="3.916851613554765" />
+          <attvalue for="12" value="22" />
+          <attvalue for="13" value="160.01552795031054" />
+          <attvalue for="14" value="3.5397194891257198" />
+          <attvalue for="15" value="14" />
+          <attvalue for="16" value="96.18032484311553" />
+          <attvalue for="17" value="1.4982289883672952" />
+          <attvalue for="18" value="14" />
+          <attvalue for="19" value="11.217391304347826" />
+          <attvalue for="20" value="23" />
+        </attvalues>
+      </node>
+      <node id="test_method:Instrumented-indentation" label="Instrumented-indentation">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="3.9" />
+          <attvalue for="2" value="2.070169239927711" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="69.6" />
+          <attvalue for="5" value="4.935963352440429" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="204.27350427350427" />
+          <attvalue for="11" value="5.714355601099666" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="272.65325670498095" />
+          <attvalue for="14" value="6.207673160197522" />
+          <attvalue for="15" value="3" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="2.1666666666666665" />
+          <attvalue for="20" value="3" />
+        </attvalues>
+      </node>
+      <node id="test_method:Tensile Test" label="Tensile Test">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="3.551523465909091" />
+          <attvalue for="2" value="1.4362461676938365" />
+          <attvalue for="3" value="704" />
+          <attvalue for="4" value="82.48803527336861" />
+          <attvalue for="5" value="4.5377230334955385" />
+          <attvalue for="6" value="567" />
+          <attvalue for="7" value="26.643862953367876" />
+          <attvalue for="8" value="1.8767846972765165" />
+          <attvalue for="9" value="386" />
+          <attvalue for="10" value="63.22904990160157" />
+          <attvalue for="11" value="3.380673596897273" />
+          <attvalue for="12" value="703" />
+          <attvalue for="13" value="42.777266342979274" />
+          <attvalue for="14" value="1.5959220067825954" />
+          <attvalue for="15" value="559" />
+          <attvalue for="16" value="-23.630395260160817" />
+          <attvalue for="17" value="-2.542857344709605" />
+          <attvalue for="18" value="382" />
+          <attvalue for="19" value="5.2023809523809526" />
+          <attvalue for="20" value="714" />
+        </attvalues>
+      </node>
+      <node id="test_method:Flexural Test" label="Flexural Test">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="3.362928813559322" />
+          <attvalue for="2" value="1.6561017098107054" />
+          <attvalue for="3" value="59" />
+          <attvalue for="4" value="115.73333333333335" />
+          <attvalue for="5" value="5.306073887993577" />
+          <attvalue for="6" value="66" />
+          <attvalue for="7" value="1.7155555555555557" />
+          <attvalue for="8" value="0.9149534699316876" />
+          <attvalue for="9" value="18" />
+          <attvalue for="10" value="26.93489169893183" />
+          <attvalue for="11" value="2.746849588956941" />
+          <attvalue for="12" value="59" />
+          <attvalue for="13" value="8.42002302617669" />
+          <attvalue for="14" value="1.7605986800619053" />
+          <attvalue for="15" value="66" />
+          <attvalue for="16" value="-5.740016263768763" />
+          <attvalue for="17" value="-1.9682968343584326" />
+          <attvalue for="18" value="18" />
+          <attvalue for="19" value="4.318181818181818" />
+          <attvalue for="20" value="66" />
+        </attvalues>
+      </node>
+      <node id="test_method:Flexural Test (Three Point Bending)" label="Flexural Test (Three Point Bending)">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="9.834811594202899" />
+          <attvalue for="2" value="1.7871412049821442" />
+          <attvalue for="3" value="69" />
+          <attvalue for="4" value="121.82632352941175" />
+          <attvalue for="5" value="5.257766857551647" />
+          <attvalue for="6" value="68" />
+          <attvalue for="7" value="4.052619047619048" />
+          <attvalue for="8" value="1.5829480313749122" />
+          <attvalue for="9" value="21" />
+          <attvalue for="10" value="51.63682184118975" />
+          <attvalue for="11" value="3.6791357686046666" />
+          <attvalue for="12" value="69" />
+          <attvalue for="13" value="4.287384412544437" />
+          <attvalue for="14" value="1.2148236243438326" />
+          <attvalue for="15" value="57" />
+          <attvalue for="16" value="-20.339090753624223" />
+          <attvalue for="17" value="-3.4084635404908905" />
+          <attvalue for="18" value="18" />
+          <attvalue for="19" value="7.74782608695652" />
+          <attvalue for="20" value="69" />
+        </attvalues>
+      </node>
+      <node id="test_method:Nanoindentation" label="Nanoindentation">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="2.6769999999999996" />
+          <attvalue for="2" value="1.5881246954904207" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="30.919285714285714" />
+          <attvalue for="5" value="2.737479675912582" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="46.29887545287725" />
+          <attvalue for="11" value="3.849940938468091" />
+          <attvalue for="12" value="10" />
+          <attvalue for="13" value="86.01532567049809" />
+          <attvalue for="14" value="4.854519949069072" />
+          <attvalue for="15" value="7" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="4.9" />
+          <attvalue for="20" value="10" />
+        </attvalues>
+      </node>
+      <node id="test_method:Tensile/SENB" label="Tensile/SENB">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="2.63" />
+          <attvalue for="2" value="1.6942713347022644" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="66.55333333333333" />
+          <attvalue for="5" value="4.889539331595427" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="4.21" />
+          <attvalue for="8" value="2.144425507853867" />
+          <attvalue for="9" value="1" />
+          <attvalue for="10" value="6.132014988103557" />
+          <attvalue for="11" value="2.3360498057536865" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="-6.7436691413836884" />
+          <attvalue for="14" value="0.16714126730464773" />
+          <attvalue for="15" value="3" />
+          <attvalue for="16" value="-40.38004750593825" />
+          <attvalue for="17" value="-4.391636257330528" />
+          <attvalue for="18" value="1" />
+          <attvalue for="19" value="1.8" />
+          <attvalue for="20" value="3" />
+        </attvalues>
+      </node>
+      <node id="test_method:Tensile/DMA" label="Tensile/DMA">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="2.76" />
+          <attvalue for="2" value="1.739689540198476" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="64.1" />
+          <attvalue for="5" value="4.853652383801665" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="3.24" />
+          <attvalue for="8" value="1.891727136443932" />
+          <attvalue for="9" value="1" />
+          <attvalue for="10" value="26.44927536231886" />
+          <attvalue for="11" value="3.968733115925621" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="16.53666146645867" />
+          <attvalue for="14" value="3.499639959187938" />
+          <attvalue for="15" value="1" />
+          <attvalue for="16" value="2.469135802469124" />
+          <attvalue for="17" value="1.635707072732656" />
+          <attvalue for="18" value="1" />
+          <attvalue for="19" value="1.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="test_method:TEM/SEM/CT" label="TEM/SEM/CT">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="3.28" />
+          <attvalue for="2" value="1.903457711087746" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="63.8" />
+          <attvalue for="5" value="4.848961783674723" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="7.012195121951219" />
+          <attvalue for="11" value="2.645843941138239" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="-0.4702194357366727" />
+          <attvalue for="14" value="-0.4544179450669802" />
+          <attvalue for="15" value="1" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="0.1" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="test_method:SENB/DMA" label="SENB/DMA">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="2.6" />
+          <attvalue for="2" value="1.683743143997744" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="24.0" />
+          <attvalue for="5" value="3.871634756387731" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="-3.846153846153849" />
+          <attvalue for="11" value="-2.056707822163352" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="25.0" />
+          <attvalue for="14" value="3.912422765641256" />
+          <attvalue for="15" value="1" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="0.5" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="test_method:DMA/SEN" label="DMA/SEN">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="1.77" />
+          <attvalue for="2" value="1.335778006004892" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="46.0" />
+          <attvalue for="5" value="4.521906703564322" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="31.07344632768361" />
+          <attvalue for="11" value="4.129759636062573" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="14.1304347826087" />
+          <attvalue for="14" value="3.342727872965148" />
+          <attvalue for="15" value="1" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="3.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="test_method:Compact Tension" label="Compact Tension">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="2.96" />
+          <attvalue for="2" value="1.805720875912059" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="87.0" />
+          <attvalue for="5" value="5.159088327040512" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="8.108108108108116" />
+          <attvalue for="11" value="2.789793010169507" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="51.72413793103448" />
+          <attvalue for="14" value="4.63916516901314" />
+          <attvalue for="15" value="1" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="4.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="test_method:Dynamic Mechanical Analysis" label="Dynamic Mechanical Analysis">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="2.2132142857142854" />
+          <attvalue for="2" value="1.4833557215716697" />
+          <attvalue for="3" value="42" />
+          <attvalue for="4" value="35.7" />
+          <attvalue for="5" value="4.094678482814105" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.049199999999999994" />
+          <attvalue for="8" value="0.049163389311842685" />
+          <attvalue for="9" value="5" />
+          <attvalue for="10" value="16.568749461530597" />
+          <attvalue for="11" value="2.3896815946664423" />
+          <attvalue for="12" value="42" />
+          <attvalue for="13" value="33.75757575757576" />
+          <attvalue for="14" value="3.9286680885702494" />
+          <attvalue for="15" value="5" />
+          <attvalue for="16" value="5.684341886080802e-15" />
+          <attvalue for="17" value="-0.5986223460394111" />
+          <attvalue for="18" value="5" />
+          <attvalue for="19" value="3.4767441860465116" />
+          <attvalue for="20" value="43" />
+        </attvalues>
+      </node>
+      <node id="test_method:Compression Test" label="Compression Test">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="3.6319999999999992" />
+          <attvalue for="2" value="1.9938921259452884" />
+          <attvalue for="3" value="15" />
+          <attvalue for="4" value="180.22599999999997" />
+          <attvalue for="5" value="5.866995764485241" />
+          <attvalue for="6" value="15" />
+          <attvalue for="7" value="30.815999999999992" />
+          <attvalue for="8" value="4.055999893348116" />
+          <attvalue for="9" value="15" />
+          <attvalue for="10" value="13.658873455123727" />
+          <attvalue for="11" value="3.2488555905225125" />
+          <attvalue for="12" value="15" />
+          <attvalue for="13" value="1.388090567104432" />
+          <attvalue for="14" value="0.9706294378078965" />
+          <attvalue for="15" value="15" />
+          <attvalue for="16" value="11.356819743505476" />
+          <attvalue for="17" value="1.2498698680434213" />
+          <attvalue for="18" value="15" />
+          <attvalue for="19" value="3.0" />
+          <attvalue for="20" value="15" />
+        </attvalues>
+      </node>
+      <node id="test_method:Impact Test" label="Impact Test">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="NaN" />
+          <attvalue for="2" value="NaN" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="52.5" />
+          <attvalue for="5" value="4.654051040767318" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="NaN" />
+          <attvalue for="11" value="NaN" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="17.142857142857142" />
+          <attvalue for="14" value="2.0963878324680447" />
+          <attvalue for="15" value="4" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="4.0" />
+          <attvalue for="20" value="4" />
+        </attvalues>
+      </node>
+      <node id="test_method:Short Beam Shear Test" label="Short Beam Shear Test">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="1.818446459232067" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="68.0" />
+          <attvalue for="5" value="4.912708947095866" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="2.222222222222224" />
+          <attvalue for="11" value="0.8652817630498933" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="-7.352941176470587" />
+          <attvalue for="14" value="-2.636645425027147" />
+          <attvalue for="15" value="3" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="3.3333333333333335" />
+          <attvalue for="20" value="3" />
+        </attvalues>
+      </node>
+      <node id="test_method:Finite Element Method" label="Finite Element Method">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="4.2" />
+          <attvalue for="2" value="2.142111908236906" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="20.0" />
+          <attvalue for="11" value="3.689503868988905" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="5.0" />
+          <attvalue for="20" value="1" />
+        </attvalues>
+      </node>
+      <node id="test_method:FEM (COMSOL)" label="FEM (COMSOL)">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="1.192" />
+          <attvalue for="2" value="1.010841566702161" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="57.25671140939599" />
+          <attvalue for="11" value="4.497875216121216" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="6.5" />
+          <attvalue for="20" value="2" />
+        </attvalues>
+      </node>
+      <node id="test_method:Split Hopkinson Pressure Bar" label="Split Hopkinson Pressure Bar">
+        <attvalues>
+          <attvalue for="0" value="test_method" />
+          <attvalue for="1" value="2.95" />
+          <attvalue for="2" value="1.802515354319838" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="NaN" />
+          <attvalue for="5" value="NaN" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="NaN" />
+          <attvalue for="8" value="NaN" />
+          <attvalue for="9" value="0" />
+          <attvalue for="10" value="20.508474576271176" />
+          <attvalue for="11" value="3.676140070850283" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="NaN" />
+          <attvalue for="14" value="NaN" />
+          <attvalue for="15" value="0" />
+          <attvalue for="16" value="NaN" />
+          <attvalue for="17" value="NaN" />
+          <attvalue for="18" value="0" />
+          <attvalue for="19" value="2.625" />
+          <attvalue for="20" value="4" />
+        </attvalues>
+      </node>
+      <node id="data_source:Experimental" label="Experimental">
+        <attvalues>
+          <attvalue for="0" value="data_source" />
+          <attvalue for="1" value="4.011261165714285" />
+          <attvalue for="2" value="1.5021448000674469" />
+          <attvalue for="3" value="875" />
+          <attvalue for="4" value="90.2613792633015" />
+          <attvalue for="5" value="4.683706943502715" />
+          <attvalue for="6" value="733" />
+          <attvalue for="7" value="24.98678709677419" />
+          <attvalue for="8" value="1.9027585527042796" />
+          <attvalue for="9" value="434" />
+          <attvalue for="10" value="50.96441540370628" />
+          <attvalue for="11" value="3.249542722500553" />
+          <attvalue for="12" value="874" />
+          <attvalue for="13" value="36.17664911303405" />
+          <attvalue for="14" value="1.6008016408030932" />
+          <attvalue for="15" value="714" />
+          <attvalue for="16" value="-21.845837508694878" />
+          <attvalue for="17" value="-2.419888432603447" />
+          <attvalue for="18" value="427" />
+          <attvalue for="19" value="5.166789297658863" />
+          <attvalue for="20" value="897" />
+        </attvalues>
+      </node>
+      <node id="data_source:Simulated" label="Simulated">
+        <attvalues>
+          <attvalue for="0" value="data_source" />
+          <attvalue for="1" value="2.2662844444444445" />
+          <attvalue for="2" value="1.3876627112854556" />
+          <attvalue for="3" value="45" />
+          <attvalue for="4" value="56.723076923076924" />
+          <attvalue for="5" value="4.706735611479907" />
+          <attvalue for="6" value="13" />
+          <attvalue for="7" value="2.014346153846154" />
+          <attvalue for="8" value="1.0365169526000204" />
+          <attvalue for="9" value="13" />
+          <attvalue for="10" value="163.24909079233018" />
+          <attvalue for="11" value="4.570019136210332" />
+          <attvalue for="12" value="45" />
+          <attvalue for="13" value="48.10351920976128" />
+          <attvalue for="14" value="2.8705005801721177" />
+          <attvalue for="15" value="13" />
+          <attvalue for="16" value="-2.7400703871292085" />
+          <attvalue for="17" value="-1.6816788152945112" />
+          <attvalue for="18" value="13" />
+          <attvalue for="19" value="4.844222222222222" />
+          <attvalue for="20" value="45" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="polymer:PVP" target="polymer:PVA" id="0">
+        <attvalues>
+          <attvalue for="21" value="0.8764262199401855" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PVP" target="polymer:PVC" id="1">
+        <attvalues>
+          <attvalue for="21" value="0.8637644052505493" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PVP" target="polymer:PP" id="2">
+        <attvalues>
+          <attvalue for="21" value="0.8484483957290649" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PVP" target="polymer:PP/PC" id="3">
+        <attvalues>
+          <attvalue for="21" value="0.817699134349823" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PVP" target="polymer:PA" id="4">
+        <attvalues>
+          <attvalue for="21" value="0.8155618906021118" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PVP" target="polymer:LLDPE" id="5">
+        <attvalues>
+          <attvalue for="21" value="0.752713680267334" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PP/PC" id="6">
+        <attvalues>
+          <attvalue for="21" value="0.9487835168838501" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PP/PLA" id="7">
+        <attvalues>
+          <attvalue for="21" value="0.9239780902862549" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PPH1/PP" id="8">
+        <attvalues>
+          <attvalue for="21" value="0.9156188368797302" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PPH3/PP" id="9">
+        <attvalues>
+          <attvalue for="21" value="0.912371039390564" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PPH2/PP" id="10">
+        <attvalues>
+          <attvalue for="21" value="0.9023503065109253" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:Bis-GMA/TTEGDMA" id="11">
+        <attvalues>
+          <attvalue for="21" value="0.7866030931472778" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:Dimethacrylate Copolymer" id="12">
+        <attvalues>
+          <attvalue for="21" value="0.7715938091278076" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PBT" id="13">
+        <attvalues>
+          <attvalue for="21" value="0.7815200686454773" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PMMA" id="14">
+        <attvalues>
+          <attvalue for="21" value="0.7878062725067139" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:NR" id="15">
+        <attvalues>
+          <attvalue for="21" value="0.8058105707168579" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PCL" id="16">
+        <attvalues>
+          <attvalue for="21" value="0.7777724266052246" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PU" id="17">
+        <attvalues>
+          <attvalue for="21" value="0.8231677412986755" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PI" id="18">
+        <attvalues>
+          <attvalue for="21" value="0.7467458844184875" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PS" id="19">
+        <attvalues>
+          <attvalue for="21" value="0.887496292591095" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:Chitosan" id="20">
+        <attvalues>
+          <attvalue for="21" value="0.6807694435119629" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PA6/PP" id="21">
+        <attvalues>
+          <attvalue for="21" value="0.8549918532371521" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PLA/PP" id="22">
+        <attvalues>
+          <attvalue for="21" value="0.8848330974578857" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PVC" id="23">
+        <attvalues>
+          <attvalue for="21" value="0.8015089631080627" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PE" id="24">
+        <attvalues>
+          <attvalue for="21" value="0.8573793172836304" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:UP" id="25">
+        <attvalues>
+          <attvalue for="21" value="0.8075754642486572" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:MGSL135i" id="26">
+        <attvalues>
+          <attvalue for="21" value="0.6943174600601196" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:rPET" id="27">
+        <attvalues>
+          <attvalue for="21" value="0.7576941847801208" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:LLDPE" id="28">
+        <attvalues>
+          <attvalue for="21" value="0.7481010556221008" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP" target="polymer:PP/EPDM" id="29">
+        <attvalues>
+          <attvalue for="21" value="0.8585289716720581" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMA" target="polymer:PMMA" id="30">
+        <attvalues>
+          <attvalue for="21" value="0.9260375499725342" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMA" target="polymer:PP/PLA" id="31">
+        <attvalues>
+          <attvalue for="21" value="0.8514134287834167" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMA" target="polymer:PVA" id="32">
+        <attvalues>
+          <attvalue for="21" value="0.8505194187164307" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMA" target="polymer:PLA/PP" id="33">
+        <attvalues>
+          <attvalue for="21" value="0.8457178473472595" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMA" target="polymer:PLA/PBAT" id="34">
+        <attvalues>
+          <attvalue for="21" value="0.843214213848114" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMA" target="polymer:Bis-GMA/TTEGDMA" id="35">
+        <attvalues>
+          <attvalue for="21" value="0.7942567467689514" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMA" target="polymer:PLA" id="36">
+        <attvalues>
+          <attvalue for="21" value="0.8407665491104126" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMA" target="polymer:PLLA" id="37">
+        <attvalues>
+          <attvalue for="21" value="0.7170175313949585" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMA" target="polymer:MGSL135i" id="38">
+        <attvalues>
+          <attvalue for="21" value="0.6986160278320312" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMA" target="polymer:LLDPE" id="39">
+        <attvalues>
+          <attvalue for="21" value="0.7610684037208557" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Epoxy" target="polymer:EPON 828" id="40">
+        <attvalues>
+          <attvalue for="21" value="0.8787715435028076" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Epoxy" target="polymer:PE" id="41">
+        <attvalues>
+          <attvalue for="21" value="0.8106848001480103" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Epoxy" target="polymer:PP/EPDM" id="42">
+        <attvalues>
+          <attvalue for="21" value="0.7870076894760132" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Epoxy" target="polymer:UP" id="43">
+        <attvalues>
+          <attvalue for="21" value="0.7554966807365417" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Epoxy" target="polymer:PU" id="44">
+        <attvalues>
+          <attvalue for="21" value="0.7542799711227417" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Bis-GMA/TTEGDMA" target="polymer:NR" id="45">
+        <attvalues>
+          <attvalue for="21" value="0.7955466508865356" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Bis-GMA/TTEGDMA" target="modification:Unmodified" id="46">
+        <attvalues>
+          <attvalue for="21" value="0.7923034429550171" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Bis-GMA/TTEGDMA" target="modification:Modified" id="47">
+        <attvalues>
+          <attvalue for="21" value="0.7911935448646545" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Bis-GMA/TTEGDMA" target="polymer:Chitosan" id="48">
+        <attvalues>
+          <attvalue for="21" value="0.6870290040969849" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Bis-GMA/TTEGDMA" target="polymer:NBR/PU" id="49">
+        <attvalues>
+          <attvalue for="21" value="0.7382637858390808" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Bis-GMA/TTEGDMA" target="polymer:MGSL135i" id="50">
+        <attvalues>
+          <attvalue for="21" value="0.7275437712669373" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Bis-GMA/TTEGDMA" target="polymer:NBR" id="51">
+        <attvalues>
+          <attvalue for="21" value="0.7107995748519897" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Bis-GMA/TTEGDMA" target="polymer:CNBR" id="52">
+        <attvalues>
+          <attvalue for="21" value="0.7109473347663879" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PLA" target="polymer:PLA/PP" id="53">
+        <attvalues>
+          <attvalue for="21" value="0.9588831067085266" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PLA" target="polymer:PP/PLA" id="54">
+        <attvalues>
+          <attvalue for="21" value="0.9401373267173767" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PLA" target="polymer:PLA/PBAT" id="55">
+        <attvalues>
+          <attvalue for="21" value="0.9133856892585754" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PLA" target="polymer:PLLA" id="56">
+        <attvalues>
+          <attvalue for="21" value="0.8925226330757141" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Dimethacrylate Copolymer" target="polymer:PA" id="57">
+        <attvalues>
+          <attvalue for="21" value="0.772329568862915" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Dimethacrylate Copolymer" target="modification:Modified" id="58">
+        <attvalues>
+          <attvalue for="21" value="0.7664375305175781" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Dimethacrylate Copolymer" target="modification:Unmodified" id="59">
+        <attvalues>
+          <attvalue for="21" value="0.7634958028793335" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Dimethacrylate Copolymer" target="polymer:DGEAC" id="60">
+        <attvalues>
+          <attvalue for="21" value="0.7591390609741211" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PBT" target="polymer:PA" id="61">
+        <attvalues>
+          <attvalue for="21" value="0.777226984500885" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PBT" target="polymer:PP/EPDM" id="62">
+        <attvalues>
+          <attvalue for="21" value="0.7765766978263855" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PBT" target="polymer:PPH3/PP" id="63">
+        <attvalues>
+          <attvalue for="21" value="0.769850492477417" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PBT" target="polymer:PPH3" id="64">
+        <attvalues>
+          <attvalue for="21" value="0.7652580738067627" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PBT" target="polymer:NBR" id="65">
+        <attvalues>
+          <attvalue for="21" value="0.6957585215568542" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PBT" target="polymer:CNBR" id="66">
+        <attvalues>
+          <attvalue for="21" value="0.7054335474967957" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMMA" target="polymer:PLA/PBAT" id="67">
+        <attvalues>
+          <attvalue for="21" value="0.7701483964920044" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMMA" target="polymer:PP/PLA" id="68">
+        <attvalues>
+          <attvalue for="21" value="0.7643874883651733" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PMMA" target="modification:Unmodified" id="69">
+        <attvalues>
+          <attvalue for="21" value="0.7588310837745667" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA6" target="polymer:PA6/PP" id="70">
+        <attvalues>
+          <attvalue for="21" value="0.9657718539237976" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA6" target="polymer:PA66" id="71">
+        <attvalues>
+          <attvalue for="21" value="0.9537889361381531" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA6" target="polymer:PA" id="72">
+        <attvalues>
+          <attvalue for="21" value="0.8528859615325928" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA6" target="polymer:PA12" id="73">
+        <attvalues>
+          <attvalue for="21" value="0.8371102213859558" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA6" target="polymer:PA7" id="74">
+        <attvalues>
+          <attvalue for="21" value="0.8191492557525635" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA6" target="polymer:PA8" id="75">
+        <attvalues>
+          <attvalue for="21" value="0.8172452449798584" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NR" target="polymer:UP" id="76">
+        <attvalues>
+          <attvalue for="21" value="0.8114473819732666" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NR" target="modification:Unmodified" id="77">
+        <attvalues>
+          <attvalue for="21" value="0.8091253042221069" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NR" target="modification:Modified" id="78">
+        <attvalues>
+          <attvalue for="21" value="0.8077446222305298" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NR" target="polymer:rPET" id="79">
+        <attvalues>
+          <attvalue for="21" value="0.8060108423233032" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NR" target="polymer:NBR/PU" id="80">
+        <attvalues>
+          <attvalue for="21" value="0.7729899883270264" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NR" target="polymer:MGSL135i" id="81">
+        <attvalues>
+          <attvalue for="21" value="0.7289611101150513" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NR" target="polymer:HDPE" id="82">
+        <attvalues>
+          <attvalue for="21" value="0.7278294563293457" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NR" target="polymer:NBR" id="83">
+        <attvalues>
+          <attvalue for="21" value="0.7489656805992126" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NR" target="polymer:BIOPA11" id="84">
+        <attvalues>
+          <attvalue for="21" value="0.7080026865005493" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PHBV" target="polymer:PE" id="85">
+        <attvalues>
+          <attvalue for="21" value="0.7389765977859497" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PHBV" target="polymer:PLA/PBAT" id="86">
+        <attvalues>
+          <attvalue for="21" value="0.7183579206466675" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PHBV" target="modification:Modified" id="87">
+        <attvalues>
+          <attvalue for="21" value="0.7087278962135315" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PHBV" target="polymer:PA" id="88">
+        <attvalues>
+          <attvalue for="21" value="0.7037332653999329" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PHBV" target="modification:Unmodified" id="89">
+        <attvalues>
+          <attvalue for="21" value="0.7016756534576416" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PCL" target="polymer:PP/PC" id="90">
+        <attvalues>
+          <attvalue for="21" value="0.8026904463768005" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PCL" target="polymer:PVC" id="91">
+        <attvalues>
+          <attvalue for="21" value="0.7881945967674255" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PCL" target="modification:Modified" id="92">
+        <attvalues>
+          <attvalue for="21" value="0.7628071904182434" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PCL" target="modification:Unmodified" id="93">
+        <attvalues>
+          <attvalue for="21" value="0.7617586255073547" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PVA" target="polymer:PVC" id="94">
+        <attvalues>
+          <attvalue for="21" value="0.893966019153595" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PVA" target="polymer:PP/PLA" id="95">
+        <attvalues>
+          <attvalue for="21" value="0.8335323929786682" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PVA" target="polymer:PLA/PP" id="96">
+        <attvalues>
+          <attvalue for="21" value="0.8228179216384888" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PU" target="polymer:NBR/PU" id="97">
+        <attvalues>
+          <attvalue for="21" value="0.849510908126831" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PU" target="polymer:PE" id="98">
+        <attvalues>
+          <attvalue for="21" value="0.821767270565033" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PU" target="polymer:PS" id="99">
+        <attvalues>
+          <attvalue for="21" value="0.8098375797271729" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PU" target="polymer:UP" id="100">
+        <attvalues>
+          <attvalue for="21" value="0.7967383861541748" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA" target="polymer:PA8" id="101">
+        <attvalues>
+          <attvalue for="21" value="0.8900339603424072" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA" target="polymer:PA7" id="102">
+        <attvalues>
+          <attvalue for="21" value="0.877055287361145" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA" target="polymer:PA6/PP" id="103">
+        <attvalues>
+          <attvalue for="21" value="0.8480193018913269" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA" target="polymer:PA12" id="104">
+        <attvalues>
+          <attvalue for="21" value="0.8354983925819397" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA" target="polymer:PI" id="105">
+        <attvalues>
+          <attvalue for="21" value="0.8157907724380493" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA" target="polymer:PA66" id="106">
+        <attvalues>
+          <attvalue for="21" value="0.8286238312721252" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA" target="polymer:Vinyl Ester" id="107">
+        <attvalues>
+          <attvalue for="21" value="0.748518168926239" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA" target="polymer:LLDPE" id="108">
+        <attvalues>
+          <attvalue for="21" value="0.7696242928504944" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA" target="polymer:BIOPA11" id="109">
+        <attvalues>
+          <attvalue for="21" value="0.7207725048065186" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA" target="polymer:CNBR" id="110">
+        <attvalues>
+          <attvalue for="21" value="0.7109661102294922" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PI" target="polymer:PS" id="111">
+        <attvalues>
+          <attvalue for="21" value="0.7678129076957703" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PI" target="modification:Unmodified" id="112">
+        <attvalues>
+          <attvalue for="21" value="0.7407929301261902" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PI" target="modification:Modified" id="113">
+        <attvalues>
+          <attvalue for="21" value="0.739891529083252" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PSF" target="polymer:PS" id="114">
+        <attvalues>
+          <attvalue for="21" value="0.8864165544509888" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PSF" target="polymer:PPH3/PP" id="115">
+        <attvalues>
+          <attvalue for="21" value="0.7742642760276794" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PSF" target="polymer:PPH3" id="116">
+        <attvalues>
+          <attvalue for="21" value="0.7735547423362732" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PSF" target="polymer:PPH1/PP" id="117">
+        <attvalues>
+          <attvalue for="21" value="0.7634126543998718" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PSF" target="polymer:PPH1" id="118">
+        <attvalues>
+          <attvalue for="21" value="0.7632144689559937" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PS" target="polymer:PP/PC" id="119">
+        <attvalues>
+          <attvalue for="21" value="0.8531410694122314" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PS" target="polymer:PPH1/PP" id="120">
+        <attvalues>
+          <attvalue for="21" value="0.8261534571647644" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PS" target="polymer:PPH3/PP" id="121">
+        <attvalues>
+          <attvalue for="21" value="0.8250240087509155" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PS" target="polymer:rPET" id="122">
+        <attvalues>
+          <attvalue for="21" value="0.7529100179672241" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PLLA" target="polymer:PLA/PP" id="123">
+        <attvalues>
+          <attvalue for="21" value="0.8508890867233276" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PLLA" target="polymer:PP/PLA" id="124">
+        <attvalues>
+          <attvalue for="21" value="0.831534743309021" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PLLA" target="polymer:PLA/PBAT" id="125">
+        <attvalues>
+          <attvalue for="21" value="0.8217781782150269" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Chitosan" target="modification:Modified" id="126">
+        <attvalues>
+          <attvalue for="21" value="0.7187140583992004" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Chitosan" target="polymer:UP" id="127">
+        <attvalues>
+          <attvalue for="21" value="0.7069869637489319" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Chitosan" target="modification:Unmodified" id="128">
+        <attvalues>
+          <attvalue for="21" value="0.7040215730667114" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA6/PP" target="polymer:PA66" id="129">
+        <attvalues>
+          <attvalue for="21" value="0.9390535354614258" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA6/PP" target="polymer:PA12" id="130">
+        <attvalues>
+          <attvalue for="21" value="0.8277985453605652" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA6/PP" target="polymer:PA7" id="131">
+        <attvalues>
+          <attvalue for="21" value="0.7959925532341003" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA6/PP" target="polymer:PA8" id="132">
+        <attvalues>
+          <attvalue for="21" value="0.8089199066162109" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PLA/PP" target="polymer:PP/PLA" id="133">
+        <attvalues>
+          <attvalue for="21" value="0.9921324253082275" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PLA/PP" target="polymer:PLA/PBAT" id="134">
+        <attvalues>
+          <attvalue for="21" value="0.9102327823638916" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NBR/PU" target="polymer:NBR" id="135">
+        <attvalues>
+          <attvalue for="21" value="0.8911019563674927" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NBR/PU" target="polymer:CNBR" id="136">
+        <attvalues>
+          <attvalue for="21" value="0.7921971082687378" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PVC" target="modification:Modified" id="137">
+        <attvalues>
+          <attvalue for="21" value="0.778184175491333" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PVC" target="polymer:Vinyl Ester" id="138">
+        <attvalues>
+          <attvalue for="21" value="0.7494425773620605" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PE" target="polymer:PP/PLA" id="139">
+        <attvalues>
+          <attvalue for="21" value="0.8306995630264282" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PE" target="polymer:EPON 828" id="140">
+        <attvalues>
+          <attvalue for="21" value="0.8234527111053467" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PE" target="polymer:PLA/PBAT" id="141">
+        <attvalues>
+          <attvalue for="21" value="0.8204185366630554" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PE" target="polymer:Vinyl Ester" id="142">
+        <attvalues>
+          <attvalue for="21" value="0.7495569586753845" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:UP" target="modification:Modified" id="143">
+        <attvalues>
+          <attvalue for="21" value="0.8657343983650208" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:UP" target="modification:Unmodified" id="144">
+        <attvalues>
+          <attvalue for="21" value="0.8648001551628113" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:UP" target="data_source:Experimental" id="145">
+        <attvalues>
+          <attvalue for="21" value="0.8125806450843811" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:UP" target="polymer:HDPE" id="146">
+        <attvalues>
+          <attvalue for="21" value="0.7409852743148804" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:UP" target="polymer:BIOPA11" id="147">
+        <attvalues>
+          <attvalue for="21" value="0.7519745230674744" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:UP" target="polymer:EPON 828" id="148">
+        <attvalues>
+          <attvalue for="21" value="0.7774346470832825" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA7" target="polymer:PA8" id="149">
+        <attvalues>
+          <attvalue for="21" value="0.8319243788719177" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA7" target="polymer:PA66" id="150">
+        <attvalues>
+          <attvalue for="21" value="0.7786655426025391" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA8" target="polymer:PA12" id="151">
+        <attvalues>
+          <attvalue for="21" value="0.7762316465377808" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:DGEBA" target="polymer:DGEAC" id="152">
+        <attvalues>
+          <attvalue for="21" value="0.8635637760162354" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:DGEBA" target="modification:Unmodified" id="153">
+        <attvalues>
+          <attvalue for="21" value="0.7620326280593872" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:DGEBA" target="modification:Modified" id="154">
+        <attvalues>
+          <attvalue for="21" value="0.7620182037353516" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:DGEBA" target="polymer:LLDPE" id="155">
+        <attvalues>
+          <attvalue for="21" value="0.7543586492538452" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:DGEBA" target="test_method:Tensile/DMA" id="156">
+        <attvalues>
+          <attvalue for="21" value="0.7428718209266663" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:DGEBA" target="polymer:HDPE" id="157">
+        <attvalues>
+          <attvalue for="21" value="0.7269128561019897" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:MGSL135i" target="modification:Unmodified" id="158">
+        <attvalues>
+          <attvalue for="21" value="0.6803973913192749" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:HDPE" target="modification:Unmodified" id="159">
+        <attvalues>
+          <attvalue for="21" value="0.7626954913139343" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:HDPE" target="modification:Modified" id="160">
+        <attvalues>
+          <attvalue for="21" value="0.7587591409683228" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA66" target="polymer:PA12" id="161">
+        <attvalues>
+          <attvalue for="21" value="0.8031735420227051" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:NBR" target="polymer:CNBR" id="162">
+        <attvalues>
+          <attvalue for="21" value="0.8480602502822876" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Vinyl Ester" target="modification:Modified" id="163">
+        <attvalues>
+          <attvalue for="21" value="0.7795631289482117" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:Vinyl Ester" target="modification:Unmodified" id="164">
+        <attvalues>
+          <attvalue for="21" value="0.7707386016845703" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:rPET" target="modification:Modified" id="165">
+        <attvalues>
+          <attvalue for="21" value="0.7402604818344116" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:rPET" target="modification:Unmodified" id="166">
+        <attvalues>
+          <attvalue for="21" value="0.7365266680717468" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP/PLA" target="polymer:PLA/PBAT" id="167">
+        <attvalues>
+          <attvalue for="21" value="0.9026082158088684" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP/PLA" target="polymer:PP/PC" id="168">
+        <attvalues>
+          <attvalue for="21" value="0.8830981254577637" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PA12" target="polymer:BIOPA11" id="169">
+        <attvalues>
+          <attvalue for="21" value="0.7087442278862" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:BIOPA11" target="modification:Unmodified" id="170">
+        <attvalues>
+          <attvalue for="21" value="0.702117919921875" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP/PC" target="polymer:PPH1/PP" id="171">
+        <attvalues>
+          <attvalue for="21" value="0.8783366084098816" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP/PC" target="polymer:PPH3/PP" id="172">
+        <attvalues>
+          <attvalue for="21" value="0.8727846145629883" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP/PC" target="polymer:PPH2/PP" id="173">
+        <attvalues>
+          <attvalue for="21" value="0.8655245304107666" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP/EPDM" target="polymer:PPH1/PP" id="174">
+        <attvalues>
+          <attvalue for="21" value="0.846352219581604" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP/EPDM" target="polymer:PPH3/PP" id="175">
+        <attvalues>
+          <attvalue for="21" value="0.8382748365402222" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP/EPDM" target="polymer:PPH2/PP" id="176">
+        <attvalues>
+          <attvalue for="21" value="0.837872326374054" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP/EPDM" target="polymer:PPH4/PP" id="177">
+        <attvalues>
+          <attvalue for="21" value="0.8331896662712097" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PP/EPDM" target="polymer:EPON 828" id="178">
+        <attvalues>
+          <attvalue for="21" value="0.783831000328064" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:EPON 828" target="modification:Unmodified" id="179">
+        <attvalues>
+          <attvalue for="21" value="0.7675498127937317" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1" target="polymer:PPH1/PP" id="180">
+        <attvalues>
+          <attvalue for="21" value="0.9930577278137207" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1" target="polymer:PPH2/PP" id="181">
+        <attvalues>
+          <attvalue for="21" value="0.9515761733055115" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1" target="polymer:PPH2" id="182">
+        <attvalues>
+          <attvalue for="21" value="0.946687638759613" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1" target="polymer:PPH3/PP" id="183">
+        <attvalues>
+          <attvalue for="21" value="0.9422973394393921" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1" target="polymer:PPH3" id="184">
+        <attvalues>
+          <attvalue for="21" value="0.9413573741912842" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1" target="polymer:PPH4" id="185">
+        <attvalues>
+          <attvalue for="21" value="0.9247256517410278" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1/PP" target="polymer:PPH2/PP" id="186">
+        <attvalues>
+          <attvalue for="21" value="0.9627146124839783" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1/PP" target="polymer:PPH3/PP" id="187">
+        <attvalues>
+          <attvalue for="21" value="0.954393208026886" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1/PP" target="polymer:PPH4/PP" id="188">
+        <attvalues>
+          <attvalue for="21" value="0.9463422298431396" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1/PP" target="polymer:PPH2" id="189">
+        <attvalues>
+          <attvalue for="21" value="0.9453442692756653" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH1/PP" target="polymer:PPH3" id="190">
+        <attvalues>
+          <attvalue for="21" value="0.9420590400695801" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH2" target="polymer:PPH2/PP" id="191">
+        <attvalues>
+          <attvalue for="21" value="0.9921499490737915" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH2" target="polymer:PPH4/PP" id="192">
+        <attvalues>
+          <attvalue for="21" value="0.9381384253501892" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH2" target="polymer:PPH3/PP" id="193">
+        <attvalues>
+          <attvalue for="21" value="0.9316473603248596" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH2" target="polymer:PPH4" id="194">
+        <attvalues>
+          <attvalue for="21" value="0.9291297793388367" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH2/PP" target="polymer:PPH4/PP" id="195">
+        <attvalues>
+          <attvalue for="21" value="0.9539625644683838" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH2/PP" target="polymer:PPH3/PP" id="196">
+        <attvalues>
+          <attvalue for="21" value="0.9517050981521606" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH2/PP" target="polymer:PPH3" id="197">
+        <attvalues>
+          <attvalue for="21" value="0.9399800896644592" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH2/PP" target="polymer:PPH4" id="198">
+        <attvalues>
+          <attvalue for="21" value="0.9332791566848755" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH3" target="polymer:PPH3/PP" id="199">
+        <attvalues>
+          <attvalue for="21" value="0.9941202402114868" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH3" target="polymer:PPH4/PP" id="200">
+        <attvalues>
+          <attvalue for="21" value="0.9355788826942444" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH3" target="polymer:PPH4" id="201">
+        <attvalues>
+          <attvalue for="21" value="0.925061821937561" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH3/PP" target="polymer:PPH4/PP" id="202">
+        <attvalues>
+          <attvalue for="21" value="0.945056676864624" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:PPH4" target="polymer:PPH4/PP" id="203">
+        <attvalues>
+          <attvalue for="21" value="0.9924689531326294" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:DGEAC" target="test_method:Tensile/DMA" id="204">
+        <attvalues>
+          <attvalue for="21" value="0.7591314315795898" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:DGEAC" target="modification:Modified" id="205">
+        <attvalues>
+          <attvalue for="21" value="0.7538007497787476" />
+        </attvalues>
+      </edge>
+      <edge source="polymer:DGEAC" target="test_method:DMA/SEN" id="206">
+        <attvalues>
+          <attvalue for="21" value="0.753055214881897" />
+        </attvalues>
+      </edge>
+      <edge source="modification:Unmodified" target="modification:Modified" id="207">
+        <attvalues>
+          <attvalue for="21" value="0.9865843057632446" />
+        </attvalues>
+      </edge>
+      <edge source="modification:Unmodified" target="dispersion:intercalated" id="208">
+        <attvalues>
+          <attvalue for="21" value="0.8596726059913635" />
+        </attvalues>
+      </edge>
+      <edge source="modification:Unmodified" target="data_source:Experimental" id="209">
+        <attvalues>
+          <attvalue for="21" value="0.8576300740242004" />
+        </attvalues>
+      </edge>
+      <edge source="modification:Unmodified" target="dispersion:Partially exfoliated" id="210">
+        <attvalues>
+          <attvalue for="21" value="0.8540645837783813" />
+        </attvalues>
+      </edge>
+      <edge source="modification:Modified" target="dispersion:intercalated" id="211">
+        <attvalues>
+          <attvalue for="21" value="0.8581231236457825" />
+        </attvalues>
+      </edge>
+      <edge source="modification:Modified" target="data_source:Experimental" id="212">
+        <attvalues>
+          <attvalue for="21" value="0.8528021574020386" />
+        </attvalues>
+      </edge>
+      <edge source="modification:Modified" target="dispersion:Partially exfoliated" id="213">
+        <attvalues>
+          <attvalue for="21" value="0.8511356115341187" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:exfoliated" target="dispersion:Partially exfoliated" id="214">
+        <attvalues>
+          <attvalue for="21" value="0.9976311922073364" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:exfoliated" target="dispersion:intercalated/exfoliated" id="215">
+        <attvalues>
+          <attvalue for="21" value="0.989334762096405" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:exfoliated" target="dispersion:intercalated/partially exfoliated" id="216">
+        <attvalues>
+          <attvalue for="21" value="0.9886041879653931" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:exfoliated" target="dispersion:Partially exfoliated/disordered intercalated" id="217">
+        <attvalues>
+          <attvalue for="21" value="0.972403347492218" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:exfoliated" target="dispersion:disordered intercalated/exfoliated" id="218">
+        <attvalues>
+          <attvalue for="21" value="0.9719265699386597" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:exfoliated" target="dispersion:agglomerated" id="219">
+        <attvalues>
+          <attvalue for="21" value="0.9449445605278015" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:exfoliated" target="dispersion:Mixed" id="220">
+        <attvalues>
+          <attvalue for="21" value="0.9555586576461792" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:intercalated/partially exfoliated" id="221">
+        <attvalues>
+          <attvalue for="21" value="0.9978889226913452" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:Partially exfoliated" id="222">
+        <attvalues>
+          <attvalue for="21" value="0.9894330501556396" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:Partially exfoliated/disordered intercalated" id="223">
+        <attvalues>
+          <attvalue for="21" value="0.9872954487800598" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:disordered intercalated/exfoliated" id="224">
+        <attvalues>
+          <attvalue for="21" value="0.9826907515525818" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:intercalated" id="225">
+        <attvalues>
+          <attvalue for="21" value="0.982518196105957" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:microcomposite" id="226">
+        <attvalues>
+          <attvalue for="21" value="0.9077160954475403" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:agglomerated" id="227">
+        <attvalues>
+          <attvalue for="21" value="0.9428373575210571" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:intercalated/microcomposite" id="228">
+        <attvalues>
+          <attvalue for="21" value="0.9558297395706177" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:intercalated/agglomerated" id="229">
+        <attvalues>
+          <attvalue for="21" value="0.9722874760627747" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:Mixed (mostly intercalated)" id="230">
+        <attvalues>
+          <attvalue for="21" value="0.9612586498260498" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/exfoliated" target="dispersion:Mixed" id="231">
+        <attvalues>
+          <attvalue for="21" value="0.9597827196121216" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated" target="dispersion:intercalated/agglomerated" id="232">
+        <attvalues>
+          <attvalue for="21" value="0.9821062088012695" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated" target="dispersion:intercalated/partially exfoliated" id="233">
+        <attvalues>
+          <attvalue for="21" value="0.9755030274391174" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated" target="dispersion:Mixed (mostly intercalated)" id="234">
+        <attvalues>
+          <attvalue for="21" value="0.9714881777763367" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated" target="dispersion:Mixed" id="235">
+        <attvalues>
+          <attvalue for="21" value="0.9708069562911987" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated" target="dispersion:microcomposite" id="236">
+        <attvalues>
+          <attvalue for="21" value="0.917920708656311" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated" target="dispersion:agglomerated" id="237">
+        <attvalues>
+          <attvalue for="21" value="0.9506394267082214" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated" target="dispersion:intercalated/microcomposite" id="238">
+        <attvalues>
+          <attvalue for="21" value="0.9657294154167175" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:microcomposite" target="dispersion:intercalated/microcomposite" id="239">
+        <attvalues>
+          <attvalue for="21" value="0.9765715003013611" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:microcomposite" target="dispersion:Mixed" id="240">
+        <attvalues>
+          <attvalue for="21" value="0.9134275317192078" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:microcomposite" target="dispersion:intercalated/agglomerated" id="241">
+        <attvalues>
+          <attvalue for="21" value="0.9109283685684204" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:agglomerated" target="dispersion:intercalated/agglomerated" id="242">
+        <attvalues>
+          <attvalue for="21" value="0.9842216372489929" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:agglomerated" target="dispersion:Partially exfoliated" id="243">
+        <attvalues>
+          <attvalue for="21" value="0.9414939284324646" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/microcomposite" target="dispersion:intercalated/agglomerated" id="244">
+        <attvalues>
+          <attvalue for="21" value="0.955512285232544" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/microcomposite" target="dispersion:intercalated/partially exfoliated" id="245">
+        <attvalues>
+          <attvalue for="21" value="0.9509185552597046" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/agglomerated" target="dispersion:intercalated/partially exfoliated" id="246">
+        <attvalues>
+          <attvalue for="21" value="0.967255711555481" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/agglomerated" target="dispersion:Mixed (mostly intercalated)" id="247">
+        <attvalues>
+          <attvalue for="21" value="0.9615580439567566" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/agglomerated" target="dispersion:Mixed" id="248">
+        <attvalues>
+          <attvalue for="21" value="0.9598627686500549" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/partially exfoliated" target="dispersion:Partially exfoliated" id="249">
+        <attvalues>
+          <attvalue for="21" value="0.9899375438690186" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/partially exfoliated" target="dispersion:Partially exfoliated/disordered intercalated" id="250">
+        <attvalues>
+          <attvalue for="21" value="0.9878372550010681" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/partially exfoliated" target="dispersion:disordered intercalated/exfoliated" id="251">
+        <attvalues>
+          <attvalue for="21" value="0.9806749820709229" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:intercalated/partially exfoliated" target="dispersion:Mixed (mostly intercalated)" id="252">
+        <attvalues>
+          <attvalue for="21" value="0.9557718634605408" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:disordered intercalated/exfoliated" target="dispersion:Partially exfoliated/disordered intercalated" id="253">
+        <attvalues>
+          <attvalue for="21" value="0.9928123950958252" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:disordered intercalated/exfoliated" target="dispersion:Partially exfoliated" id="254">
+        <attvalues>
+          <attvalue for="21" value="0.9719911813735962" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:Mixed (mostly intercalated)" target="dispersion:Mixed" id="255">
+        <attvalues>
+          <attvalue for="21" value="0.9956515431404114" />
+        </attvalues>
+      </edge>
+      <edge source="dispersion:Partially exfoliated" target="dispersion:Partially exfoliated/disordered intercalated" id="256">
+        <attvalues>
+          <attvalue for="21" value="0.9755417108535767" />
+        </attvalues>
+      </edge>
+      <edge source="category:Thermoplastic" target="category:Thermoset" id="257">
+        <attvalues>
+          <attvalue for="21" value="0.9175609350204468" />
+        </attvalues>
+      </edge>
+      <edge source="category:Thermoplastic" target="data_source:Experimental" id="258">
+        <attvalues>
+          <attvalue for="21" value="0.9151085019111633" />
+        </attvalues>
+      </edge>
+      <edge source="category:Thermoplastic" target="data_source:Simulated" id="259">
+        <attvalues>
+          <attvalue for="21" value="0.9120432734489441" />
+        </attvalues>
+      </edge>
+      <edge source="category:Thermoplastic" target="test_method:Tensile Test" id="260">
+        <attvalues>
+          <attvalue for="21" value="0.871966540813446" />
+        </attvalues>
+      </edge>
+      <edge source="category:Thermoplastic" target="test_method:Dynamic Mechanical Analysis" id="261">
+        <attvalues>
+          <attvalue for="21" value="0.8686037063598633" />
+        </attvalues>
+      </edge>
+      <edge source="category:Thermoplastic" target="category:Elastomer" id="262">
+        <attvalues>
+          <attvalue for="21" value="0.8471112251281738" />
+        </attvalues>
+      </edge>
+      <edge source="category:Thermoset" target="data_source:Experimental" id="263">
+        <attvalues>
+          <attvalue for="21" value="0.8691768050193787" />
+        </attvalues>
+      </edge>
+      <edge source="category:Thermoset" target="data_source:Simulated" id="264">
+        <attvalues>
+          <attvalue for="21" value="0.8670212030410767" />
+        </attvalues>
+      </edge>
+      <edge source="category:Thermoset" target="test_method:Tensile/SENB" id="265">
+        <attvalues>
+          <attvalue for="21" value="0.8290010690689087" />
+        </attvalues>
+      </edge>
+      <edge source="category:Thermoset" target="test_method:Tensile Test" id="266">
+        <attvalues>
+          <attvalue for="21" value="0.8246632814407349" />
+        </attvalues>
+      </edge>
+      <edge source="category:Elastomer" target="data_source:Experimental" id="267">
+        <attvalues>
+          <attvalue for="21" value="0.8705466389656067" />
+        </attvalues>
+      </edge>
+      <edge source="category:Elastomer" target="data_source:Simulated" id="268">
+        <attvalues>
+          <attvalue for="21" value="0.8596435189247131" />
+        </attvalues>
+      </edge>
+      <edge source="category:Elastomer" target="test_method:Tensile/SENB" id="269">
+        <attvalues>
+          <attvalue for="21" value="0.8286483883857727" />
+        </attvalues>
+      </edge>
+      <edge source="category:Elastomer" target="test_method:Tensile Test" id="270">
+        <attvalues>
+          <attvalue for="21" value="0.8261356949806213" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Instrumented-indentation" target="test_method:Compact Tension" id="271">
+        <attvalues>
+          <attvalue for="21" value="0.9074316024780273" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Instrumented-indentation" target="test_method:Nanoindentation" id="272">
+        <attvalues>
+          <attvalue for="21" value="0.8970505595207214" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Instrumented-indentation" target="test_method:Tensile Test" id="273">
+        <attvalues>
+          <attvalue for="21" value="0.8886764645576477" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Instrumented-indentation" target="test_method:Dynamic Mechanical Analysis" id="274">
+        <attvalues>
+          <attvalue for="21" value="0.8856483101844788" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Instrumented-indentation" target="data_source:Experimental" id="275">
+        <attvalues>
+          <attvalue for="21" value="0.8850208520889282" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Instrumented-indentation" target="test_method:Finite Element Method" id="276">
+        <attvalues>
+          <attvalue for="21" value="0.8784969449043274" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Instrumented-indentation" target="test_method:FEM (COMSOL)" id="277">
+        <attvalues>
+          <attvalue for="21" value="0.7714328765869141" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Tensile/SENB" id="278">
+        <attvalues>
+          <attvalue for="21" value="0.9708289504051208" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Flexural Test" id="279">
+        <attvalues>
+          <attvalue for="21" value="0.9480821490287781" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Dynamic Mechanical Analysis" id="280">
+        <attvalues>
+          <attvalue for="21" value="0.9436671137809753" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Compression Test" id="281">
+        <attvalues>
+          <attvalue for="21" value="0.940878689289093" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Tensile/DMA" id="282">
+        <attvalues>
+          <attvalue for="21" value="0.9388806223869324" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Flexural Test (Three Point Bending)" id="283">
+        <attvalues>
+          <attvalue for="21" value="0.8964481353759766" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:TEM/SEM/CT" id="284">
+        <attvalues>
+          <attvalue for="21" value="0.8706684112548828" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Compact Tension" id="285">
+        <attvalues>
+          <attvalue for="21" value="0.9381205439567566" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Impact Test" id="286">
+        <attvalues>
+          <attvalue for="21" value="0.8566875457763672" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Short Beam Shear Test" id="287">
+        <attvalues>
+          <attvalue for="21" value="0.888663649559021" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Finite Element Method" id="288">
+        <attvalues>
+          <attvalue for="21" value="0.873490035533905" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="test_method:Split Hopkinson Pressure Bar" id="289">
+        <attvalues>
+          <attvalue for="21" value="0.7665851712226868" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="data_source:Experimental" id="290">
+        <attvalues>
+          <attvalue for="21" value="0.9152699708938599" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile Test" target="data_source:Simulated" id="291">
+        <attvalues>
+          <attvalue for="21" value="0.9067030549049377" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Flexural Test" target="test_method:Flexural Test (Three Point Bending)" id="292">
+        <attvalues>
+          <attvalue for="21" value="0.9623773694038391" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Flexural Test" target="test_method:Tensile/SENB" id="293">
+        <attvalues>
+          <attvalue for="21" value="0.9357203245162964" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Flexural Test" target="test_method:Dynamic Mechanical Analysis" id="294">
+        <attvalues>
+          <attvalue for="21" value="0.9334748983383179" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Flexural Test" target="test_method:Compression Test" id="295">
+        <attvalues>
+          <attvalue for="21" value="0.9083496928215027" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Flexural Test" target="test_method:Impact Test" id="296">
+        <attvalues>
+          <attvalue for="21" value="0.852590024471283" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Flexural Test" target="test_method:Short Beam Shear Test" id="297">
+        <attvalues>
+          <attvalue for="21" value="0.8868964910507202" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Flexural Test (Three Point Bending)" target="test_method:Tensile/SENB" id="298">
+        <attvalues>
+          <attvalue for="21" value="0.8931058645248413" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Flexural Test (Three Point Bending)" target="test_method:Dynamic Mechanical Analysis" id="299">
+        <attvalues>
+          <attvalue for="21" value="0.8755221366882324" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Flexural Test (Three Point Bending)" target="test_method:Compression Test" id="300">
+        <attvalues>
+          <attvalue for="21" value="0.8508822321891785" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Nanoindentation" target="test_method:Compact Tension" id="301">
+        <attvalues>
+          <attvalue for="21" value="0.8468564748764038" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Nanoindentation" target="test_method:Dynamic Mechanical Analysis" id="302">
+        <attvalues>
+          <attvalue for="21" value="0.8400309681892395" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Nanoindentation" target="data_source:Experimental" id="303">
+        <attvalues>
+          <attvalue for="21" value="0.8375619649887085" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Nanoindentation" target="test_method:Finite Element Method" id="304">
+        <attvalues>
+          <attvalue for="21" value="0.8366222977638245" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/SENB" target="test_method:Tensile/DMA" id="305">
+        <attvalues>
+          <attvalue for="21" value="0.9341512322425842" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/SENB" target="test_method:Dynamic Mechanical Analysis" id="306">
+        <attvalues>
+          <attvalue for="21" value="0.9304670691490173" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/SENB" target="test_method:Compact Tension" id="307">
+        <attvalues>
+          <attvalue for="21" value="0.9209650158882141" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/SENB" target="test_method:TEM/SEM/CT" id="308">
+        <attvalues>
+          <attvalue for="21" value="0.8690441250801086" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/SENB" target="test_method:SENB/DMA" id="309">
+        <attvalues>
+          <attvalue for="21" value="0.8980781435966492" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/SENB" target="test_method:DMA/SEN" id="310">
+        <attvalues>
+          <attvalue for="21" value="0.8805775046348572" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/SENB" target="test_method:Compression Test" id="311">
+        <attvalues>
+          <attvalue for="21" value="0.9157934784889221" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/SENB" target="test_method:Impact Test" id="312">
+        <attvalues>
+          <attvalue for="21" value="0.8509255647659302" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/SENB" target="test_method:Split Hopkinson Pressure Bar" id="313">
+        <attvalues>
+          <attvalue for="21" value="0.756048321723938" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/DMA" target="test_method:DMA/SEN" id="314">
+        <attvalues>
+          <attvalue for="21" value="0.9456588625907898" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/DMA" target="test_method:SENB/DMA" id="315">
+        <attvalues>
+          <attvalue for="21" value="0.9214522242546082" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Tensile/DMA" target="test_method:Dynamic Mechanical Analysis" id="316">
+        <attvalues>
+          <attvalue for="21" value="0.9154060482978821" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:TEM/SEM/CT" target="test_method:Compact Tension" id="317">
+        <attvalues>
+          <attvalue for="21" value="0.8774961233139038" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:TEM/SEM/CT" target="test_method:Finite Element Method" id="318">
+        <attvalues>
+          <attvalue for="21" value="0.8754580020904541" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:TEM/SEM/CT" target="test_method:Dynamic Mechanical Analysis" id="319">
+        <attvalues>
+          <attvalue for="21" value="0.8642416000366211" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:TEM/SEM/CT" target="test_method:FEM (COMSOL)" id="320">
+        <attvalues>
+          <attvalue for="21" value="0.8466746211051941" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:SENB/DMA" target="test_method:DMA/SEN" id="321">
+        <attvalues>
+          <attvalue for="21" value="0.9804904460906982" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:SENB/DMA" target="test_method:Compact Tension" id="322">
+        <attvalues>
+          <attvalue for="21" value="0.8532621264457703" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:SENB/DMA" target="test_method:Dynamic Mechanical Analysis" id="323">
+        <attvalues>
+          <attvalue for="21" value="0.8463625311851501" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:DMA/SEN" target="test_method:Compact Tension" id="324">
+        <attvalues>
+          <attvalue for="21" value="0.8673631548881531" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:DMA/SEN" target="test_method:Dynamic Mechanical Analysis" id="325">
+        <attvalues>
+          <attvalue for="21" value="0.8615247011184692" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compact Tension" target="test_method:Compression Test" id="326">
+        <attvalues>
+          <attvalue for="21" value="0.9212653636932373" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compact Tension" target="test_method:Dynamic Mechanical Analysis" id="327">
+        <attvalues>
+          <attvalue for="21" value="0.9135734438896179" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compact Tension" target="data_source:Experimental" id="328">
+        <attvalues>
+          <attvalue for="21" value="0.9078010320663452" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compact Tension" target="test_method:Short Beam Shear Test" id="329">
+        <attvalues>
+          <attvalue for="21" value="0.8893997073173523" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compact Tension" target="test_method:Finite Element Method" id="330">
+        <attvalues>
+          <attvalue for="21" value="0.8979232311248779" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compact Tension" target="test_method:FEM (COMSOL)" id="331">
+        <attvalues>
+          <attvalue for="21" value="0.7923343777656555" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compact Tension" target="test_method:Split Hopkinson Pressure Bar" id="332">
+        <attvalues>
+          <attvalue for="21" value="0.7732911705970764" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Dynamic Mechanical Analysis" target="test_method:Compression Test" id="333">
+        <attvalues>
+          <attvalue for="21" value="0.9283809661865234" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Dynamic Mechanical Analysis" target="data_source:Experimental" id="334">
+        <attvalues>
+          <attvalue for="21" value="0.9194175601005554" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Dynamic Mechanical Analysis" target="test_method:Impact Test" id="335">
+        <attvalues>
+          <attvalue for="21" value="0.8697487115859985" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Dynamic Mechanical Analysis" target="test_method:Short Beam Shear Test" id="336">
+        <attvalues>
+          <attvalue for="21" value="0.8839966654777527" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Dynamic Mechanical Analysis" target="test_method:Finite Element Method" id="337">
+        <attvalues>
+          <attvalue for="21" value="0.8803374171257019" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Dynamic Mechanical Analysis" target="test_method:Split Hopkinson Pressure Bar" id="338">
+        <attvalues>
+          <attvalue for="21" value="0.7454079985618591" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Dynamic Mechanical Analysis" target="data_source:Simulated" id="339">
+        <attvalues>
+          <attvalue for="21" value="0.906538724899292" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compression Test" target="data_source:Experimental" id="340">
+        <attvalues>
+          <attvalue for="21" value="0.9131630063056946" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compression Test" target="test_method:Short Beam Shear Test" id="341">
+        <attvalues>
+          <attvalue for="21" value="0.8773108720779419" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compression Test" target="test_method:FEM (COMSOL)" id="342">
+        <attvalues>
+          <attvalue for="21" value="0.7702953219413757" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compression Test" target="test_method:Split Hopkinson Pressure Bar" id="343">
+        <attvalues>
+          <attvalue for="21" value="0.7597745656967163" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Compression Test" target="data_source:Simulated" id="344">
+        <attvalues>
+          <attvalue for="21" value="0.9035091996192932" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Impact Test" target="data_source:Experimental" id="345">
+        <attvalues>
+          <attvalue for="21" value="0.8617092370986938" />
+        </attvalues>
+      </edge>
+      <edge source="test_method:Finite Element Method" target="test_method:FEM (COMSOL)" id="346">
+        <attvalues>
+          <attvalue for="21" value="0.8502460718154907" />
+        </attvalues>
+      </edge>
+      <edge source="data_source:Experimental" target="data_source:Simulated" id="347">
+        <attvalues>
+          <attvalue for="21" value="0.9912315607070923" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

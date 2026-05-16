@@ -1,0 +1,22 @@
+=== Phase 3 — Global Buehler-style Graph ===
+
+  Number of nodes                 : 245
+  Number of edges                 : 1659
+  Average node degree             : 13.543
+  Maximum node degree             : 231
+  Minimum node degree             : 6
+  Median node degree              : 7
+  Density                         : 0.055504
+  Number of communities           : 6
+  Components                      : 1
+  Giant component nodes           : 245
+  Giant component edges           : 1659
+  Giant component avg degree      : 13.543
+    polymer nodes                 : 54
+    modification nodes            : 2
+    dispersion nodes              : 13
+    category nodes                : 3
+    article nodes                 : 153
+    test_method nodes             : 18
+    data_source nodes             : 2
+  Power-law exponent α            : 0.602

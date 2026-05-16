@@ -2,9 +2,10 @@
 Phase 2: Full Paper & Thesis - Integrated Analysis Report
 ======================================================================
 
-Total samples with all 3 properties: 429
-Modified samples: 368
-Unmodified samples: 61
+Dataset total:                942
+With all 3 improvement props: 429  (45.5% of dataset)
+Modified samples:             375
+Unmodified samples:           54
 
 ======================================================================
 Cluster C1: Soft elastomeric
@@ -191,37 +192,37 @@ Samples: 36 (Modified: 30, Unmodified: 6)
 
   ΔE%:
     Weighted Degree (Functional Importance):
-      - Nylon 6: 511.2
+      - PA6: 584.3
       - PP: 416.7
-      - Nylon66: 346.5
+      - PA66: 346.5
     Betweenness (Translational Hub):
-      - Nylon66: 0.0399
-      - HDPE: 0.0166
-      - PP: 0.0166
+      - PA66: 0.0418
+      - PA6: 0.0244
+      - HDPE: 0.0174
     Edge Weight Variance (Stability): 2363.2
     Edge Weight Std Dev: 48.6
 
   Δσ%:
     Weighted Degree (Functional Importance):
+      - PA6: 186.7
       - HDPE: 143.1
-      - Nylon66: 138.5
-      - PA6: 96.3
+      - PA66: 138.5
     Betweenness (Translational Hub):
-      - PP: 0.0415
-      - Nylon66: 0.0399
-      - HDPE: 0.0166
+      - PP: 0.0436
+      - PA66: 0.0418
+      - PA6: 0.0244
     Edge Weight Variance (Stability): 239.1
     Edge Weight Std Dev: 15.5
 
   Δε%:
     Weighted Degree (Functional Importance):
-      - Nylon66: 331.9
+      - PA66: 331.9
       - HDPE: 214.3
       - PLA/PBAT: 210.4
     Betweenness (Translational Hub):
-      - Nylon66: 0.0399
-      - HDPE: 0.0166
-      - PP: 0.0166
+      - PA66: 0.0418
+      - PA6: 0.0244
+      - HDPE: 0.0174
     Edge Weight Variance (Stability): 377.9
     Edge Weight Std Dev: 19.4
 
@@ -247,7 +248,7 @@ Samples: 36 (Modified: 30, Unmodified: 6)
 Cluster C4: Rigid polymer
 ======================================================================
 Modulus range: 1.0-inf GPa
-Samples: 367 (Modified: 316, Unmodified: 51)
+Samples: 367 (Modified: 323, Unmodified: 44)
 
   ΔE% Statistics:
     Mean: 26.5%
@@ -274,37 +275,37 @@ Samples: 367 (Modified: 316, Unmodified: 51)
 
   ΔE%:
     Weighted Degree (Functional Importance):
+      - PA6: 4167.5
       - Epoxy: 2274.5
-      - PA6: 2095.0
-      - Nylon 6: 2072.5
+      - PP: 892.7
     Betweenness (Translational Hub):
-      - Epoxy: 0.0837
-      - DGEBA: 0.0191
-      - Nylon 6: 0.0113
+      - Epoxy: 0.0846
+      - PA6: 0.0276
+      - DGEBA: 0.0193
     Edge Weight Variance (Stability): 1626.8
     Edge Weight Std Dev: 40.3
 
   Δσ%:
     Weighted Degree (Functional Importance):
       - Epoxy: 2194.7
-      - Nylon 6: 1077.3
+      - PA6: 1521.0
       - DGEBA: 748.3
     Betweenness (Translational Hub):
-      - Epoxy: 0.0830
-      - DGEBA: 0.0188
-      - Nylon 6: 0.0113
+      - Epoxy: 0.0839
+      - PA6: 0.0276
+      - DGEBA: 0.0190
     Edge Weight Variance (Stability): 443.5
     Edge Weight Std Dev: 21.1
 
   Δε%:
     Weighted Degree (Functional Importance):
+      - PA6: 3735.8
       - Epoxy: 3135.8
-      - Nylon 6: 2728.5
       - DGEBA: 2381.8
     Betweenness (Translational Hub):
-      - Epoxy: 0.0910
-      - DGEBA: 0.0188
-      - PP: 0.0167
+      - Epoxy: 0.0919
+      - PA6: 0.0292
+      - DGEBA: 0.0190
     Edge Weight Variance (Stability): 1088.5
     Edge Weight Std Dev: 33.0
 
@@ -312,18 +313,18 @@ Samples: 367 (Modified: 316, Unmodified: 51)
   (Higher weighted centrality = organized structure-property mapping)
 
   ΔE%:
-    Modified: WD=9684.0 (n=316)
-    Unmodified: WD=1193.9 (n=51)
+    Modified: WD=9822.9 (n=323)
+    Unmodified: WD=1055.0 (n=44)
     Higher centrality: Modified
 
   Δσ%:
-    Modified: WD=5742.5 (n=316)
-    Unmodified: WD=979.3 (n=51)
+    Modified: WD=5790.6 (n=323)
+    Unmodified: WD=931.2 (n=44)
     Higher centrality: Modified
 
   Δε%:
-    Modified: WD=12491.8 (n=316)
-    Unmodified: WD=1795.1 (n=51)
+    Modified: WD=12766.3 (n=323)
+    Unmodified: WD=1520.6 (n=44)
     Higher centrality: Modified
 
 ======================================================================
