@@ -227,6 +227,12 @@
                     filtering logic now distinguishes "dataset total / clusterable / edge-eligible" honestly
                     (e.g. UBMK 2026 reports 942 → 746 → 727 instead of a single misleading number).
                 </li>
+                <li><strong>Chapter 7 — Generative reasoning (Buehler §2.3 implementation):</strong>
+                    five LLM-derived polymer/clay design hypotheses (H1–H5) generated from sub-graph
+                    queries of the complete knowledge graph. Two hypotheses (H2 thermoset over-loading;
+                    H5 CNBR + unmodified MMT) survive a skeptical cross-framing and are accompanied by
+                    explicit falsification criteria and a 20-specimen experimental validation protocol.
+                </li>
             </ul>
         </section>
 
@@ -539,6 +545,87 @@
                     <div class="card-desc">Statistics for the all-data graph (1,214 nodes)</div>
                     <span class="card-type type-txt">TXT</span>
                 </a>
+            </div>
+        </section>
+
+        <!-- Generative Reasoning over the Knowledge Graph -->
+        <section class="phase-section phase-3">
+            <div class="phase-header">
+                <span class="phase-badge">CHAPTER 7</span>
+                <span class="phase-title">Generative Reasoning over the Knowledge Graph</span>
+            </div>
+            <p class="phase-desc">
+                Implementation of Buehler (2024) §2.3 — graph-driven hypothesis generation —
+                that the base Phase 3 pipeline had left as future work. Five sub-graphs are
+                extracted from the complete graph, each isolating a thematically distinct
+                region of the polymer/clay design space. An LLM then reasons over each
+                sub-graph and proposes a polymer/clay composite design suggested by — but
+                not yet realised in — the data. Five hypotheses (H1–H5) are produced;
+                two of them (H2 thermoset over-loading mechanism; H5 CNBR + unmodified MMT)
+                survive an independent skeptical re-framing and are accompanied by a concrete
+                experimental falsification protocol.
+            </p>
+
+            <div class="metrics-grid">
+                <div class="metric-box">
+                    <div class="metric-value">5</div>
+                    <div class="metric-label">Generated Hypotheses</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">2</div>
+                    <div class="metric-label">Cross-framing Survivors</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">H5</div>
+                    <div class="metric-label">Strongest (CNBR + Na-MMT)</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">20</div>
+                    <div class="metric-label">Min. Specimens to Test</div>
+                </div>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #27ae60;">Documents</h3>
+            <div class="cards-grid">
+                <a href="thesis/CHAPTER_07_GENERATIVE_REASONING.md" class="card">
+                    <div class="card-title">Chapter 7 — Generative Reasoning (Markdown)</div>
+                    <div class="card-desc">Full chapter with 5 hypotheses, robustness check, experimental protocol</div>
+                    <span class="card-type type-html">MD</span>
+                </a>
+                <a href="phase3/output/reasoning_subgraphs.txt" class="card">
+                    <div class="card-title">Reasoning Sub-Graphs (LLM Prompts)</div>
+                    <div class="card-desc">Five sub-graphs prepared as LLM-ready prompts (reproducible)</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="phase3/extract_subgraphs_for_reasoning.py" class="card">
+                    <div class="card-title">Sub-Graph Extractor (Python)</div>
+                    <div class="card-desc">Script that pulls sub-graphs from complete_graph.gexf</div>
+                    <span class="card-type type-html">PY</span>
+                </a>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #27ae60;">Hypotheses Summary</h3>
+            <div class="cards-grid">
+                <div class="card" style="cursor:default;">
+                    <div class="card-title">H1 — Hybrid-Filler Epoxy</div>
+                    <div class="card-desc">MMT + GO/silica at 5–8 wt% in high-modulus epoxy. Partial survival.</div>
+                </div>
+                <div class="card" style="cursor:default; border-left: 4px solid #27ae60;">
+                    <div class="card-title">H2 — Thermoset Over-Loading ⭐</div>
+                    <div class="card-desc">Failure mode at >3 wt% Modified MMT with intercalated dispersion. Strong survival.</div>
+                </div>
+                <div class="card" style="cursor:default;">
+                    <div class="card-title">H3 — PA6/PP + Elastomer Compatibilizer</div>
+                    <div class="card-desc">SEBS-g-MA at 5–10 wt% to recover lost ductility. Partial survival.</div>
+                </div>
+                <div class="card" style="cursor:default;">
+                    <div class="card-title">H4 — Low-MW PA6 at High Loading</div>
+                    <div class="card-desc">PA6 + 10–15 wt% MMT pushes ΔE > 200 %. Weak support.</div>
+                </div>
+                <div class="card" style="cursor:default; border-left: 4px solid #27ae60;">
+                    <div class="card-title">H5 — CNBR + Unmodified MMT ⭐</div>
+                    <div class="card-desc">Cost-driven, polar-affinity exfoliation at 10–20 wt%. Strongest hypothesis.</div>
+                </div>
             </div>
         </section>
 

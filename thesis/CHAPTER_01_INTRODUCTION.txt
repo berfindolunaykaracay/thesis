@@ -1,0 +1,141 @@
+                                  CHAPTER 1
+                                INTRODUCTION
+
+
+Polymer/clay nanocomposites are among the most thoroughly studied filler-reinforced polymer systems, with reports of order-of-magnitude stiffness gains at very low filler loadings of montmorillonite (MMT) (Sinha Ray & Okamoto, 2003; Hussain et al., 2006; Ray, 2014). Two decades of literature, however, reveal a behaviour that is far less uniform than the headline numbers suggest: the same nominal filler can stiffen a soft elastomer by a factor of more than fifty while leaving a high-modulus epoxy almost unchanged, and the same polymer matrix can become tougher in one experiment and more brittle in another, depending on the modification of the clay and the resulting dispersion morphology (Manias et al., 2001; Azeez et al., 2013). The magnitude — and even the sign — of the mechanical response is therefore not an intrinsic property of the polymer/clay pair, but a function of the mechanical regime in which the unreinforced matrix already operates. Soft and rubbery matrices behave qualitatively differently from glassy thermoplastics, which in turn behave differently from highly cross-linked thermosets. This regime dependence is well known to practitioners but is rarely treated as a first-class variable in data-driven analyses of the polymer/clay literature, which tend to fit a single global model across all matrices and report aggregate statistics that mask the underlying regime structure.
+
+This thesis argues that regime — the mechanical state of the polymer/clay system, encompassing the unreinforced matrix's stiffness, strength, and ductility regimes together with the magnitude and direction of its response to clay reinforcement — is the organizing variable that has been missing from data-driven studies of polymer/clay nanocomposites, and that making it explicit is what enables principled knowledge extraction from the existing experimental corpus. Concretely, a regime-aware representation is built in two complementary ways. First, the mechanical-property space is partitioned into physically meaningful regimes (low/medium/high matrix strength, soft/medium/stiff matrix modulus, brittle/moderate/ductile strain-to-failure, degraded/modest/strong/extreme improvement), and these regimes are themselves promoted to first-class graph entities rather than treated as bins of a global model. Second, the categorical degrees of freedom of the dataset (polymer matrix, clay modification, dispersion morphology, polymer family, test method, data source, source article) are organized into an ontological knowledge graph, in the spirit of the generative knowledge-graph framework recently introduced by Buehler (2024) for unstructured materials-science text. The result is a single graph in which every experiment is co-located with the categorical concepts it instantiates and with the mechanical regimes it occupies, and in which semantic similarity between concepts can be measured directly via transformer-based node embeddings. This regime-aware knowledge graph is the data-driven knowledge-extraction substrate that the title of this thesis refers to.
+
+
+1.1 Problem Definition
+
+
+The central problem addressed in this thesis is that current data-driven analyses of polymer/clay nanocomposites are regime-blind, and that this blindness systematically distorts the structure-property relationships that such analyses are intended to surface.
+
+Existing data-driven studies of the field fall into two broad camps. The first camp builds regression, micromechanical, or machine-learning models that predict an aggregate quantity such as the elastic modulus of the composite from a feature vector of matrix properties, filler content, and aspect ratio (Weon, 2009; Zaïri et al., 2011; Wang et al., 2013; Heydari-Meybodi et al., 2015; Zare & Rhee, 2017; Zazoum et al., 2020; Akbarzadeh et al., 2024). These models are accurate in aggregate but treat the dataset as a flat feature space and offer no mechanism for asking which polymers behave like which other polymers, and under what conditions. The second camp consists of single-system case studies that report mechanical behaviour for one polymer family at a time and explain it through chemistry-specific mechanisms; these studies are rich in physical insight but are difficult to aggregate into transferable design rules (Plummer et al., 2005; Voicu et al., 2024). In neither camp is the regime in which a matrix sits made explicit as a variable; regime is implicit in the choice of polymer and therefore conflated with chemistry.
+
+The regime-blindness problem has three concrete consequences for the analysis of polymer/clay data. First, summary statistics computed across the full dataset are dominated by extreme regimes: the high percentage-improvement values reported for very soft matrices (e.g., poly(methyl acrylate) with sub-MPa neat strength) inflate the apparent benefit of clay reinforcement when no separation by regime is performed. Second, the standard log10 transformation routinely applied to property-improvement columns silently discards every experiment in which an improvement is negative, which is the dominant case for elongation-to-failure: in the dataset analysed here, log10 leaves only 91 of 440 elongation-improvement rows usable, biasing the entire transformed view toward stiffness/strength enhancement and away from the ductility losses that any honest discussion of clay reinforcement must address. Third, the relational structure of the data — the fact that a given polymer is co-investigated with specific clay modifications, dispersion morphologies, and characterization methods, and that these co-occurrence patterns themselves carry information — is not preserved by flat-feature representations.
+
+A representation that addresses all three consequences must simultaneously (i) encode mechanical regimes explicitly so that within-regime analysis is possible, (ii) admit negative improvement values so that ductility losses and other degradations are first-class data, and (iii) preserve the relational structure that connects polymers, modifications, dispersions, and regimes through their shared experiments. This thesis builds such a representation in the form of a regime-aware ontological knowledge graph, supported by a numerical-encoding pipeline that retains both directions of mechanical change.
+
+
+1.2 Research Question
+
+
+This thesis examines whether an explicitly regime-aware representation of the polymer/clay literature, implemented as an ontological knowledge graph in the spirit of Buehler (2024), enables structure-property knowledge extraction that is not accessible to existing regime-blind analyses of the same data. The research questions are formulated as follows.
+
+RQ1. Does promoting mechanical-property regimes to first-class graph entities — rather than treating them as latent strata of a flat model — alter the structure-property patterns that are surfaced by graph-based analysis of polymer/clay data, and if so, how?
+
+RQ2. Can the negative-improvement portion of the data, which is systematically lost under the standard log10 transformation of property-improvement columns, be recovered by an arcsinh transformation, and does the recovered ductility-degradation signal change the conclusions that can be drawn about clay reinforcement?
+
+RQ3. When the generative knowledge-graph framework of Buehler (2024), originally formulated for unstructured text, is adapted to a structured experimental dataset of polymer/clay nanocomposites, how does the resulting graph topology (degree distribution, scale-freeness, community structure) compare to the text-derived case, and what does that comparison say about the information density of structured versus unstructured materials data?
+
+RQ4. Do transformer-based node embeddings of categorical concepts in the polymer/clay graph recover chemistry-meaningful structure — in particular, the polyamide family, dispersion-morphology variants, and the thermoset/thermoplastic/elastomer split — without any explicit chemical priors, and can such embeddings therefore serve as a domain-independent vehicle for knowledge extraction on tabular materials data?
+
+
+1.3 Contributions
+
+
+The main contributions of this thesis are as follows.
+
+1. A regime-aware representation of the polymer/clay literature. Mechanical-property regimes (matrix strength, modulus, strain-to-failure, the three improvement axes, and clay loading) are partitioned into 27 physically meaningful, literature-standard bins and promoted to first-class nodes of an ontological knowledge graph alongside the categorical concepts of the dataset. Each of the 942 experiments is therefore explicitly co-located with both the chemistry it represents and the mechanical regime it occupies, which makes within-regime structure-property analysis possible at the level of the full dataset rather than at the level of individual case studies.
+
+2. A negative-compatible numerical-encoding pipeline. A six-column arcsinh transformation is introduced alongside the existing log10 columns of the dataset. Because arcsinh is defined for all real numbers and behaves like log for large |x| while remaining linear near zero, it preserves the negative-improvement data that log10 discards. For the elongation-improvement column the number of usable rows grew from 91 (under log10) to 440 (under arcsinh), a 4.8-fold recovery, allowing the regime-aware analysis to incorporate ductility losses on equal footing with stiffness gains.
+
+3. A tabular-data adaptation of the Buehler (2024) generative knowledge-graph framework. The Buehler pipeline — LLM-based triplet extraction, transformer-based node embedding, cosine-similarity-driven path traversal — was originally formulated for unstructured paper corpora. This thesis presents the first application of that framework to a structured, experiment-level polymer/clay dataset, replacing the stochastic LLM-extraction stage with deterministic concept extraction from cleaned categorical columns while retaining the downstream embedding, similarity, and traversal machinery. The substitution makes graph construction fully reproducible without sacrificing the semantic capabilities that the Buehler framework was designed to expose.
+
+4. A three-layer hybrid graph that fuses concepts, experiments, and property regimes. The complete graph constructed in this work contains 245 categorical concept nodes, 942 experiment-level sample nodes, and 27 property-regime nodes, totalling 1,214 nodes and 13,394 edges. Concept-to-concept edges encode co-occurrence in a shared experiment; sample-to-concept edges anchor every individual measurement to the categorical concepts it instantiates; sample-to-regime edges anchor every measurement to the mechanical regimes it occupies. This three-layer construction makes every datum in the dataset addressable from any of the three perspectives.
+
+5. Empirical validation that text-only transformer embeddings recover polymer chemistry. Sentence-transformer embeddings (all-MiniLM-L6-v2, 384-dimensional) of the node descriptions cluster the polyamide family (PA, PA6, PA7, PA8, PA12, PA66 and the PA6/PP blend) with pairwise cosine similarities in the range 0.83–0.97, group dispersion-morphology variants in a single sub-region, and resolve the thermoset/thermoplastic/elastomer split. Because the embedding model has no explicit chemical knowledge, this recovery is a domain-relevant analogue of the validation Buehler reports for biological materials, and supports the use of general-purpose embeddings as a knowledge-extraction tool on tabular materials data.
+
+6. A reproducible dataset-cleanup pipeline for polymer/clay literature. The source dataset is normalized for case and whitespace inconsistencies across all categorical fields, semantically equivalent entries are merged (PA6 ↔ Nylon 6; PA66 ↔ Nylon66; Three-Point Bend ↔ Flexural Test (3PB); multiple variants of "intercalated/exfoliated"), the "?" missing-data marker is converted to NaN so that downstream numerical operations treat absence correctly, and a single unit-error row is corrected (Epoxy matrix strength 0.12 → 12 MPa). Each cleanup stage is backed up so that all transformations remain auditable.
+
+
+1.4 Structure of Thesis
+
+
+This thesis consists of eight chapters. Chapter 1 presents the motivation, the regime-blindness problem, the research questions, and the contributions. Chapter 2 reviews relevant literature on polymer/clay nanocomposite mechanical-property modelling, the limited prior treatments of regime dependence, materials-informatics representations of structured experimental data, and the emerging family of generative and graph-based knowledge-extraction methods in materials science. Chapter 3 provides background on the polymer/clay system itself, the categorical and numerical fields of the source dataset, the definition of mechanical regimes used in this work, the Buehler generative knowledge-graph framework, and the basics of sentence-transformer node embeddings. Chapter 4 describes the methodology: the dataset-cleanup pipeline, the arcsinh transformation, the rules for deterministic concept extraction, the construction of the regime layer, the embedding pipeline, and the analytic procedures (community detection, hub identification, semantic neighbour retrieval, path-based reasoning) that operate on the resulting graph. Chapter 5 details the experimental setup, including the precise threshold choices for the regime layer, the configuration of the embedding model, and the software environment. Chapter 6 presents the results: dataset-cleanup statistics, regime populations, graph-topology metrics (Buehler Table 1 analogue), community structure (full and concept-only), the centrality hierarchy, semantic-neighbour examples, complete-graph property-regime populations, and the validation of polymer-family recovery. Chapter 7 discusses the implications of the findings, examines the regime-aware versus regime-blind comparison in detail, addresses validity threats, and notes the limitations introduced by the deterministic-extraction choice. Chapter 8 summarizes the work, outlines its implications for materials-informatics practice, and identifies the Buehler-framework components that this thesis explicitly leaves to future work (LLM-driven graph reasoning, isomorphism analysis across material families, agentic data augmentation).
+
+
+====================================================================
+
+REFERENCES CITED IN THIS CHAPTER
+
+
+Akbarzadeh, M., Gorji, T., Tayouri, M. I., Estaji, S., Akbari, H., Ahmadi, Z.,
+       Dawi, E. A., & Khonakdar, H. A. (2024). Machine learning-driven
+       optimization and prediction of poly(lactic acid)/poly(butylene-
+       adipate-co-terephthalate)/clay blend nanocomposites in
+       structure–property relationships: A combination of experimental and
+       computational techniques. Polymer Engineering and Science.
+       https://doi.org/10.1002/pen.27054
+
+Azeez, A. A., Rhee, K. Y., Park, S. J., & Hui, D. (2013). Epoxy clay
+       nanocomposites — Processing, properties and applications: A review.
+       Composites Part B: Engineering, 45(1), 308–320.
+       https://doi.org/10.1016/j.compositesb.2012.04.012
+
+Buehler, M. J. (2024). Accelerating scientific discovery with generative
+       knowledge extraction, graph-based representation, and multimodal
+       intelligent graph reasoning (arXiv:2403.11996). arXiv.
+       https://arxiv.org/abs/2403.11996
+
+Heydari-Meybodi, M., Saber-Samandari, S., & Sadighi, M. (2015). A new
+       approach for prediction of elastic modulus of polymer/nanoclay
+       composites by considering interfacial debonding: Experimental and
+       numerical investigations. Composites Science and Technology, 117,
+       379–385. https://doi.org/10.1016/j.compscitech.2015.07.014
+
+Hussain, F., Hojjati, M., Okamoto, M., & Gorga, R. E. (2006). Review article:
+       Polymer-matrix nanocomposites, processing, manufacturing, and
+       application: An overview. Journal of Composite Materials, 40(17),
+       1511–1575. https://doi.org/10.1177/0021998306067321
+
+Manias, E., Touny, A., Wu, L., Strawhecker, K., Lu, B., & Chung, T. C. (2001).
+       Polypropylene/montmorillonite nanocomposites. Review of the synthetic
+       routes and materials properties. Chemistry of Materials, 13(10),
+       3516–3523. https://doi.org/10.1021/cm0110627
+
+Plummer, C. J. G., Rodlert, M., Bucaille, J. L., Grünbauer, H. J. M., &
+       Månson, J.-A. E. (2005). Correlating the rheological and mechanical
+       response of polyurethane nanocomposites containing hyperbranched
+       polymers. Polymer, 46(17), 6543–6553.
+       https://doi.org/10.1016/j.polymer.2005.05.006
+
+Ray, S. S. (2014). Recent trends and future outlooks in the field of
+       clay-containing polymer nanocomposites. Macromolecular Chemistry and
+       Physics, 215(12), 1162–1179. https://doi.org/10.1002/macp.201400069
+
+Sinha Ray, S., & Okamoto, M. (2003). Polymer/layered silicate nanocomposites:
+       A review from preparation to processing. Progress in Polymer Science,
+       28(11), 1539–1641. https://doi.org/10.1016/j.progpolymsci.2003.08.002
+
+Voicu, R. C., Gologanu, M., Tibeica, C., Santiago-Calvo, M., Asensio, M.,
+       Cañibano, E., Nedelcu, O., & Sandu, T. (2024). Prediction of
+       mechanical properties of nano-clay-based biopolymeric composites.
+       Nanomaterials, 14(17). https://doi.org/10.3390/nano14171403
+
+Wang, K., Ahzi, S., Matadi Boumbimba, R., Bahlouli, N., Addiego, F., &
+       Rémond, Y. (2013). Micromechanical modeling of the elastic behavior
+       of polypropylene based organoclay nanocomposites under a wide range
+       of temperatures and strain rates/frequencies. Mechanics of Materials,
+       64, 56–68. https://doi.org/10.1016/j.mechmat.2013.04.009
+
+Weon, J.-I. (2009). Mechanical and thermal behavior of polyamide-6/clay
+       nanocomposite using continuum-based micromechanical modeling.
+
+Zaïri, F., Gloaguen, J. M., Naït-Abdelaziz, M., Mesbah, A., & Lefebvre, J. M.
+       (2011). Study of the effect of size and clay structural parameters on
+       the yield and post-yield response of polymer/clay nanocomposites via
+       a multiscale micromechanical modelling. Acta Materialia, 59(10),
+       3851–3863. https://doi.org/10.1016/j.actamat.2011.03.009
+
+Zare, Y., & Rhee, K. Y. (2017). Development of Hashin-Shtrikman model to
+       determine the roles and properties of interphases in clay/CaCO3/PP
+       ternary nanocomposite. Applied Clay Science, 137, 176–182.
+       https://doi.org/10.1016/j.clay.2016.12.033
+
+Zazoum, B., Triki, E., & Bachri, A. (2020). Modeling of mechanical
+       properties of clay-reinforced polymer nanocomposites using deep
+       neural network. Materials, 13(19).
+       https://doi.org/10.3390/MA13194266

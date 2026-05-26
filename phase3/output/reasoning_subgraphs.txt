@@ -1,0 +1,163 @@
+REASONING SUB-GRAPHS — for LLM-driven hypothesis generation
+(addresses Buehler 2024 §2.3, missing from base Phase 3 pipeline)
+======================================================================
+
+======================================================================
+QUERY: Q1 — Epoxy + Modified MMT + Exfoliated dispersion
+======================================================================
+
+A well-studied 'gold standard' combination in the thermoset literature. What is the actual property envelope it occupies, and what is the next logical step to push beyond it?
+
+SUB-GRAPH SUMMARY:
+  Number of samples in this sub-graph: 60
+  Top polymer: Epoxy×60
+  Top modification: Modified×60
+  Top dispersion: exfoliated×60
+  Top category: Thermoset×54, Thermoplastic×3, Elastomer×3
+  Top test_method: Tensile Test×48, Flexural Test (Three Point Bending)×4, Compression Test×3, Flexural Test×3, Dynamic Mechanical Analysis×2
+  Property statistics (mean | median | min | max | n):
+    matrix_modulus    :     3.50 |     2.80 |     0.00 |    22.09 | n=60
+    matrix_strength   :   117.96 |    66.52 |     0.12 |   448.38 | n=48
+    matrix_strain     :    89.23 |     5.00 |     0.08 |   600.00 | n=29
+    dE_modulus        :    43.51 |    17.68 |   -15.38 |   391.67 | n=60
+    dsigma_strength   :    43.02 |     8.12 |   -44.08 |  1150.00 | n=48
+    de_strain         :     6.83 |   -16.56 |   -75.00 |   330.23 | n=26
+    MMT_loading       :     3.53 |     3.00 |     0.50 |    13.00 | n=60
+
+REPRESENTATIVE SAMPLES (5 of these):
+  exp_21  (cluster=C4)  E=1.30 GPa, σ=66.52 MPa, ε=2.90, ΔE=7.7%, Δσ=1.2%, Δε=—, MMT=0.50 wt%
+  exp_83  (cluster=uncluster)  E=3.00 GPa, σ=—, ε=—, ΔE=133.3%, Δσ=—, Δε=—, MMT=5.00 wt%
+  exp_164  (cluster=C4)  E=1.90 GPa, σ=73.00 MPa, ε=5.00, ΔE=-8.4%, Δσ=-13.7%, Δε=-20.0%, MMT=1.00 wt%
+  exp_432  (cluster=C4)  E=4.01 GPa, σ=205.81 MPa, ε=37.16, ΔE=10.5%, Δσ=10.9%, Δε=11.7%, MMT=1.00 wt%
+  exp_587  (cluster=C4)  E=3.05 GPa, σ=97.00 MPa, ε=—, ΔE=1.3%, Δσ=-8.2%, Δε=—, MMT=2.00 wt%
+
+REASONING TASK:
+Based on the co-occurrence patterns and property statistics above, propose ONE polymer/clay composite design (or design principle) that is suggested by — but not yet realised in — this sub-graph. Justify your hypothesis from the co-occurrence and property distribution evidence shown.
+
+======================================================================
+QUERY: Q2 — Degraded-strength regime (Δσ < 0)
+======================================================================
+
+Experiments where clay reinforcement REDUCED the strength of the matrix. Which concept combinations dominate this failure regime, and what does that suggest about design rules to AVOID?
+
+SUB-GRAPH SUMMARY:
+  Number of samples in this sub-graph: 181
+  Top polymer: Epoxy×73, DGEBA×42, PA6×13, UP×7, Vinyl Ester×6
+  Top modification: Modified×166, Unmodified×15
+  Top dispersion: intercalated×58, intercalated/exfoliated×43, exfoliated×31, microcomposite×24, agglomerated×14
+  Top category: Thermoset×139, Thermoplastic×41, Elastomer×1
+  Top test_method: Tensile Test×145, Flexural Test×14, Flexural Test (Three Point Bending)×14, Short Beam Shear Test×3, Compression Test×2
+  Property statistics (mean | median | min | max | n):
+    matrix_modulus    :     6.23 |     2.70 |     0.08 |   100.00 | n=178
+    matrix_strength   :    88.67 |    65.00 |     2.94 |   756.30 | n=181
+    matrix_strain     :    13.72 |     2.90 |     0.03 |   506.50 | n=137
+    dE_modulus        :    14.77 |     9.58 |   -90.00 |   245.45 | n=178
+    dsigma_strength   :   -17.42 |   -13.66 |  -100.00 |    -0.30 | n=181
+    de_strain         :   -25.90 |   -26.13 |   -97.36 |   180.00 | n=136
+    MMT_loading       :     5.28 |     5.00 |     0.10 |    20.00 | n=181
+
+REPRESENTATIVE SAMPLES (5 of these):
+  exp_161  (cluster=C4)  E=1.90 GPa, σ=73.00 MPa, ε=5.00, ΔE=12.6%, Δσ=-1.4%, Δε=-10.0%, MMT=0.50 wt%
+  exp_329  (cluster=C4)  E=3.06 GPa, σ=83.00 MPa, ε=0.68, ΔE=-4.6%, Δσ=-7.6%, Δε=135.3%, MMT=5.00 wt%
+  exp_454  (cluster=C4)  E=3.00 GPa, σ=68.00 MPa, ε=—, ΔE=6.7%, Δσ=-7.4%, Δε=—, MMT=3.00 wt%
+  exp_701  (cluster=C3)  E=2.82 GPa, σ=59.06 MPa, ε=0.03, ΔE=3.4%, Δσ=-0.4%, Δε=0.0%, MMT=1.00 wt%
+  exp_739  (cluster=C4)  E=3.35 GPa, σ=72.00 MPa, ε=7.00, ΔE=0.9%, Δσ=-16.7%, Δε=-68.6%, MMT=3.00 wt%
+
+REASONING TASK:
+Based on the co-occurrence patterns and property statistics above, propose ONE polymer/clay composite design (or design principle) that is suggested by — but not yet realised in — this sub-graph. Justify your hypothesis from the co-occurrence and property distribution evidence shown.
+
+======================================================================
+QUERY: Q3 — Polyamide family (PA, PA6, PA7, PA8, PA12, PA66)
+======================================================================
+
+The polyamide family clusters tightly in transformer embedding space (cosine 0.83–0.97). What property envelope does the family span, and what would the IDEAL polyamide-MMT design look like based on the best-performing combinations?
+
+SUB-GRAPH SUMMARY:
+  Number of samples in this sub-graph: 250
+  Top polymer: PA6×193, PA12×38, PA66×10, PA×7, PA7×1
+  Top modification: Modified×229, Unmodified×21
+  Top dispersion: exfoliated×99, intercalated×75, intercalated/exfoliated×57, microcomposite×9, agglomerated×6
+  Top category: Thermoplastic×246, Thermoset×4
+  Top test_method: Tensile Test×211, Flexural Test×19, Nanoindentation×7, Dynamic Mechanical Analysis×6, Flexural Test (Three Point Bending)×6
+  Property statistics (mean | median | min | max | n):
+    matrix_modulus    :     2.12 |     2.40 |     0.04 |     4.80 | n=250
+    matrix_strength   :    64.22 |    65.50 |    26.60 |    88.90 | n=194
+    matrix_strain     :    13.52 |     1.54 |     0.04 |   600.00 | n=82
+    dE_modulus        :    62.29 |    34.55 |   -50.00 |  2180.00 | n=249
+    dsigma_strength   :    14.40 |    12.63 |  -100.00 |   161.11 | n=191
+    de_strain         :   -51.67 |   -45.00 |   -99.55 |     0.00 | n=81
+    MMT_loading       :     4.35 |     4.00 |     0.95 |    17.00 | n=250
+
+REPRESENTATIVE SAMPLES (5 of these):
+  exp_88  (cluster=uncluster)  E=1.00 GPa, σ=—, ε=—, ΔE=10.0%, Δσ=—, Δε=—, MMT=1.00 wt%
+  exp_560  (cluster=C4)  E=2.20 GPa, σ=61.20 MPa, ε=—, ΔE=56.7%, Δσ=12.9%, Δε=—, MMT=7.50 wt%
+  exp_941  (cluster=C4)  E=2.75 GPa, σ=69.70 MPa, ε=3.04, ΔE=57.1%, Δσ=25.8%, Δε=-80.3%, MMT=4.50 wt%
+  exp_571  (cluster=C4)  E=4.62 GPa, σ=76.00 MPa, ε=47.20, ΔE=84.9%, Δσ=22.0%, Δε=-95.9%, MMT=4.80 wt%
+  exp_928  (cluster=C4)  E=2.75 GPa, σ=69.70 MPa, ε=3.04, ΔE=42.5%, Δσ=21.8%, Δε=-60.9%, MMT=3.20 wt%
+
+REASONING TASK:
+Based on the co-occurrence patterns and property statistics above, propose ONE polymer/clay composite design (or design principle) that is suggested by — but not yet realised in — this sub-graph. Justify your hypothesis from the co-occurrence and property distribution evidence shown.
+
+======================================================================
+QUERY: Q4 — Extreme modulus-improvement regime (ΔE > 200%)
+======================================================================
+
+Experiments where clay produced more than 3x stiffness. Are these real opportunities or artefacts of very soft matrices? What design lesson can be extracted that is robust to the baseline effect?
+
+SUB-GRAPH SUMMARY:
+  Number of samples in this sub-graph: 39
+  Top polymer: PA6×11, Epoxy×9, PMA×5, PVA×4, CNBR×4
+  Top modification: Modified×27, Unmodified×12
+  Top dispersion: exfoliated×17, intercalated/exfoliated×10, intercalated×9, intercalated/microcomposite×2, microcomposite×1
+  Top category: Thermoplastic×26, Elastomer×8, Thermoset×5
+  Top test_method: Tensile Test×33, Flexural Test (Three Point Bending)×4, Instrumented-indentation×1, Flexural Test×1
+  Property statistics (mean | median | min | max | n):
+    matrix_modulus    :     1.44 |     0.80 |     0.00 |     6.00 | n=39
+    matrix_strength   :    72.28 |    62.85 |     0.28 |   220.00 | n=20
+    matrix_strain     :     8.11 |     2.00 |     0.13 |    18.00 | n=12
+    dE_modulus        :   668.86 |   307.27 |   200.00 |  5163.64 | n=39
+    dsigma_strength   :  1086.11 |    98.01 |    -5.80 |  4400.00 | n=16
+    de_strain         :   -11.23 |   -87.78 |   -97.22 |   330.23 | n=12
+    MMT_loading       :    16.77 |    10.00 |     1.00 |    70.00 | n=39
+
+REPRESENTATIVE SAMPLES (5 of these):
+  exp_19  (cluster=C1)  E=0.11 GPa, σ=0.30 MPa, ε=18.00, ΔE=2427.3%, Δσ=3833.3%, Δε=-95.0%, MMT=19.90 wt%
+  exp_93  (cluster=uncluster)  E=1.00 GPa, σ=—, ε=—, ΔE=200.0%, Δσ=—, Δε=—, MMT=8.00 wt%
+  exp_805  (cluster=uncluster)  E=0.00 GPa, σ=—, ε=—, ΔE=442.5%, Δσ=—, Δε=—, MMT=20.00 wt%
+  exp_808  (cluster=C4)  E=1.10 GPa, σ=69.00 MPa, ε=1.00, ΔE=307.3%, Δσ=26.1%, Δε=-90.0%, MMT=2.50 wt%
+  exp_811  (cluster=C4)  E=1.10 GPa, σ=69.00 MPa, ε=1.00, ΔE=245.5%, Δσ=-5.8%, Δε=0.0%, MMT=5.00 wt%
+
+REASONING TASK:
+Based on the co-occurrence patterns and property statistics above, propose ONE polymer/clay composite design (or design principle) that is suggested by — but not yet realised in — this sub-graph. Justify your hypothesis from the co-occurrence and property distribution evidence shown.
+
+======================================================================
+QUERY: Q5 — Elastomer + Unmodified MMT (sparse combination)
+======================================================================
+
+An under-explored corner of the design space. Given how few experiments occupy this combination, what design hypothesis would you propose to fill the gap?
+
+SUB-GRAPH SUMMARY:
+  Number of samples in this sub-graph: 9
+  Top polymer: NBR×4, CNBR×4, Epoxy×1
+  Top modification: Unmodified×9
+  Top dispersion: intercalated/exfoliated×8, microcomposite×1
+  Top category: Elastomer×9
+  Top test_method: Tensile Test×9
+  Property statistics (mean | median | min | max | n):
+    matrix_modulus    :     0.00 |     0.00 |     0.00 |     0.00 | n=9
+    matrix_strength   :     0.28 |     0.28 |     0.28 |     0.28 | n=1
+    matrix_strain     :     0.13 |     0.13 |     0.13 |     0.13 | n=1
+    dE_modulus        :   414.08 |   442.45 |     2.08 |   819.81 | n=9
+    dsigma_strength   :    32.14 |    32.14 |    32.14 |    32.14 | n=1
+    de_strain         :    46.51 |    46.51 |    46.51 |    46.51 | n=1
+    MMT_loading       :    22.56 |    20.00 |     3.00 |    40.00 | n=9
+
+REPRESENTATIVE SAMPLES (5 of these):
+  exp_800  (cluster=uncluster)  E=0.00 GPa, σ=—, ε=—, ΔE=171.1%, Δσ=—, Δε=—, MMT=10.00 wt%
+  exp_801  (cluster=uncluster)  E=0.00 GPa, σ=—, ε=—, ΔE=351.8%, Δσ=—, Δε=—, MMT=20.00 wt%
+  exp_805  (cluster=uncluster)  E=0.00 GPa, σ=—, ε=—, ΔE=442.5%, Δσ=—, Δε=—, MMT=20.00 wt%
+  exp_807  (cluster=uncluster)  E=0.00 GPa, σ=—, ε=—, ΔE=819.8%, Δσ=—, Δε=—, MMT=40.00 wt%
+  exp_900  (cluster=C1)  E=0.00 GPa, σ=0.28 MPa, ε=0.13, ΔE=2.1%, Δσ=32.1%, Δε=46.5%, MMT=3.00 wt%
+
+REASONING TASK:
+Based on the co-occurrence patterns and property statistics above, propose ONE polymer/clay composite design (or design principle) that is suggested by — but not yet realised in — this sub-graph. Justify your hypothesis from the co-occurrence and property distribution evidence shown.

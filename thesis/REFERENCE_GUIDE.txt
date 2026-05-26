@@ -1,0 +1,200 @@
+======================================================================
+REFERENCE USAGE GUIDE — categorized from your Zotero library
+(149 unique references → grouped by thematic relevance)
+======================================================================
+
+
+--- 10_Elastomer_Rubber (2 references) ---
+
+  [Abhisha2020Effectof                ] (2020) Abhisha — Effect of halloysite nanotubes and organically modified bentonite clay hybrid fi
+  [Dua2021COMPARIS                    ] (2021) Dua — COMPARISON OF THE ELASTIC MODULUS OF ELASTOMER CLAY NANOCOMPOSITES PREDICTED BY 
+
+--- 11_Modification (5 references) ---
+
+  [Wang2007Effectof                   ] (2007) Wang — Effect of clay on properties of polyimide-clay nanocomposites
+  [Merah2019Nanoclay                  ] (2019) Merah — Nanoclay and water uptake effects on mechanical properties of unsaturated polyes
+  [Rauschendorfer2020Tuningth         ] (2020) Rauschendorfer — Tuning the Mechanical Properties of Poly(Methyl Acrylate) via Surface-Functional
+  [EncaladaAlayola2020Effectof        ] (2020) Encalada-Alayola — Effect of type and concentration of nanoclay on the mechanical and physicochemic
+  [SurndSynthesi                      ] (n.d.) Sur — Synthesis, structure, mechanical properties, and thermal stability of some polys
+
+--- 12_Dispersion (5 references) ---
+
+  [Lepoittevin2002Polycapr            ] (2002) Lepoittevin — Poly(ε-caprolactone)/clay nanocomposites by in-situ intercalative polymerization
+  [Marras2007Nanostru                 ] (2007) Marras — Nanostructure vs. microstructure: Morphological and thermomechanical characteriz
+  [Carli2011PHBVnano                  ] (2011) Carli — PHBV nanocomposites based on organomodified montmorillonite and halloysite: The 
+  [Kusmono2013Effectof                ] (2013) Kusmono — Effect of clay addition on mechanical properties of unsaturated polyester/glass 
+  [DeMenezes2016Theuseof              ] (2016) De Menezes — The use of montmorillonite clays as reinforcing fillers for dental adhesives
+
+--- 13_Mechanical_Test (2 references) ---
+
+  [DantasdeOliveira2019PolymerN       ] (2019) Dantas de Oliveira — Polymer Nanocomposites with Different Types of Nanofiller
+  [Zare2020Effectso                   ] (2020) Zare — Effects of critical interfacial shear modulus between polymer matrix and nanocla
+
+--- 16_Applications (3 references) ---
+
+  [Firdosh2018Investig                ] (2018) Firdosh — Investigation of water absorption characteristics of nano-gelcoat for marine app
+  [Saikia2019Claynano                 ] (2019) Saikia — Clay nanostructures for biomedical applications
+  [Kandemir2023Biocompa               ] (2023) Kandemir — Biocompatible organic coating fabrication via polymer/clay nanocomposites: Evalu
+
+--- 17_Other (14 references) ---
+
+  [Okada2006Twentyye                  ] (2006) Okada — Twenty years of polymer-clay nanocomposites
+  [Scocchi2009Acomplet                ] (2009) Scocchi — A complete multiscale modelling approach for polymer-clay nanocomposites
+  [Chan2011Mechanis                   ] (2011) Chan — Mechanism of reinforcement in a nanoclay/polymer composite
+  [Olad2011PolymerC                   ] (2011) Olad — Polymer/Clay Nanocomposites
+  [Rull2015Effectof                   ] (2015) Rull — Effect of the addition of nanoclays on the water absorption and mechanical prope
+  [Kassa2020Effectso                  ] (2020) Kassa — Effects of montmorillonite, sepiolite, and halloysite clays on the morphology an
+  [Zare2020Simulati                   ] (2020) Zare — Simulation of Young’s modulus for clay-reinforced nanocomposites assuming mechan
+  [Zare2022Developm                   ] (2022) Zare — Development of a model for modulus of polymer halloysite nanotube nanocomposites
+  [NordinndEffectof                   ] (n.d.) Nordin — Effect of Nanoclay Loading on Mechanical Properties of Nanocomposites
+  [anonndEffectof                     ] (n.d.) Anonymous — Effect of Nanoclay on Quasi Static Perforation of Thin Polymer Composites Lamina
+  [KornmannndNanocomp                 ] (n.d.) Kornmann — Nanocomposites Based on Montmorillonite and Unsaturated Polyester
+  [anonndPolystyr                     ] (n.d.) Anonymous — Polystyrene-Sepiolite Clay Nanocomposites with Enhanced Mechanical and Thermal P
+  [OkadandThechemi                    ] (n.d.) Okada — The chemistry of polymer-clay hybrids
+  [anonndPolystyrb                    ] (n.d.) Anonymous — Polystyrene\_Sepiolite\_Clay\_Nanocomposites\_with\_Enhanced\_Mechanical\_and\_T
+
+--- 1_Reviews (10 references) ---
+
+  [Manias2001Polyprop                 ] (2001) Manias — Polypropylene/montmorillonite nanocomposites. Review of the synthetic routes and
+  [SinhaRay2003Polymerl               ] (2003) Sinha Ray — Polymer/layered silicate nanocomposites: A review from preparation to processing
+  [Bhatnagar2006Lightwei              ] (2006) Bhatnagar — Lightweight ballistic composites : military and law-enforcement applications
+  [Hussain2006Reviewar                ] (2006) Hussain — Review article: Polymer-matrix nanocomposites, processing, manufacturing, and ap
+  [Azeez2013Epoxycla                  ] (2013) Azeez — Epoxy clay nanocomposites - Processing, properties and applications: A review
+  [Ray2014Recenttr                    ] (2014) Ray — Recent trends and future outlooks in the field of clay-containing polymer nanoco
+  [Domun2015Improvin                  ] (2015) Domun — Improving the fracture toughness and the strength of epoxy using nanomaterials-a
+  [Mller2017Reviewon                  ] (2017) Müller — Review on the processing and properties of polymer nanocomposites and nanocoatin
+  [Wolf2018Howthesh                   ] (2018) Wolf — How the shape of fillers affects the barrier properties of polymer/non-porous pa
+  [anonndPolyamid                     ] (n.d.) Anonymous — Polyamide-6/Clay Nanocomposites: A Critical Review
+
+--- 2_Modeling_Micromech (9 references) ---
+
+  [Plummer2005Correlat                ] (2005) Plummer — Correlating the rheological and mechanical response of polyurethane nanocomposit
+  [Weon2009Mechanic                   ] (2009) Weon — Mechanical and Thermal Behavior of Polyamide-6/Clay Nanocomposite Using Continuu
+  [Zari2011Studyoft                   ] (2011) Zaïri — Study of the effect of size and clay structural parameters on the yield and post
+  [Wang2011Finiteel                   ] (2011) Wang — Finite element modeling for particle-reinforced polymer composites for wind ener
+  [Wang2013Micromec                   ] (2013) Wang — Micromechanical modeling of the elastic behavior of polypropylene based organocl
+  [HeydariMeybodi2015Anewappr         ] (2015) Heydari-Meybodi — A new approach for prediction of elastic modulus of polymer/nanoclay composites 
+  [Zare2017Developm                   ] (2017) Zare — Development of Hashin-Shtrikman model to determine the roles and properties of i
+  [Zare2017Efficien                   ] (2017) Zare — Efficiency of stress transfer between polymer matrix and nanoplatelets in clay/p
+  [Gabr2018Mechanic                   ] (2018) Gabr — Mechanical, thermal, and interfacial shear properties of polyamide/nanoclay nano
+
+--- 3_ML_DataDriven (8 references) ---
+
+  [Zicans2015Modeling                 ] (2015) Zicans — Modeling and experimental investigations of elastic and creep properties of ther
+  [Moghri2015Theeffec                 ] (2015) Moghri — The effect of different parameters on mechanical properties of PA-6/clay nanocom
+  [Zare2017Anapproa                   ] (2017) Zare — An approach to study the roles of percolation threshold and interphase in tensil
+  [Nakhaei2017Optimiza                ] (2017) Nakhaei — Optimization of mechanical properties of PP/EPDM/ clay nanocomposite fabricated 
+  [Zazoum2020Modeling                 ] (2020) Zazoum — Modeling of mechanical properties of clay-reinforced polymer nanocomposites usin
+  [ShantiKiran2021Tensilea            ] (2021) Shanti Kiran — Tensile and flexural characteristics of an epoxy-glass composite reinforced with
+  [Voicu2024Predicti                  ] (2024) Voicu — Prediction of Mechanical Properties of Nano-Clay-Based Biopolymeric Composites
+  [Akbarzadeh2024Machinel             ] (2024) Akbarzadeh — Machine learning-driven optimization and prediction of poly(lactic acid)/poly(bu
+
+--- 4_KnowledgeGraph_AI (1 references) ---
+
+  [Buehler2024Accelera                ] (2024) Buehler — Accelerating Scientific Discovery with Generative Knowledge Extraction, Graph-Ba
+
+--- 5_PA_Nylon (19 references) ---
+
+  [MasenelliVarlot2002Mechanic        ] (2002) Masenelli-Varlot — Mechanical properties of clay-reinforced polyamide
+  [Ranade2003Nylonand                 ] (2003) Ranade — Nylon-6 and Montmorillonite-Layered Silicate (MLS) nanocomposites
+  [Fernes2004NylonNan                 ] (2004) Fernes — Nylon-6 Nanocomposites from Alkylammonium-Modified Clay: The Role of Alky1 Tails
+  [Fornes2004Effectof                 ] (2004) Fornes — Effect of sodium montmorillonite source on nylon 6/clay nanocomposites
+  [Shen2005Nanoinde                   ] (2005) Shen — Nanoindentation and morphological studies on injection-molded nylon-6 nanocompos
+  [Xie2005Tensilef                    ] (2005) Xie — Tensile fracture morphologies of nylon-6/montmorillonite nanocomposites
+  [Gyoo2006Morpholo                   ] (2006) Gyoo — Morphology, thermal, and mechanical properties of polyamide 66/clay nanocomposit
+  [Wilkinson2007Tensilep              ] (2007) Wilkinson — Tensile properties of melt intercalated polyamide 6 - Montmorillonite nanocompos
+  [Gonzlez2008Nylonorg                ] (2008) González — Nylon 6/organoclay nanocomposites by extrusion
+  [Naveau2011Effectof                 ] (2011) Naveau — Effect of clay modification on the structure and mechanical properties of polyam
+  [Huang2015Numerica                  ] (2015) Huang — Numerical Simulation of Mechanical Properties of Nano Particle Modified Polyamid
+  [EbrahimiJahromi2016Morpholo        ] (2016) Ebrahimi Jahromi — Morphology and mechanical properties of polyamide/clay nanocomposites toughened 
+  [Stojic2016Astudyof                 ] (2016) Stojšic — A study of structure and tensile properties of polyamide 12/clay nanocomposites
+  [Mohsenzadeh2021Experime            ] (2021) Mohsenzadeh — Experimental studies on mechanical properties and toughening mechanisms of PA6/z
+  [AbdelGawad2022Fabricat             ] (2022) Abdel-Gawad — Fabrication of Nylon 6-Montmorillonite Clay Nanocomposites with Enhanced Structu
+  [Stoji2022AStudyof                  ] (2022) Stojšić — A Study of the Flexural Properties of PA12/Clay Nanocomposites
+  [LiundPolyamid                      ] (n.d.) Liu — Polyamide 6-clay nanocomposites/polypropylene-grafted-maleic anhydride alloys
+  [ChondNylonnan                      ] (n.d.) Cho — Nylon 6 nanocomposites by melt compounding
+  [FornesndNylonnan                   ] (n.d.) Fornes — Nylon 6 nanocomposites: the effect of matrix molecular weight
+
+--- 6_Epoxy_DGEBA (54 references) ---
+
+  [Ratna2003Clayrein                  ] (2003) Ratna — Clay-reinforced epoxy nanocomposites
+  [Luo2003Characte                    ] (2003) Luo — Characterization and modeling of mechanical behavior of polymer/clay nanocomposi
+  [Wang2005Preparat                   ] (2005) Wang — Preparation of highly exfoliated epoxy/clay nanocomposites by "slurry compoundin
+  [Yasmin2006Mechanic                 ] (2006) Yasmin — Mechanical and thermal behavior of clay/epoxy nanocomposites
+  [Mohan2006Thermalm                  ] (2006) Mohan — Thermal, mechanical and vibration characteristics of epoxy-clay nanocomposites
+  [Wetzel2006Epoxynan                 ] (2006) Wetzel — Epoxy nanocomposites - fracture and toughening mechanisms
+  [Akbari2007Deformat                 ] (2007) Akbari — Deformation mechanism of epoxy/clay nanocomposite
+  [Manfredi2008Influenc               ] (2008) Manfredi — Influence of the addition of montmorillonite to the matrix of unidirectional gla
+  [Lam2009Optimiza                    ] (2009) Lam — Optimization effect of micro hardness by nanoclay clusters in nanoclay/epoxy com
+  [Zainuddin2010Experime              ] (2010) Zainuddin — Experimental and numerical investigations on flexural and thermal properties of 
+  [Kumar2010Improvem                  ] (2010) Kumar — Improvement of tensile and flexural properties in epoxy/clay nanocomposites rein
+  [Ghafarloo2010Mechanic              ] (2010) Ghafarloo — Mechanical properties of epoxy clay nanocomposites
+  [Li2011Anewmeth                     ] (2011) Li — A new method for preparing completely exfoliated epoxy/clay nanocomposites: Nano
+  [Rashmi2011Dryslidi                 ] (2011) Rashmi — Dry sliding wear behaviour of organo-modified montmorillonite filled epoxy nanoc
+  [Silani2012Ontheexp                 ] (2012) Silani — On the experimental and numerical investigation of clay/epoxy nanocomposites
+  [Alamri2012Effectof                 ] (2012) Alamri — Effect of water absorption on the mechanical properties of nano-filler reinforce
+  [Jumahat2012Compress                ] (2012) Jumahat — Compressive behaviour of nanoclay modified aerospace grade epoxy polymer
+  [Jumahat2012Compressb               ] (2012) Jumahat — Compressive properties of nanoclay/epoxy nanocomposites
+  [Amendola2012EpoxyNan               ] (2012) Amendola — Epoxy Nanocomposites Based on Silylated Montmorillonite: Effect of the Coupling 
+  [Quaresimin2012Fracture             ] (2012) Quaresimin — Fracture and interlaminar properties of clay-modified epoxies and their glass re
+  [Esteves2013Tribolog                ] (2013) Esteves — Tribological and mechanical behaviour of epoxy/nanoclay composites
+  [AlQadhi2013Mechanic                ] (2013) Al-Qadhi — Mechanical properties and water uptake of epoxy-clay nanocomposites containing d
+  [BinduSharmila2014Fabricat          ] (2014) Bindu Sharmila — Fabrication of partially exfoliated and disordered intercalated cloisite epoxy n
+  [AlQadhi2014Effectof                ] (2014) Al-Qadhi — Effect of water and crude oil on mechanical and thermal properties of epoxy-clay
+  [Jumahat2014Flexural                ] (2014) Jumahat — Flexural response of nanoclay-modified epoxy polymers
+  [Hamim2014Effectof                  ] (2014) Hamim — Effect of Hygrothermal Aging on the Mechanical Properties of Fluorinated and Non
+  [Ali2015Influenc                    ] (2015) Ali — Influence of degassing and nanoclay loading on physical and flexural properties 
+  [Jia2015Highlymo                    ] (2015) Jia — Highly moisture-resistant epoxy composites: An approach based on liquid nano-rei
+  [Ozsoy2015Theinflu                  ] (2015) Ozsoy — The influence of micro- And nano-filler content on the mechanical properties of 
+  [AlQadhi2015Mechanic                ] (2015) Al-Qadhi — Mechanical and physical properties of polymer-based nanocomposites containing di
+  [MalekiMoghadam2016Ontheten         ] (2016) Maleki Moghadam — On the tensile behavior of clay-epoxy nanocomposite considering interphase debon
+  [TcherbiNarteh2016Effectso          ] (2016) Tcherbi-Narteh — Effects of Different Montmorillonite Nanoclay Loading on Cure Behavior and Prope
+  [Zhang2016Roleofri                  ] (2016) Zhang — Role of rigid nanoparticles and CTBN rubber in the toughening of epoxies with di
+  [Cerit2016Effectof                  ] (2016) Cerit — Effect of Modification with Various Epoxide Compounds on Mechanical, Thermal, an
+  [Jeyakumar2017Structur              ] (2017) Jeyakumar — Structural, morphological and mechanical behaviour of glass fibre reinforced epo
+  [Basturk2018Mechanic                ] (2018) Basturk — Mechanical and thermo-mechanical properties of nanoclay/epoxy composites: Synerg
+  [Harshita2018Extrapol               ] (2018) Harshita — Extrapolation of Mechanical Strengthening Effect in Nanoclay/Epoxy Nanocomposite
+  [Chee2019Theeffec                   ] (2019) Chee — The effect of bi-functionalized MMT on morphology, thermal stability, dynamic me
+  [Ravichandran2019Enhancem           ] (2019) Ravichandran — Enhancement of mechanical properties of epoxy/halloysite nanotube (HNT) nanocomp
+  [Shettar2020Experime                ] (2020) Shettar — Experimental investigation on mechanical and wear properties of nanoclay-epoxy c
+  [Shettar2020Hygrothe                ] (2020) Shettar — Hygrothermal chamber aging effect on mechanical behavior and morphology of glass
+  [MatYazik2020Effectof               ] (2020) Mat Yazik — Effect of nanoclay content on the thermal, mechanical and shape memory propertie
+  [Nguyen2020StudyonM                 ] (2020) Nguyen — Study on Mechanical Properties and Fire Resistance of Epoxy Nanocomposite Reinfo
+  [FakhreddiniNajafabadi2021Aninvest  ] (2021) Fakhreddini-Najafabadi — An investigation on the effects of synthesis on the mechanical properties of nan
+  [Shettar2022WaterSor                ] (2022) Shettar — Water Sorption-Desorption-Resorption Effects on Mechanical Properties of Epoxy-N
+  [Kowshik2022Effectof                ] (2022) Kowshik — Effect of nanoclay on mechanical, flammability, and water absorption properties 
+  [Merzah2022Enhancem                 ] (2022) Merzah — Enhancement of the Properties of Hybridizing Epoxy and Nanoclay for Mechanical, 
+  [ren2024Effectof                    ] (2024) Örçen — Effect of nanoclay on the mechanical and thermal properties of glass fiber-reinf
+  [Su2024Function                     ] (2024) Su — Functionalized montmorillonite/epoxy resin nanocomposites with enhanced thermal 
+  [Chinnapandi2024Mechanic            ] (2024) Chinnapandi — Mechanical and thermal properties of glass fiber reinforced polymer-clay nanocom
+  [Sharma2024Mechanic                 ] (2024) Sharma — Mechanical behavior of GFRP-Polymer sandwich composites with montmorillonite nan
+  [Jamsheed2025Anexperi               ] (2025) Jamsheed — An experimental investigation on the effect of montmorillonite nanoclay on the m
+  [AradhyandMechanic                  ] (n.d.) Aradhya — Mechanical and Tribological Properties of Epoxy Nano Composites for High Voltage
+  [DanielndProcessi                   ] (n.d.) Daniel — Processing and Characterization of Epoxy/Clay Nanocomposites
+
+--- 7_PP_Polyolefin (10 references) ---
+
+  [Zanetti2002FireReta                ] (2002) Zanetti — Fire Retardant Halogen-Antimony-Clay Synergism in Fire Retardant Halogen-Antimon
+  [Jo2007Processi                     ] (2007) Jo — Processing, characterization, and modeling of polymer/clay nanocomposite foams
+  [Tarapow2009Mechanic                ] (2009) Tarapow — Mechanical properties of polypropylene/clay nanocomposites: Effect of clay conte
+  [Prez2010PolyProP                   ] (2010) Pérez — PolyProPylene/clay nanocomPosites. synthesis and characterization
+  [MerijsMeri2014Elastici             ] (2014) Merijs Meri — Elasticity and long-term behavior of recycled polyethylene terephthalate (rPET)/
+  [Zaman2014Polyprop                  ] (2014) Zaman — Polypropylene/clay nanocomposites: Effect of compatibilizers on the morphology, 
+  [EbadiDehaghani2015Experime         ] (2015) Ebadi-Dehaghani — Experimental and theoretical analyses of mechanical properties of PP/PLA/clay na
+  [Esmizadeh2018Fabricat              ] (2018) Esmizadeh — Fabrication and characterization properties of polypropylene/polycarbonate/clay 
+  [Chafidz2019Mechanic                ] (2019) Chafidz — Mechanical properties of PP/clay nanocomposites prepared from masterbatch: Effec
+  [BayarndEFFECTOF                    ] (n.d.) Bayar — EFFECT OF TEMPERATURE ON MECHANICAL PROPERTIES OF NANOCLAY REINFORCED POLYMERIC 
+
+--- 8_PLA_Biopolymer (6 references) ---
+
+  [Rao2007Mechanic                    ] (2007) Rao — Mechanics of polymer-clay nanocomposites
+  [Maksimov2012ELASTICP               ] (2012) Maksimov — ELASTIC PROPERTIES OF A POLYURETHANE/ MONTMORILLONITE NANOCOMPOSITE
+  [Shou2012Fabricat                   ] (2012) Shou — Fabrication and mechanical properties of chitosan-montmorillonite nano-composite
+  [Arjmandi2015Enhanced               ] (2015) Arjmandi — Enhanced ductility and tensile properties of hybrid montmorillonite/cellulose na
+  [HeydariMeybodi2016Dmultisc         ] (2016) Heydari-Meybodi — 3D multiscale modeling to predict the elastic modulus of polymer/nanoclay compos
+  [Morits2017Toughnes                 ] (2017) Morits — Toughness and Fracture Properties in Nacre-Mimetic Clay/Polymer Nanocomposites
+
+--- 9_PMMA_PVC_PVA (1 references) ---
+
+  [ChoondPreparat                     ] (n.d.) Choo — Preparation and Characterization of PMMA-Clay Hybrid Composite by Emulsion Polym
+
