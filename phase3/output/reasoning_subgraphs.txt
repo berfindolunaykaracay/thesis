@@ -78,7 +78,7 @@ SUB-GRAPH SUMMARY:
   Top modification: Modified×229, Unmodified×21
   Top dispersion: exfoliated×99, intercalated×75, intercalated/exfoliated×57, microcomposite×9, agglomerated×6
   Top category: Thermoplastic×246, Thermoset×4
-  Top test_method: Tensile Test×211, Flexural Test×19, Nanoindentation×7, Dynamic Mechanical Analysis×6, Flexural Test (Three Point Bending)×6
+  Top test_method: Tensile Test×211, Flexural Test×19, Nanoindentation×7, Flexural Test (Three Point Bending)×6, Dynamic Mechanical Analysis×6
   Property statistics (mean | median | min | max | n):
     matrix_modulus    :     2.12 |     2.40 |     0.04 |     4.80 | n=250
     matrix_strength   :    64.22 |    65.50 |    26.60 |    88.90 | n=194
@@ -89,11 +89,11 @@ SUB-GRAPH SUMMARY:
     MMT_loading       :     4.35 |     4.00 |     0.95 |    17.00 | n=250
 
 REPRESENTATIVE SAMPLES (5 of these):
-  exp_88  (cluster=uncluster)  E=1.00 GPa, σ=—, ε=—, ΔE=10.0%, Δσ=—, Δε=—, MMT=1.00 wt%
-  exp_560  (cluster=C4)  E=2.20 GPa, σ=61.20 MPa, ε=—, ΔE=56.7%, Δσ=12.9%, Δε=—, MMT=7.50 wt%
-  exp_941  (cluster=C4)  E=2.75 GPa, σ=69.70 MPa, ε=3.04, ΔE=57.1%, Δσ=25.8%, Δε=-80.3%, MMT=4.50 wt%
-  exp_571  (cluster=C4)  E=4.62 GPa, σ=76.00 MPa, ε=47.20, ΔE=84.9%, Δσ=22.0%, Δε=-95.9%, MMT=4.80 wt%
-  exp_928  (cluster=C4)  E=2.75 GPa, σ=69.70 MPa, ε=3.04, ΔE=42.5%, Δσ=21.8%, Δε=-60.9%, MMT=3.20 wt%
+  exp_632  (cluster=C4)  E=0.89 GPa, σ=72.80 MPa, ε=0.08, ΔE=28.1%, Δσ=33.4%, Δε=-12.5%, MMT=2.00 wt%
+  exp_120  (cluster=uncluster)  E=2.82 GPa, σ=—, ε=—, ΔE=106.4%, Δσ=—, Δε=—, MMT=6.50 wt%
+  exp_815  (cluster=C4)  E=2.82 GPa, σ=69.20 MPa, ε=1.00, ΔE=29.4%, Δσ=14.0%, Δε=-94.8%, MMT=3.20 wt%
+  exp_601  (cluster=C3)  E=0.86 GPa, σ=47.13 MPa, ε=4.80, ΔE=49.0%, Δσ=20.7%, Δε=-40.0%, MMT=4.00 wt%
+  exp_765  (cluster=C4)  E=1.40 GPa, σ=60.70 MPa, ε=—, ΔE=42.9%, Δσ=12.9%, Δε=—, MMT=9.00 wt%
 
 REASONING TASK:
 Based on the co-occurrence patterns and property statistics above, propose ONE polymer/clay composite design (or design principle) that is suggested by — but not yet realised in — this sub-graph. Justify your hypothesis from the co-occurrence and property distribution evidence shown.

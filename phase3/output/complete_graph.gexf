@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-05-16">
+  <meta lastmodifieddate="2026-05-27">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -1549,11 +1549,18 @@
           <attvalue for="3" value="396" />
         </attvalues>
       </node>
-      <node id="property:ε&lt;5 (brittle)" label="ε&lt;5 (brittle)">
+      <node id="property:ε&lt;1 (glassy)" label="ε&lt;1 (glassy)">
         <attvalues>
           <attvalue for="0" value="property_bin" />
           <attvalue for="2" value="matrix_strain" />
-          <attvalue for="3" value="295" />
+          <attvalue for="3" value="136" />
+        </attvalues>
+      </node>
+      <node id="property:ε 1-5 (brittle)" label="ε 1-5 (brittle)">
+        <attvalues>
+          <attvalue for="0" value="property_bin" />
+          <attvalue for="2" value="matrix_strain" />
+          <attvalue for="3" value="159" />
         </attvalues>
       </node>
       <node id="property:ε 5-50 (moderate)" label="ε 5-50 (moderate)">
@@ -65184,1477 +65191,1477 @@
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:21" id="9919" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:108" id="9919" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:22" id="9920" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:109" id="9920" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:23" id="9921" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:147" id="9921" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:24" id="9922" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:148" id="9922" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:25" id="9923" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:149" id="9923" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:26" id="9924" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:150" id="9924" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:27" id="9925" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:151" id="9925" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:28" id="9926" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:152" id="9926" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:29" id="9927" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:153" id="9927" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:30" id="9928" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:295" id="9928" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:31" id="9929" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:296" id="9929" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:32" id="9930" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:297" id="9930" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:33" id="9931" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:298" id="9931" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:34" id="9932" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:299" id="9932" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:59" id="9933" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:300" id="9933" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:60" id="9934" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:301" id="9934" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:61" id="9935" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:302" id="9935" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:65" id="9936" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:303" id="9936" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:66" id="9937" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:304" id="9937" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:67" id="9938" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:305" id="9938" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:68" id="9939" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:306" id="9939" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:69" id="9940" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:307" id="9940" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:70" id="9941" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:308" id="9941" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:79" id="9942" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:309" id="9942" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:80" id="9943" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:310" id="9943" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:81" id="9944" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:311" id="9944" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:108" id="9945" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:312" id="9945" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:109" id="9946" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:329" id="9946" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:147" id="9947" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:330" id="9947" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:148" id="9948" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:331" id="9948" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:149" id="9949" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:332" id="9949" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:150" id="9950" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:333" id="9950" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:151" id="9951" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:334" id="9951" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:152" id="9952" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:335" id="9952" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:153" id="9953" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:336" id="9953" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:184" id="9954" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:404" id="9954" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:185" id="9955" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:405" id="9955" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:228" id="9956" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:406" id="9956" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:229" id="9957" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:407" id="9957" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:230" id="9958" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:408" id="9958" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:231" id="9959" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:524" id="9959" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:232" id="9960" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:525" id="9960" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:250" id="9961" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:526" id="9961" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:251" id="9962" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:527" id="9962" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:252" id="9963" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:532" id="9963" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:253" id="9964" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:533" id="9964" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:254" id="9965" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:534" id="9965" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:258" id="9966" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:631" id="9966" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:259" id="9967" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:632" id="9967" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:260" id="9968" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:633" id="9968" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:261" id="9969" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:645" id="9969" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:288" id="9970" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:646" id="9970" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:292" id="9971" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:647" id="9971" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:295" id="9972" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:648" id="9972" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:296" id="9973" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:649" id="9973" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:297" id="9974" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:650" id="9974" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:298" id="9975" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:664" id="9975" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:299" id="9976" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:665" id="9976" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:300" id="9977" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:666" id="9977" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:301" id="9978" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:701" id="9978" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:302" id="9979" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:702" id="9979" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:303" id="9980" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:703" id="9980" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:304" id="9981" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:704" id="9981" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:305" id="9982" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:792" id="9982" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:306" id="9983" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:793" id="9983" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:307" id="9984" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:794" id="9984" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:308" id="9985" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:795" id="9985" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:309" id="9986" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:796" id="9986" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:310" id="9987" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:797" id="9987" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:311" id="9988" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:824" id="9988" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:312" id="9989" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:825" id="9989" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:323" id="9990" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:826" id="9990" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:324" id="9991" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:827" id="9991" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:325" id="9992" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:828" id="9992" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:326" id="9993" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:829" id="9993" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:327" id="9994" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:830" id="9994" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:328" id="9995" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:831" id="9995" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:329" id="9996" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:832" id="9996" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:330" id="9997" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:833" id="9997" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:331" id="9998" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:834" id="9998" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:332" id="9999" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:835" id="9999" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:333" id="10000" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:843" id="10000" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:334" id="10001" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:844" id="10001" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:335" id="10002" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:845" id="10002" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:336" id="10003" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:846" id="10003" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:384" id="10004" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:852" id="10004" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:385" id="10005" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:853" id="10005" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:386" id="10006" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:854" id="10006" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:404" id="10007" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:855" id="10007" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:405" id="10008" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:856" id="10008" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:406" id="10009" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:857" id="10009" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:407" id="10010" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:858" id="10010" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:408" id="10011" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:859" id="10011" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:417" id="10012" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:860" id="10012" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:418" id="10013" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:861" id="10013" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:419" id="10014" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:862" id="10014" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:465" id="10015" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:863" id="10015" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:466" id="10016" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:869" id="10016" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:467" id="10017" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:870" id="10017" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:468" id="10018" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:871" id="10018" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:469" id="10019" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:872" id="10019" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:470" id="10020" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:873" id="10020" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:510" id="10021" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:874" id="10021" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:511" id="10022" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:875" id="10022" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:512" id="10023" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:876" id="10023" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:513" id="10024" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:877" id="10024" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:514" id="10025" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:878" id="10025" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:515" id="10026" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:890" id="10026" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:516" id="10027" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:891" id="10027" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:517" id="10028" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:892" id="10028" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:518" id="10029" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:893" id="10029" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:519" id="10030" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:894" id="10030" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:520" id="10031" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:895" id="10031" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:521" id="10032" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:896" id="10032" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:522" id="10033" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:897" id="10033" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:523" id="10034" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:898" id="10034" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:524" id="10035" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:899" id="10035" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:525" id="10036" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:900" id="10036" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:526" id="10037" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:901" id="10037" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:527" id="10038" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:902" id="10038" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:532" id="10039" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:903" id="10039" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:533" id="10040" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:904" id="10040" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:534" id="10041" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:905" id="10041" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:538" id="10042" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:906" id="10042" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:539" id="10043" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:907" id="10043" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:540" id="10044" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:908" id="10044" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:541" id="10045" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:917" id="10045" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:542" id="10046" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:918" id="10046" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:543" id="10047" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:919" id="10047" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:553" id="10048" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:920" id="10048" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:554" id="10049" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:921" id="10049" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:555" id="10050" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:922" id="10050" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:556" id="10051" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:923" id="10051" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:574" id="10052" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:924" id="10052" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:575" id="10053" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:925" id="10053" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:576" id="10054" weight="1">
+      <edge source="property:ε&lt;1 (glassy)" target="sample:926" id="10054" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:577" id="10055" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:21" id="10055" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:578" id="10056" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:22" id="10056" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:597" id="10057" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:23" id="10057" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:598" id="10058" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:24" id="10058" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:599" id="10059" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:25" id="10059" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:600" id="10060" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:26" id="10060" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:601" id="10061" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:27" id="10061" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:602" id="10062" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:28" id="10062" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:603" id="10063" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:29" id="10063" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:604" id="10064" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:30" id="10064" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:605" id="10065" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:31" id="10065" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:609" id="10066" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:32" id="10066" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:610" id="10067" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:33" id="10067" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:611" id="10068" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:34" id="10068" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:631" id="10069" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:59" id="10069" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:632" id="10070" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:60" id="10070" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:633" id="10071" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:61" id="10071" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:645" id="10072" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:65" id="10072" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:646" id="10073" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:66" id="10073" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:647" id="10074" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:67" id="10074" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:648" id="10075" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:68" id="10075" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:649" id="10076" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:69" id="10076" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:650" id="10077" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:70" id="10077" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:657" id="10078" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:79" id="10078" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:658" id="10079" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:80" id="10079" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:659" id="10080" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:81" id="10080" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:660" id="10081" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:184" id="10081" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:661" id="10082" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:185" id="10082" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:662" id="10083" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:228" id="10083" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:663" id="10084" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:229" id="10084" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:664" id="10085" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:230" id="10085" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:665" id="10086" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:231" id="10086" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:666" id="10087" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:232" id="10087" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:696" id="10088" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:250" id="10088" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:697" id="10089" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:251" id="10089" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:698" id="10090" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:252" id="10090" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:699" id="10091" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:253" id="10091" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:700" id="10092" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:254" id="10092" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:701" id="10093" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:258" id="10093" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:702" id="10094" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:259" id="10094" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:703" id="10095" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:260" id="10095" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:704" id="10096" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:261" id="10096" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:741" id="10097" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:288" id="10097" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:742" id="10098" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:292" id="10098" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:743" id="10099" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:323" id="10099" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:744" id="10100" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:324" id="10100" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:745" id="10101" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:325" id="10101" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:746" id="10102" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:326" id="10102" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:747" id="10103" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:327" id="10103" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:748" id="10104" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:328" id="10104" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:749" id="10105" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:384" id="10105" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:792" id="10106" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:385" id="10106" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:793" id="10107" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:386" id="10107" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:794" id="10108" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:417" id="10108" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:795" id="10109" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:418" id="10109" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:796" id="10110" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:419" id="10110" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:797" id="10111" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:465" id="10111" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:808" id="10112" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:466" id="10112" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:809" id="10113" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:467" id="10113" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:810" id="10114" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:468" id="10114" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:811" id="10115" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:469" id="10115" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:815" id="10116" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:470" id="10116" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:816" id="10117" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:510" id="10117" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:817" id="10118" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:511" id="10118" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:818" id="10119" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:512" id="10119" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:819" id="10120" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:513" id="10120" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:820" id="10121" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:514" id="10121" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:821" id="10122" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:515" id="10122" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:822" id="10123" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:516" id="10123" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:823" id="10124" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:517" id="10124" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:824" id="10125" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:518" id="10125" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:825" id="10126" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:519" id="10126" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:826" id="10127" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:520" id="10127" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:827" id="10128" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:521" id="10128" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:828" id="10129" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:522" id="10129" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:829" id="10130" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:523" id="10130" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:830" id="10131" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:538" id="10131" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:831" id="10132" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:539" id="10132" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:832" id="10133" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:540" id="10133" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:833" id="10134" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:541" id="10134" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:834" id="10135" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:542" id="10135" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:835" id="10136" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:543" id="10136" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:836" id="10137" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:553" id="10137" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:843" id="10138" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:554" id="10138" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:844" id="10139" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:555" id="10139" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:845" id="10140" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:556" id="10140" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:846" id="10141" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:574" id="10141" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:847" id="10142" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:575" id="10142" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:852" id="10143" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:576" id="10143" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:853" id="10144" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:577" id="10144" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:854" id="10145" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:578" id="10145" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:855" id="10146" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:597" id="10146" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:856" id="10147" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:598" id="10147" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:857" id="10148" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:599" id="10148" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:858" id="10149" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:600" id="10149" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:859" id="10150" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:601" id="10150" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:860" id="10151" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:602" id="10151" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:861" id="10152" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:603" id="10152" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:862" id="10153" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:604" id="10153" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:863" id="10154" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:605" id="10154" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:864" id="10155" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:609" id="10155" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:865" id="10156" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:610" id="10156" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:866" id="10157" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:611" id="10157" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:867" id="10158" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:657" id="10158" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:868" id="10159" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:658" id="10159" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:869" id="10160" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:659" id="10160" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:870" id="10161" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:660" id="10161" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:871" id="10162" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:661" id="10162" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:872" id="10163" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:662" id="10163" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:873" id="10164" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:663" id="10164" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:874" id="10165" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:696" id="10165" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:875" id="10166" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:697" id="10166" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:876" id="10167" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:698" id="10167" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:877" id="10168" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:699" id="10168" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:878" id="10169" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:700" id="10169" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:890" id="10170" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:741" id="10170" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:891" id="10171" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:742" id="10171" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:892" id="10172" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:743" id="10172" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:893" id="10173" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:744" id="10173" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:894" id="10174" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:745" id="10174" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:895" id="10175" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:746" id="10175" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:896" id="10176" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:747" id="10176" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:897" id="10177" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:748" id="10177" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:898" id="10178" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:749" id="10178" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:899" id="10179" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:808" id="10179" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:900" id="10180" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:809" id="10180" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:901" id="10181" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:810" id="10181" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:902" id="10182" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:811" id="10182" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:903" id="10183" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:815" id="10183" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:904" id="10184" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:816" id="10184" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:905" id="10185" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:817" id="10185" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:906" id="10186" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:818" id="10186" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:907" id="10187" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:819" id="10187" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:908" id="10188" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:820" id="10188" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:917" id="10189" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:821" id="10189" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:918" id="10190" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:822" id="10190" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:919" id="10191" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:823" id="10191" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:920" id="10192" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:836" id="10192" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:921" id="10193" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:847" id="10193" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:922" id="10194" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:864" id="10194" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:923" id="10195" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:865" id="10195" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:924" id="10196" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:866" id="10196" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:925" id="10197" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:867" id="10197" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:926" id="10198" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:868" id="10198" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:927" id="10199" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:927" id="10199" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:928" id="10200" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:928" id="10200" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:929" id="10201" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:929" id="10201" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:930" id="10202" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:930" id="10202" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:931" id="10203" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:931" id="10203" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:932" id="10204" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:932" id="10204" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:933" id="10205" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:933" id="10205" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:934" id="10206" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:934" id="10206" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:935" id="10207" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:935" id="10207" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:936" id="10208" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:936" id="10208" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:937" id="10209" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:937" id="10209" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:938" id="10210" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:938" id="10210" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:939" id="10211" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:939" id="10211" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:940" id="10212" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:940" id="10212" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε&lt;5 (brittle)" target="sample:941" id="10213" weight="1">
+      <edge source="property:ε 1-5 (brittle)" target="sample:941" id="10213" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>

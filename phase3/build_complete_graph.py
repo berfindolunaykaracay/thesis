@@ -12,10 +12,10 @@ Edges:
   - sample  ↔ concept   : this experiment uses this categorical attribute
   - sample  ↔ property  : this experiment falls into this numerical regime
 
-Physical bin thresholds (from polymer literature):
+Physical bin thresholds (from polymer literature, all seven axes use 4 levels):
   Modulus (GPa)         : <1 | 1-3 | 3-10 | >10
   Strength (MPa)        : <10 | 10-30 | 30-60 | >60         (UBMK C1-C4 thresholds)
-  Strain to failure     : <5 (brittle) | 5-50 | >50 (ductile)
+  Strain to failure     : <1 (glassy) | 1-5 (brittle) | 5-50 (moderate) | >50 (ductile)
   ΔE / Δσ improvement % : <0 (degraded) | 0-50 | 50-200 | >200
   Δε strain change %    : <-50 | -50..0 | 0..50 | >50
   MMT loading (wt%)     : <1 | 1-3 | 3-7 | >7
@@ -65,8 +65,9 @@ PROPERTY_BINS = {
     },
     "matrix_strain": {
         "column": "Polymer matrix strain to failure",
-        "thresholds": [5.0, 50.0],
-        "labels":     ["ε<5 (brittle)", "ε 5-50 (moderate)", "ε>50 (ductile)"],
+        "thresholds": [1.0, 5.0, 50.0],
+        "labels":     ["ε<1 (glassy)", "ε 1-5 (brittle)",
+                       "ε 5-50 (moderate)", "ε>50 (ductile)"],
     },
     "dE_modulus": {
         "column": "Elastic Modulus improvement (%)",

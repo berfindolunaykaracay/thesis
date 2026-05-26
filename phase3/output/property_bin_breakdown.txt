@@ -13,7 +13,8 @@
   σ>60 MPa (C4)                : 396 samples
 
 --- matrix_strain ---
-  ε<5 (brittle)                : 295 samples
+  ε<1 (glassy)                 : 136 samples
+  ε 1-5 (brittle)              : 159 samples
   ε 5-50 (moderate)            : 119 samples
   ε>50 (ductile)               : 33 samples
 
