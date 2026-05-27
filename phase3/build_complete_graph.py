@@ -13,8 +13,9 @@ Edges:
   - sample  ↔ property  : this experiment falls into this numerical regime
 
 Physical bin thresholds (from polymer literature, all seven axes use 4 levels):
-  Modulus (GPa)         : <1 | 1-3 | 3-10 | >10
-  Strength (MPa)        : <10 | 10-30 | 30-60 | >60         (UBMK C1-C4 thresholds)
+  Modulus (GPa)         : <1 (soft) | 1-3 (medium) | 3-10 (high) | >10 (rigid)
+  Strength (MPa)        : <10 (C1, weak) | 10-30 (C2, medium-low) |
+                          30-60 (C3, medium) | >60 (C4, strong)        (UBMK C1-C4 thresholds)
   Strain to failure     : <1 (glassy) | 1-5 (brittle) | 5-50 (moderate) | >50 (ductile)
   ΔE / Δσ improvement % : <0 (degraded) | 0-50 | 50-200 | >200
   Δε strain change %    : <-50 | -50..0 | 0..50 | >50
@@ -54,14 +55,14 @@ PROPERTY_BINS = {
     "matrix_modulus": {
         "column": "Polymer matrix elastic modulus (GPa)",
         "thresholds": [1.0, 3.0, 10.0],
-        "labels":     ["E<1 GPa (soft)",   "E 1-3 GPa",
-                       "E 3-10 GPa",       "E>10 GPa (rigid)"],
+        "labels":     ["E<1 GPa (soft)",   "E 1-3 GPa (medium)",
+                       "E 3-10 GPa (high)", "E>10 GPa (rigid)"],
     },
     "matrix_strength": {
         "column": "Polymer matrix Strength (MPa)",
         "thresholds": [10.0, 30.0, 60.0],
-        "labels":     ["σ<10 MPa (C1)",  "σ 10-30 MPa (C2)",
-                       "σ 30-60 MPa (C3)", "σ>60 MPa (C4)"],
+        "labels":     ["σ<10 MPa (C1, weak)",     "σ 10-30 MPa (C2, medium-low)",
+                       "σ 30-60 MPa (C3, medium)", "σ>60 MPa (C4, strong)"],
     },
     "matrix_strain": {
         "column": "Polymer matrix strain to failure",
