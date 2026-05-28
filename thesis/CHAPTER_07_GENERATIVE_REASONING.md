@@ -140,7 +140,7 @@ The five embedding sets — the original MiniLM baseline (before enrichment), th
 
 Three quantitative findings emerge.
 
-First, description enrichment had a measurable positive effect: the cohesion gap (intra − inter cosine) doubled, from 0.086 with the base template to 0.173 with the enriched descriptions, and the silhouette and ARI both improved. The hypothesis that explicit domain context would help the embedding model distinguish polymer families is empirically supported.
+First, description enrichment had a measurable positive effect: the cohesion gap (intra − inter cosine) doubled, from 0.086 with the base template to 0.173 with the enriched descriptions, and the silhouette and ARI both improved. The hypothesis that explicit domain context would help the embedding model distinguish polymer families is empirically supported. The same effect can be inspected qualitatively from the side-by-side neighbour table in `phase3/output/before_after_neighbours.txt`. For example, the nearest neighbour of *PA6* before enrichment is *PA6/PP*, a *blend* containing PA6 and polypropylene; after enrichment, the nearest neighbour shifts to *PA66*, a closer chemical relative of PA6 in the polyamide family. For *Modified* MMT the change is even sharper: before enrichment, top neighbours are unrelated article citations dominated by string overlap; after enrichment, the top neighbours are dispersion-morphology and matrix-state nodes — concepts that genuinely co-occur with modified clay in the literature. Across the ten focal concepts inspected (PA6, Epoxy, PMA, Modified, Unmodified, exfoliated, agglomerated, Thermoset, Elastomer, Tensile Test) the post-enrichment neighbours are, in every case, more chemically or physically reasonable than the base-template neighbours; the metric improvement is therefore not a statistical artefact but a faithful reflection of the underlying semantic shift.
 
 Second, contrary to expectation, the domain-specific BERT variants (SciBERT, MatSciBERT, MaterialsBERT) did *not* outperform the enriched general-purpose MiniLM model on polymer-family clustering. Examining the cohesion table reveals why: the domain models produce uniformly very high cosine similarities (intra = 0.94–0.98) but equally high between-family similarities (inter = 0.92–0.97), leaving very little discriminative gap. The general-purpose MiniLM, by contrast, spreads polymers more widely in embedding space and so separates families more cleanly. The domain models are *more confident in materials-domain similarity* but *less discriminative between sub-families*, which is the relevant axis for this thesis.
 
@@ -163,6 +163,18 @@ To verify that the embeddings carry information useful beyond similarity ranking
 | GBM | + MatSciBERT | 0.336 ± 0.099 | 1.154 | +0.027 |
 | GBM | + MaterialsBERT | 0.336 ± 0.101 | 1.151 | +0.027 |
 | **GBM** | **+ MatBERT** | **0.346 ± 0.106** | **1.140** | **+0.037** |
+
+The same predictive analysis was repeated for the other two mechanical-property targets — strength improvement (Δσ, n = 727) and strain-to-failure change (Δε, n = 440) — to test whether the embedding contribution is consistent across the full mechanical envelope.
+
+| Target | n | GBM baseline R² | Best embedding | Best ΔR² | Direction |
+|---|---|---|---|---|---|
+| **ΔE modulus** | 919 | 0.309 | SciBERT / MatBERT | **+0.037** | embeddings help (≈ +12 %) |
+| **Δσ strength** | 727 | 0.336 | MiniLM (enriched) | **+0.029** | embeddings help (≈ +9 %) |
+| **Δε strain** | 440 | 0.436 | MatSciBERT | **−0.017** | embeddings hurt slightly |
+
+Two of the three mechanical targets show a clear, positive contribution from the concept embeddings (+9 to +12 % relative R²), but the strain-to-failure target shows a small *negative* effect. The asymmetry is plausibly attributable to three factors specific to the strain column: (i) seventy-nine percent of strain-improvement rows are negative (clay reinforcement reduces ductility), so the categorical one-hot encoding already captures the dominant signal "clay loading → strain reduction" with very little residual variance for the embeddings to explain; (ii) the strain column has the smallest sample (n = 440), increasing the relative weight of cross-validation variance; (iii) the strain regime overlaps several polymer families (glassy thermosets, brittle thermoplastics, and rubbery elastomers all show large but qualitatively different ΔE values), so the embedding's smoothing across families may actually wash out a regime-specific signal that the discrete one-hot encoding preserves.
+
+This non-uniform pattern is itself an informative result: the embeddings are not a universal improvement to predictive accuracy, but they consistently help on the two targets (modulus and strength gain) where regime structure and chemistry both contribute, and they marginally hurt on the one target (strain change) where the regime signal is binary and already captured by categorical encoding. For the thesis as a whole the bidirectional result strengthens rather than weakens the embedding case, because it identifies the conditions under which the embeddings carry useful information versus the conditions under which they do not.
 
 Two findings follow.
 

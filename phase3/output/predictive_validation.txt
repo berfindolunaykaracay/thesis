@@ -1,13 +1,16 @@
 ==============================================================================
-PREDICTIVE VALIDATION OF EMBEDDINGS — Suggestion 4
+PREDICTIVE VALIDATION OF EMBEDDINGS — Suggestion 4 (multi-target)
 ==============================================================================
 
-Target           : Elastic modulus improvement arcsinh
-Usable rows      : 919
+Targets evaluated: modulus improvement (ΔE), strength improvement (Δσ),
+                   strain-to-failure improvement (Δε), all in arcsinh space
 Validation       : 5-fold cross-validation
 Regressors       : Ridge (α=0.01) and Gradient Boosting (200 trees, depth 4)
 Features         : one-hot encoding of 6 categorical columns
                    ± row-averaged embeddings of the corresponding concept nodes
+
+
+--- Target: MODULUS improvement (n = 919) ---
 
 model                    |  feat_dim |         R² |   R² std |        MAE
 ----------------------------------------------------------------------
@@ -24,19 +27,78 @@ gbm_+matscibert          |       859 |     0.3362 |   0.0987 |     1.1544
 gbm_+materialsbert       |       859 |     0.3365 |   0.1007 |     1.1511
 gbm_+matbert             |       859 |     0.3459 |   0.1059 |     1.1401
 
-
-Embedding-attributable R² gain (per regressor):
-
+Embedding-attributable R² gain:
   RIDGE baseline R² = 0.1523
-    ridge_+minilm           : ΔR² = +0.0008 ← improves
-    ridge_+scibert          : ΔR² = -0.0001 ← degrades
-    ridge_+matscibert       : ΔR² = -0.0001 ← degrades
-    ridge_+materialsbert    : ΔR² = -0.0001 ← degrades
-    ridge_+matbert          : ΔR² = -0.0001 ← degrades
-
+    ridge_+minilm           : ΔR² = +0.0008 improves
+    ridge_+scibert          : ΔR² = -0.0001 degrades
+    ridge_+matscibert       : ΔR² = -0.0001 degrades
+    ridge_+materialsbert    : ΔR² = -0.0001 degrades
+    ridge_+matbert          : ΔR² = -0.0001 degrades
   GBM baseline R² = 0.3091
-    gbm_+minilm             : ΔR² = +0.0319 ← improves
-    gbm_+scibert            : ΔR² = +0.0372 ← improves
-    gbm_+matscibert         : ΔR² = +0.0271 ← improves
-    gbm_+materialsbert      : ΔR² = +0.0274 ← improves
-    gbm_+matbert            : ΔR² = +0.0369 ← improves
+    gbm_+minilm             : ΔR² = +0.0319 improves
+    gbm_+scibert            : ΔR² = +0.0372 improves
+    gbm_+matscibert         : ΔR² = +0.0271 improves
+    gbm_+materialsbert      : ΔR² = +0.0274 improves
+    gbm_+matbert            : ΔR² = +0.0369 improves
+
+--- Target: STRENGTH improvement (n = 727) ---
+
+model                    |  feat_dim |         R² |   R² std |        MAE
+----------------------------------------------------------------------
+ridge_baseline           |        69 |     0.2339 |   0.0479 |     2.0127
+ridge_+minilm            |       453 |     0.2338 |   0.0480 |     2.0127
+ridge_+scibert           |       837 |     0.2337 |   0.0480 |     2.0132
+ridge_+matscibert        |       837 |     0.2338 |   0.0481 |     2.0128
+ridge_+materialsbert     |       837 |     0.2336 |   0.0480 |     2.0132
+ridge_+matbert           |       837 |     0.2337 |   0.0478 |     2.0128
+gbm_baseline             |        69 |     0.3355 |   0.0310 |     1.8517
+gbm_+minilm              |       453 |     0.3653 |   0.0669 |     1.6764
+gbm_+scibert             |       837 |     0.3591 |   0.0540 |     1.6860
+gbm_+matscibert          |       837 |     0.3517 |   0.0567 |     1.6966
+gbm_+materialsbert       |       837 |     0.3600 |   0.0548 |     1.6893
+gbm_+matbert             |       837 |     0.3560 |   0.0515 |     1.6873
+
+Embedding-attributable R² gain:
+  RIDGE baseline R² = 0.2339
+    ridge_+minilm           : ΔR² = -0.0000 degrades
+    ridge_+scibert          : ΔR² = -0.0002 degrades
+    ridge_+matscibert       : ΔR² = -0.0000 degrades
+    ridge_+materialsbert    : ΔR² = -0.0002 degrades
+    ridge_+matbert          : ΔR² = -0.0001 degrades
+  GBM baseline R² = 0.3355
+    gbm_+minilm             : ΔR² = +0.0297 improves
+    gbm_+scibert            : ΔR² = +0.0236 improves
+    gbm_+matscibert         : ΔR² = +0.0162 improves
+    gbm_+materialsbert      : ΔR² = +0.0244 improves
+    gbm_+matbert            : ΔR² = +0.0205 improves
+
+--- Target: STRAIN improvement (n = 440) ---
+
+model                    |  feat_dim |         R² |   R² std |        MAE
+----------------------------------------------------------------------
+ridge_baseline           |        55 |     0.2976 |   0.1510 |     2.0241
+ridge_+minilm            |       439 |     0.2977 |   0.1512 |     2.0239
+ridge_+scibert           |       823 |     0.2976 |   0.1511 |     2.0241
+ridge_+matscibert        |       823 |     0.2976 |   0.1510 |     2.0241
+ridge_+materialsbert     |       823 |     0.2976 |   0.1510 |     2.0241
+ridge_+matbert           |       823 |     0.2976 |   0.1510 |     2.0241
+gbm_baseline             |        55 |     0.4362 |   0.1076 |     1.7479
+gbm_+minilm              |       439 |     0.4005 |   0.1108 |     1.6929
+gbm_+scibert             |       823 |     0.4157 |   0.1447 |     1.6756
+gbm_+matscibert          |       823 |     0.4190 |   0.1520 |     1.6532
+gbm_+materialsbert       |       823 |     0.4077 |   0.1432 |     1.6967
+gbm_+matbert             |       823 |     0.4163 |   0.1410 |     1.6743
+
+Embedding-attributable R² gain:
+  RIDGE baseline R² = 0.2976
+    ridge_+minilm           : ΔR² = +0.0001 improves
+    ridge_+scibert          : ΔR² = -0.0000 degrades
+    ridge_+matscibert       : ΔR² = -0.0001 degrades
+    ridge_+materialsbert    : ΔR² = -0.0000 degrades
+    ridge_+matbert          : ΔR² = -0.0000 degrades
+  GBM baseline R² = 0.4362
+    gbm_+minilm             : ΔR² = -0.0356 degrades
+    gbm_+scibert            : ΔR² = -0.0204 degrades
+    gbm_+matscibert         : ΔR² = -0.0171 degrades
+    gbm_+materialsbert      : ΔR² = -0.0285 degrades
+    gbm_+matbert            : ΔR² = -0.0199 degrades
