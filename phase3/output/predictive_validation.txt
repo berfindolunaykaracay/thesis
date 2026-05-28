@@ -16,11 +16,13 @@ ridge_+minilm            |       475 |     0.1531 |   0.0595 |     1.3941
 ridge_+scibert           |       859 |     0.1522 |   0.0602 |     1.3950
 ridge_+matscibert        |       859 |     0.1522 |   0.0599 |     1.3949
 ridge_+materialsbert     |       859 |     0.1522 |   0.0601 |     1.3948
+ridge_+matbert           |       859 |     0.1522 |   0.0602 |     1.3949
 gbm_baseline             |        91 |     0.3091 |   0.0558 |     1.2285
 gbm_+minilm              |       475 |     0.3409 |   0.1130 |     1.1495
 gbm_+scibert             |       859 |     0.3463 |   0.1036 |     1.1399
 gbm_+matscibert          |       859 |     0.3362 |   0.0987 |     1.1544
 gbm_+materialsbert       |       859 |     0.3365 |   0.1007 |     1.1511
+gbm_+matbert             |       859 |     0.3459 |   0.1059 |     1.1401
 
 
 Embedding-attributable R² gain (per regressor):
@@ -30,9 +32,11 @@ Embedding-attributable R² gain (per regressor):
     ridge_+scibert          : ΔR² = -0.0001 ← degrades
     ridge_+matscibert       : ΔR² = -0.0001 ← degrades
     ridge_+materialsbert    : ΔR² = -0.0001 ← degrades
+    ridge_+matbert          : ΔR² = -0.0001 ← degrades
 
   GBM baseline R² = 0.3091
     gbm_+minilm             : ΔR² = +0.0319 ← improves
     gbm_+scibert            : ΔR² = +0.0372 ← improves
     gbm_+matscibert         : ΔR² = +0.0271 ← improves
     gbm_+materialsbert      : ΔR² = +0.0274 ← improves
+    gbm_+matbert            : ΔR² = +0.0369 ← improves

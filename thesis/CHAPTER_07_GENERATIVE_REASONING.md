@@ -117,7 +117,7 @@ The generative-reasoning analyses in §7.x.1–7.x.8 use a single general-purpos
 
 **Description enrichment (Advisor Suggestion 1).** Every concept-node description was augmented with 1–2 sentences of domain context drawn from polymer- and clay-nanocomposite literature. For example, the PA6 description now opens with *"PA6 is a semi-crystalline aliphatic polyamide (nylon-6) formed by ring-opening polymerization of ε-caprolactam, with strong inter-chain hydrogen bonding between amide groups,"* and the *intercalated* dispersion description begins with *"polymer chains have penetrated the inter-layer galleries of the clay so the d-spacing increases, but the layered silicate stacks remain intact."* Equivalent enrichment was performed for every modification, dispersion morphology, polymer category, and test-method node. The enriched descriptions are stored in `phase3/output/node_descriptions_enriched.txt`.
 
-**Multi-model comparison (Advisor Suggestion 2).** The same enriched descriptions were re-encoded with four transformer models: `all-MiniLM-L6-v2` (general English, 384-d), `allenai/scibert_scivocab_uncased` (scientific text, 768-d), `m3rg-iitd/matscibert` (materials-science text, 768-d), and `pranav-s/MaterialsBERT` (materials-domain BERT, 768-d). Each set of embeddings is stored as a separate `.npz` file in `phase3/output/`.
+**Multi-model comparison (Advisor Suggestion 2).** The same enriched descriptions were re-encoded with five transformer models: `all-MiniLM-L6-v2` (general English, 384-d), `allenai/scibert_scivocab_uncased` (scientific text, 768-d), `m3rg-iitd/matscibert` (materials-science text, 768-d), `pranav-s/MaterialsBERT` (materials-domain BERT, 768-d), and `alan-yahya/MatBERT` (community mirror of the LBNL MatBERT of Walker et al., 2021, 768-d). Each set of embeddings is stored as a separate `.npz` file in `phase3/output/`. Beyond the aggregate metrics reported below, a direct side-by-side comparison of the top-5 cosine neighbours of ten focal concept nodes — PA6, Epoxy, PMA, Modified, Unmodified, exfoliated, agglomerated, Thermoset, Elastomer, and Tensile Test — across all six embedding sets (base-template MiniLM, enriched MiniLM, SciBERT, MatSciBERT, MaterialsBERT, MatBERT) is provided in `phase3/output/before_after_neighbours.txt`. This table is the explicit "before vs. after enrichment, side-by-side across models" view requested in the advisor feedback.
 
 ## 7.x.10 Quantitative evaluation of embeddings (Advisor Suggestion 3)
 
@@ -136,6 +136,7 @@ The five embedding sets — the original MiniLM baseline (before enrichment), th
 | scibert | 0.077 | 0.187 | 0.446 | 0.953 | 0.937 | 0.016 | −0.224 (p = 0.001) |
 | matscibert | 0.099 | 0.154 | 0.433 | 0.941 | 0.920 | 0.021 | −0.245 (p < 0.001) |
 | materialsbert | 0.081 | 0.288 | 0.545 | 0.980 | 0.971 | 0.008 | −0.177 (p = 0.012) |
+| matbert | 0.083 | 0.135 | 0.396 | 0.890 | 0.850 | 0.040 | −0.193 (p = 0.006) |
 
 Three quantitative findings emerge.
 
@@ -161,6 +162,7 @@ To verify that the embeddings carry information useful beyond similarity ranking
 | **GBM** | **+ SciBERT** | **0.346 ± 0.104** | **1.140** | **+0.037** |
 | GBM | + MatSciBERT | 0.336 ± 0.099 | 1.154 | +0.027 |
 | GBM | + MaterialsBERT | 0.336 ± 0.101 | 1.151 | +0.027 |
+| **GBM** | **+ MatBERT** | **0.346 ± 0.106** | **1.140** | **+0.037** |
 
 Two findings follow.
 

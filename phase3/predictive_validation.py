@@ -36,6 +36,7 @@ EMBEDDING_PATHS = {
     "scibert":       f"{OUT}/embeddings_scibert.npz",
     "matscibert":    f"{OUT}/embeddings_matscibert.npz",
     "materialsbert": f"{OUT}/embeddings_materialsbert.npz",
+    "matbert":       f"{OUT}/embeddings_matbert.npz",
 }
 
 TARGET_RAW   = "Elastic Modulus improvement (%)"

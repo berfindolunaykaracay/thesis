@@ -32,6 +32,7 @@ MODELS = {
     "scibert":      "allenai/scibert_scivocab_uncased",
     "matscibert":   "m3rg-iitd/matscibert",
     "materialsbert":"pranav-s/MaterialsBERT",
+    "matbert":      "alan-yahya/MatBERT",  # Community MatBERT mirror
 }
 
 

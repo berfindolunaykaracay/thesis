@@ -1,0 +1,118 @@
+==========================================================================================
+BEFORE / AFTER (and across models) TOP-5 NEIGHBOUR COMPARISON
+Direct answer to advisor Suggestion 1b:
+  "açıklama eklemeden önceki ve sonraki benzerlik sonuçlarını
+   yan yana koyup açıklama ekleyince sonuçlar daha mantıklı
+   hale geldi mi diye gösterebilirsin"
+==========================================================================================
+
+
+══════════════════════════════════════════════════════════════════════════════════════════
+  FOCAL CONCEPT: PA6  (polymer)
+══════════════════════════════════════════════════════════════════════════════════════════
+  rank | MiniLM (no enrichment)         | MiniLM (enriched)              | SciBERT                        | MatSciBERT                     | MaterialsBERT                  | MatBERT (LBNL)                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #1   |                 PA6/PP 0.966 |                   PA66 0.893 |                   PA66 0.967 |                   PA66 0.957 |                   PA66 0.985 |                   PA66 0.918
+  #2   |                   PA66 0.954 |                 PA6/PP 0.866 |                   PA12 0.965 |                   PA12 0.953 |                   PA12 0.985 |                   PA12 0.902
+  #3   |                     PA 0.853 |                     PA 0.795 |                     PA 0.957 |                     UP 0.938 |                    PLA 0.978 |                     PA 0.895
+  #4   |                   PA12 0.837 |                   PA12 0.792 |                    PVA 0.955 |                  LLDPE 0.936 |                    PVA 0.978 |                     UP 0.888
+  #5   |                    PA7 0.819 |                    PA7 0.768 |                    NBR 0.953 |                     PA 0.936 |                     PA 0.978 |                    PVA 0.884
+
+══════════════════════════════════════════════════════════════════════════════════════════
+  FOCAL CONCEPT: Epoxy  (polymer)
+══════════════════════════════════════════════════════════════════════════════════════════
+  rank | MiniLM (no enrichment)         | MiniLM (enriched)              | SciBERT                        | MatSciBERT                     | MaterialsBERT                  | MatBERT (LBNL)                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #1   |               EPON 828 0.879 |               EPON 828 0.742 |            Vinyl Ester 0.958 |                     UP 0.944 |                     UP 0.984 |                     UP 0.899
+  #2   |                     PE 0.811 |                PP/EPDM 0.579 |                     UP 0.951 |            Vinyl Ester 0.938 |            Vinyl Ester 0.983 |                  DGEBA 0.897
+  #3   |                PP/EPDM 0.787 |            Vinyl Ester 0.550 |                   PMMA 0.940 |                    PA6 0.932 |                  DGEBA 0.981 |            Vinyl Ester 0.896
+  #4   |                     UP 0.755 |                  DGEBA 0.536 |                  DGEAC 0.939 |                  DGEBA 0.930 |                  DGEAC 0.976 |        Bis-GMA/TTEGDMA 0.873
+  #5   |                     PU 0.754 |                     PE 0.522 |                    PLA 0.939 |                  DGEAC 0.927 |               EPON 828 0.976 |                  DGEAC 0.872
+
+══════════════════════════════════════════════════════════════════════════════════════════
+  FOCAL CONCEPT: PMA  (polymer)
+══════════════════════════════════════════════════════════════════════════════════════════
+  rank | MiniLM (no enrichment)         | MiniLM (enriched)              | SciBERT                        | MatSciBERT                     | MaterialsBERT                  | MatBERT (LBNL)                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #1   |                   PMMA 0.926 |                   PMMA 0.837 |                    PCL 0.956 |                   PA12 0.944 |                   PMMA 0.987 |                    PCL 0.910
+  #2   |                 PP/PLA 0.851 |                    PVA 0.699 |                   PMMA 0.954 |                    NBR 0.944 |                    PCL 0.982 |                   PMMA 0.909
+  #3   |                    PVA 0.851 |               PLA/PBAT 0.658 |                    PVA 0.951 |                     NR 0.936 |                     NR 0.982 |                    PSF 0.904
+  #4   |                 PLA/PP 0.846 |                 PLA/PP 0.655 |                   PA66 0.949 |                    PCL 0.931 |                    PVA 0.981 |                    PVA 0.901
+  #5   |               PLA/PBAT 0.843 |                    PLA 0.640 |                     NR 0.948 |                    PA6 0.930 |                     PS 0.981 |                    PVP 0.897
+
+══════════════════════════════════════════════════════════════════════════════════════════
+  FOCAL CONCEPT: Modified  (modification)
+══════════════════════════════════════════════════════════════════════════════════════════
+  rank | MiniLM (no enrichment)         | MiniLM (enriched)              | SciBERT                        | MatSciBERT                     | MaterialsBERT                  | MatBERT (LBNL)                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #1   |             Unmodified 0.987 |             Unmodified 0.662 |             Unmodified 0.942 |             Unmodified 0.929 |             Unmodified 0.976 |             Unmodified 0.874
+  #2   |                     UP 0.866 |           intercalated 0.535 |                   CNBR 0.935 |                   CNBR 0.916 |                    PVA 0.971 |           intercalated 0.834
+  #3   |           intercalated 0.858 |                  LLDPE 0.532 |                    NBR 0.923 |           intercalated 0.912 |           intercalated 0.967 |                   CNBR 0.799
+  #4   | data_source:Experiment 0.853 |                     NR 0.517 |                   PA12 0.922 |                    PVC 0.910 |               Chitosan 0.965 |                    NBR 0.795
+  #5   |   Partially exfoliated 0.851 |                   PMMA 0.489 |                    PA6 0.921 |                   PA12 0.905 |                   CNBR 0.963 |                     PP 0.791
+
+══════════════════════════════════════════════════════════════════════════════════════════
+  FOCAL CONCEPT: Unmodified  (modification)
+══════════════════════════════════════════════════════════════════════════════════════════
+  rank | MiniLM (no enrichment)         | MiniLM (enriched)              | SciBERT                        | MatSciBERT                     | MaterialsBERT                  | MatBERT (LBNL)                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #1   |               Modified 0.987 |               Modified 0.662 |               Modified 0.942 |               Modified 0.929 |               Modified 0.976 |               Modified 0.874
+  #2   |                     UP 0.865 |                     NR 0.517 |                   CNBR 0.918 |                   CNBR 0.897 |                    NBR 0.974 |                    NBR 0.828
+  #3   |           intercalated 0.860 |                   rPET 0.506 |                    NBR 0.918 |                    NBR 0.896 |                    PVA 0.973 |                     PP 0.821
+  #4   | data_source:Experiment 0.858 |                     PE 0.503 |                   PA12 0.913 |           intercalated 0.892 |                     PE 0.973 |                   CNBR 0.804
+  #5   |   Partially exfoliated 0.854 |           intercalated 0.501 |                     PP 0.913 |                    PVA 0.889 |                    PVC 0.973 |           intercalated 0.803
+
+══════════════════════════════════════════════════════════════════════════════════════════
+  FOCAL CONCEPT: exfoliated  (dispersion)
+══════════════════════════════════════════════════════════════════════════════════════════
+  rank | MiniLM (no enrichment)         | MiniLM (enriched)              | SciBERT                        | MatSciBERT                     | MaterialsBERT                  | MatBERT (LBNL)                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #1   |   Partially exfoliated 0.998 |   Partially exfoliated 0.812 |           intercalated 0.917 |   Partially exfoliated 0.915 |   Partially exfoliated 0.969 |           intercalated 0.820
+  #2   | intercalated/exfoliate 0.989 | intercalated/partially 0.777 |         microcomposite 0.910 |           intercalated 0.895 | intercalated/exfoliate 0.968 | intercalated/exfoliate 0.814
+  #3   | intercalated/partially 0.989 | intercalated/exfoliate 0.727 |   Partially exfoliated 0.908 | intercalated/exfoliate 0.892 |         microcomposite 0.967 |         microcomposite 0.806
+  #4   | Partially exfoliated/d 0.972 | disordered intercalate 0.519 | intercalated/partially 0.903 |         microcomposite 0.890 | Mixed (mostly intercal 0.966 |   Partially exfoliated 0.802
+  #5   | disordered intercalate 0.972 |           intercalated 0.498 | intercalated/exfoliate 0.901 | intercalated/partially 0.889 | intercalated/partially 0.964 |           agglomerated 0.799
+
+══════════════════════════════════════════════════════════════════════════════════════════
+  FOCAL CONCEPT: agglomerated  (dispersion)
+══════════════════════════════════════════════════════════════════════════════════════════
+  rank | MiniLM (no enrichment)         | MiniLM (enriched)              | SciBERT                        | MatSciBERT                     | MaterialsBERT                  | MatBERT (LBNL)                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #1   | intercalated/agglomera 0.984 |         microcomposite 0.654 | intercalated/microcomp 0.920 |         microcomposite 0.877 |         microcomposite 0.934 |             exfoliated 0.799
+  #2   |           intercalated 0.951 | intercalated/agglomera 0.593 |         microcomposite 0.915 | intercalated/microcomp 0.877 | intercalated/agglomera 0.932 |         microcomposite 0.763
+  #3   |             exfoliated 0.945 | intercalated/microcomp 0.584 | intercalated/agglomera 0.911 | intercalated/agglomera 0.876 | intercalated/microcomp 0.931 | intercalated/exfoliate 0.746
+  #4   | intercalated/exfoliate 0.943 |           intercalated 0.556 |           intercalated 0.881 |             exfoliated 0.867 |             exfoliated 0.930 |   Partially exfoliated 0.743
+  #5   |   Partially exfoliated 0.941 | disordered intercalate 0.485 |             exfoliated 0.878 |   Partially exfoliated 0.851 | intercalated/exfoliate 0.927 |           intercalated 0.736
+
+══════════════════════════════════════════════════════════════════════════════════════════
+  FOCAL CONCEPT: Thermoset  (category)
+══════════════════════════════════════════════════════════════════════════════════════════
+  rank | MiniLM (no enrichment)         | MiniLM (enriched)              | SciBERT                        | MatSciBERT                     | MaterialsBERT                  | MatBERT (LBNL)                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #1   |          Thermoplastic 0.918 |          Thermoplastic 0.657 |          Thermoplastic 0.946 |          Thermoplastic 0.843 |          Thermoplastic 0.969 |          Thermoplastic 0.833
+  #2   | data_source:Experiment 0.869 |              Elastomer 0.524 |              Elastomer 0.925 |              Elastomer 0.830 |              Elastomer 0.963 |              Elastomer 0.820
+  #3   |  data_source:Simulated 0.867 | Dimethacrylate Copolym 0.444 |                  Epoxy 0.910 |                   HDPE 0.796 |                  Epoxy 0.957 |                  Epoxy 0.819
+  #4   |           Tensile/SENB 0.829 |                     UP 0.425 |                    PVC 0.902 |                  Epoxy 0.796 |            Vinyl Ester 0.951 |            Vinyl Ester 0.762
+  #5   |           Tensile Test 0.825 |                     PS 0.400 |                     UP 0.901 |                     UP 0.793 |                     UP 0.950 |                     UP 0.757
+
+══════════════════════════════════════════════════════════════════════════════════════════
+  FOCAL CONCEPT: Elastomer  (category)
+══════════════════════════════════════════════════════════════════════════════════════════
+  rank | MiniLM (no enrichment)         | MiniLM (enriched)              | SciBERT                        | MatSciBERT                     | MaterialsBERT                  | MatBERT (LBNL)                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #1   | data_source:Experiment 0.871 |          Thermoplastic 0.596 |          Thermoplastic 0.939 |          Thermoplastic 0.900 |          Thermoplastic 0.969 |          Thermoplastic 0.851
+  #2   |  data_source:Simulated 0.860 |              Thermoset 0.524 |              Thermoset 0.925 |                    PMA 0.889 |              Thermoset 0.963 |              Thermoset 0.820
+  #3   |          Thermoplastic 0.847 |            Vinyl Ester 0.470 |                    PMA 0.902 |            Vinyl Ester 0.882 |                    PMA 0.959 |                    PMA 0.788
+  #4   |           Tensile/SENB 0.829 |                    PMA 0.384 |                     PS 0.902 |                     NR 0.875 |                  Epoxy 0.958 |                     NR 0.768
+  #5   |           Tensile Test 0.826 |                     PE 0.383 |                     NR 0.900 |                     PA 0.875 |                     PS 0.958 |                    PSF 0.760
+
+══════════════════════════════════════════════════════════════════════════════════════════
+  FOCAL CONCEPT: Tensile Test  (test_method)
+══════════════════════════════════════════════════════════════════════════════════════════
+  rank | MiniLM (no enrichment)         | MiniLM (enriched)              | SciBERT                        | MatSciBERT                     | MaterialsBERT                  | MatBERT (LBNL)                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #1   |           Tensile/SENB 0.971 | Flexural Test (Three P 0.616 | Flexural Test (Three P 0.951 | Flexural Test (Three P 0.900 |       Compression Test 0.969 | Flexural Test (Three P 0.856
+  #2   |          Flexural Test 0.948 |       Compression Test 0.599 |       Compression Test 0.928 |       Compression Test 0.861 | Flexural Test (Three P 0.966 |       Compression Test 0.825
+  #3   | Dynamic Mechanical Ana 0.944 |          Flexural Test 0.588 |          Flexural Test 0.916 |          Flexural Test 0.849 | Dynamic Mechanical Ana 0.953 |          Flexural Test 0.820
+  #4   |       Compression Test 0.941 |            Tensile/DMA 0.568 |           Tensile/SENB 0.913 |               SENB/DMA 0.841 |        Compact Tension 0.952 |            Tensile/DMA 0.776
+  #5   |            Tensile/DMA 0.939 |           Tensile/SENB 0.547 |            Tensile/DMA 0.903 |                DMA/SEN 0.837 |            Tensile/DMA 0.951 |            Impact Test 0.767

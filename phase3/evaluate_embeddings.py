@@ -33,6 +33,7 @@ MODELS = {
     "scibert":       "output/embeddings_scibert.npz",
     "matscibert":    "output/embeddings_matscibert.npz",
     "materialsbert": "output/embeddings_materialsbert.npz",
+    "matbert":       "output/embeddings_matbert.npz",
 }
 
 # Ground-truth polymer-family groupings for ARI / NMI
