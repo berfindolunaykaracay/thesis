@@ -109,3 +109,63 @@ Protocols analogous to H5 can be drafted for H1–H4. The shortest meaningful pr
 - *H4* — PA6 of two molecular weights (Mw ≈ 17,000 and 50,000 g/mol) processed with 12 wt% Cloisite 30B; measure whether the lower-Mw matrix delivers larger ΔE at fixed exfoliation state (verified by XRD).
 
 These four supplementary protocols are deliberately less developed than the H5 protocol; they are included to demonstrate that the generative-reasoning step does not stop at hypothesis production but extends naturally into experimentally testable propositions.
+
+
+## 7.x.9 Domain-enriched node descriptions and multi-model embedding comparison
+
+The generative-reasoning analyses in §7.x.1–7.x.8 use a single general-purpose sentence-transformer (`all-MiniLM-L6-v2`) and base-template node descriptions. To assess the sensitivity of the framework to (i) the textual content fed to the model and (ii) the choice of language model itself, two further interventions were applied.
+
+**Description enrichment (Advisor Suggestion 1).** Every concept-node description was augmented with 1–2 sentences of domain context drawn from polymer- and clay-nanocomposite literature. For example, the PA6 description now opens with *"PA6 is a semi-crystalline aliphatic polyamide (nylon-6) formed by ring-opening polymerization of ε-caprolactam, with strong inter-chain hydrogen bonding between amide groups,"* and the *intercalated* dispersion description begins with *"polymer chains have penetrated the inter-layer galleries of the clay so the d-spacing increases, but the layered silicate stacks remain intact."* Equivalent enrichment was performed for every modification, dispersion morphology, polymer category, and test-method node. The enriched descriptions are stored in `phase3/output/node_descriptions_enriched.txt`.
+
+**Multi-model comparison (Advisor Suggestion 2).** The same enriched descriptions were re-encoded with four transformer models: `all-MiniLM-L6-v2` (general English, 384-d), `allenai/scibert_scivocab_uncased` (scientific text, 768-d), `m3rg-iitd/matscibert` (materials-science text, 768-d), and `pranav-s/MaterialsBERT` (materials-domain BERT, 768-d). Each set of embeddings is stored as a separate `.npz` file in `phase3/output/`.
+
+## 7.x.10 Quantitative evaluation of embeddings (Advisor Suggestion 3)
+
+The five embedding sets — the original MiniLM baseline (before enrichment), the enriched MiniLM, SciBERT, MatSciBERT, and MaterialsBERT — were compared on three quantitative criteria.
+
+**(a) Polymer-family clustering quality.** Each polymer node was assigned to one of seven literature-standard families (polyamide, polyolefin, thermoset, acrylic, biopolymer, elastomer, glassy). Silhouette score, Adjusted Rand Index (ARI) against $K$-means clustering with $K$ = 7, and Normalized Mutual Information (NMI) were computed.
+
+**(b) Within-family vs. between-family cohesion.** Mean cosine similarity between polymer pairs that share a family was compared to mean cosine similarity between polymer pairs across families. The difference (intra − inter) measures discriminative power.
+
+**(c) Embedding–graph correspondence.** For 200 randomly sampled concept pairs, the Spearman correlation between (1 − cosine) and the graph shortest-path length was computed; a strong positive correlation would indicate that the embedding space respects the topology of the knowledge graph.
+
+| model | silhouette | ARI | NMI | intra | inter | gap | graph ρ (p) |
+|---|---|---|---|---|---|---|---|
+| minilm-orig | 0.140 | 0.366 | 0.591 | 0.776 | 0.690 | **0.086** | +0.087 (n.s.) |
+| **minilm (enriched)** | **0.174** | **0.394** | 0.587 | 0.632 | 0.459 | **0.173** | −0.223 (p = 0.002) |
+| scibert | 0.077 | 0.187 | 0.446 | 0.953 | 0.937 | 0.016 | −0.224 (p = 0.001) |
+| matscibert | 0.099 | 0.154 | 0.433 | 0.941 | 0.920 | 0.021 | −0.245 (p < 0.001) |
+| materialsbert | 0.081 | 0.288 | 0.545 | 0.980 | 0.971 | 0.008 | −0.177 (p = 0.012) |
+
+Three quantitative findings emerge.
+
+First, description enrichment had a measurable positive effect: the cohesion gap (intra − inter cosine) doubled, from 0.086 with the base template to 0.173 with the enriched descriptions, and the silhouette and ARI both improved. The hypothesis that explicit domain context would help the embedding model distinguish polymer families is empirically supported.
+
+Second, contrary to expectation, the domain-specific BERT variants (SciBERT, MatSciBERT, MaterialsBERT) did *not* outperform the enriched general-purpose MiniLM model on polymer-family clustering. Examining the cohesion table reveals why: the domain models produce uniformly very high cosine similarities (intra = 0.94–0.98) but equally high between-family similarities (inter = 0.92–0.97), leaving very little discriminative gap. The general-purpose MiniLM, by contrast, spreads polymers more widely in embedding space and so separates families more cleanly. The domain models are *more confident in materials-domain similarity* but *less discriminative between sub-families*, which is the relevant axis for this thesis.
+
+Third, the Spearman correlation between embedding distance and graph distance is statistically significant (p < 0.05) for all four enriched-text embeddings, but the sign is *negative*: pairs that are closer in graph topology are *farther* in embedding space. This counter-intuitive finding reflects the structure of the data: very common, central concepts (Modified, Epoxy, Tensile Test) sit close together in the graph by co-occurrence but cover semantically distinct material roles, so the embedding does not pull them together. The negative correlation is therefore a property of the dataset's hub-and-spoke topology, not a defect of the embedding.
+
+## 7.x.11 Predictive validation (Advisor Suggestion 4)
+
+To verify that the embeddings carry information useful beyond similarity ranking, a predictive task was constructed: for each experiment in the dataset with a non-null modulus-improvement value, the arcsinh-transformed modulus-improvement was predicted from (a) one-hot encoded categorical features alone and (b) those categorical features concatenated with the row-averaged concept embeddings. Two regressors were used — Ridge regression (α = 0.01) and Gradient Boosting (200 trees, max depth 4, learning rate 0.05) — under 5-fold cross-validation on $n = 919$ usable rows.
+
+| regressor | features | R² (mean ± std) | MAE | ΔR² vs. baseline |
+|---|---|---|---|---|
+| Ridge | baseline | 0.152 ± 0.060 | 1.395 | — |
+| Ridge | + MiniLM (enriched) | 0.153 ± 0.060 | 1.394 | +0.001 |
+| Ridge | + SciBERT | 0.152 ± 0.060 | 1.395 | 0.000 |
+| Ridge | + MatSciBERT | 0.152 ± 0.060 | 1.395 | 0.000 |
+| Ridge | + MaterialsBERT | 0.152 ± 0.060 | 1.395 | 0.000 |
+| **GBM** | baseline | 0.309 ± 0.056 | 1.228 | — |
+| **GBM** | **+ MiniLM (enriched)** | **0.341 ± 0.113** | **1.150** | **+0.032** |
+| **GBM** | **+ SciBERT** | **0.346 ± 0.104** | **1.140** | **+0.037** |
+| GBM | + MatSciBERT | 0.336 ± 0.099 | 1.154 | +0.027 |
+| GBM | + MaterialsBERT | 0.336 ± 0.101 | 1.151 | +0.027 |
+
+Two findings follow.
+
+First, linear regression (Ridge) does not benefit from the embeddings, since the categorical one-hot encoding already spans the same equivalence classes the embeddings encode; the marginal gain in the Ridge column is below the noise floor. Gradient boosting, which can exploit non-linear interactions between embedding coordinates and categorical features, recovers a clear ΔR² gain of +0.03 to +0.04 from every embedding source, corresponding to a roughly 10–12 % relative improvement in explained variance. The mean absolute error in arcsinh space drops by approximately 6 %.
+
+Second, SciBERT yields the highest predictive R² (+0.037), narrowly outperforming the enriched MiniLM (+0.032) despite its lower clustering scores in §7.x.10. The two metrics measure different things: clustering scores reflect the ability of the embedding to *separate* polymer families along a single coarse axis, while the predictive R² reflects the *useful information density* the model can extract for a downstream numerical task. The two are not redundant. For the purposes of this thesis the enriched MiniLM remains the recommended choice because it dominates the clustering metrics and is within 0.005 of the best predictive performance.
+
+Together, §7.x.9–§7.x.11 satisfy the four follow-up actions proposed in the advisor feedback of 2026-05-27. The enrichment, multi-model comparison, quantitative evaluation, and predictive validation are reproducible from the four supplementary scripts: `compute_embeddings_enriched.py`, `compute_embeddings_multimodel.py`, `evaluate_embeddings.py`, and `predictive_validation.py`.

@@ -1,0 +1,37 @@
+==============================================================================
+QUANTITATIVE EMBEDDING EVALUATION — Suggestions 1 & 3
+==============================================================================
+
+Models compared (cells: model row × metric column):
+
+model            |    silhouette |           ARI |           NMI |   cohes_intra |   cohes_inter |     cohes_gap | graph_spearman | graph_p_value | graph_n_pairs
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+minilm-orig      |         0.140 |         0.366 |         0.591 |         0.776 |         0.690 |         0.086 |         0.087 |         0.223 |       200.000
+minilm           |         0.174 |         0.394 |         0.587 |         0.632 |         0.459 |         0.173 |        -0.223 |         0.002 |       200.000
+scibert          |         0.077 |         0.187 |         0.446 |         0.953 |         0.937 |         0.016 |        -0.224 |         0.001 |       200.000
+matscibert       |         0.099 |         0.154 |         0.433 |         0.941 |         0.920 |         0.021 |        -0.245 |         0.000 |       200.000
+materialsbert    |         0.081 |         0.288 |         0.545 |         0.980 |         0.971 |         0.008 |        -0.177 |         0.012 |       200.000
+
+
+Metric definitions
+------------------
+silhouette    : silhouette coefficient on polymer nodes vs. ground-truth families (higher = better separation; range -1..+1)
+ARI           : Adjusted Rand Index between K-means clustering and true family labels (1 = perfect, 0 = random)
+NMI           : Normalized Mutual Information between K-means clustering and true labels (1 = identical)
+cohes_intra   : mean cosine similarity for polymer pairs WITHIN the same family
+cohes_inter   : mean cosine similarity for polymer pairs ACROSS families
+cohes_gap     : cohes_intra - cohes_inter (positive = embeddings discriminate families)
+graph_spearman: Spearman correlation between (1 - cosine) and graph shortest-path length
+graph_p_value : p-value of the Spearman correlation
+graph_n_pairs : number of sampled concept pairs used in the correlation
+
+
+Ground-truth polymer-family groupings used
+------------------------------------------
+  polyamide   : PA, PA6, PA7, PA8, PA12, PA66, Nylon 6, Nylon 66, Nylon 7, Nylon 8, BIOPA11
+  polyolefin  : PP, HDPE, LLDPE, PE, PP/EPDM, PP/PC, PP/PLA, PPH1, PPH2, PPH3, PPH4, PPH1/PP, PPH2/PP, PPH3/PP, PPH4/PP, PA6/PP
+  thermoset   : Epoxy, DGEBA, UP, Vinyl Ester, DGEAC, EPON 828, MGSL135i, Bis-GMA/TTEGDMA, Dimethacrylate Copolymer
+  acrylic     : PMMA, PMA, PVA, PVC, PVP
+  biopolymer  : PLA, PLLA, PLA/PBAT, PLA/PP, PCL, PHBV, Chitosan, PBT, rPET
+  elastomer   : NR, NBR, CNBR, NBR/PU, PU
+  glassy      : PS, PSF, PI

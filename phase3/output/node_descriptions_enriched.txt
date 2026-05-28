@@ -1,0 +1,754 @@
+[polymer:PVP]
+PVP is a poly(vinyl pyrrolidone), water-soluble amorphous polymer with strong dipole moment. It is used as the matrix in 3 montmorillonite clay nanocomposite experiments.
+
+[polymer:PP]
+PP is a isotactic polypropylene, a low-surface-energy semi-crystalline polyolefin with limited intrinsic compatibility with polar fillers like clay. It is used as the matrix in 71 montmorillonite clay nanocomposite experiments.
+
+[polymer:PMA]
+PMA is a poly(methyl acrylate), a rubbery acrylic polymer with low glass-transition temperature (around 10 °C), giving it elastomer-like behaviour at room temperature. It is used as the matrix in 6 montmorillonite clay nanocomposite experiments.
+
+[polymer:Epoxy]
+Epoxy is a thermosetting polymer formed by curing diglycidyl-ether-based resins with amine or anhydride hardeners; high cross-link density and inherently brittle failure. It is used as the matrix in 283 montmorillonite clay nanocomposite experiments.
+
+[polymer:Bis-GMA/TTEGDMA]
+Bis-GMA/TTEGDMA is a dimethacrylate dental-resin formulation based on bisphenol-A glycidyl methacrylate diluted with triethyleneglycol dimethacrylate. It is used as the matrix in 5 montmorillonite clay nanocomposite experiments.
+
+[polymer:PLA]
+PLA is a polylactic acid, biodegradable aliphatic polyester from lactic-acid monomers; semi-crystalline, with relatively low toughness. It is used as the matrix in 17 montmorillonite clay nanocomposite experiments.
+
+[polymer:Dimethacrylate Copolymer]
+Dimethacrylate Copolymer is a dental/biomedical dimethacrylate thermoset. It is used as the matrix in 4 montmorillonite clay nanocomposite experiments.
+
+[polymer:PBT]
+PBT is a poly(butylene terephthalate), engineering thermoplastic polyester. It is used as the matrix in 4 montmorillonite clay nanocomposite experiments.
+
+[polymer:PMMA]
+PMMA is a atactic poly(methyl methacrylate), an amorphous glassy acrylic polymer known for optical transparency and moderate stiffness. It is used as the matrix in 22 montmorillonite clay nanocomposite experiments.
+
+[polymer:PA6]
+PA6 is a semi-crystalline aliphatic polyamide (nylon-6) formed by ring-opening polymerization of ε-caprolactam, with strong inter-chain hydrogen bonding between amide groups. It is used as the matrix in 193 montmorillonite clay nanocomposite experiments.
+
+[polymer:NR]
+NR is a natural rubber, cis-polyisoprene with very high elongation and resilience. It is used as the matrix in 3 montmorillonite clay nanocomposite experiments.
+
+[polymer:PHBV]
+PHBV is a poly(3-hydroxybutyrate-co-3-hydroxyvalerate), bacterial biopolyester. It is used as the matrix in 3 montmorillonite clay nanocomposite experiments.
+
+[polymer:PCL]
+PCL is a polycaprolactone, biodegradable semi-crystalline polyester with very low melting point (~60 °C). It is used as the matrix in 18 montmorillonite clay nanocomposite experiments.
+
+[polymer:PVA]
+PVA is a poly(vinyl alcohol), water-soluble polymer rich in hydroxyl groups, with strong polarity. It is used as the matrix in 8 montmorillonite clay nanocomposite experiments.
+
+[polymer:PU]
+PU is a polyurethane, segmented block copolymer with tunable hard- and soft-segment ratios. It is used as the matrix in 5 montmorillonite clay nanocomposite experiments.
+
+[polymer:PA]
+PA is a generic aliphatic polyamide family, semi-crystalline engineering thermoplastics with strong hydrogen-bonded backbones. It is used as the matrix in 7 montmorillonite clay nanocomposite experiments.
+
+[polymer:PI]
+PI is a polyimide, high-temperature aromatic engineering polymer. It is used as the matrix in 3 montmorillonite clay nanocomposite experiments.
+
+[polymer:PSF]
+PSF is a polysulfone, amorphous high-performance thermoplastic with high glass-transition temperature. It is used as the matrix in 3 montmorillonite clay nanocomposite experiments.
+
+[polymer:PS]
+PS is a atactic polystyrene, amorphous glassy polymer with brittle failure. It is used as the matrix in 13 montmorillonite clay nanocomposite experiments.
+
+[polymer:PLLA]
+PLLA is a poly-L-lactic acid, optically pure stereoisomer of PLA. It is used as the matrix in 8 montmorillonite clay nanocomposite experiments.
+
+[polymer:Chitosan]
+Chitosan is a naturally derived polysaccharide with -NH2 functional groups. It is used as the matrix in 4 montmorillonite clay nanocomposite experiments.
+
+[polymer:PA6/PP]
+PA6/PP is a binary blend of polyamide-6 and polypropylene, used to balance polarity and processability. It is used as the matrix in 5 montmorillonite clay nanocomposite experiments.
+
+[polymer:PLA/PP]
+PLA/PP is a biodegradable PLA blended with polypropylene. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:NBR/PU]
+NBR/PU is a NBR/polyurethane blend for combined chemical and abrasion resistance. It is used as the matrix in 3 montmorillonite clay nanocomposite experiments.
+
+[polymer:PVC]
+PVC is a poly(vinyl chloride), amorphous polar polymer typically used with plasticizers; halogenated backbone. It is used as the matrix in 2 montmorillonite clay nanocomposite experiments.
+
+[polymer:PE]
+PE is a generic polyethylene; non-polar polyolefin. It is used as the matrix in 2 montmorillonite clay nanocomposite experiments.
+
+[polymer:UP]
+UP is a unsaturated polyester, low-cost thermoset cured by free-radical polymerization of vinyl monomers (typically styrene). It is used as the matrix in 19 montmorillonite clay nanocomposite experiments.
+
+[polymer:PA7]
+PA7 is a less common odd-numbered polyamide variant in the nylon family. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:PA8]
+PA8 is a less common odd-numbered polyamide variant in the nylon family. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:DGEBA]
+DGEBA is a diglycidyl ether of bisphenol-A, the most widely used epoxy resin precursor. It is used as the matrix in 90 montmorillonite clay nanocomposite experiments.
+
+[polymer:MGSL135i]
+MGSL135i is a specific dental-/biomedical-grade resin commercial product. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:HDPE]
+HDPE is a high-density polyethylene, a strongly crystalline, non-polar polyolefin. It is used as the matrix in 6 montmorillonite clay nanocomposite experiments.
+
+[polymer:PA66]
+PA66 is a semi-crystalline aliphatic polyamide (nylon-6,6) with alternating diamine and diacid units, higher melting point than PA6. It is used as the matrix in 10 montmorillonite clay nanocomposite experiments.
+
+[polymer:NBR]
+NBR is a acrylonitrile-butadiene rubber, a polar elastomer in which nitrile groups give chemical resistance and the cationic clay surface a natural ionic affinity. It is used as the matrix in 5 montmorillonite clay nanocomposite experiments.
+
+[polymer:Vinyl Ester]
+Vinyl Ester is a thermoset combining unsaturated polyester chemistry with epoxy-like backbone for improved toughness. It is used as the matrix in 6 montmorillonite clay nanocomposite experiments.
+
+[polymer:rPET]
+rPET is a recycled poly(ethylene terephthalate). It is used as the matrix in 6 montmorillonite clay nanocomposite experiments.
+
+[polymer:PP/PLA]
+PP/PLA is a polypropylene/polylactic-acid blend balancing biodegradability with mechanical performance. It is used as the matrix in 10 montmorillonite clay nanocomposite experiments.
+
+[polymer:LLDPE]
+LLDPE is a linear low-density polyethylene with short-chain branching and improved toughness. It is used as the matrix in 6 montmorillonite clay nanocomposite experiments.
+
+[polymer:PA12]
+PA12 is a semi-crystalline polyamide (nylon-12) with longer hydrocarbon spacer between amide groups, giving lower water uptake and lower modulus than PA6. It is used as the matrix in 38 montmorillonite clay nanocomposite experiments.
+
+[polymer:BIOPA11]
+BIOPA11 is a bio-based polyamide-11 derived from castor oil, semi-crystalline. It is used as the matrix in 4 montmorillonite clay nanocomposite experiments.
+
+[polymer:PP/PC]
+PP/PC is a polypropylene/polycarbonate blend used for combined toughness and stiffness. It is used as the matrix in 7 montmorillonite clay nanocomposite experiments.
+
+[polymer:PP/EPDM]
+PP/EPDM is a polypropylene blended with ethylene-propylene-diene rubber for impact modification. It is used as the matrix in 8 montmorillonite clay nanocomposite experiments.
+
+[polymer:EPON 828]
+EPON 828 is a a commercial DGEBA-type epoxy resin. It is used as the matrix in 4 montmorillonite clay nanocomposite experiments.
+
+[polymer:PPH1]
+PPH1 is a polypropylene homopolymer grade variant. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:PPH1/PP]
+PPH1/PP is a polypropylene homopolymer blend variant. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:PPH2]
+PPH2 is a polypropylene homopolymer grade variant. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:PPH2/PP]
+PPH2/PP is a polypropylene homopolymer blend variant. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:PPH3]
+PPH3 is a polypropylene homopolymer grade variant. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:PPH3/PP]
+PPH3/PP is a polypropylene homopolymer blend variant. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:PPH4]
+PPH4 is a polypropylene homopolymer grade variant. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:PPH4/PP]
+PPH4/PP is a polypropylene homopolymer blend variant. It is used as the matrix in 1 montmorillonite clay nanocomposite experiments.
+
+[polymer:CNBR]
+CNBR is a carboxylated nitrile rubber, an NBR variant with pendant -COOH groups that further enhance polar/ionic interactions. It is used as the matrix in 4 montmorillonite clay nanocomposite experiments.
+
+[polymer:PLA/PBAT]
+PLA/PBAT is a polylactic-acid blended with poly(butylene adipate terephthalate) for improved ductility while remaining biodegradable. It is used as the matrix in 7 montmorillonite clay nanocomposite experiments.
+
+[polymer:DGEAC]
+DGEAC is a diglycidyl ether of aliphatic compound; aliphatic epoxy variant. It is used as the matrix in 5 montmorillonite clay nanocomposite experiments.
+
+[modification:Unmodified]
+Unmodified clay: pristine sodium montmorillonite with native Na+ inter-layer cations; the hydrophilic surface limits compatibility with non-polar polymers but preserves the native ionic affinity for polar polymers and elastomers. Used in 119 experiments.
+
+[modification:Modified]
+Modified clay: organomodified montmorillonite (OMMT) in which the native sodium counter-ions of the clay galleries have been exchanged with organic surfactant cations (typically quaternary alkylammonium) so as to increase the d-spacing and improve compatibility with low-polarity polymers. Used in 823 experiments.
+
+[dispersion:exfoliated]
+exfoliated: individual clay platelets are fully separated and dispersed homogeneously throughout the polymer matrix, providing maximum interfacial area. Observed in 283 experiments.
+
+[dispersion:intercalated/exfoliated]
+intercalated/exfoliated: mixed morphology containing both intercalated stacks and exfoliated single platelets coexisting in the same composite. Observed in 158 experiments.
+
+[dispersion:intercalated]
+intercalated: polymer chains have penetrated the inter-layer galleries of the clay so the d-spacing increases, but the layered silicate stacks remain intact. Observed in 333 experiments.
+
+[dispersion:microcomposite]
+microcomposite: no nanoscale intercalation has been achieved; the clay remains in large micron-scale agglomerates and behaves as a conventional filler. Observed in 73 experiments.
+
+[dispersion:agglomerated]
+agglomerated: clay particles are clustered into agglomerates rather than dispersed, often acting as stress concentrators that nucleate failure. Observed in 41 experiments.
+
+[dispersion:intercalated/microcomposite]
+intercalated/microcomposite: co-existence of intercalated regions and unintercalated micron-scale agglomerates. Observed in 12 experiments.
+
+[dispersion:intercalated/agglomerated]
+intercalated/agglomerated: intercalated nanocomposite regions coexisting with poorly dispersed agglomerates. Observed in 11 experiments.
+
+[dispersion:intercalated/partially exfoliated]
+intercalated/partially exfoliated: intercalated clay stacks with partial exfoliation of single platelets at the edges. Observed in 7 experiments.
+
+[dispersion:disordered intercalated/exfoliated]
+disordered intercalated/exfoliated: a disordered combination of partially intercalated and partially exfoliated clay structures without long-range order. Observed in 14 experiments.
+
+[dispersion:Mixed (mostly intercalated)]
+Mixed (mostly intercalated): mixed dispersion state in which intercalated morphology dominates. Observed in 2 experiments.
+
+[dispersion:Mixed]
+Mixed: mixed dispersion state without a single dominant morphology. Observed in 6 experiments.
+
+[dispersion:Partially exfoliated]
+Partially exfoliated: clay platelets partly separated from their parent stacks but not fully isolated. Observed in 1 experiments.
+
+[dispersion:Partially exfoliated/disordered intercalated]
+Partially exfoliated/disordered intercalated: partial exfoliation combined with disordered intercalation regions. Observed in 1 experiments.
+
+[category:Thermoplastic]
+Thermoplastic polymer family: linear or branched polymer whose physical entanglements melt reversibly upon heating, allowing repeated reprocessing. Used in 494 experiments.
+
+[category:Thermoset]
+Thermoset polymer family: cross-linked polymer with a permanent three-dimensional covalent network; the cured polymer cannot be remelted or reprocessed. Used in 425 experiments.
+
+[category:Elastomer]
+Elastomer polymer family: lightly cross-linked rubbery polymer capable of large reversible elastic deformation at and above room temperature. Used in 23 experiments.
+
+[article:Biocompatible organic coating fabrication via polymer/clay nanocomposites: Evaluation of mechanical improvements, Kandemir et al., Polym. Comp. 2023]
+Research article on polymer/clay nanocomposites: Biocompatible organic coating fabrication via polymer/clay nanocomposites: Evaluation of mechanical improvements, Kandem. Contains 3 experiments contributed to the dataset.
+
+[article:Development of Hashin-Shtrikman model to determine the roles and properties of interphases in clay/CaCO3/PP ternary nanocomposite, Zare et al., Appl. Clay Sci. 2017]
+Research article on polymer/clay nanocomposites: Development of Hashin-Shtrikman model to determine the roles and properties of interphases in clay/CaCO3/PP ternary nano. Contains 12 experiments contributed to the dataset.
+
+[article:Tuning the Mechanical Properties of Poly(Methyl Acrylate) via Surface-Functionalized Montmorillonite Nanosheets, Rauschendorfer et al., Macromol. Mater. Eng. 2020]
+Research article on polymer/clay nanocomposites: Tuning the Mechanical Properties of Poly(Methyl Acrylate) via Surface-Functionalized Montmorillonite Nanosheets, Rausche. Contains 6 experiments contributed to the dataset.
+
+[article:Correlating the rheological and mechanical response of polyurethane nanocomposites containing hyperbranched polymers, Plummer et al., Polymer (Guildf). 2005]
+Research article on polymer/clay nanocomposites: Correlating the rheological and mechanical response of polyurethane nanocomposites containing hyperbranched polymers, Pl. Contains 6 experiments contributed to the dataset.
+
+[article:Effect of type and concentration of nanoclay on the mechanical and physicochemical properties of bis-GMA/TTEGDMA dental resins, Encalada-Alayola et al., Polymers (Basel). 2020]
+Research article on polymer/clay nanocomposites: Effect of type and concentration of nanoclay on the mechanical and physicochemical properties of bis-GMA/TTEGDMA dental . Contains 5 experiments contributed to the dataset.
+
+[article:Enhanced ductility and tensile properties of hybrid montmorillonite/cellulose nanowhiskers reinforced polylactic acid nanocomposites , Arjmandi et al., J. Mater. Sci. 2015]
+Research article on polymer/clay nanocomposites: Enhanced ductility and tensile properties of hybrid montmorillonite/cellulose nanowhiskers reinforced polylactic acid na. Contains 5 experiments contributed to the dataset.
+
+[article:The use of montmorillonite clays as reinforcing fillers for dental adhesives, De Menezes et al., Mater. Res. 2016]
+Research article on polymer/clay nanocomposites: The use of montmorillonite clays as reinforcing fillers for dental adhesives, De Menezes et al., Mater. Res. 2016. Contains 4 experiments contributed to the dataset.
+
+[article:An approach to study the roles of percolation threshold and interphase in tensile modulus of polymer/clay nanocomposites, Zare , J. Colloid Interface Sci. 2017]
+Research article on polymer/clay nanocomposites: An approach to study the roles of percolation threshold and interphase in tensile modulus of polymer/clay nanocomposites. Contains 3 experiments contributed to the dataset.
+
+[article:Efficiency of stress transfer between polymer matrix and nanoplatelets in clay / polymer nanocomposites, Zare et al., Appl. Clay Sci. 2017]
+Research article on polymer/clay nanocomposites: Efficiency of stress transfer between polymer matrix and nanoplatelets in clay / polymer nanocomposites, Zare et al., Ap. Contains 17 experiments contributed to the dataset.
+
+[article:Effect of halloysite nanotubes and organically modified bentonite clay hybrid filler system on the properties of natural rubber, Abhisha et al., J. Elastomers Plast. 2020]
+Research article on polymer/clay nanocomposites: Effect of halloysite nanotubes and organically modified bentonite clay hybrid filler system on the properties of natural. Contains 3 experiments contributed to the dataset.
+
+[article:Deformation mechanism of epoxy/clay nanocomposite, Akbari et al., Eur. Polym. J. 2007]
+Research article on polymer/clay nanocomposites: Deformation mechanism of epoxy/clay nanocomposite, Akbari et al., Eur. Polym. J. 2007. Contains 3 experiments contributed to the dataset.
+
+[article:PHBV nanocomposites based on organomodified montmorillonite and halloysite: The effect of clay type on the morphology and thermal and mechanical properties, Carli et al., Compos. Part A Appl. Sci. Manuf. 2011]
+Research article on polymer/clay nanocomposites: PHBV nanocomposites based on organomodified montmorillonite and halloysite: The effect of clay type on the morphology an. Contains 3 experiments contributed to the dataset.
+
+[article:Effects of montmorillonite, sepiolite, and halloysite clays on the morphology and properties of polycaprolactone bionanocomposites, Kassa et al., Polym. Polym. Compos. 2020]
+Research article on polymer/clay nanocomposites: Effects of montmorillonite, sepiolite, and halloysite clays on the morphology and properties of polycaprolactone bionano. Contains 3 experiments contributed to the dataset.
+
+[article:Toughness and Fracture Properties in Nacre-Mimetic Clay / Polymer Nanocomposites, Morits et al., 2017]
+Research article on polymer/clay nanocomposites: Toughness and Fracture Properties in Nacre-Mimetic Clay / Polymer Nanocomposites, Morits et al., 2017. Contains 8 experiments contributed to the dataset.
+
+[article:A new approach for prediction of elastic modulus of polymer/nanoclay composites by considering interfacial debonding: Experimental and numerical investigations, Heydari-Meybodi et al., Compos. Sci. Technol. 2015]
+Research article on polymer/clay nanocomposites: A new approach for prediction of elastic modulus of polymer/nanoclay composites by considering interfacial debonding: Ex. Contains 3 experiments contributed to the dataset.
+
+[article:On the tensile behavior of clay-epoxy nanocomposite considering interphase debonding damage via mixed-mode cohesive zone material, Maleki Moghadam et al., Compos. Part B Eng. 2016]
+Research article on polymer/clay nanocomposites: On the tensile behavior of clay-epoxy nanocomposite considering interphase debonding damage via mixed-mode cohesive zone. Contains 6 experiments contributed to the dataset.
+
+[article:Simulation of Young’s modulus for clay-reinforced nanocomposites assuming mechanical percolation, clay-interphase networks and interfacial linkage, Zare et al., J. Mater. Res. Technol. 2020]
+Research article on polymer/clay nanocomposites: Simulation of Young’s modulus for clay-reinforced nanocomposites assuming mechanical percolation, clay-interphase networ. Contains 3 experiments contributed to the dataset.
+
+[article:Development of a model for modulus of polymer halloysite nanotube nanocomposites by the interphase zones around dispersed and networked nanotubes, Zare et al., Sci. Rep. 2022]
+Research article on polymer/clay nanocomposites: Development of a model for modulus of polymer halloysite nanotube nanocomposites by the interphase zones around disperse. Contains 3 experiments contributed to the dataset.
+
+[article:Effects of critical interfacial shear modulus between polymer matrix and nanoclay on the effective interphase properties and tensile modulus of nanocomposites, Zare et al., Constr. Build. Mater. 2020]
+Research article on polymer/clay nanocomposites: Effects of critical interfacial shear modulus between polymer matrix and nanoclay on the effective interphase properties. Contains 4 experiments contributed to the dataset.
+
+[article:Mechanics of polymer-clay nanocomposites, Rao et al., 2007]
+Research article on polymer/clay nanocomposites: Mechanics of polymer-clay nanocomposites, Rao et al., 2007. Contains 4 experiments contributed to the dataset.
+
+[article:3D multiscale modeling to predict the elastic modulus of polymer/nanoclay composites considering realistic interphase property, Heydari-Meybodi et al., 2016]
+Research article on polymer/clay nanocomposites: 3D multiscale modeling to predict the elastic modulus of polymer/nanoclay composites considering realistic interphase pr. Contains 6 experiments contributed to the dataset.
+
+[article:Okamato M. - Polymer Clay Nanocomposites- American Scientific Publishers (2004) - table 13]
+Research article on polymer/clay nanocomposites: Okamato M. - Polymer Clay Nanocomposites- American Scientific Publishers (2004) - table 13. Contains 6 experiments contributed to the dataset.
+
+[article:Mechanical Properties of Clay-Reinforced Polyamide, Varlot et al., Journal of Poly. Sci., 2002]
+Research article on polymer/clay nanocomposites: Mechanical Properties of Clay-Reinforced Polyamide, Varlot et al., Journal of Poly. Sci., 2002. Contains 6 experiments contributed to the dataset.
+
+[article:Effect of Clay on Properties of Polyimide-Clay Nanocomposites, Wang et al., Journal of Applied Polymer Science, 2007]
+Research article on polymer/clay nanocomposites: Effect of Clay on Properties of Polyimide-Clay Nanocomposites, Wang et al., Journal of Applied Polymer Science, 2007. Contains 3 experiments contributed to the dataset.
+
+[article:Polymer Nanocomposites, Mai et al., Woodhead, 2006]
+Research article on polymer/clay nanocomposites: Polymer Nanocomposites, Mai et al., Woodhead, 2006. Contains 7 experiments contributed to the dataset.
+
+[article:L, A Utracki - Clay- Containing Polymeric Nanocomposites Volume 1 (2004) - Figure 57]
+Research article on polymer/clay nanocomposites: L, A Utracki - Clay- Containing Polymeric Nanocomposites Volume 1 (2004) - Figure 57. Contains 3 experiments contributed to the dataset.
+
+[article:L, A Utracki - Clay- Containing Polymeric Nanocomposites Volume 1 (2004) - Table 30]
+Research article on polymer/clay nanocomposites: L, A Utracki - Clay- Containing Polymeric Nanocomposites Volume 1 (2004) - Table 30. Contains 4 experiments contributed to the dataset.
+
+[article:L, A Utracki - Clay-Containing Polymeric Nanocomposites Volume 1 (2004)- figure 47]
+Research article on polymer/clay nanocomposites: L, A Utracki - Clay-Containing Polymeric Nanocomposites Volume 1 (2004)- figure 47. Contains 5 experiments contributed to the dataset.
+
+[article:Synthesis, Structure, Mechanical Properties, and thermal stabilty of some polysulfone/organoclay nanocomposites, Sur et al., Polymer, 2001]
+Research article on polymer/clay nanocomposites: Synthesis, Structure, Mechanical Properties, and thermal stabilty of some polysulfone/organoclay nanocomposites, Sur et . Contains 3 experiments contributed to the dataset.
+
+[article:Mechanical Properties of Polypropylene/Clay Nanocomposites: Effect of Clay Content, Polymer/Clay Compatibility, and Processing Conditions, Tarapow et al., Journal of Applied Polymer Science, 2008]
+Research article on polymer/clay nanocomposites: Mechanical Properties of Polypropylene/Clay Nanocomposites: Effect of Clay Content, Polymer/Clay Compatibility, and Proc. Contains 4 experiments contributed to the dataset.
+
+[article:Polystyrene-Sepiolite Clay Nanocomposites with Enahnced Mechanical and Thermal Properties, Rehman et al., 2022]
+Research article on polymer/clay nanocomposites: Polystyrene-Sepiolite Clay Nanocomposites with Enahnced Mechanical and Thermal Properties, Rehman et al., 2022. Contains 3 experiments contributed to the dataset.
+
+[article:Mechanical Properties of PP/Clay Nanocomposites Prepared from Masterbatch, Chafdiz et al., Key Engineering Materials, 2019]
+Research article on polymer/clay nanocomposites: Mechanical Properties of PP/Clay Nanocomposites Prepared from Masterbatch, Chafdiz et al., Key Engineering Materials, 20. Contains 6 experiments contributed to the dataset.
+
+[article:Mechanical and thermo-mechanical properties of nanoclay/epoxy composites: synergistic effects of silanization and surfactant application, Baştürk et al., Materials Research Express, 2018]
+Research article on polymer/clay nanocomposites: Mechanical and thermo-mechanical properties of nanoclay/epoxy composites: synergistic effects of silanization and surfac. Contains 6 experiments contributed to the dataset.
+
+[article:Lepoittevin B, Pantoustier N, Devalckenaere M, et al.
+ Poly(epsilon-caprolactone)/clay nanocomposites by in-situ intercalative
+ polymerization catalyzed by dibutyltindimethoxide. Macromolecule
+ 2002; 35(22): 8385-90.]
+Research article on polymer/clay nanocomposites: Lepoittevin B, Pantoustier N, Devalckenaere M, et al.  Poly(epsilon-caprolactone)/clay nanocomposites by in-situ interca. Contains 12 experiments contributed to the dataset.
+
+[article:Enhancement of the Properties of Hybridizing Epoxy and Nanoclay for Mechanical, Industrial, and Biomedical Applications]
+Research article on polymer/clay nanocomposites: Enhancement of the Properties of Hybridizing Epoxy and Nanoclay for Mechanical, Industrial, and Biomedical Applications. Contains 6 experiments contributed to the dataset.
+
+[article:Lee DC, Jang LW. Preparation and characterization of PMMA-clay
+ hybrid composite by emulsion polymerization. J Appl Polym Sci
+ 1996; 61(7): 1117-22.]
+Research article on polymer/clay nanocomposites: Lee DC, Jang LW. Preparation and characterization of PMMA-clay  hybrid composite by emulsion polymerization. J Appl Poly. Contains 2 experiments contributed to the dataset.
+
+[article:Marras SI, Zuburtikudis I, Panayiotou C. Nanostructure vs. microstructure:
+ morphological and thermomechanical characterization of
+ poly(L-lactic acid)/layered silicate hybrids. Eur Polym J 2007;
+ 43(6): 2191-06.]
+Research article on polymer/clay nanocomposites: Marras SI, Zuburtikudis I, Panayiotou C. Nanostructure vs. microstructure:  morphological and thermomechanical character. Contains 8 experiments contributed to the dataset.
+
+[article:Okada A, Usuki A. The chemistry of polymer-clay hybrids. Mater Sci Eng C 1995; 3(2): 109-15.]
+Research article on polymer/clay nanocomposites: Okada A, Usuki A. The chemistry of polymer-clay hybrids. Mater Sci Eng C 1995; 3(2): 109-15.. Contains 2 experiments contributed to the dataset.
+
+[article:Oriakhi CO. Nano sandwiches. Chem Br 1995; 34: 59-62.]
+Research article on polymer/clay nanocomposites: Oriakhi CO. Nano sandwiches. Chem Br 1995; 34: 59-62.. Contains 2 experiments contributed to the dataset.
+
+[article:Zanetti M, Camino G, Canavese D, Morgan AB, Lamelas FJ, Wilkie CA. Fire retardant halogen-antimony-clay synergism in polypropylene layered silicate nanocomposites. Chem Mater 2002; 14(1): 189-93.]
+Research article on polymer/clay nanocomposites: Zanetti M, Camino G, Canavese D, Morgan AB, Lamelas FJ, Wilkie CA. Fire retardant halogen-antimony-clay synergism in pol. Contains 2 experiments contributed to the dataset.
+
+[article:Fabrication and Mechanical Properties of Chitosan-Montmorillonite]
+Research article on polymer/clay nanocomposites: Fabrication and Mechanical Properties of Chitosan-Montmorillonite. Contains 4 experiments contributed to the dataset.
+
+[article:Z. Shanti Kiran, V. Suresh Babu, K. V. L. Soma Sekhar, P. Muvvala, M. Kameswara Reddy, and S. Gugulothu, “Tensile and flexural characteristics of an epoxy-glass composite reinforced with Cloisite 15A nanoclay,” Iranian Polymer Journal (English Edition), vol. 30, no. 8, pp. 831–841, Aug. 2021, doi: 10.1007/s13726-021-00934-9.]
+Research article on polymer/clay nanocomposites: Z. Shanti Kiran, V. Suresh Babu, K. V. L. Soma Sekhar, P. Muvvala, M. Kameswara Reddy, and S. Gugulothu, “Tensile and fl. Contains 4 experiments contributed to the dataset.
+
+[article:I. Ozsoy, A. Demirkol, A. Mimaroglu, H. Unal, and Z. Demir, “The influence of micro- And nano-filler content on the mechanical properties of epoxy composites,” Strojniski Vestnik/Journal of Mechanical Engineering, vol. 61, no. 10, pp. 601–609, 2015, doi: 10.5545/sv-jme.2015.2632.]
+Research article on polymer/clay nanocomposites: I. Ozsoy, A. Demirkol, A. Mimaroglu, H. Unal, and Z. Demir, “The influence of micro- And nano-filler content on the mech. Contains 3 experiments contributed to the dataset.
+
+[article:P. N. Harshita, D. K. Rathore, R. K. Prusty, and B. C. Ray, “Extrapolation of Mechanical Strengthening Effect in Nanoclay/Epoxy Nanocomposites to Elevated Temperature Environments,” Transactions of the Indian Institute of Metals, vol. 71, no. 8, pp. 2015–2024, Aug. 2018, doi: 10.1007/s12666-018-1334-8.]
+Research article on polymer/clay nanocomposites: P. N. Harshita, D. K. Rathore, R. K. Prusty, and B. C. Ray, “Extrapolation of Mechanical Strengthening Effect in Nanocla. Contains 3 experiments contributed to the dataset.
+
+[article:S. S. Chee and M. Jawaid, “The effect of bi-functionalized MMT on morphology, thermal stability, dynamic mechanical, and tensile properties of epoxy/organoclay nanocomposites,” Polymers, vol. 11, no. 12, Dec. 2019, doi: 10.3390/polym11122012.]
+Research article on polymer/clay nanocomposites: S. S. Chee and M. Jawaid, “The effect of bi-functionalized MMT on morphology, thermal stability, dynamic mechanical, and. Contains 4 experiments contributed to the dataset.
+
+[article:S. S. Ray, “Recent trends and future outlooks in the field of clay-containing polymer nanocomposites,” Macromolecular Chemistry and Physics, vol. 215, no. 12, pp. 1162–1179, 2014, doi: 10.1002/macp.201400069.]
+Research article on polymer/clay nanocomposites: S. S. Ray, “Recent trends and future outlooks in the field of clay-containing polymer nanocomposites,” Macromolecular Ch. Contains 32 experiments contributed to the dataset.
+
+[article:P. Saikia, “Clay nanostructures for biomedical applications,” in Two-Dimensional Nanostructures for Biomedical Technology: A Bridge between Material Science and Bioengineering, Elsevier, 2019, pp. 137–172. doi: 10.1016/B978-0-12-817650-4.00005-X.]
+Research article on polymer/clay nanocomposites: P. Saikia, “Clay nanostructures for biomedical applications,” in Two-Dimensional Nanostructures for Biomedical Technolog. Contains 5 experiments contributed to the dataset.
+
+[article:G. Örçen and D. Bayram, “Effect of nanoclay on the mechanical and thermal properties of glass fiber-reinforced epoxy composites,” Journal of Materials Science, vol. 59, no. 8, pp. 3467–3487, Feb. 2024, doi: 10.1007/s10853-024-09387-w.]
+Research article on polymer/clay nanocomposites: G. Örçen and D. Bayram, “Effect of nanoclay on the mechanical and thermal properties of glass fiber-reinforced epoxy com. Contains 3 experiments contributed to the dataset.
+
+[article:N. Merah and O. Mohamed, “Nanoclay and water uptake effects on mechanical properties of unsaturated polyester,” Journal of Nanomaterials, vol. 2019, 2019, doi: 10.1155/2019/8130419.]
+Research article on polymer/clay nanocomposites: N. Merah and O. Mohamed, “Nanoclay and water uptake effects on mechanical properties of unsaturated polyester,” Journal . Contains 4 experiments contributed to the dataset.
+
+[article:A. M. Abdel-Gawad, A. R. Ramadan, A. Flores, and A. M. K. Esawi, “Fabrication of Nylon 6-Montmorillonite Clay Nanocomposites with Enhanced Structural and Mechanical Properties by Solution Compounding,” Polymers, vol. 14, no. 21, Nov. 2022, doi: 10.3390/polym14214471.]
+Research article on polymer/clay nanocomposites: A. M. Abdel-Gawad, A. R. Ramadan, A. Flores, and A. M. K. Esawi, “Fabrication of Nylon 6-Montmorillonite Clay Nanocompos. Contains 3 experiments contributed to the dataset.
+
+[article:T. A. Nguyen, T. M. H. Pham, T. H. Dang, T. H. Do, and Q. T. Nguyen, “Study on Mechanical Properties and Fire Resistance of Epoxy Nanocomposite Reinforced with Environmentally Friendly Additive: Nanoclay I.30E,” Journal of Chemistry, vol. 2020, 2020, doi: 10.1155/2020/3460645.]
+Research article on polymer/clay nanocomposites: T. A. Nguyen, T. M. H. Pham, T. H. Dang, T. H. Do, and Q. T. Nguyen, “Study on Mechanical Properties and Fire Resistance. Contains 4 experiments contributed to the dataset.
+
+[article:Kusmono and Z. Arifin Mohd Ishak, “Effect of clay addition on mechanical properties of unsaturated polyester/glass fiber composites,” International Journal of Polymer Science, vol. 2013, 2013, doi: 10.1155/2013/797109.]
+Research article on polymer/clay nanocomposites: Kusmono and Z. Arifin Mohd Ishak, “Effect of clay addition on mechanical properties of unsaturated polyester/glass fiber. Contains 6 experiments contributed to the dataset.
+
+[article:S. Kowshik, M. Shettar, N. Rangaswamy, G. Chate, and P. Somdee, “Effect of nanoclay on mechanical, flammability, and water absorption properties of glass fiber-epoxy composite,” Cogent Engineering, vol. 9, no. 1, 2022, doi: 10.1080/23311916.2022.2069070.]
+Research article on polymer/clay nanocomposites: S. Kowshik, M. Shettar, N. Rangaswamy, G. Chate, and P. Somdee, “Effect of nanoclay on mechanical, flammability, and wat. Contains 4 experiments contributed to the dataset.
+
+[article:S. U. Hamim and R. P. Singh, “Effect of Hygrothermal Aging on the Mechanical Properties of Fluorinated and Nonfluorinated Clay-Epoxy Nanocomposites,” International Scholarly Research Notices, vol. 2014, pp. 1–13, Oct. 2014, doi: 10.1155/2014/489453.]
+Research article on polymer/clay nanocomposites: S. U. Hamim and R. P. Singh, “Effect of Hygrothermal Aging on the Mechanical Properties of Fluorinated and Nonfluorinate. Contains 8 experiments contributed to the dataset.
+
+[article:N. Domun, H. Hadavinia, T. Zhang, T. Sainsbury, G. H. Liaghat, and S. Vahid, “Improving the fracture toughness and the strength of epoxy using nanomaterials-a review of the current status,” Nanoscale, vol. 7, no. 23. Royal Society of Chemistry, pp. 10294–10329, Jun. 21, 2015. doi: 10.1039/c5nr01354b.]
+Research article on polymer/clay nanocomposites: N. Domun, H. Hadavinia, T. Zhang, T. Sainsbury, G. H. Liaghat, and S. Vahid, “Improving the fracture toughness and the s. Contains 8 experiments contributed to the dataset.
+
+[article:A. Cerit, M. E. Marti, U. Soydal, S. Kocaman, and G. Ahmetli, “Effect of Modification with Various Epoxide Compounds on Mechanical, Thermal, and Coating Properties of Epoxy Resin,” International Journal of Polymer Science, vol. 2016, 2016, doi: 10.1155/2016/4968365.]
+Research article on polymer/clay nanocomposites: A. Cerit, M. E. Marti, U. Soydal, S. Kocaman, and G. Ahmetli, “Effect of Modification with Various Epoxide Compounds on . Contains 4 experiments contributed to the dataset.
+
+[article:A. Dantas de Oliveira and C. Augusto Gonçalves Beatrice, “Polymer Nanocomposites with Different Types of Nanofiller,” in Nanocomposites - Recent Evolutions, IntechOpen, 2019. doi: 10.5772/intechopen.81329.]
+Research article on polymer/clay nanocomposites: A. Dantas de Oliveira and C. Augusto Gonçalves Beatrice, “Polymer Nanocomposites with Different Types of Nanofiller,” in. Contains 3 experiments contributed to the dataset.
+
+[article:K. Müller et al., “Review on the processing and properties of polymer nanocomposites and nanocoatings and their applications in the packaging, automotive and solar energy fields,” Nanomaterials, vol. 7, no. 4. MDPI AG, Apr. 01, 2017. doi: 10.3390/nano7040074.]
+Research article on polymer/clay nanocomposites: K. Müller et al., “Review on the processing and properties of polymer nanocomposites and nanocoatings and their applicat. Contains 4 experiments contributed to the dataset.
+
+[article:S. Fakhreddini-Najafabadi, M. Torabi, and F. Taheri-Behrooz, “An investigation on the effects of synthesis on the mechanical properties of nanoclay/epoxy,” Journal of Materials Research and Technology, vol. 15, pp. 5375–5395, Nov. 2021, doi: 10.1016/j.jmrt.2021.10.129.]
+Research article on polymer/clay nanocomposites: S. Fakhreddini-Najafabadi, M. Torabi, and F. Taheri-Behrooz, “An investigation on the effects of synthesis on the mechan. Contains 4 experiments contributed to the dataset.
+
+[article:M. H. Mat Yazik, M. T. H. Sultan, A. U. M. Shah, M. Jawaid, and N. Mazlan, “Effect of nanoclay content on the thermal, mechanical and shape memory properties of epoxy nanocomposites,” Polymer Bulletin, vol. 77, no. 11, pp. 5913–5931, Nov. 2020, doi: 10.1007/s00289-019-03049-7.]
+Research article on polymer/clay nanocomposites: M. H. Mat Yazik, M. T. H. Sultan, A. U. M. Shah, M. Jawaid, and N. Mazlan, “Effect of nanoclay content on the thermal, m. Contains 3 experiments contributed to the dataset.
+
+[article:S. Firdosh, H. N. Narasimha Murthy, G. Angadi, and N. Raghavendra, “Investigation of water absorption characteristics of nano-gelcoat for marine application,” Progress in Organic Coatings, vol. 114, pp. 173–187, Jan. 2018, doi: 10.1016/j.porgcoat.2017.10.004.]
+Research article on polymer/clay nanocomposites: S. Firdosh, H. N. Narasimha Murthy, G. Angadi, and N. Raghavendra, “Investigation of water absorption characteristics of. Contains 4 experiments contributed to the dataset.
+
+[article:J. Zhang, S. Deng, Y. Wang, and L. Ye, “Role of rigid nanoparticles and CTBN rubber in the toughening of epoxies with different cross-linking densities,” Composites Part A: Applied Science and Manufacturing, vol. 80, pp. 82–94, Jan. 2016, doi: 10.1016/j.compositesa.2015.10.017.]
+Research article on polymer/clay nanocomposites: J. Zhang, S. Deng, Y. Wang, and L. Ye, “Role of rigid nanoparticles and CTBN rubber in the toughening of epoxies with di. Contains 17 experiments contributed to the dataset.
+
+[article:C. Wolf, H. Angellier-Coussy, N. Gontard, F. Doghieri, and V. Guillard, “How the shape of fillers affects the barrier properties of polymer/non-porous particles nanocomposites: A review,” Journal of Membrane Science, vol. 556. Elsevier B.V., pp. 393–418, Jun. 15, 2018. doi: 10.1016/j.memsci.2018.03.085.]
+Research article on polymer/clay nanocomposites: C. Wolf, H. Angellier-Coussy, N. Gontard, F. Doghieri, and V. Guillard, “How the shape of fillers affects the barrier pr. Contains 3 experiments contributed to the dataset.
+
+[article:M. Shettar, S. Kowshik, Gowrishankar, P. Hiremath, and S. Sharma, “Water Sorption-Desorption-Resorption Effects on Mechanical Properties of Epoxy-Nanoclay Nanocomposites,” International Journal of Automotive and Mechanical Engineering, vol. 19, no. 1, pp. 9478–9486, 2022, doi: 10.15282/ijame.19.1.2022.11.0730.]
+Research article on polymer/clay nanocomposites: M. Shettar, S. Kowshik, Gowrishankar, P. Hiremath, and S. Sharma, “Water Sorption-Desorption-Resorption Effects on Mecha. Contains 2 experiments contributed to the dataset.
+
+[article:A. Tcherbi-Narteh, M. Hosur, and S. Jeelani, “Effects of Different Montmorillonite Nanoclay Loading on Cure Behavior and Properties of Diglycidyl Ether of Bisphenol A Epoxy,” Journal of Nanomaterials, vol. 2016, 2016, doi: 10.1155/2016/3840348.]
+Research article on polymer/clay nanocomposites: A. Tcherbi-Narteh, M. Hosur, and S. Jeelani, “Effects of Different Montmorillonite Nanoclay Loading on Cure Behavior and. Contains 3 experiments contributed to the dataset.
+
+[article:M. Shettar, U. A. Kini, S. Sharma, P. Hiremath, and G. C. G. Gowrishankar, “Hygrothermal chamber aging effect on mechanical behavior and morphology of glass fiber-epoxy-nanoclay composites,” Materials Research Express, vol. 7, no. 1, 2020, doi: 10.1088/2053-1591/ab6405.]
+Research article on polymer/clay nanocomposites: M. Shettar, U. A. Kini, S. Sharma, P. Hiremath, and G. C. G. Gowrishankar, “Hygrothermal chamber aging effect on mechani. Contains 6 experiments contributed to the dataset.
+
+[article:M. Shettar, C. S. S. Kowshik, M. Manjunath, and P. Hiremath, “Experimental investigation on mechanical and wear properties of nanoclay-epoxy composites,” Journal of Materials Research and Technology, vol. 9, no. 4, pp. 9108–9116, Jan. 2020, doi: 10.1016/j.jmrt.2020.06.058.]
+Research article on polymer/clay nanocomposites: M. Shettar, C. S. S. Kowshik, M. Manjunath, and P. Hiremath, “Experimental investigation on mechanical and wear properti. Contains 3 experiments contributed to the dataset.
+
+[article:R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T. Ramakrishnan, “Structural, morphological and mechanical behaviour of glass fibre reinforced epoxy nanoclay composites,” International Journal of Advanced Manufacturing Technology, vol. 93, no. 1–4, pp. 527–535, Oct. 2017, doi: 10.1007/s00170-017-0565-x.]
+Research article on polymer/clay nanocomposites: R. Jeyakumar, P. S. Sampath, R. Ramamoorthi, and T. Ramakrishnan, “Structural, morphological and mechanical behaviour of. Contains 16 experiments contributed to the dataset.
+
+[article:N. Rull, R. P. Ollier, G. Francucci, E. S. Rodriguez, and V. A. Alvarez, “Effect of the addition of nanoclays on the water absorption and mechanical properties of glass fiber/up resin composites,” Journal of Composite Materials, vol. 49, no. 13, pp. 1629–1637, Jun. 2015, doi: 10.1177/0021998314538869.]
+Research article on polymer/clay nanocomposites: N. Rull, R. P. Ollier, G. Francucci, E. S. Rodriguez, and V. A. Alvarez, “Effect of the addition of nanoclays on the wat. Contains 3 experiments contributed to the dataset.
+
+[article:Rashmi, N. M. Renukappa, B. Suresha, R. M. Devarajaiah, and K. N. Shivakumar, “Dry sliding wear behaviour of organo-modified montmorillonite filled epoxy nanocomposites using Taguchi’s techniques,” Materials and Design, vol. 32, no. 8–9, pp. 4528–4536, 2011, doi: 10.1016/j.matdes.2011.03.028.]
+Research article on polymer/clay nanocomposites: Rashmi, N. M. Renukappa, B. Suresha, R. M. Devarajaiah, and K. N. Shivakumar, “Dry sliding wear behaviour of organo-modi. Contains 3 experiments contributed to the dataset.
+
+[article:D. Ratna, N. R. Manoj, R. Varley, R. K. Singh Raman, and G. P. Simon, “Clay-reinforced epoxy nanocomposites,” Polymer International, vol. 52, no. 9, pp. 1403–1407, Sep. 2003, doi: 10.1002/pi.1166.]
+Research article on polymer/clay nanocomposites: D. Ratna, N. R. Manoj, R. Varley, R. K. Singh Raman, and G. P. Simon, “Clay-reinforced epoxy nanocomposites,” Polymer In. Contains 2 experiments contributed to the dataset.
+
+[article:A. Okada and A. Usuki, “Twenty years of polymer-clay nanocomposites,” Macromolecular Materials and Engineering, vol. 291, no. 12, pp. 1449–1476, Dec. 2006, doi: 10.1002/mame.200600260.]
+Research article on polymer/clay nanocomposites: A. Okada and A. Usuki, “Twenty years of polymer-clay nanocomposites,” Macromolecular Materials and Engineering, vol. 291. Contains 10 experiments contributed to the dataset.
+
+[article:T. P. Mohan, M. R. Kumar, and R. Velmurugan, “Thermal, mechanical and vibration characteristics of epoxy-clay nanocomposites,” Journal of Materials Science, vol. 41, no. 18, pp. 5915–5925, Aug. 2006, doi: 10.1007/s10853-006-0278-2.]
+Research article on polymer/clay nanocomposites: T. P. Mohan, M. R. Kumar, and R. Velmurugan, “Thermal, mechanical and vibration characteristics of epoxy-clay nanocompos. Contains 5 experiments contributed to the dataset.
+
+[article:R. Aradhya and N. M. Renukappa, “Mechanical and Tribological Properties of Epoxy Nano Composites for High Voltage Applications.” [Online]. Available: www.intechopen.com]
+Research article on polymer/clay nanocomposites: R. Aradhya and N. M. Renukappa, “Mechanical and Tribological Properties of Epoxy Nano Composites for High Voltage Applic. Contains 9 experiments contributed to the dataset.
+
+[article:M. Al-Qadhi, N. Merah, and Z. M. Gasem, “Mechanical properties and water uptake of epoxy-clay nanocomposites containing different clay loadings,” Journal of Materials Science, vol. 48, no. 10, pp. 3798–3804, May 2013, doi: 10.1007/s10853-013-7180-5.]
+Research article on polymer/clay nanocomposites: M. Al-Qadhi, N. Merah, and Z. M. Gasem, “Mechanical properties and water uptake of epoxy-clay nanocomposites containing . Contains 5 experiments contributed to the dataset.
+
+[article:X. Li, Z. Zhan, G. Peng, and W. Wang, “A new method for preparing completely exfoliated epoxy/clay nanocomposites: Nano-disassembling method,” Polymer Bulletin, vol. 67, no. 4, pp. 719–727, Aug. 2011, doi: 10.1007/s00289-011-0496-x.]
+Research article on polymer/clay nanocomposites: X. Li, Z. Zhan, G. Peng, and W. Wang, “A new method for preparing completely exfoliated epoxy/clay nanocomposites: Nano-. Contains 12 experiments contributed to the dataset.
+
+[article:C. K. Lam and K. T. Lau, “Optimization effect of micro hardness by nanoclay clusters in nanoclay/epoxy composites,” Journal of Thermoplastic Composite Materials, vol. 22, no. 2, pp. 213–225, Mar. 2009, doi: 10.1177/0892705708091856.]
+Research article on polymer/clay nanocomposites: C. K. Lam and K. T. Lau, “Optimization effect of micro hardness by nanoclay clusters in nanoclay/epoxy composites,” Jour. Contains 5 experiments contributed to the dataset.
+
+[article:M. A. Kumar, K. H. Reddy, Y. V. M. Reddy, G. R. Reddy, and S. V. Naidu, “Improvement of tensile and flexural properties in epoxy/clay nanocomposites reinforced with weave glass fiber reel,” International Journal of Polymeric Materials and Polymeric Biomaterials, vol. 59, no. 11, pp. 854–862, Nov. 2010, doi: 10.1080/00914037.2010.504144.]
+Research article on polymer/clay nanocomposites: M. A. Kumar, K. H. Reddy, Y. V. M. Reddy, G. R. Reddy, and S. V. Naidu, “Improvement of tensile and flexural properties . Contains 8 experiments contributed to the dataset.
+
+[article:A. Jumahat, W. W. Amir, C. Soutis, and S. Kasolang, “Flexural response of nanoclay-modified epoxy polymers,” Materials Research Innovations, vol. 18, pp. S6-280-S6-285, Dec. 2014, doi: 10.1179/1432891714Z.0000000001021.]
+Research article on polymer/clay nanocomposites: A. Jumahat, W. W. Amir, C. Soutis, and S. Kasolang, “Flexural response of nanoclay-modified epoxy polymers,” Materials R. Contains 9 experiments contributed to the dataset.
+
+[article:A. Jumahat, C. Soutis, J. Mahmud, and N. Ahmad, “Compressive properties of nanoclay/epoxy nanocomposites,” in Procedia Engineering, Elsevier Ltd, 2012, pp. 1607–1613. doi: 10.1016/j.proeng.2012.07.357.]
+Research article on polymer/clay nanocomposites: A. Jumahat, C. Soutis, J. Mahmud, and N. Ahmad, “Compressive properties of nanoclay/epoxy nanocomposites,” in Procedia E. Contains 6 experiments contributed to the dataset.
+
+[article:A. Jumahat, C. Soutis, F. R. Jones, and A. Hodzic, “Compressive behaviour of nanoclay modified aerospace grade epoxy polymer,” Plastics, Rubber and Composites, vol. 41, no. 6, pp. 225–232, Jul. 2012, doi: 10.1179/1743289811Y.0000000028.]
+Research article on polymer/clay nanocomposites: A. Jumahat, C. Soutis, F. R. Jones, and A. Hodzic, “Compressive behaviour of nanoclay modified aerospace grade epoxy pol. Contains 9 experiments contributed to the dataset.
+
+[article:M. Esteves, A. Ramalho, J. A. M. Ferreira, and J. P. Nobre, “Tribological and mechanical behaviour of epoxy/nanoclay composites,” Tribology Letters, vol. 52, no. 1, pp. 1–10, Oct. 2013, doi: 10.1007/s11249-013-0174-2.]
+Research article on polymer/clay nanocomposites: M. Esteves, A. Ramalho, J. A. M. Ferreira, and J. P. Nobre, “Tribological and mechanical behaviour of epoxy/nanoclay com. Contains 3 experiments contributed to the dataset.
+
+[article:M. Al-Qadhi, N. Merah, Z. M. Gasem, N. Abu-Dheir, and B. J. A. Aleem, “Effect of water and crude oil on mechanical and thermal properties of epoxy-clay nanocomposites,” Polymer Composites, vol. 35, no. 2, pp. 318–326, Feb. 2014, doi: 10.1002/pc.22664.]
+Research article on polymer/clay nanocomposites: M. Al-Qadhi, N. Merah, Z. M. Gasem, N. Abu-Dheir, and B. J. A. Aleem, “Effect of water and crude oil on mechanical and t. Contains 4 experiments contributed to the dataset.
+
+[article:Y. Ali, M. Al-Qadhi, N. Merah, and A. Rafiq, “Influence of degassing and nanoclay loading on physical and flexural properties of epoxy,” in Defect and Diffusion Forum, Trans Tech Publications Ltd, 2015, pp. 237–243. doi: 10.4028/www.scientific.net/DDF.365.237.]
+Research article on polymer/clay nanocomposites: Y. Ali, M. Al-Qadhi, N. Merah, and A. Rafiq, “Influence of degassing and nanoclay loading on physical and flexural prope. Contains 5 experiments contributed to the dataset.
+
+[article:T. K. Bindu Sharmila, E. P. Ayswarya, B. T. Abraham, P. M. Sabura Begum, and E. T. Thachil, “Fabrication of partially exfoliated and disordered intercalated cloisite epoxy nanocomposites via in situ polymerization: Mechanical, dynamic mechanical, thermal and barrier properties,” Applied Clay Science, vol. 102, pp. 220–230, Dec. 2014, doi: 10.1016/j.clay.2014.09.043.]
+Research article on polymer/clay nanocomposites: T. K. Bindu Sharmila, E. P. Ayswarya, B. T. Abraham, P. M. Sabura Begum, and E. T. Thachil, “Fabrication of partially ex. Contains 6 experiments contributed to the dataset.
+
+[article:S. B. Basturk and S. C. Erbas, “Mechanical and thermo-mechanical properties of nanoclay/epoxy composites: Synergistic effects of silanization and surfactant application,” Materials Research Express, vol. 5, no. 9, Sep. 2018, doi: 10.1088/2053-1591/aad60c.]
+Research article on polymer/clay nanocomposites: S. B. Basturk and S. C. Erbas, “Mechanical and thermo-mechanical properties of nanoclay/epoxy composites: Synergistic ef. Contains 12 experiments contributed to the dataset.
+
+[article:S. Zainuddin, M. v. Hosur, Y. Zhou, A. T. Narteh, A. Kumar, and S. Jeelani, “Experimental and numerical investigations on flexural and thermal properties of nanoclay-epoxy nanocomposites,” Materials Science and Engineering: A, vol. 527, no. 29–30, pp. 7920–7926, Nov. 2010, doi: 10.1016/j.msea.2010.08.078.]
+Research article on polymer/clay nanocomposites: S. Zainuddin, M. v. Hosur, Y. Zhou, A. T. Narteh, A. Kumar, and S. Jeelani, “Experimental and numerical investigations o. Contains 3 experiments contributed to the dataset.
+
+[article:H. Alamri and I. M. Low, “Effect of water absorption on the mechanical properties of nano-filler reinforced epoxy nanocomposites,” Materials and Design, vol. 42, pp. 214–222, Dec. 2012, doi: 10.1016/j.matdes.2012.05.060.]
+Research article on polymer/clay nanocomposites: H. Alamri and I. M. Low, “Effect of water absorption on the mechanical properties of nano-filler reinforced epoxy nanoco. Contains 18 experiments contributed to the dataset.
+
+[article:M. L. Chan, K. T. Lau, T. T. Wong, M. P. Ho, and D. Hui, “Mechanism of reinforcement in a nanoclay/polymer composite,” Composites Part B: Engineering, vol. 42, no. 6, pp. 1708–1712, Sep. 2011, doi: 10.1016/j.compositesb.2011.03.011.]
+Research article on polymer/clay nanocomposites: M. L. Chan, K. T. Lau, T. T. Wong, M. P. Ho, and D. Hui, “Mechanism of reinforcement in a nanoclay/polymer composite,” C. Contains 6 experiments contributed to the dataset.
+
+[article:A. Yasmin, J. J. Luo, J. L. Abot, and I. M. Daniel, “Mechanical and thermal behavior of clay/epoxy nanocomposites,” Composites Science and Technology, vol. 66, no. 14, pp. 2415–2422, Nov. 2006, doi: 10.1016/j.compscitech.2006.03.011.]
+Research article on polymer/clay nanocomposites: A. Yasmin, J. J. Luo, J. L. Abot, and I. M. Daniel, “Mechanical and thermal behavior of clay/epoxy nanocomposites,” Comp. Contains 12 experiments contributed to the dataset.
+
+[article:M. Silani, S. Ziaei-Rad, M. Esfahanian, and V. B. C. Tan, “On the experimental and numerical investigation of clay/epoxy nanocomposites,” Composite Structures, vol. 94, no. 11, pp. 3142–3148, Nov. 2012, doi: 10.1016/j.compstruct.2012.04.033.]
+Research article on polymer/clay nanocomposites: M. Silani, S. Ziaei-Rad, M. Esfahanian, and V. B. C. Tan, “On the experimental and numerical investigation of clay/epoxy. Contains 2 experiments contributed to the dataset.
+
+[article:F. Zaïri, J. M. Gloaguen, M. Naït-Abdelaziz, A. Mesbah, and J. M. Lefebvre, “Study of the effect of size and clay structural parameters on the yield and post-yield response of polymer/clay nanocomposites via a multiscale micromechanical modelling,” Acta Materialia, vol. 59, no. 10, pp. 3851–3863, 2011, doi: 10.1016/j.actamat.2011.03.009.]
+Research article on polymer/clay nanocomposites: F. Zaïri, J. M. Gloaguen, M. Naït-Abdelaziz, A. Mesbah, and J. M. Lefebvre, “Study of the effect of size and clay struct. Contains 8 experiments contributed to the dataset.
+
+[article:J. Zicans, R. Merijs Meri, M. Kalniņš, R. Maksimovs, and J. Jansons, “Modeling and experimental investigations of elastic and creep properties of thermoplastic polymer nanocomposites,” ZAMM Zeitschrift fur Angewandte Mathematik und Mechanik, vol. 95, no. 10, pp. 1198–1110, Oct. 2015, doi: 10.1002/zamm.201400288.]
+Research article on polymer/clay nanocomposites: J. Zicans, R. Merijs Meri, M. Kalniņš, R. Maksimovs, and J. Jansons, “Modeling and experimental investigations of elasti. Contains 6 experiments contributed to the dataset.
+
+[article:R. Merijs Meri et al., “Elasticity and long-term behavior of recycled polyethylene terephthalate (rPET)/montmorillonite (MMT) composites,” Composite Structures, vol. 111, no. 1, pp. 453–458, May 2014, doi: 10.1016/J.COMPSTRUCT.2014.01.017.]
+Research article on polymer/clay nanocomposites: R. Merijs Meri et al., “Elasticity and long-term behavior of recycled polyethylene terephthalate (rPET)/montmorillonite . Contains 6 experiments contributed to the dataset.
+
+[article:H. W. Wang, H. W. Ji, W. Q. Shao, and H. Miao, “Finite element modeling for particle-reinforced polymer composites for wind energy application,” in Advanced Materials Research, 2011, pp. 2177–2180. doi: 10.4028/www.scientific.net/AMR.189-193.2177.]
+Research article on polymer/clay nanocomposites: H. W. Wang, H. W. Ji, W. Q. Shao, and H. Miao, “Finite element modeling for particle-reinforced polymer composites for w. Contains 1 experiments contributed to the dataset.
+
+[article:R. D. Maksimov and E. Plume, “ELASTIC PROPERTIES OF A POLYURETHANE/ MONTMORILLONITE NANOCOMPOSITE,” 2012.]
+Research article on polymer/clay nanocomposites: R. D. Maksimov and E. Plume, “ELASTIC PROPERTIES OF A POLYURETHANE/ MONTMORILLONITE NANOCOMPOSITE,” 2012.. Contains 3 experiments contributed to the dataset.
+
+[article:H. Ebadi-Dehaghani, H. A. Khonakdar, M. Barikani, and S. H. Jafari, “Experimental and theoretical analyses of mechanical properties of PP/PLA/clay nanocomposites,” Composites Part B: Engineering, vol. 69, pp. 133–144, 2015, doi: 10.1016/j.compositesb.2014.09.006.]
+Research article on polymer/clay nanocomposites: H. Ebadi-Dehaghani, H. A. Khonakdar, M. Barikani, and S. H. Jafari, “Experimental and theoretical analyses of mechanical. Contains 10 experiments contributed to the dataset.
+
+[article:R. Mohsenzadeh, “Experimental studies on mechanical properties and toughening mechanisms of PA6/zeolite nanocomposites,” Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, vol. 235, no. 23, pp. 7233–7240, Dec. 2021, doi: 10.1177/09544062211005798.]
+Research article on polymer/clay nanocomposites: R. Mohsenzadeh, “Experimental studies on mechanical properties and toughening mechanisms of PA6/zeolite nanocomposites,”. Contains 6 experiments contributed to the dataset.
+
+[article:B. Zazoum, E. Triki, and A. Bachri, “Modeling of mechanical properties of clay-reinforced polymer nanocomposites using deep neural network,” Materials, vol. 13, no. 19, Oct. 2020, doi: 10.3390/MA13194266.]
+Research article on polymer/clay nanocomposites: B. Zazoum, E. Triki, and A. Bachri, “Modeling of mechanical properties of clay-reinforced polymer nanocomposites using d. Contains 6 experiments contributed to the dataset.
+
+[article:A. N. Wilkinson et al., “Tensile properties of melt intercalated polyamide 6 - Montmorillonite nanocomposites,” Composites Science and Technology, vol. 67, no. 15–16, pp. 3360–3368, Dec. 2007, doi: 10.1016/j.compscitech.2007.03.024.]
+Research article on polymer/clay nanocomposites: A. N. Wilkinson et al., “Tensile properties of melt intercalated polyamide 6 - Montmorillonite nanocomposites,” Composit. Contains 4 experiments contributed to the dataset.
+
+[article:M. Jamsheed, F. M. Rashid, and R. Velmurugan, “An experimental investigation on the effect of montmorillonite nanoclay on the mechanical properties of Ti6Al4V titanium-based carbon fiber/epoxy laminates,” Polymer Composites, 2025, doi: 10.1002/pc.29745.]
+Research article on polymer/clay nanocomposites: M. Jamsheed, F. M. Rashid, and R. Velmurugan, “An experimental investigation on the effect of montmorillonite nanoclay o. Contains 5 experiments contributed to the dataset.
+
+[article:G. Ravichandran, G. Rathnakar, N. Santhosh, R. Chennakeshava, and M. A. Hashmi, “Enhancement of mechanical properties of epoxy/halloysite nanotube (HNT) nanocomposites,” SN Applied Sciences, vol. 1, no. 4, Apr. 2019, doi: 10.1007/s42452-019-0323-9.]
+Research article on polymer/clay nanocomposites: G. Ravichandran, G. Rathnakar, N. Santhosh, R. Chennakeshava, and M. A. Hashmi, “Enhancement of mechanical properties of. Contains 4 experiments contributed to the dataset.
+
+[article:S. Ghafarloo and M. Kokabi, “Mechanical properties of epoxy clay nanocomposites,” in Advanced Materials Research, 2010, pp. 145–148. doi: 10.4028/www.scientific.net/AMR.123-125.145.]
+Research article on polymer/clay nanocomposites: S. Ghafarloo and M. Kokabi, “Mechanical properties of epoxy clay nanocomposites,” in Advanced Materials Research, 2010, . Contains 8 experiments contributed to the dataset.
+
+[article:A. Ebrahimi Jahromi, H. R. Ebrahimi Jahromi, F. Hemmati, M. R. Saeb, V. Goodarzi, and K. Formela, “Morphology and mechanical properties of polyamide/clay nanocomposites toughened with NBR/NBR-g-GMA: A comparative study,” Composites Part B: Engineering, vol. 90, pp. 478–484, Apr. 2016, doi: 10.1016/j.compositesb.2015.12.042.]
+Research article on polymer/clay nanocomposites: A. Ebrahimi Jahromi, H. R. Ebrahimi Jahromi, F. Hemmati, M. R. Saeb, V. Goodarzi, and K. Formela, “Morphology and mechan. Contains 6 experiments contributed to the dataset.
+
+[article:P. M. Gyoo, S. Venkataramani, and S. C. Kim, “Morphology, thermal, and mechanical properties of polyamide 66/clay nanocomposites with epoxy-modified organoclay,” Journal of Applied Polymer Science, vol. 101, no. 3, pp. 1711–1722, Aug. 2006, doi: 10.1002/app.23339.]
+Research article on polymer/clay nanocomposites: P. M. Gyoo, S. Venkataramani, and S. C. Kim, “Morphology, thermal, and mechanical properties of polyamide 66/clay nanoco. Contains 9 experiments contributed to the dataset.
+
+[article:R. Aradhya and N. M. Renukappa, “Mechanical and Tribological Properties of Epoxy Nano Composites for High Voltage Applications,” in Nanorods and Nanocomposites, IntechOpen, 2020. doi: 10.5772/intechopen.88236.]
+Research article on polymer/clay nanocomposites: R. Aradhya and N. M. Renukappa, “Mechanical and Tribological Properties of Epoxy Nano Composites for High Voltage Applic. Contains 6 experiments contributed to the dataset.
+
+[article:J. Stojšic, P. Raos, and A. Kalendova, “A study of structure and tensile properties of polyamide 12/clay nanocomposites,” Polymer Composites, vol. 37, no. 3, pp. 684–691, Mar. 2016, doi: 10.1002/pc.23225.]
+Research article on polymer/clay nanocomposites: J. Stojšic, P. Raos, and A. Kalendova, “A study of structure and tensile properties of polyamide 12/clay nanocomposites,. Contains 19 experiments contributed to the dataset.
+
+[article:M. H. Gabr and K. Uzawa, “Mechanical, thermal, and interfacial shear properties of polyamide/nanoclay nanocomposites: Study the effect of nanoclay on the micromechanism of fracture,” Journal of Thermoplastic Composite Materials, vol. 31, no. 4, pp. 447–464, Apr. 2018, doi: 10.1177/0892705717705692.]
+Research article on polymer/clay nanocomposites: M. H. Gabr and K. Uzawa, “Mechanical, thermal, and interfacial shear properties of polyamide/nanoclay nanocomposites: St. Contains 6 experiments contributed to the dataset.
+
+[article:R. C. Voicu et al., “Prediction of Mechanical Properties of Nano-Clay-Based Biopolymeric Composites,” Nanomaterials, vol. 14, no. 17, Sep. 2024, doi: 10.3390/nano14171403.]
+Research article on polymer/clay nanocomposites: R. C. Voicu et al., “Prediction of Mechanical Properties of Nano-Clay-Based Biopolymeric Composites,” Nanomaterials, vol. Contains 4 experiments contributed to the dataset.
+
+[article:L. Su, C. Fang, and H. Luo, “Functionalized montmorillonite/epoxy resin nanocomposites with enhanced thermal and mechanical properties,” RSC Advances, vol. 14, no. 42, pp. 31251–31258, Oct. 2024, doi: 10.1039/d4ra03125c.]
+Research article on polymer/clay nanocomposites: L. Su, C. Fang, and H. Luo, “Functionalized montmorillonite/epoxy resin nanocomposites with enhanced thermal and mechani. Contains 4 experiments contributed to the dataset.
+
+[article:E. Manias, A. Touny, L. Wu, K. Strawhecker, B. Lu, and T. C. Chung, “Polypropylene/montmorillonite nanocomposites. Review of the synthetic routes and materials properties,” Chemistry of Materials, vol. 13, no. 10. pp. 3516–3523, 2001. doi: 10.1021/cm0110627.]
+Research article on polymer/clay nanocomposites: E. Manias, A. Touny, L. Wu, K. Strawhecker, B. Lu, and T. C. Chung, “Polypropylene/montmorillonite nanocomposites. Revie. Contains 6 experiments contributed to the dataset.
+
+[article:A. A. Azeez, K. Y. Rhee, S. J. Park, and D. Hui, “Epoxy clay nanocomposites - Processing, properties and applications: A review,” Composites Part B: Engineering, vol. 45, no. 1, pp. 308–320, 2013, doi: 10.1016/j.compositesb.2012.04.012.]
+Research article on polymer/clay nanocomposites: A. A. Azeez, K. Y. Rhee, S. J. Park, and D. Hui, “Epoxy clay nanocomposites - Processing, properties and applications: A. Contains 6 experiments contributed to the dataset.
+
+[article:A. Nordin, R. Baosheng, J. Noda, and K. Goda, “Effect of Nanoclay Loading on Mechanical Properties of Nanocomposites.”]
+Research article on polymer/clay nanocomposites: A. Nordin, R. Baosheng, J. Noda, and K. Goda, “Effect of Nanoclay Loading on Mechanical Properties of Nanocomposites.”. Contains 3 experiments contributed to the dataset.
+
+[article:E. Esmizadeh, G. Naderi, S. Arezoomand, and S. Mazinani, “Fabrication and characterization properties of polypropylene/polycarbonate/clay nanocomposites prepared with twin-screw extruder,” Science and Engineering of Composite Materials, vol. 25, no. 1, pp. 31–39, Jan. 2018, doi: 10.1515/secm-2015-0406.]
+Research article on polymer/clay nanocomposites: E. Esmizadeh, G. Naderi, S. Arezoomand, and S. Mazinani, “Fabrication and characterization properties of polypropylene/p. Contains 7 experiments contributed to the dataset.
+
+[article:M. R. Nakhaei, A. Mostafapour, and G. Naderi, “Optimization of mechanical properties of PP/EPDM/ clay nanocomposite fabricated by friction stir processing with response surface methodology and neural networks,” Polymer Composites, vol. 38, pp. E421–E432, Sep. 2017, doi: 10.1002/pc.23942.]
+Research article on polymer/clay nanocomposites: M. R. Nakhaei, A. Mostafapour, and G. Naderi, “Optimization of mechanical properties of PP/EPDM/ clay nanocomposite fabr. Contains 8 experiments contributed to the dataset.
+
+[article:J. Huang, M. Uhrig, U. Weber, and S. Schmauder, “Numerical Simulation of Mechanical Properties of Nano Particle Modified Polyamide 6 via RVE Modeling,” Journal of Materials Science and Chemical Engineering, vol. 03, no. 01, pp. 95–102, 2015, doi: 10.4236/msce.2015.31014.]
+Research article on polymer/clay nanocomposites: J. Huang, M. Uhrig, U. Weber, and S. Schmauder, “Numerical Simulation of Mechanical Properties of Nano Particle Modified. Contains 6 experiments contributed to the dataset.
+
+[article:J.-I. Weon, “Mechanical and Thermal Behavior of Polyamide-6/Clay Nanocomposite Using Continuum-based Micromechanical Modeling,” 2009.]
+Research article on polymer/clay nanocomposites: J.-I. Weon, “Mechanical and Thermal Behavior of Polyamide-6/Clay Nanocomposite Using Continuum-based Micromechanical Mod. Contains 6 experiments contributed to the dataset.
+
+[article:E. Amendola, “Epoxy Nanocomposites Based on Silylated Montmorillonite: Effect of the Coupling Agents Structure on the Mechanical Properties,” The Open Macromolecules Journal, vol. 6, no. 1, pp. 33–36, May 2012, doi: 10.2174/1874343901206010033.]
+Research article on polymer/clay nanocomposites: E. Amendola, “Epoxy Nanocomposites Based on Silylated Montmorillonite: Effect of the Coupling Agents Structure on the Me. Contains 9 experiments contributed to the dataset.
+
+[article:S. Bayar, F. Delale, and B. M. Liaw, “EFFECT OF TEMPERATURE ON MECHANICAL PROPERTIES OF NANOCLAY REINFORCED POLYMERIC NANOCOMPOSITES-PART I: EXPERIMENTAL RESULTS* by.”]
+Research article on polymer/clay nanocomposites: S. Bayar, F. Delale, and B. M. Liaw, “EFFECT OF TEMPERATURE ON MECHANICAL PROPERTIES OF NANOCLAY REINFORCED POLYMERIC NA. Contains 9 experiments contributed to the dataset.
+
+[article:M. Moghri, H. Shamaee, H. Shahrajabian, and A. Ghannadzadeh, “The effect of different parameters on mechanical properties of PA-6/clay nanocomposite through genetic algorithm and response surface methods,” International Nano Letters, vol. 5, no. 3, pp. 133–140, Sep. 2015, doi: 10.1007/s40089-015-0146-7.]
+Research article on polymer/clay nanocomposites: M. Moghri, H. Shamaee, H. Shahrajabian, and A. Ghannadzadeh, “The effect of different parameters on mechanical propertie. Contains 27 experiments contributed to the dataset.
+
+[article:X. Liu, Q. Wu, L. A. Berglund, J. Fan, and Z. Qi, “Polyamide 6-clay nanocomposites/polypropylene-grafted-maleic anhydride alloys.” [Online]. Available: www.elsevier.nl/locate/polymer]
+Research article on polymer/clay nanocomposites: X. Liu, Q. Wu, L. A. Berglund, J. Fan, and Z. Qi, “Polyamide 6-clay nanocomposites/polypropylene-grafted-maleic anhydrid. Contains 3 experiments contributed to the dataset.
+
+[article:M. Quaresimin, M. Salviato, and M. Zappalorto, “Fracture and interlaminar properties of clay-modified epoxies and their glass reinforced laminates,” Engineering Fracture Mechanics, vol. 81, pp. 80–93, Feb. 2012, doi: 10.1016/j.engfracmech.2011.10.004.]
+Research article on polymer/clay nanocomposites: M. Quaresimin, M. Salviato, and M. Zappalorto, “Fracture and interlaminar properties of clay-modified epoxies and their . Contains 6 experiments contributed to the dataset.
+
+[article:H. U. Zaman, P. D. Hun, R. A. Khan, and K. B. Yoon, “Polypropylene/clay nanocomposites: Effect of compatibilizers on the morphology, mechanical properties and crystallization behaviors,” Journal of Thermoplastic Composite Materials, vol. 27, no. 3, pp. 338–349, Mar. 2014, doi: 10.1177/0892705712446017.]
+Research article on polymer/clay nanocomposites: H. U. Zaman, P. D. Hun, R. A. Khan, and K. B. Yoon, “Polypropylene/clay nanocomposites: Effect of compatibilizers on the. Contains 9 experiments contributed to the dataset.
+
+[article:M. A. Pérez, B. L. Rivas, M. Rodríguez, Á. Maldonado, and C. Venegas, “PolyProPylene/clay nanocomPosites. synthesis and characterization,” 2010.]
+Research article on polymer/clay nanocomposites: M. A. Pérez, B. L. Rivas, M. Rodríguez, Á. Maldonado, and C. Venegas, “PolyProPylene/clay nanocomPosites. synthesis and . Contains 8 experiments contributed to the dataset.
+
+[article:I. M. Daniel, H. Miyagawa, E. E. Gdoutos, and J. J. Luo, “Processing and Characterization of Epoxy/Clay Nanocomposites.”]
+Research article on polymer/clay nanocomposites: I. M. Daniel, H. Miyagawa, E. E. Gdoutos, and J. J. Luo, “Processing and Characterization of Epoxy/Clay Nanocomposites.”. Contains 4 experiments contributed to the dataset.
+
+[article:J. Stojšić, P. Raos, A. Milinović, and D. Damjanović, “A Study of the Flexural Properties of PA12/Clay Nanocomposites,” Polymers, vol. 14, no. 3, Feb. 2022, doi: 10.3390/polym14030434.]
+Research article on polymer/clay nanocomposites: J. Stojšić, P. Raos, A. Milinović, and D. Damjanović, “A Study of the Flexural Properties of PA12/Clay Nanocomposites,” . Contains 19 experiments contributed to the dataset.
+
+[article:E. Naveau et al., “Effect of clay modification on the structure and mechanical properties of polyamide-6 nanocomposites,” European Polymer Journal, vol. 47, no. 1, pp. 5–15, Jan. 2011, doi: 10.1016/j.eurpolymj.2010.10.031.]
+Research article on polymer/clay nanocomposites: E. Naveau et al., “Effect of clay modification on the structure and mechanical properties of polyamide-6 nanocomposites,. Contains 11 experiments contributed to the dataset.
+
+[article:C. Jo and H. E. Naguib, “Processing, characterization, and modeling of polymer/clay nanocomposite foams,” Journal of Physics: Conference Series, vol. 61, no. 1, pp. 861–868, Apr. 2007, doi: 10.1088/1742-6596/61/1/172.]
+Research article on polymer/clay nanocomposites: C. Jo and H. E. Naguib, “Processing, characterization, and modeling of polymer/clay nanocomposite foams,” Journal of Phy. Contains 6 experiments contributed to the dataset.
+
+[article:L. B. Manfredi, H. de Santis, and A. Vázquez, “Influence of the addition of montmorillonite to the matrix of unidirectional glass fibre/epoxy composites on their mechanical and water absorption properties,” Composites Part A: Applied Science and Manufacturing, vol. 39, no. 11, pp. 1726–1731, Nov. 2008, doi: 10.1016/j.compositesa.2008.07.016.]
+Research article on polymer/clay nanocomposites: L. B. Manfredi, H. de Santis, and A. Vázquez, “Influence of the addition of montmorillonite to the matrix of unidirectio. Contains 2 experiments contributed to the dataset.
+
+[article:M. Dua and P. Mertiny, “COMPARISON OF THE ELASTIC MODULUS OF ELASTOMER CLAY NANOCOMPOSITES PREDICTED BY VARIOUS MECHANICAL MODELS,” 2021.]
+Research article on polymer/clay nanocomposites: M. Dua and P. Mertiny, “COMPARISON OF THE ELASTIC MODULUS OF ELASTOMER CLAY NANOCOMPOSITES PREDICTED BY VARIOUS MECHANIC. Contains 8 experiments contributed to the dataset.
+
+[article:“Polyamide-6/Clay Nanocomposites: A Critical Review.”]
+Research article on polymer/clay nanocomposites: “Polyamide-6/Clay Nanocomposites: A Critical Review.”. Contains 5 experiments contributed to the dataset.
+
+[article:S. Sinha Ray and M. Okamoto, “Polymer/layered silicate nanocomposites: A review from preparation to processing,” Progress in Polymer Science (Oxford), vol. 28, no. 11. pp. 1539–1641, Nov. 2003. doi: 10.1016/j.progpolymsci.2003.08.002.]
+Research article on polymer/clay nanocomposites: S. Sinha Ray and M. Okamoto, “Polymer/layered silicate nanocomposites: A review from preparation to processing,” Progres. Contains 9 experiments contributed to the dataset.
+
+[article:“Effect of Nanoclay on Quasi Static Perforation of Thin Polymer Composites Laminates.”]
+Research article on polymer/clay nanocomposites: “Effect of Nanoclay on Quasi Static Perforation of Thin Polymer Composites Laminates.”. Contains 2 experiments contributed to the dataset.
+
+[article:M. Chinnapandi, A. P. Sharma, B. Ashok Kumar Reddy, and R. Velmurugan, “Mechanical and thermal properties of glass fiber reinforced polymer-clay nanocomposites,” in Journal of Physics: Conference Series, Institute of Physics, 2024. doi: 10.1088/1742-6596/2817/1/012020.]
+Research article on polymer/clay nanocomposites: M. Chinnapandi, A. P. Sharma, B. Ashok Kumar Reddy, and R. Velmurugan, “Mechanical and thermal properties of glass fiber. Contains 4 experiments contributed to the dataset.
+
+[article:A. P. Sharma, M. Purusothaman, T. P. Mohan, K. Kanny, and R. Velmurugan, “Mechanical behavior of GFRP-Polymer sandwich composites with montmorillonite nanoclay,” in Journal of Physics: Conference Series, Institute of Physics, 2024. doi: 10.1088/1742-6596/2817/1/012017.]
+Research article on polymer/clay nanocomposites: A. P. Sharma, M. Purusothaman, T. P. Mohan, K. Kanny, and R. Velmurugan, “Mechanical behavior of GFRP-Polymer sandwich c. Contains 2 experiments contributed to the dataset.
+
+[article:M. Akbarzadeh et al., “Machine learning-driven optimization and prediction of poly(lactic acid)/poly(butylene-adipate-co-terephthalate)/clay blend nanocomposites in structure–property relationships: A combination of experimental and computational techniques,” Polymer Engineering and Science, Mar. 2024, doi: 10.1002/pen.27054.]
+Research article on polymer/clay nanocomposites: M. Akbarzadeh et al., “Machine learning-driven optimization and prediction of poly(lactic acid)/poly(butylene-adipate-co. Contains 7 experiments contributed to the dataset.
+
+[article:L. Shen, W. C. Tjiu, and T. Liu, “Nanoindentation and morphological studies on injection-molded nylon-6 nanocomposites,” Polymer, vol. 46, no. 25, pp. 11969–11977, Nov. 2005, doi: 10.1016/j.polymer.2005.10.006.
+  ]
+Research article on polymer/clay nanocomposites: L. Shen, W. C. Tjiu, and T. Liu, “Nanoindentation and morphological studies on injection-molded nylon-6 nanocomposites,”. Contains 6 experiments contributed to the dataset.
+
+[article:J. W. Cho and D. R. Paul, “Nylon 6 nanocomposites by melt compounding.” [Online]. Available: www.elsevier.nl/locate/polymer
+  ]
+Research article on polymer/clay nanocomposites: J. W. Cho and D. R. Paul, “Nylon 6 nanocomposites by melt compounding.” [Online]. Available: www.elsevier.nl/locate/poly. Contains 5 experiments contributed to the dataset.
+
+[article:A. Ranade, N. A. D’Souza, B. Gnade, and A. Dharia, “Nylon-6 and Montmorillonite-Layered Silicate (MLS) nanocomposites,” Journal of Plastic Film and Sheeting, vol. 19, no. 4, pp. 271–285, Oct. 2003, doi: 10.1177/8756087903042810.
+  ]
+Research article on polymer/clay nanocomposites: A. Ranade, N. A. D’Souza, B. Gnade, and A. Dharia, “Nylon-6 and Montmorillonite-Layered Silicate (MLS) nanocomposites,” . Contains 4 experiments contributed to the dataset.
+
+[article:T. V. González, C. G. Salazar, J. R. de La Rosa, and V. González, “Nylon 6/organoclay nanocomposites by extrusion,” Journal of Applied Polymer Science, vol. 108, no. 5, pp. 2923–2933, Jun. 2008, doi: 10.1002/app.27307.
+  ]
+Research article on polymer/clay nanocomposites: T. V. González, C. G. Salazar, J. R. de La Rosa, and V. González, “Nylon 6/organoclay nanocomposites by extrusion,” Jour. Contains 6 experiments contributed to the dataset.
+
+[article:T. D. Fornes, P. J. Yoon, H. Keskkula, and D. R. Paul, “Nylon 6 nanocomposites: the effect of matrix molecular weight.” [Online]. Available: www.elsevier.com/locate/polymer
+  ]
+Research article on polymer/clay nanocomposites: T. D. Fornes, P. J. Yoon, H. Keskkula, and D. R. Paul, “Nylon 6 nanocomposites: the effect of matrix molecular weight.” . Contains 6 experiments contributed to the dataset.
+
+[article:S. Xie, S. Zhang, B. Zhao, H. Qin, F. Wang, and M. Yang, “Tensile fracture morphologies of nylon-6/montmorillonite nanocomposites,” Polymer International, vol. 54, no. 12, pp. 1673–1680, Nov. 2005, doi: 10.1002/pi.1901.
+  ]
+Research article on polymer/clay nanocomposites: S. Xie, S. Zhang, B. Zhao, H. Qin, F. Wang, and M. Yang, “Tensile fracture morphologies of nylon-6/montmorillonite nanoc. Contains 5 experiments contributed to the dataset.
+
+[article:M. Al-Qadhi and N. Merah, “Mechanical and physical properties of polymer-based nanocomposites containing different types of clay,” Polymer Composites, vol. 36, no. 11, pp. 1998–2007, Nov. 2015, doi: 10.1002/pc.23109.
+  ]
+Research article on polymer/clay nanocomposites: M. Al-Qadhi and N. Merah, “Mechanical and physical properties of polymer-based nanocomposites containing different types. Contains 5 experiments contributed to the dataset.
+
+[article:X. Jia et al., “Highly moisture-resistant epoxy composites: An approach based on liquid nano-reinforcement containing well-dispersed activated montmorillonite,” RSC Advances, vol. 5, no. 56, pp. 44853–44864, 2015, doi: 10.1039/c5ra06397c.
+
+
+]
+Research article on polymer/clay nanocomposites: X. Jia et al., “Highly moisture-resistant epoxy composites: An approach based on liquid nano-reinforcement containing we. Contains 5 experiments contributed to the dataset.
+
+[article:Wang K, Wang L, Wu J, Chen L, He C. Preparation of highly exfoliated epoxy/clay nanocomposites by slurry compounding: process and mechanisms. Langmuir 2005;21:3613–8.]
+Research article on polymer/clay nanocomposites: Wang K, Wang L, Wu J, Chen L, He C. Preparation of highly exfoliated epoxy/clay nanocomposites by slurry compounding: pr. Contains 7 experiments contributed to the dataset.
+
+[article:Kornmann X, Berglund LA, Sterte J. Nanocomposites based on Montmorillonite and unsaturated polyester. Polym Eng Sci 1998;38:1351–8.]
+Research article on polymer/clay nanocomposites: Kornmann X, Berglund LA, Sterte J. Nanocomposites based on Montmorillonite and unsaturated polyester. Polym Eng Sci 1998. Contains 4 experiments contributed to the dataset.
+
+[article:P. I. Xidas and K. S. Triantafyllidis, “Effect of the type of alkylammonium ion clay modifier on the structure and thermal/mechanical properties of glassy and rubbery epoxy-clay nanocomposites,” European Polymer Journal, vol. 46, no. 3, pp. 404–417, Mar. 2010, doi: 10.1016/j.eurpolymj.2009.11.004.
+  ]
+Research article on polymer/clay nanocomposites: P. I. Xidas and K. S. Triantafyllidis, “Effect of the type of alkylammonium ion clay modifier on the structure and therm. Contains 17 experiments contributed to the dataset.
+
+[article:Luo JJ, Daniel IM. Characterization and modeling of mechanical behavior of polymer/clay nanocomposites. Compos Sci Technol 2003;63 :1607–16.]
+Research article on polymer/clay nanocomposites: Luo JJ, Daniel IM. Characterization and modeling of mechanical behavior of polymer/clay nanocomposites. Compos Sci Techn. Contains 2 experiments contributed to the dataset.
+
+[article:Wang, K.; Ahzi, S.; Boumbimba, R.M.; Bahlouli, N.; Addiego, F.; Remond, Y. Micromechanical modeling of the elastic behavior of polypropylene based organoclay nanocomposites under a wide range of temperatures and strain rates/frequencies. Mech. Mater. 2013, 64, 56–68.]
+Research article on polymer/clay nanocomposites: Wang, K.; Ahzi, S.; Boumbimba, R.M.; Bahlouli, N.; Addiego, F.; Remond, Y. Micromechanical modeling of the elastic behav. Contains 8 experiments contributed to the dataset.
+
+[article:Wetzel B, Rosso P, Haupert F, Friedrich K. Epoxy nanocomposites – fracture]
+Research article on polymer/clay nanocomposites: Wetzel B, Rosso P, Haupert F, Friedrich K. Epoxy nanocomposites – fracture. Contains 6 experiments contributed to the dataset.
+
+[article:and toughening mechanisms. Eng Fract Mech 2006;73:2375–98.]
+Research article on polymer/clay nanocomposites: and toughening mechanisms. Eng Fract Mech 2006;73:2375–98.. Contains 12 experiments contributed to the dataset.
+
+[article:T. Fornes, D. Hunter, and D. Paul, Effect of sodium montmor- illonite source on nylon 6/clay nanocomposites, Polymer, vol. 45, no. 7, pp. 2321–2331, 2004. DOI: 10.1016/j.polymer.2004.01. 061.]
+Research article on polymer/clay nanocomposites: T. Fornes, D. Hunter, and D. Paul, Effect of sodium montmor- illonite source on nylon 6/clay nanocomposites, Polymer, vo. Contains 4 experiments contributed to the dataset.
+
+[article:T. D. Fornes, D. L. Hunter, D. R. Paul, Macromolecules 2004, 37, 1793 – 1798.]
+Research article on polymer/clay nanocomposites: T. D. Fornes, D. L. Hunter, D. R. Paul, Macromolecules 2004, 37, 1793 – 1798.. Contains 3 experiments contributed to the dataset.
+
+[test_method:Instrumented-indentation]
+Instrumented-indentation: depth-sensing indentation producing load-displacement curves for modulus and hardness. Applied in 3 experiments.
+
+[test_method:Tensile Test]
+Tensile Test: uniaxial extension to failure following ISO 527 / ASTM D638; reports elastic modulus, tensile strength, and strain to failure. Applied in 714 experiments.
+
+[test_method:Flexural Test]
+Flexural Test: three- or four-point bending test that reports flexural modulus and flexural strength. Applied in 66 experiments.
+
+[test_method:Flexural Test (Three Point Bending)]
+Flexural Test (Three Point Bending): three-point bending per ASTM D790 or ISO 178; reports flexural modulus and flexural strength. Applied in 69 experiments.
+
+[test_method:Nanoindentation]
+Nanoindentation: instrumented indentation at the micro- or nano-scale; reports local modulus and hardness with depth resolution. Applied in 10 experiments.
+
+[test_method:Tensile/SENB]
+Tensile/SENB: single-edge-notch-bend fracture-toughness test combined with tensile characterisation. Applied in 3 experiments.
+
+[test_method:Tensile/DMA]
+Tensile/DMA: tensile testing combined with dynamic mechanical analysis. Applied in 1 experiments.
+
+[test_method:TEM/SEM/CT]
+TEM/SEM/CT: transmission electron microscopy, scanning electron microscopy, and X-ray computed tomography characterisation. Applied in 1 experiments.
+
+[test_method:SENB/DMA]
+SENB/DMA: single-edge-notch-bend fracture testing combined with dynamic mechanical analysis. Applied in 1 experiments.
+
+[test_method:DMA/SEN]
+DMA/SEN: dynamic mechanical analysis combined with single-edge-notch fracture testing. Applied in 1 experiments.
+
+[test_method:Compact Tension]
+Compact Tension: compact-tension geometry for plane-strain fracture-toughness measurement. Applied in 1 experiments.
+
+[test_method:Dynamic Mechanical Analysis]
+Dynamic Mechanical Analysis: DMA: small-amplitude oscillatory deformation as a function of temperature and frequency; reports storage modulus E', loss modulus E'', and tan δ. Applied in 43 experiments.
+
+[test_method:Compression Test]
+Compression Test: uniaxial compression to measure compressive modulus and yield strength. Applied in 15 experiments.
+
+[test_method:Impact Test]
+Impact Test: instrumented Charpy or Izod test reporting impact toughness. Applied in 4 experiments.
+
+[test_method:Short Beam Shear Test]
+Short Beam Shear Test: interlaminar shear test for fibre-reinforced composites. Applied in 3 experiments.
+
+[test_method:Finite Element Method]
+Finite Element Method: finite-element numerical simulation of the mechanical response. Applied in 1 experiments.
+
+[test_method:FEM (COMSOL)]
+FEM (COMSOL): finite-element simulation using the COMSOL Multiphysics package. Applied in 2 experiments.
+
+[test_method:Split Hopkinson Pressure Bar]
+Split Hopkinson Pressure Bar: high-strain-rate dynamic compression test for impact-rate stress-strain behaviour. Applied in 4 experiments.
+
+[data_source:Experimental]
+Experimental data: data obtained from physical laboratory measurements on prepared specimens. Covers 897 entries.
+
+[data_source:Simulated]
+Simulated data: data obtained from computational simulations (typically finite-element or molecular models) rather than physical experiments. Covers 45 entries.
+
