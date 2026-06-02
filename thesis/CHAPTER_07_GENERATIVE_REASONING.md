@@ -255,6 +255,57 @@ Combining the corrected cluster populations, the normalized weighted-degree anal
 The two-regime recommendation supersedes the earlier single-objective phrasing of H1–H5 in §7.x.1–§7.x.5 by attaching each hypothesis to a specific design-objective regime rather than to a single "best" combination. The methodological consequence is that the term "best mechanical system" should always be qualified by the design objective and by the regime under which the recommendation was derived.
 
 
+## 7.x.17b Verbatim advisor quotations on prediction and reassignment
+
+For traceability between the chapter narrative and the four supervisor PDFs of 2026-06-02 (`ana_dokuman.pdf`, `prediction.pdf`, `outlier.pdf`, `berfin_thesis_graph_centrality_concepts_EN.pdf`), the canonical advisor sentences are reproduced verbatim below. Each quotation is treated as a thesis-level claim and is consistent with the post-correction analysis in §7.x.12–§7.x.17.
+
+**Main mechanical finding (from `ana_dokuman.pdf`, §2).** The single-sentence summary of the integrated three-property analysis that the supervisor recommended for the Results/Discussion is:
+
+> *MMT reinforcement generally improves stiffness, often improves strength modestly, but frequently sacrifices strain-to-failure, especially in intermediate and rigid polymer regimes.*
+
+**Strain-to-failure interpretive caveat (from `ana_dokuman.pdf`, §3).** Because the edge weights used in the Phase 2 graph reflect *response magnitude* rather than signed improvement, the strain-to-failure layer in the rigid clusters requires an explicit caveat:
+
+> *For strain-to-failure, high weighted degree does not necessarily indicate beneficial improvement; rather, it indicates a strong ductility-related response, which may correspond to systematic strain reduction in stiffer regimes.*
+
+In concrete terms, when PA6, Epoxy, or DGEBA appear with a high weighted degree on the $\Delta\varepsilon$ layer of C3 or C4 it does *not* mean these polymers improve strain-to-failure — it means they dominate the strain-response sub-graph, with the actual mean $\Delta\varepsilon$ being negative.
+
+**Main prediction (from `prediction.pdf`).** The prediction sentence that frames the design recommendation is:
+
+> *Modified MMT systems are most likely to produce a balanced mechanical improvement when the polymer matrix is in the low-modulus / soft regime, whereas intermediate and rigid matrices primarily show stiffness-dominated reinforcement accompanied by ductility loss.*
+
+This sentence remains valid after the PMA unit correction; in fact it is strengthened by the correction, because the PMA series now sits inside the low-modulus C1 cluster rather than the semi-soft C2 cluster, so the "stronger stiffening signal lives in soft matrices" reading is now supported by both the cluster mean and the per-sample normalised weighted degree.
+
+**Recommendation paragraph (from `prediction.pdf`).** The supervisor's recommended paragraph for the thesis Results/Discussion is reproduced in full:
+
+> *The integrated graph-based analysis suggests that the most mechanically balanced design window is not the most rigid polymer regime, but the modified low-modulus matrix regime, where stiffness, strength, and strain-to-failure can improve simultaneously. In contrast, semi-soft thermoplastic systems may offer the highest stiffness and strength gains, but with a clear ductility penalty, while intermediate and rigid polymer regimes exhibit increasingly stiffness-dominated behavior. Therefore, if the design objective is balanced mechanical reinforcement, modified MMT in low-modulus matrices is predicted to be the most promising route; if the objective is high stiffness at acceptable ductility loss, modified semi-soft thermoplastic or PA6/epoxy-based rigid systems become more appropriate candidates.*
+
+After the PMA unit correction the "semi-soft thermoplastic" anchor of the high-stiffness path is replaced by the C1 PMA-grafted-MMT series (see §7.x.17). The structural form of the recommendation — *balanced reinforcement in soft matrices, stiffness-dominated reinforcement in rigid matrices* — is retained unchanged.
+
+**Three-tier design summary (from `prediction.pdf`, "Kısa sonuç").** The advisor's short three-tier closing list, used in this thesis as the canonical design-window summary:
+
+| Design objective | Recommended regime | Comment |
+|---|---|---|
+| **Best balanced mechanical system** | Modified MMT + low-modulus / soft matrix system, in particular the C1 behaviour exemplified by the PMA-grafted-MMT series after unit correction. | All three properties can improve simultaneously; small $n$, so reported as a high-confidence direction. |
+| **Best stiffness/strength system** | Modified MMT + PMA-grafted MMT in the soft-matrix regime (post-correction C1), with intermediate filler loading $\sim$ 16 wt%. | Maximum loading produces severe ductility loss; intermediate loading is the predicted balanced design point. |
+| **Most reliable rigid engineering system** | Modified MMT + PA6 / Epoxy / DGEBA-type matrices (C4). | Stiffness-dominated reinforcement; *not* a tough/ductile optimum — ductility penalty is intrinsic to this regime. |
+
+**Reassignment statement (from `outlier.pdf`, §6).** The verbatim correction of the earlier C2-centric phrasing is:
+
+> *The extreme PMA response should be reassigned from C2 to C1 after correcting the modulus unit conversion. PMA represents a very soft matrix system, not a semi-soft thermoplastic system. Therefore, the strongest reinforcement effect in the dataset actually emerges from the soft-matrix regime, where PMA-grafted MMT nanosheets transform a highly ductile, low-modulus polymer into a significantly stiffer and stronger nanocomposite.*
+
+This statement is adopted as the canonical phrasing throughout the thesis and supersedes any earlier description of the strongest reinforcement signal as a "C2 semi-soft thermoplastic" effect.
+
+
+## 7.x.17c Per-cluster post-correction storylines
+
+The cluster-level narratives from `ana_dokuman.pdf`, §2, are restated below in post-correction form. The structure (one bullet block per cluster, qualitative direction first, statistical caveat second) is preserved; the numbers are updated to the post-correction values.
+
+- **C1 — soft elastomeric / low-modulus regime** ($n = 13$ in the integrated three-property subset; $n = 29$ in the full Phase 2 modulus layer). $\Delta E$, $\Delta\sigma$, and $\Delta\varepsilon$ can all be simultaneously positive for the available samples, with the post-correction PMA-grafted-MMT series providing the strongest stiffening signal in the dataset. Reported as an *exploratory, hypothesis-generating cluster* because of the small sample count.
+- **C2 — semi-soft thermoplastic regime** ($n = 13$; full layer $n = 41$). After the PMA reassignment to C1, the cluster shows only modest mean improvements ($\Delta E \approx +51\%$, $\Delta\sigma \approx +36\%$, $\Delta\varepsilon \approx -25\%$). Also treated as exploratory because of the small sample count; not the locus of the previously claimed "extreme reinforcement" signal.
+- **C3 — intermediate modulus regime** ($n = 36$; full layer $n = 86$). One of the cleanest mechanical storylines in the dataset: $\Delta E$ predominantly positive, $\Delta\sigma$ predominantly positive, $\Delta\varepsilon$ essentially $100\%$ negative. The strongest direct evidence in this thesis for the stiffness/strength-gain $\leftrightarrow$ ductility-penalty trade-off.
+- **C4 — rigid polymer regime** ($n = 367$; full layer $n = 763$). The statistically dominant cluster ($\sim 86\%$ of the integrated subset). $\Delta E$ predominantly positive but modest ($\sim +33\%$ mean), $\Delta\sigma$ weaker ($\sim +5\%$), $\Delta\varepsilon$ mean $\sim -22\%$. Supports the reading *"rigid polymer regime = modulus-dominated reinforcement with a ductility penalty"*; the most reliable cluster for engineering-grade quantitative claims in this thesis.
+
+
 ## 7.x.18 Integrated regime-dependent reinforcement pattern — corrected results paragraph
 
 The following paragraph, recommended in the supervisor's review of 2026-06-02, summarises the post-correction Phase-2 results in the form best suited to the thesis Results/Discussion section. It is reproduced here in full because it integrates the cluster populations, the trade-off pattern, the modification effect, and the normalisation correction into a single coherent statement.
