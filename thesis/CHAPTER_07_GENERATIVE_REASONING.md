@@ -313,3 +313,68 @@ The following paragraph, recommended in the supervisor's review of 2026-06-02, s
 > The integrated three-property analysis revealed a clear regime-dependent reinforcement pattern in polymer–MMT nanocomposites. Soft and semi-soft matrices exhibited high variability and exploratory graph behaviour, with some systems showing simultaneous improvements in modulus, strength, and strain-to-failure. In contrast, intermediate and rigid polymer regimes showed more consistent stiffness enhancement but a pronounced ductility penalty, particularly evident in the fully negative strain-to-failure response of the intermediate cluster. The rigid polymer cluster, which contained the majority of the analysable samples, confirmed that MMT reinforcement in high-stiffness matrices is primarily modulus-driven and frequently accompanied by reduced deformability. From a graph-based perspective, modified systems showed higher cumulative weighted centrality across all cluster–property comparisons, suggesting a more organised structure–property response. However, after normalisation by sample count, the modification advantage was strongest in the softer regimes and more modest in the rigid regime, indicating that intrinsic matrix stiffness increasingly constrains the beneficial effect of clay modification.
 
 The same conclusion can be expressed at two distinct levels of caution. The earlier raw-weighted-degree reading of Phase 2 supported the *overstated* claim that **"modified systems are always better and create an organised structure–property mapping."** The normalised analysis introduced in §7.x.13 supports a more careful version: **"modified systems produce higher cumulative graph centrality, but normalised analysis suggests that this organising effect is strongest in soft and semi-soft matrices; in rigid polymers, the reinforcement response is more constrained by matrix stiffness and ductility loss."** The corrected version is used throughout this thesis; the overstated version is reproduced here only to make the methodological consequence of the normalisation explicit.
+
+
+## 7.x.19 C4 toughness-preserving subpopulation
+
+The supervisor's analysis document *"C4 Subpopulation with Simultaneous Strength and Strain Improvement"* (2026-06-02) identifies, within the rigid polymer cluster C4 — which is otherwise read as a stiffness-dominated, ductility-penalised regime — a quantitatively distinct subpopulation of samples in which both strength *and* strain-to-failure improve relative to the neat matrix. This subpopulation is a mechanically important exception to the C4 trade-off pattern and is treated in this thesis as a *toughness-preserving reinforcement motif* within an otherwise ductility-limited regime. The analysis is reproduced on the post-PMA-correction dataset by `phase2/c4_toughness_subpopulation.py`; the output is saved as `phase2/output/c4_toughness_subpopulation.txt` and the scatter figure recommended in the supervisor's "Recommended figure" section is saved as `phase2/output/c4_toughness_scatter.png`.
+
+**Subpopulation counts (validated on `Dataset_LatestVersion.xlsx`).** Of the 357 C4 samples for which both numerical strength and strain-to-failure improvements are available, 222 (62.2 %) show positive $\Delta\sigma$, 79 (22.1 %) show positive $\Delta\varepsilon$, and **56 samples (15.7 %)** simultaneously satisfy $\Delta\sigma > 0$ and $\Delta\varepsilon > 0$. Of these 56, 55 also have $\Delta E > 0$, i.e. all three mechanical responses improve at once. (The supervisor's document reported $n = 327$ C4 and $n = 54$ positive samples on an earlier dataset snapshot; the small difference is attributable to the PMA unit correction and to data-cleaning differences between snapshots, and does not change any qualitative conclusion.)
+
+**Group-mean comparison.** The C4 toughness-preserving subgroup is *not* simply the subset of C4 with the strongest stiffening; the distinguishing feature is sign-flipped strain response, not larger modulus gain.
+
+| Metric | Positive subgroup ($n = 56$) | Remaining C4 ($n = 301$) |
+|---|---|---|
+| $\Delta E$ mean / median | $+31.6\%$ / $+19.2\%$ | $+25.7\%$ / $+18.0\%$ |
+| $\Delta\sigma$ mean / median | $+31.1\%$ / $+16.5\%$ | $+0.5\%$ / $+2.5\%$ |
+| $\Delta\varepsilon$ mean / median | $+37.4\%$ / $+16.7\%$ | $-32.4\%$ / $-28.3\%$ |
+| Toughness proxy mean / median$^{\dagger}$ | $+90.5\%$ / $+35.4\%$ | $-33.2\%$ / $-28.6\%$ |
+
+$\dagger$ Toughness proxy = $(1 + \Delta\sigma)(1 + \Delta\varepsilon) - 1$, expressed as a percentage. This is a first-order comparative indicator of tensile-toughness-like behaviour, not a measured fracture-toughness value; if both $\sigma$ and $\varepsilon$ rise, the area under the tensile stress–strain curve is also likely to rise.
+
+**Polymer-family enrichment.** The toughness-preserving subgroup is *polymer-family selective*. Computing, for each C4 polymer family, the fraction of that family's members that fall in the positive $\Delta\sigma\,\&\,\Delta\varepsilon$ quadrant gives:
+
+| Polymer family | Total in C4 | In positive subgroup | Positive fraction |
+|---|---|---|---|
+| DGEAC | 5 | 5 | **100.0 %** |
+| UP | 6 | 4 | 66.7 % |
+| PMMA | 10 | 6 | 60.0 % |
+| PLA | 9 | 5 | 55.6 % |
+| PP | 40 | 17 | **42.5 %** |
+| Epoxy | 108 | 18 | 16.7 % |
+| PLLA | 8 | 1 | 12.5 % |
+| **DGEBA** | **54** | **0** | **0.0 %** |
+| **PA6** | **64** | **0** | **0.0 %** |
+| Other (PP/PLA, PS, Vinyl Ester, rPET, Bis-GMA/TTEGDMA, Chitosan, EPON 828, NBR/PU, NR, PHBV, PVC, PE) | $\leq 10$ each | 0 | 0.0 % |
+
+PP is the most reliable signal (large family, $\sim 42\%$ positive). DGEAC, UP, PMMA, and PLA show very high positive fractions but rest on small sample counts ($n \leq 10$) and must be reported as exploratory. The most striking observation is the *complete absence* of DGEBA, PA6, and Nylon 6 from the positive quadrant despite their high representation in C4: these polymer families are clearly stiffness-/strength-response hubs of the rigid cluster, but they are not toughness-preserving hubs in this dataset. Epoxy appears frequently in the positive subgroup primarily because it is abundant in C4 as a whole; the within-family positive fraction is only 16.7 %, much lower than PP's 42.5 %, so the supervisor's caveat that *"the broad 'epoxy' label should be subdivided where possible into chemically or mechanically meaningful subclasses"* is adopted in this thesis.
+
+**Modification effect.** Of the 56 positive samples, **54 are Modified and 2 are Unmodified**; the remaining 301 C4 samples contain 259 Modified and 42 Unmodified rows. Modification is therefore close to a necessary condition for membership in the toughness-preserving subgroup but is *not* sufficient on its own — the remaining C4 group is also dominated by modified systems. The defensible reading is the one given in the supervisor's analysis:
+
+> *Within C4, the samples capable of improving strength and strain-to-failure simultaneously are almost entirely modified systems. This suggests that the ductility penalty in rigid polymer regimes can be partially overcome through interfacial design and improved nanoscale dispersion.*
+
+**Dispersion-state distribution.** The positive subgroup distributes across dispersion labels as: intercalated = 22, exfoliated = 21, intercalated/exfoliated = 6, microcomposite = 5, intercalated/agglomerated = 2. No fully agglomerated samples are present. The remaining C4 group, by contrast, does contain agglomerated and more microcomposite-like cases. Good dispersion is therefore not sufficient on its own to guarantee a toughness-preserving response, but poor dispersion (full agglomeration) strongly biases the system toward ductility loss.
+
+**Baseline matrix properties.** Counter-intuitively, the positive subgroup does *not* begin from matrices with higher initial strain capacity; it begins from matrices that are slightly *less rigid* and *less strong* than the rest of C4.
+
+| Property | Positive subgroup (median) | Remaining C4 (median) |
+|---|---|---|
+| Matrix modulus (GPa) | 2.17 | 2.75 |
+| Matrix strength (MPa) | 40.88 | 65.00 |
+| Matrix strain | 3.00 | 3.04 |
+
+The positive strength–strain response in the rigid regime is therefore more accessible in a *lower-rigidity, lower-strength sub-window* of C4. Highly optimised, high-strength rigid matrices appear to have less mechanical "head-room" to gain strain-to-failure after MMT addition.
+
+**Adopted thesis wording (verbatim, supervisor's §8).**
+
+> *Although the rigid polymer cluster is generally characterized by stiffness-dominated reinforcement and frequent ductility loss, a distinct subpopulation of C4 samples exhibited simultaneous increases in strength and strain-to-failure. These samples represent a toughness-preserving reinforcement motif within otherwise ductility-limited rigid matrices. The majority of this subpopulation consisted of modified systems with intercalated or exfoliated clay morphologies, suggesting that interfacial design and nanoscale dispersion can partially overcome the conventional ductility penalty of rigid polymer–MMT nanocomposites.*
+
+**Adopted polymer-selectivity wording (verbatim, supervisor's §11.5).**
+
+> *The C4 toughness-preserving subpopulation is not compositionally random. Although the rigid cluster is dominated by epoxy, DGEBA, Nylon 6/PA6, and PP systems, simultaneous strength and strain-to-failure improvements are concentrated mainly in PP, selected epoxy formulations, PMMA, PLA, DGEAC, and UP. Notably, DGEBA and Nylon 6/PA6, despite being highly represented in the rigid cluster, do not appear in the positive strength–strain quadrant. This indicates that rigid-polymer MMT reinforcement is not governed solely by stiffness or clay modification, but by polymer-specific deformation mechanisms and interphase-controlled damage tolerance.*
+
+**Final thesis-level statement (verbatim, supervisor's closing).**
+
+> *In this dataset, the difference between ductility-preserving and ductility-penalized C4 systems is not primarily explained by stiffness improvement magnitude, clay modification alone, or a single dispersion label. Instead, the positive strength-strain subpopulation is polymer-family selective and appears in systems with lower initial matrix stiffness/strength, optimized filler loading, and non-agglomerated morphologies. This suggests that strain-to-failure in rigid polymer-MMT nanocomposites is governed by polymer-specific deformation tolerance and interphase-controlled damage evolution rather than by reinforcement level alone.*
+
+The associated $\Delta\sigma$–$\Delta\varepsilon$ scatter plot (`phase2/output/c4_toughness_scatter.png`), with the upper-right quadrant highlighting the 56 toughness-preserving candidates and points colour-coded by polymer family and marker-coded by modification state, is included in Chapter 6 as the headline C4-subpopulation figure.

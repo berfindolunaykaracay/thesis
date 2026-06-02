@@ -1,0 +1,63 @@
+===============================================================================================
+C4 TOUGHNESS-PRESERVING SUBPOPULATION ANALYSIS (advisor request, 2026-06-02)
+Dataset: Dataset_LatestVersion.xlsx (post PMA unit correction)
+===============================================================================================
+
+1. C4 subpopulation counts
+   C4 samples with numerical strength and strain data : 357
+   Positive strength improvement (Δσ > 0)             : 222  (62.2%)
+   Positive strain improvement (Δε > 0)               : 79  (22.1%)
+   Positive Δσ AND positive Δε                        : 56  (15.7%)
+   Positive ΔE AND Δσ AND Δε                          : 55  (15.4%)
+
+2. Group-mean comparison
+   metric                       positive      remaining
+   ΔE  mean                       31.55%         25.68%
+   Δσ  mean                       31.12%          0.50%
+   Δε  mean                       37.37%        -32.44%
+   ΔE  median                     19.20%         17.96%
+   Δσ  median                     16.52%          2.50%
+   Δε  median                     16.67%        -28.33%
+   toughness-proxy mean           90.52%        -33.19%
+   toughness-proxy med            35.42%        -28.62%
+
+3. Polymer-family enrichment (positive subgroup vs remaining)
+   family                         total  positive  remaining    pos%
+   Epoxy                            108        18         90   16.7%
+   PP                                40        17         23   42.5%
+   PMMA                              10         6          4   60.0%
+   PLA                                9         5          4   55.6%
+   DGEAC                              5         5          0  100.0%
+   UP                                 6         4          2   66.7%
+   PLLA                               8         1          7   12.5%
+   PA6                               64         0         64    0.0%
+   DGEBA                             54         0         54    0.0%
+   PP/PLA                            10         0         10    0.0%
+   PS                                 6         0          6    0.0%
+   Vinyl Ester                        6         0          6    0.0%
+   rPET                               6         0          6    0.0%
+   Bis-GMA/TTEGDMA                    5         0          5    0.0%
+   Chitosan                           4         0          4    0.0%
+   EPON 828                           4         0          4    0.0%
+   NBR/PU                             3         0          3    0.0%
+   NR                                 3         0          3    0.0%
+   PHBV                               3         0          3    0.0%
+   PVC                                2         0          2    0.0%
+   PE                                 1         0          1    0.0%
+
+4. Modification effect
+   Positive subgroup: modified=54, unmodified=2
+   Remaining C4: modified=259, unmodified=42
+
+5. Dispersion-state distribution (positive subgroup)
+   intercalated                                            22
+   exfoliated                                              21
+   intercalated/exfoliated                                 6
+   microcomposite                                          5
+   intercalated/agglomerated                               2
+
+6. Baseline matrix properties (median)
+   property                        positive    remaining
+   matrix modulus (GPa)                2.17         2.75
+   matrix strength (MPa)              40.88        65.00
+   matrix strain                       3.00         3.04
