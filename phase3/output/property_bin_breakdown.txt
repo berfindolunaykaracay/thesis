@@ -15,8 +15,8 @@
 --- matrix_strain ---
   ε<1 (glassy)                 : 136 samples
   ε 1-5 (brittle)              : 159 samples
-  ε 5-50 (moderate)            : 119 samples
-  ε>50 (ductile)               : 33 samples
+  ε 5-50 (moderate)            : 113 samples
+  ε>50 (ductile)               : 39 samples
 
 --- dE_modulus ---
   ΔE<0 (degraded)              : 80 samples

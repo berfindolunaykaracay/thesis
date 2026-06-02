@@ -183,3 +183,67 @@ First, linear regression (Ridge) does not benefit from the embeddings, since the
 Second, SciBERT yields the highest predictive R² (+0.037), narrowly outperforming the enriched MiniLM (+0.032) despite its lower clustering scores in §7.x.10. The two metrics measure different things: clustering scores reflect the ability of the embedding to *separate* polymer families along a single coarse axis, while the predictive R² reflects the *useful information density* the model can extract for a downstream numerical task. The two are not redundant. For the purposes of this thesis the enriched MiniLM remains the recommended choice because it dominates the clustering metrics and is within 0.005 of the best predictive performance.
 
 Together, §7.x.9–§7.x.11 satisfy the four follow-up actions proposed in the advisor feedback of 2026-05-27. The enrichment, multi-model comparison, quantitative evaluation, and predictive validation are reproducible from the four supplementary scripts: `compute_embeddings_enriched.py`, `compute_embeddings_multimodel.py`, `evaluate_embeddings.py`, and `predictive_validation.py`.
+
+
+## 7.x.12 Data-quality correction: PMA modulus and strain unit rescaling
+
+The materials-engineering supervisor's review of 2026-06-02 surfaced a unit-conversion error in the Rauschendorfer (2020) PMA data. The original table reports Young's modulus as $E\,[10^{2}\,\mathrm{N\,mm^{-2}}]$ and elongation as $\varepsilon_{B}\,[10^{2}\%]$; the values had been transcribed into the dataset without applying the $\times 100$ multiplier. The six affected PMA rows were corrected as follows: every modulus value was divided by ten (matrix and nanocomposite alike, so the percentage modulus improvement is preserved) and every absolute strain value was multiplied by one hundred (matrix and nanocomposite alike, so the percentage strain change is preserved). The strength values, which the original article reports as $\sigma_{B}\,[\mathrm{N\,mm^{-2}}] \equiv \mathrm{MPa}$, were already on the correct scale and were not modified. As a result of the correction the PMA matrix modulus drops from 0.11 GPa to 0.011 GPa, which moves all six PMA samples out of Phase 2 cluster C2 (semi-soft thermoplastic, 0.1–0.5 GPa) and into cluster C1 (soft elastomeric, < 0.1 GPa). After reassignment the Phase 2 cluster populations become C1 = 13, C2 = 13, C3 = 36, C4 = 367 (previously C1 = 7, C2 = 19). All downstream analyses in this thesis use the corrected dataset.
+
+This single correction substantially strengthens the central narrative. The extreme reinforcement signal that was previously attributed to a single C2 outlier is now revealed to belong to the C1 soft-matrix regime, where it sits alongside the other low-modulus samples (NBR, CNBR, low-modulus epoxy variants). The conclusion changes from *"a C2 outlier dominates the headline numbers"* to *"the soft-matrix regime is the most dramatic mechanical-transformation regime, with PMA-grafted MMT as a representative example."*
+
+
+## 7.x.13 Normalized weighted-degree analysis and the regime-dependent modification effect
+
+Direct comparison of cumulative weighted degree across modification states is biased by sample count: in the corrected dataset there are 375 modified and 54 unmodified rows, so a raw sum will be systematically larger for modified systems regardless of any per-sample effect. Following the supervisor's recommendation, every Phase 2 weighted-degree report is now accompanied by a normalized weighted degree, defined as the cluster-and-property-specific total weighted degree divided by the number of samples contributing to that sub-graph. The normalized comparison sharpens the modification narrative.
+
+| Cluster | Property | Modified WD/n | Unmodified WD/n | Direction |
+|---|---|---|---|---|
+| **C1** (soft) | $\Delta E$ | 1080.0 | 2.1 | Modified $\gg$ Unmodified |
+| **C1** | $\Delta\sigma$ | 1513.3 | 32.1 | Modified $\gg$ Unmodified |
+| **C1** | $\Delta\varepsilon$ | 158.6 | 46.5 | Modified $>$ Unmodified |
+| **C2** (semi-soft) | $\Delta E$ | 38.7 | 98.1 | **Unmodified $>$ Modified** |
+| **C2** | $\Delta\sigma$ | 25.0 | 61.4 | Unmodified $>$ Modified |
+| **C2** | $\Delta\varepsilon$ | 25.3 | 42.2 | Unmodified $>$ Modified |
+| **C3** (intermediate) | $\Delta E$ | 51.5 | 26.6 | Modified $>$ Unmodified |
+| **C3** | $\Delta\sigma$ | 19.0 | 17.7 | $\approx$ tied |
+| **C3** | $\Delta\varepsilon$ | 34.1 | 27.2 | Modified $\gtrsim$ Unmodified |
+| **C4** (rigid) | $\Delta E$ | 30.4 | 24.0 | Modified $\gtrsim$ Unmodified |
+| **C4** | $\Delta\sigma$ | 17.9 | 21.2 | Unmodified $\gtrsim$ Modified |
+| **C4** | $\Delta\varepsilon$ | 39.5 | 34.6 | Modified $\gtrsim$ Unmodified |
+
+The raw-weighted-degree comparison reported in the original Phase 2 output favoured Modified systems in 12 of 12 cluster–property cells. After normalization the picture becomes more nuanced: Modified systems retain a clear advantage in C1 and C3 and a marginal advantage in C4 modulus and strain, but the C2 sub-graph actually shows Unmodified MMT producing higher per-sample weighted centrality across all three property layers. The correct interpretation is therefore not *"modified clay is always better,"* but *"the centrality-organizing effect of modification is regime-dependent: strongest in the soft and intermediate regimes, modest in the rigid regime, and not necessarily present in the semi-soft thermoplastic regime."*
+
+
+## 7.x.14 Outlier-robust property statistics
+
+Because the corrected C1 cluster is now numerically dominated by the PMA series, the per-cluster mean improvement is sensitive to that one polymer family. Following the supervisor's recommendation, the Phase 2 report is augmented with a robust-statistics block computed via `phase2/outlier_robustness.py`. For each $(\text{cluster}, \text{property})$ pair the report records: the simple mean, the median, the inter-quartile range, the mean computed in arcsinh space (so that the heavy tail is compressed and negative values are retained), a 5/95 winsorized mean, the number of 1.5-IQR outliers, and the mean after those outliers are removed.
+
+| Cluster | $\Delta E$ mean | $\Delta E$ median | $\Delta E$ arcsinh-mean | $\Delta E$ mean w/o outliers |
+|---|---|---|---|---|
+| C1 ($n = 29$) | +708 % | +352 % | 4.59 | +333 % |
+| C2 ($n = 41$) | +51 % | +42 % | 3.74 | +46 % |
+| C3 ($n = 86$) | +50 % | +42 % | 3.50 | +44 % |
+| C4 ($n = 763$) | +33 % | +20 % | 3.22 | +22 % |
+
+The gap between mean and median in C1 (708 % vs 352 %) shows that even within the corrected cluster the distribution remains right-skewed by the highest-loading PMA samples. The median and the outlier-removed mean both stay above 300 %, however, so the *qualitative* conclusion — that C1 represents the strongest reinforcement regime — is robust to outlier removal. By contrast, in C2–C4 the mean, median, arcsinh-mean, and outlier-removed mean all sit within a tight range, indicating that the central tendency of those clusters is not driven by a small number of samples.
+
+
+## 7.x.15 A subtlety about "Epoxy in C1"
+
+The corrected Phase 2 C1 cluster contains eleven samples labelled "Epoxy" or "DGEBA", which on first reading looks anomalous because epoxy is conventionally rigid. Three of those eleven entries come from Akbari et al. and represent a deliberately low-modulus epoxy formulation (matrix $E \approx 0.084$ GPa, matrix $\sigma \approx 70$ MPa) rather than a unit error. A further seven entries from Xidas \& Triantafyllidis are explicitly categorised as `Elastomer` in the dataset; they correspond to rubbery epoxy networks above $T_{g}$, prepared with specific alkylammonium organoclays, and are correctly placed in the soft-matrix regime. One remaining entry from the Okada \& Usuki review at $E \approx 0.001$ GPa is a tabulated value whose original source has not been re-verified in this thesis; it is retained but flagged. The C1 "Epoxy" label therefore does *not* indicate a misclassification — it indicates that the dataset already contains several deliberately low-modulus and rubbery epoxy formulations, which is itself an informative observation about the breadth of epoxy chemistry in the polymer/clay literature.
+
+
+## 7.x.16 A note on betweenness centrality across property layers
+
+Within each Phase 2 cluster the topology of the polymer–composite sub-graph is identical across the three property layers — the same edges connect the same polymer and composite nodes — and only the edge *weights* (the property-specific $\Delta E$, $\Delta\sigma$, $\Delta\varepsilon$ values) differ. Standard betweenness centrality is a topological metric: when computed without weight-aware shortest paths, it depends only on the edge set and is therefore numerically identical across the three property layers within a cluster. The Phase 2 report and Chapter 6 results therefore interpret betweenness as a *translational-position metric* — it identifies polymers that lie on the shortest paths between other polymers in the cluster graph, irrespective of which mechanical property is on the edge labels — and explicitly does not claim a property-specific bridging interpretation. Weighted betweenness using edge-weight-aware shortest paths is left to future work because the property-specific edge weights (especially the negative $\Delta\varepsilon$ values) require careful normalisation before they can be interpreted as path costs.
+
+
+## 7.x.17 Two distinct design-recommendation regimes
+
+Combining the corrected cluster populations, the normalized weighted-degree analysis, and the outlier-robust statistics yields a refined design recommendation that is split between two complementary objectives.
+
+**Best balanced mechanical system (all three properties simultaneously improved).** The C1 modified low-modulus regime is the only cluster in which the integrated three-property analysis shows simultaneously positive $\Delta E$, $\Delta\sigma$, and $\Delta\varepsilon$ for the available samples. Modified-MMT-reinforced low-modulus matrices in the soft-elastomeric or low-modulus-epoxy / PMA-grafted-MMT family are therefore the recommended starting point when the design objective is balanced stiffness, strength, *and* ductility improvement. The recommendation is given with the qualifier that C1 contains only thirteen samples after correction, so the cluster should be presented as a high-confidence *direction* rather than a fully-quantified design rule.
+
+**Best stiffening / strength system (modulus and strength up, with an acceptable ductility penalty).** The C2 semi-soft thermoplastic regime — now PMA-free after the data correction — shows large modulus and strength improvements together with a moderate ductility loss. A complementary observation, consistent with the corrected PMA series in C1, is that PMA-grafted MMT at intermediate filler loading (around 16 wt%, in line with the original Rauschendorfer 2020 toughness optimum) is the recommended high-stiffness, acceptable-ductility candidate. For engineering-grade rigid systems, the C4 cluster identifies PA6-, Epoxy-, and DGEBA-based Modified-MMT formulations as reliable stiffness-dominated knowledge hubs, but these systems are *not* recommended when ductility retention is a primary objective; the rigid regime is, on the corrected data, stiffness-dominated and ductility-penalised.
+
+The two-regime recommendation supersedes the earlier single-objective phrasing of H1–H5 in §7.x.1–§7.x.5 by attaching each hypothesis to a specific design-objective regime rather than to a single "best" combination. The methodological consequence is that the term "best mechanical system" should always be qualified by the design objective and by the regime under which the recommendation was derived.

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-05-27">
+  <meta lastmodifieddate="2026-06-02">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -1567,14 +1567,14 @@
         <attvalues>
           <attvalue for="0" value="property_bin" />
           <attvalue for="2" value="matrix_strain" />
-          <attvalue for="3" value="119" />
+          <attvalue for="3" value="113" />
         </attvalues>
       </node>
       <node id="property:ε&gt;50 (ductile)" label="ε&gt;50 (ductile)">
         <attvalues>
           <attvalue for="0" value="property_bin" />
           <attvalue for="2" value="matrix_strain" />
-          <attvalue for="3" value="33" />
+          <attvalue for="3" value="39" />
         </attvalues>
       </node>
       <node id="property:ΔE&lt;0 (degraded)" label="ΔE&lt;0 (degraded)">
@@ -1888,9 +1888,9 @@
         <attvalues>
           <attvalue for="0" value="sample" />
           <attvalue for="4" value="C1" />
-          <attvalue for="5" value="0.11" />
+          <attvalue for="5" value="0.011" />
           <attvalue for="6" value="0.3" />
-          <attvalue for="7" value="18.0" />
+          <attvalue for="7" value="1800.0" />
           <attvalue for="8" value="100.0" />
           <attvalue for="9" value="533.3333333333333" />
           <attvalue for="10" value="-13.33333333333334" />
@@ -1901,9 +1901,9 @@
         <attvalues>
           <attvalue for="0" value="sample" />
           <attvalue for="4" value="C1" />
-          <attvalue for="5" value="0.11" />
+          <attvalue for="5" value="0.011" />
           <attvalue for="6" value="0.3" />
-          <attvalue for="7" value="18.0" />
+          <attvalue for="7" value="1800.0" />
           <attvalue for="8" value="727.2727272727274" />
           <attvalue for="9" value="1133.333333333333" />
           <attvalue for="10" value="-85.55555555555556" />
@@ -1914,9 +1914,9 @@
         <attvalues>
           <attvalue for="0" value="sample" />
           <attvalue for="4" value="C1" />
-          <attvalue for="5" value="0.11" />
+          <attvalue for="5" value="0.011" />
           <attvalue for="6" value="0.3" />
-          <attvalue for="7" value="18.0" />
+          <attvalue for="7" value="1800.0" />
           <attvalue for="8" value="1463.636363636364" />
           <attvalue for="9" value="2533.333333333333" />
           <attvalue for="10" value="-91.1111111111111" />
@@ -1927,9 +1927,9 @@
         <attvalues>
           <attvalue for="0" value="sample" />
           <attvalue for="4" value="C1" />
-          <attvalue for="5" value="0.11" />
+          <attvalue for="5" value="0.011" />
           <attvalue for="6" value="0.3" />
-          <attvalue for="7" value="18.0" />
+          <attvalue for="7" value="1800.0" />
           <attvalue for="8" value="2436.363636363636" />
           <attvalue for="9" value="3533.333333333333" />
           <attvalue for="10" value="-91.1111111111111" />
@@ -1940,9 +1940,9 @@
         <attvalues>
           <attvalue for="0" value="sample" />
           <attvalue for="4" value="C1" />
-          <attvalue for="5" value="0.11" />
+          <attvalue for="5" value="0.011" />
           <attvalue for="6" value="0.3" />
-          <attvalue for="7" value="18.0" />
+          <attvalue for="7" value="1800.0" />
           <attvalue for="8" value="2427.272727272727" />
           <attvalue for="9" value="3833.333333333333" />
           <attvalue for="10" value="-95.0" />
@@ -1953,9 +1953,9 @@
         <attvalues>
           <attvalue for="0" value="sample" />
           <attvalue for="4" value="C1" />
-          <attvalue for="5" value="0.11" />
+          <attvalue for="5" value="0.011" />
           <attvalue for="6" value="0.3" />
-          <attvalue for="7" value="18.0" />
+          <attvalue for="7" value="1800.0" />
           <attvalue for="8" value="5163.636363636363" />
           <attvalue for="9" value="4400.0" />
           <attvalue for="10" value="-97.2222222222222" />
@@ -66726,537 +66726,537 @@
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:15" id="10226" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:160" id="10226" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:16" id="10227" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:161" id="10227" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:17" id="10228" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:162" id="10228" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:18" id="10229" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:163" id="10229" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:19" id="10230" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:164" id="10230" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:20" id="10231" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:165" id="10231" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:160" id="10232" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:208" id="10232" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:161" id="10233" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:209" id="10233" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:162" id="10234" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:210" id="10234" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:163" id="10235" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:234" id="10235" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:164" id="10236" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:235" id="10236" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:165" id="10237" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:236" id="10237" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:208" id="10238" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:241" id="10238" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:209" id="10239" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:242" id="10239" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:210" id="10240" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:243" id="10240" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:234" id="10241" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:244" id="10241" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:235" id="10242" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:245" id="10242" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:236" id="10243" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:246" id="10243" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:241" id="10244" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:247" id="10244" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:242" id="10245" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:248" id="10245" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:243" id="10246" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:249" id="10246" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:244" id="10247" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:317" id="10247" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:245" id="10248" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:318" id="10248" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:246" id="10249" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:319" id="10249" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:247" id="10250" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:320" id="10250" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:248" id="10251" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:321" id="10251" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:249" id="10252" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:322" id="10252" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:317" id="10253" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:358" id="10253" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:318" id="10254" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:359" id="10254" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:319" id="10255" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:360" id="10255" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:320" id="10256" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:378" id="10256" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:321" id="10257" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:379" id="10257" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:322" id="10258" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:380" id="10258" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:358" id="10259" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:381" id="10259" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:359" id="10260" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:382" id="10260" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:360" id="10261" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:383" id="10261" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:378" id="10262" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:387" id="10262" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:379" id="10263" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:388" id="10263" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:380" id="10264" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:389" id="10264" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:381" id="10265" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:390" id="10265" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:382" id="10266" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:391" id="10266" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:383" id="10267" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:420" id="10267" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:387" id="10268" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:421" id="10268" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:388" id="10269" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:422" id="10269" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:389" id="10270" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:423" id="10270" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:390" id="10271" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:424" id="10271" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:391" id="10272" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:425" id="10272" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:420" id="10273" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:426" id="10273" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:421" id="10274" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:427" id="10274" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:422" id="10275" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:428" id="10275" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:423" id="10276" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:429" id="10276" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:424" id="10277" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:430" id="10277" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:425" id="10278" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:431" id="10278" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:426" id="10279" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:432" id="10279" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:427" id="10280" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:433" id="10280" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:428" id="10281" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:434" id="10281" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:429" id="10282" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:435" id="10282" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:430" id="10283" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:436" id="10283" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:431" id="10284" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:437" id="10284" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:432" id="10285" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:438" id="10285" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:433" id="10286" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:439" id="10286" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:434" id="10287" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:440" id="10287" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:435" id="10288" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:456" id="10288" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:436" id="10289" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:457" id="10289" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:437" id="10290" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:458" id="10290" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:438" id="10291" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:459" id="10291" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:439" id="10292" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:460" id="10292" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:440" id="10293" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:461" id="10293" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:456" id="10294" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:462" id="10294" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:457" id="10295" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:463" id="10295" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:458" id="10296" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:471" id="10296" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:459" id="10297" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:472" id="10297" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:460" id="10298" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:473" id="10298" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:461" id="10299" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:474" id="10299" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:462" id="10300" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:475" id="10300" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:463" id="10301" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:476" id="10301" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:471" id="10302" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:535" id="10302" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:472" id="10303" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:536" id="10303" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:473" id="10304" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:537" id="10304" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:474" id="10305" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:570" id="10305" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:475" id="10306" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:571" id="10306" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:476" id="10307" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:572" id="10307" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:535" id="10308" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:573" id="10308" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:536" id="10309" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:606" id="10309" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:537" id="10310" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:607" id="10310" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:570" id="10311" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:608" id="10311" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:571" id="10312" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:651" id="10312" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:572" id="10313" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:653" id="10313" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:573" id="10314" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:675" id="10314" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:606" id="10315" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:676" id="10315" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:607" id="10316" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:677" id="10316" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:608" id="10317" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:678" id="10317" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:651" id="10318" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:679" id="10318" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:653" id="10319" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:680" id="10319" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:675" id="10320" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:735" id="10320" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:676" id="10321" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:736" id="10321" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:677" id="10322" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:737" id="10322" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:678" id="10323" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:738" id="10323" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:679" id="10324" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:739" id="10324" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:680" id="10325" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:740" id="10325" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:735" id="10326" weight="1">
+      <edge source="property:ε 5-50 (moderate)" target="sample:812" id="10326" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:736" id="10327" weight="1">
+      <edge source="property:ε&gt;50 (ductile)" target="sample:15" id="10327" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:737" id="10328" weight="1">
+      <edge source="property:ε&gt;50 (ductile)" target="sample:16" id="10328" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:738" id="10329" weight="1">
+      <edge source="property:ε&gt;50 (ductile)" target="sample:17" id="10329" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:739" id="10330" weight="1">
+      <edge source="property:ε&gt;50 (ductile)" target="sample:18" id="10330" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:740" id="10331" weight="1">
+      <edge source="property:ε&gt;50 (ductile)" target="sample:19" id="10331" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>
       </edge>
-      <edge source="property:ε 5-50 (moderate)" target="sample:812" id="10332" weight="1">
+      <edge source="property:ε&gt;50 (ductile)" target="sample:20" id="10332" weight="1">
         <attvalues>
           <attvalue for="12" value="sample_property" />
         </attvalues>

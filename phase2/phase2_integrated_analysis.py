@@ -198,6 +198,14 @@ class IntegratedPropertyAnalysis:
             )
 
         # Betweenness centrality
+        # NOTE (methodology): betweenness here is computed on the topology of
+        # the cluster sub-graph for each property layer. Within one cluster
+        # the topology is shared across property layers (same edges, only the
+        # edge weights differ), so betweenness values are dominated by
+        # connectivity and tend to look similar across modulus/strength/strain.
+        # The metric therefore reflects a polymer's TRANSLATIONAL position in
+        # the network (how often it sits on a shortest path between others),
+        # not the magnitude or sign of any single property change.
         try:
             betweenness = nx.betweenness_centrality(G, weight='weight')
             betweenness = {n: betweenness[n] for n in polymer_nodes}
@@ -214,6 +222,12 @@ class IntegratedPropertyAnalysis:
         mean_improvement = np.mean(improvements) if improvements else 0
         positive_ratio = sum(1 for x in improvements if x > 0) / len(improvements) if improvements else 0
 
+        # Number of distinct sample nodes (composite_id pattern)
+        sample_node_count = sum(1 for n in G.nodes()
+                                if G.nodes[n].get('node_type') == 'composite')
+        total_wd = sum(weighted_degree.values())
+        normalized_wd = (total_wd / sample_node_count) if sample_node_count else 0
+
         return {
             'weighted_degree': weighted_degree,
             'betweenness': betweenness,
@@ -221,7 +235,9 @@ class IntegratedPropertyAnalysis:
             'edge_std': edge_std,
             'mean_improvement': mean_improvement,
             'positive_ratio': positive_ratio,
-            'total_weighted_degree': sum(weighted_degree.values()),
+            'total_weighted_degree': total_wd,
+            'n_samples': sample_node_count,
+            'normalized_weighted_degree': normalized_wd,
             'mean_betweenness': np.mean(list(betweenness.values())) if betweenness else 0,
             'n_edges': len(edge_weights)
         }
@@ -277,11 +293,16 @@ class IntegratedPropertyAnalysis:
 
                 mod_wd = mod['total_weighted_degree'] if mod else 0
                 unmod_wd = unmod['total_weighted_degree'] if unmod else 0
+                mod_n  = mod['n_samples'] if mod else 0
+                unmod_n = unmod['n_samples'] if unmod else 0
+                mod_nwd = mod['normalized_weighted_degree'] if mod else 0
+                unmod_nwd = unmod['normalized_weighted_degree'] if unmod else 0
                 mod_be = mod['mean_betweenness'] if mod else 0
                 unmod_be = unmod['mean_betweenness'] if unmod else 0
 
-                print(f"  {symbol}: Modified WD={mod_wd:.1f}, Unmodified WD={unmod_wd:.1f} | "
-                      f"Modified higher: {mod_wd > unmod_wd}")
+                print(f"  {symbol}: Mod WD={mod_wd:.1f} (n={mod_n}, WD/n={mod_nwd:.1f}) "
+                      f"| Unmod WD={unmod_wd:.1f} (n={unmod_n}, WD/n={unmod_nwd:.1f}) "
+                      f"| Norm higher: {mod_nwd > unmod_nwd}")
 
     def create_integrated_motif_diagram(self):
         """Create 3-layer motif diagram combining ΔE%, Δσ%, Δε%"""
@@ -687,14 +708,19 @@ class IntegratedPropertyAnalysis:
 
                     mod_wd = mod['total_weighted_degree'] if mod else 0
                     unmod_wd = unmod['total_weighted_degree'] if unmod else 0
-                    mod_n = mod['n_edges'] if mod else 0
-                    unmod_n = unmod['n_edges'] if unmod else 0
+                    mod_nwd = mod['normalized_weighted_degree'] if mod else 0
+                    unmod_nwd = unmod['normalized_weighted_degree'] if unmod else 0
+                    mod_n = mod['n_samples'] if mod else 0
+                    unmod_n = unmod['n_samples'] if unmod else 0
 
-                    winner = "Modified" if mod_wd > unmod_wd else "Unmodified"
+                    raw_winner = "Modified" if mod_wd > unmod_wd else "Unmodified"
+                    norm_winner = ("Modified" if mod_nwd > unmod_nwd
+                                   else ("Unmodified" if unmod_nwd > mod_nwd else "Tie"))
                     report.append(f"\n  {symbol}:")
-                    report.append(f"    Modified: WD={mod_wd:.1f} (n={mod_n})")
-                    report.append(f"    Unmodified: WD={unmod_wd:.1f} (n={unmod_n})")
-                    report.append(f"    Higher centrality: {winner}")
+                    report.append(f"    Modified  : WD={mod_wd:.1f}  (n={mod_n}, WD/n={mod_nwd:.2f})")
+                    report.append(f"    Unmodified: WD={unmod_wd:.1f}  (n={unmod_n}, WD/n={unmod_nwd:.2f})")
+                    report.append(f"    Higher raw centrality       : {raw_winner}")
+                    report.append(f"    Higher normalized centrality: {norm_winner}")
 
         # Summary findings
         report.append(f"\n{'='*70}")
