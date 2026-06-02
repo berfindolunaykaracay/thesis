@@ -61,3 +61,21 @@ Dataset: Dataset_LatestVersion.xlsx (post PMA unit correction)
    matrix modulus (GPa)                2.17         2.75
    matrix strength (MPa)              40.88        65.00
    matrix strain                       3.00         3.04
+
+7. Filler loading — overall C4 vs PP-specific (advisor 'Additional Interpretation' §2)
+   overall C4 positive   mean=4.59 median=3.00 (n=56)
+   overall C4 remaining  mean=4.89 median=3.50 (n=301)
+   PP positive    median=3.00 wt%  (n=17)
+   PP remaining   median=5.00 wt%  (n=23)
+
+8. Polymer-specific morphology (advisor 'Additional Interpretation' §7)
+   PMMA:
+     positive  ( 6) matrix-E median = 1.20 GPa
+     remaining ( 4) matrix-E median = 2.80 GPa
+     positive  dispersion: {'exfoliated': np.int64(5), 'microcomposite': np.int64(1)}
+     remaining dispersion: {'intercalated': np.int64(2), 'microcomposite': np.int64(1), 'intercalated/agglomerated': np.int64(1)}
+   PLA:
+     positive  ( 5) matrix-E median = 2.10 GPa
+     remaining ( 4) matrix-E median = 1.17 GPa
+     positive  dispersion: {'intercalated': np.int64(5)}
+     remaining dispersion: {'exfoliated': np.int64(3), 'intercalated': np.int64(1)}

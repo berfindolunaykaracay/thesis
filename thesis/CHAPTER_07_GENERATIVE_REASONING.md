@@ -378,3 +378,48 @@ The positive strength–strain response in the rigid regime is therefore more ac
 > *In this dataset, the difference between ductility-preserving and ductility-penalized C4 systems is not primarily explained by stiffness improvement magnitude, clay modification alone, or a single dispersion label. Instead, the positive strength-strain subpopulation is polymer-family selective and appears in systems with lower initial matrix stiffness/strength, optimized filler loading, and non-agglomerated morphologies. This suggests that strain-to-failure in rigid polymer-MMT nanocomposites is governed by polymer-specific deformation tolerance and interphase-controlled damage evolution rather than by reinforcement level alone.*
 
 The associated $\Delta\sigma$–$\Delta\varepsilon$ scatter plot (`phase2/output/c4_toughness_scatter.png`), with the upper-right quadrant highlighting the 56 toughness-preserving candidates and points colour-coded by polymer family and marker-coded by modification state, is included in Chapter 6 as the headline C4-subpopulation figure.
+
+
+## 7.x.19b Why some C4 systems preserve strain while others lose it
+
+The supervisor's analysis document continues with a section titled *"Additional Interpretation: Why Do Some C4 Systems Preserve Strain While Others Lose It?"*, which explicitly addresses the controlling factors of the toughness-preserving subpopulation. The opening framing is reproduced verbatim:
+
+> *This question is central to the C4 subpopulation analysis. The dataset indicates that the difference between C4 samples with simultaneous strength and strain-to-failure improvement and the remaining C4 samples is not explained by a single variable such as clay modification or stiffness enhancement. Instead, the difference is polymer-family selective and appears to depend on the interaction between baseline matrix properties, filler loading, morphology, and damage tolerance.*
+
+Of the six controlling factors discussed in that section, four (modification not sufficient, dispersion not sufficient, baseline matrix offset, key difference is not stiffness gain) are already documented in §7.x.19. The remaining two — *filler-loading sensitivity within PP* and *polymer-specific morphology hypotheses for PMMA and PLA* — are added below with the corresponding validation on `Dataset_LatestVersion.xlsx`.
+
+**Filler loading at the C4 level vs. within PP (advisor §2).** At the global C4 level the positive and remaining groups have nearly identical MMT loading distributions, so a blanket *"lower clay content always preserves ductility"* rule is *not* supported.
+
+| Group | Mean MMT loading | Median MMT loading |
+|---|---|---|
+| Positive C4 subgroup | $4.59$ wt% | $3.00$ wt% |
+| Remaining C4 | $4.89$ wt% | $3.50$ wt% |
+
+Within the PP sub-family, however, the loading separation is clear and consistent with the supervisor's claim:
+
+| PP subgroup | Median MMT loading | $n$ |
+|---|---|---|
+| PP with $\Delta\sigma > 0$ and $\Delta\varepsilon > 0$ | $3.0$ wt% | 17 |
+| Remaining PP | $5.0$ wt% | 23 |
+
+Adopted thesis wording (verbatim, advisor §2):
+
+> *PP appears to have a loading-sensitive toughness-preserving window. Around 2–4 wt% MMT, strength can be improved while strain-to-failure is retained or increased; at higher loading, the same reinforcement mechanism may begin to suppress deformability.*
+
+**Polymer-specific deformation hypotheses (advisor §7).** Five polymer-specific reading paragraphs from the supervisor's analysis are adopted as the canonical interpretations in this thesis. Each is reproduced verbatim; for PMMA and PLA the relevant dataset-level validation on the corrected `Dataset_LatestVersion.xlsx` is appended in parentheses.
+
+> *PP: The PP subset suggests an optimum loading window. Positive PP samples have a lower median MMT loading than the remaining PP samples, while modulus and strength improvements remain comparable. This indicates that excessive loading may turn reinforcement into ductility penalty.*
+
+> *Epoxy: Epoxy is highly heterogeneous. Some epoxy formulations appear in the positive group, but many do not. Therefore, the generic label "epoxy" is insufficient; resin chemistry, curing, crosslink density, and morphology likely determine whether ductility is preserved.*
+
+> *PMMA: The positive PMMA samples appear to involve lower initial matrix modulus and exfoliated morphologies, whereas the remaining PMMA samples are associated with higher matrix modulus and intercalated/agglomerated features. This suggests a morphology-sensitive response.*
+>
+> *(Dataset validation: positive PMMA matrix-modulus median $1.20$ GPa with $5/6$ exfoliated, vs. remaining PMMA matrix-modulus median $2.80$ GPa with intercalated/agglomerated/microcomposite morphologies. Both directions match the advisor's claim.)*
+
+> *PLA: PLA shows a small but interesting positive subgroup. In this dataset, the positive PLA samples are not necessarily the most exfoliated systems, suggesting that controlled intercalated morphology may sometimes preserve deformability better than aggressive exfoliation. This should be treated as a hypothesis due to the small sample size.*
+>
+> *(Dataset validation: all $5$ positive PLA samples are intercalated; the $4$ remaining PLA samples include $3$ exfoliated and only $1$ intercalated. The exfoliated-vs-intercalated polarity is inverted relative to PMMA, which strengthens the supervisor's "polymer-specific morphology response" reading and warns against a universal "exfoliated > intercalated" rule.)*
+
+> *DGEBA and PA6/Nylon 6: These polymer families are highly represented in C4 but absent from the positive strength-strain group. They may act as stiffness or strength response hubs, but not as toughness-preserving hubs in this dataset.*
+
+The PMMA and PLA inversion is also the explicit *motif* (in the sense of §3.A.1 of the centrality glossary) that the C4 subpopulation contributes to the broader thesis narrative: *the favourable nanoscale morphology for toughness preservation is polymer-specific, and a single dispersion label (exfoliated vs intercalated) is not a transferable design rule across rigid polymer families.*

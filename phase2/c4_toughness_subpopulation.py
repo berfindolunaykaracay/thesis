@@ -33,6 +33,7 @@ COL_DEPS = "Strain to failure improvement%"
 COL_POLY = "Polymer matrix name"
 COL_MOD = "Modification (modified/unmodified)"
 COL_DISP = "Dispersion(microcomposite/exfoliated/intercalated/agglomerated)"
+COL_LOAD = "MMT weight%"
 
 
 def main():
@@ -139,6 +140,26 @@ def main():
         p_v = pd.to_numeric(pos[col], errors="coerce").median()
         r_v = pd.to_numeric(rem[col], errors="coerce").median()
         w(f"   {label:<28}{p_v:>12.2f}{r_v:>13.2f}")
+
+    w("")
+    w("7. Filler loading — overall C4 vs PP-specific (advisor 'Additional Interpretation' §2)")
+    load_pos = pd.to_numeric(pos[COL_LOAD], errors="coerce")
+    load_rem = pd.to_numeric(rem[COL_LOAD], errors="coerce")
+    w(f"   overall C4 positive   mean={load_pos.mean():.2f} median={load_pos.median():.2f} (n={load_pos.notna().sum()})")
+    w(f"   overall C4 remaining  mean={load_rem.mean():.2f} median={load_rem.median():.2f} (n={load_rem.notna().sum()})")
+    pp_pos = pos[pos[COL_POLY] == "PP"]; pp_rem = rem[rem[COL_POLY] == "PP"]
+    w(f"   PP positive    median={pd.to_numeric(pp_pos[COL_LOAD], errors='coerce').median():.2f} wt%  (n={len(pp_pos)})")
+    w(f"   PP remaining   median={pd.to_numeric(pp_rem[COL_LOAD], errors='coerce').median():.2f} wt%  (n={len(pp_rem)})")
+
+    w("")
+    w("8. Polymer-specific morphology (advisor 'Additional Interpretation' §7)")
+    for poly in ["PMMA", "PLA"]:
+        p = pos[pos[COL_POLY] == poly]; r = rem[rem[COL_POLY] == poly]
+        w(f"   {poly}:")
+        w(f"     positive  ({len(p):>2}) matrix-E median = {pd.to_numeric(p[COL_MATRIX_E], errors='coerce').median():.2f} GPa")
+        w(f"     remaining ({len(r):>2}) matrix-E median = {pd.to_numeric(r[COL_MATRIX_E], errors='coerce').median():.2f} GPa")
+        w(f"     positive  dispersion: {dict(p[COL_DISP].value_counts())}")
+        w(f"     remaining dispersion: {dict(r[COL_DISP].value_counts())}")
 
     out_txt = f"{OUT}/c4_toughness_subpopulation.txt"
     with open(out_txt, "w") as f:
