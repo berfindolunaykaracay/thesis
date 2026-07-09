@@ -88,10 +88,10 @@ for cluster_id, comp in comparison.items():
         report_lines.append(f"  → Unmodified systems show {comp['avg_unmod_improvement'] - comp['avg_mod_improvement']:.1f}% higher improvement")
 
 # Save report
-with open('phase1_output/centrality_evaluation_detailed.txt', 'w') as f:
+with open('output/centrality_evaluation_detailed.txt', 'w') as f:
     f.write('\n'.join(report_lines))
 
-print("Detailed centrality evaluation report saved to phase1_output/centrality_evaluation_detailed.txt")
+print("Detailed centrality evaluation report saved to output/centrality_evaluation_detailed.txt")
 
 # Also create a JSON file with raw centrality data
 centrality_data = {}
@@ -102,7 +102,7 @@ for cluster_id, metrics in analysis.centrality_metrics.items():
         'betweenness_centrality': metrics['betweenness']
     }
 
-with open('phase1_output/centrality_raw_data.json', 'w') as f:
+with open('output/centrality_raw_data.json', 'w') as f:
     json.dump(centrality_data, f, indent=2)
     
-print("Raw centrality data saved to phase1_output/centrality_raw_data.json")
+print("Raw centrality data saved to output/centrality_raw_data.json")

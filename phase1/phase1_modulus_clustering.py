@@ -12,8 +12,8 @@ import seaborn as sns
 from typing import Dict, List, Tuple
 import os
 
-# Dataset configuration
-DATASET_PATH = "../DATASET 1.xlsx"
+# Dataset configuration (final cleaned dataset, post PMA unit correction)
+DATASET_PATH = "../Dataset_LatestVersion.xlsx"
 
 class ModulusClusteringAnalysis:
     """Implements Phase 1: Modulus-based clustering and graph analysis"""
@@ -103,15 +103,15 @@ class ModulusClusteringAnalysis:
             # Add nodes and edges based on polymer relationships
             polymers = cluster_df['Polymer matrix name'].unique()
             
-            # Add polymer nodes (blue)
+            # Add polymer nodes (blue) - larger size for visibility
             for polymer in polymers:
                 polymer_data = cluster_df[cluster_df['Polymer matrix name'] == polymer]
                 avg_matrix_modulus = polymer_data['Polymer matrix elastic modulus (GPa)'].mean()
-                G.add_node(polymer, 
+                G.add_node(polymer,
                           node_type='polymer',
                           modulus=avg_matrix_modulus,
                           color='#3498db',
-                          size=20)
+                          size=35)
             
             # Add composite nodes and edges
             for idx, row in cluster_df.iterrows():
@@ -134,7 +134,7 @@ class ModulusClusteringAnalysis:
                 else:
                     node_color = '#e74c3c'  # Red for negative improvement
 
-                # Add composite node
+                # Add composite node - larger size for visibility
                 if pd.notna(row.get('Nanocomposite Elastic Modulus (GPa)')):
                     G.add_node(composite_id,
                               node_type='composite',
@@ -143,7 +143,7 @@ class ModulusClusteringAnalysis:
                               improvement=improvement,
                               modified=row['is_modified'],
                               color=node_color,
-                              size=15)
+                              size=25)
 
                     # Add edge with weight based on improvement
                     # Edge weight is absolute improvement percentage
@@ -275,7 +275,8 @@ class ModulusClusteringAnalysis:
             
             # Add edges - weighted by improvement magnitude
             for source, target, attrs in G.edges(data=True):
-                width = min(attrs['weight'] / 10, 10)  # Scale edge width by improvement %
+                # Minimum width 2, scaled up to max 15 for better visibility
+                width = max(2, min(attrs['weight'] / 5, 15))  # Scale edge width by improvement %
                 title = f"Improvement: {attrs.get('improvement', 0):.1f}%"
                 net.add_edge(source, target, color='gray', width=width, title=title)
             
@@ -286,7 +287,7 @@ class ModulusClusteringAnalysis:
             pct_modified = (cluster_df['is_modified'].sum() / n_samples) * 100
             
             # Save basic visualization
-            filename = f"phase1_output/cluster_{cluster_id}_graph.html"
+            filename = f"output/cluster_{cluster_id}_graph.html"
             net.save_graph(filename)
             
             # Post-process HTML to add cluster information
@@ -346,7 +347,7 @@ class ModulusClusteringAnalysis:
         with open('output/conference_summary.txt', 'w') as f:
             f.write('\n'.join(report))
             
-        print("\nSummary report saved to phase1_output/conference_summary.txt")
+        print("\nSummary report saved to output/conference_summary.txt")
         
     def create_summary_figure(self):
         """Create summary figure showing all four clusters"""

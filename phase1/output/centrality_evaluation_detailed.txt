@@ -15,15 +15,16 @@ ALL Polymers by Centrality Metrics:
 --------------------------------------------------------------------------------
 Polymer                        Degree Cent.    Weighted Deg.   Between. Cent. 
 --------------------------------------------------------------------------------
-PA6                            0.1538          3822.86         0.0185         
-CNBR                           0.1538          2076.42         0.0185         
-NBR                            0.1538          1648.19         0.0185         
-Epoxy                          0.4231          889.56          0.1692         
+PMA                            0.1818          12318.18        0.0284         
+PA6                            0.1212          3822.86         0.0114         
+CNBR                           0.1212          2076.42         0.0114         
+NBR                            0.1212          1648.19         0.0114         
+Epoxy                          0.3333          889.56          0.1042         
 
 Cluster C1 Summary:
-- Total polymer types: 4
-- Highest weighted degree: PA6 (3822.86)
-- Average weighted degree: 2109.26
+- Total polymer types: 5
+- Highest weighted degree: PMA (12318.18)
+- Average weighted degree: 4151.04
 
 Interpretation for C1:
 - High weighted degree values indicate large property improvements
@@ -38,20 +39,19 @@ ALL Polymers by Centrality Metrics:
 --------------------------------------------------------------------------------
 Polymer                        Degree Cent.    Weighted Deg.   Between. Cent. 
 --------------------------------------------------------------------------------
-PMA                            0.1091          12318.18        0.0101         
-PCL                            0.3273          527.77          0.1030         
-Epoxy                          0.1091          296.67          0.0101         
-PS                             0.0545          294.44          0.0020         
-LLDPE                          0.1091          282.30          0.0101         
-Nylon 6                        0.0182          252.63          0.0000         
-PLA/PBAT                       0.0727          230.99          0.0040         
-PP                             0.0364          213.42          0.0007         
-PE                             0.0182          76.47           0.0000         
+PCL                            0.3750          527.77          0.1356         
+Epoxy                          0.1250          296.67          0.0133         
+PS                             0.0625          294.44          0.0027         
+LLDPE                          0.1250          282.30          0.0133         
+PA6                            0.0208          252.63          0.0000         
+PLA/PBAT                       0.0833          230.99          0.0053         
+PP                             0.0417          213.42          0.0009         
+PE                             0.0208          76.47           0.0000         
 
 Cluster C2 Summary:
-- Total polymer types: 9
-- Highest weighted degree: PMA (12318.18)
-- Average weighted degree: 1610.32
+- Total polymer types: 8
+- Highest weighted degree: PCL (527.77)
+- Average weighted degree: 271.84
 
 Interpretation for C2:
 - High weighted degree values indicate large property improvements
@@ -66,23 +66,22 @@ ALL Polymers by Centrality Metrics:
 --------------------------------------------------------------------------------
 Polymer                        Degree Cent.    Weighted Deg.   Between. Cent. 
 --------------------------------------------------------------------------------
-Epoxy                          0.2366          1517.09         0.0540         
-Nylon 6                        0.0430          511.25          0.0014         
-PP                             0.0645          416.67          0.0035         
-Nylon66                        0.0968          346.47          0.0084         
-DGEBA                          0.1290          321.11          0.0154         
- Dimethacrylate Copolymer      0.0430          248.15          0.0014         
-PS                             0.0323          124.59          0.0007         
-PP/EPDM                        0.0860          93.31           0.0065         
-PLA/PBAT                       0.0323          91.72           0.0007         
-PU                             0.0215          79.57           0.0002         
-PA6                            0.0323          73.03           0.0007         
-HDPE                           0.0645          60.40           0.0035         
+Epoxy                          0.2708          2175.09         0.0713         
+PA6                            0.0729          584.28          0.0046         
+PP                             0.0625          416.67          0.0033         
+PA66                           0.0938          346.47          0.0079         
+DGEBA                          0.1250          321.11          0.0145         
+Dimethacrylate Copolymer       0.0417          248.15          0.0013         
+PS                             0.0312          124.59          0.0007         
+PP/EPDM                        0.0833          93.31           0.0061         
+PLA/PBAT                       0.0312          91.72           0.0007         
+PU                             0.0208          79.57           0.0002         
+HDPE                           0.0625          60.40           0.0033         
 
 Cluster C3 Summary:
-- Total polymer types: 12
-- Highest weighted degree: Epoxy (1517.09)
-- Average weighted degree: 323.61
+- Total polymer types: 11
+- Highest weighted degree: Epoxy (2175.09)
+- Average weighted degree: 412.85
 
 Interpretation for C3:
 - More consistent but lower improvement values
@@ -97,21 +96,19 @@ ALL Polymers by Centrality Metrics:
 --------------------------------------------------------------------------------
 Polymer                        Degree Cent.    Weighted Deg.   Between. Cent. 
 --------------------------------------------------------------------------------
-Epoxy                          0.2683          6386.10         0.0721         
-PA6                            0.1429          5284.98         0.0203         
-Nylon 6                        0.0683          2569.24         0.0047         
-PA12                           0.0472          1767.86         0.0022         
-PP                             0.0770          1605.23         0.0058         
+PA6                            0.2230          8528.63         0.0506         
+Epoxy                          0.2763          6563.87         0.0765         
+PA12                           0.0471          1767.86         0.0022         
+PP                             0.0768          1605.23         0.0058         
 PVA                            0.0099          1466.67         0.0001         
-DGEBA                          0.0957          1315.79         0.0095         
+DGEBA                          0.0967          1319.65         0.0097         
 PMMA                           0.0273          1219.05         0.0007         
-Nylon 6                        0.0124          674.41          0.0002         
 PVP                            0.0037          612.82          0.0000         
 PA                             0.0087          384.20          0.0001         
 PLA                            0.0211          326.94          0.0004         
 PP/PC                          0.0087          268.07          0.0001         
 BIOPA11                        0.0050          229.03          0.0000         
-UP                             0.0199          211.50          0.0004         
+UP                             0.0198          211.50          0.0004         
 Chitosan                       0.0050          205.03          0.0000         
 PLLA                           0.0099          198.05          0.0001         
 PBT                            0.0050          196.10          0.0000         
@@ -122,35 +119,33 @@ PU                             0.0037          127.83          0.0000
 DGEAC                          0.0062          121.74          0.0000         
 PA6/PP                         0.0062          110.81          0.0000         
 PI                             0.0037          87.54           0.0000         
-rPET                           0.0075          81.63           0.0000         
+rPET                           0.0074          81.63           0.0000         
 NR                             0.0037          67.27           0.0000         
 PSF                            0.0037          67.00           0.0000         
 NBR/PU                         0.0037          57.91           0.0000         
 PVC                            0.0025          54.32           0.0000         
 PE                             0.0012          48.15           0.0000         
-Nylon 66                       0.0012          39.83           0.0000         
+Vinyl Ester                    0.0074          41.83           0.0000         
+PA66                           0.0012          39.83           0.0000         
 EPON 828                       0.0050          37.80           0.0000         
 PLA/PP                         0.0012          30.00           0.0000         
 PPH1/PP                        0.0012          26.52           0.0000         
-Vinyl ester                    0.0037          20.92           0.0000         
-Vinyl Ester                    0.0037          20.92           0.0000         
-Nylon 7                        0.0012          18.57           0.0000         
+PA7                            0.0012          18.57           0.0000         
 PPH3/PP                        0.0012          17.62           0.0000         
 PPH3                           0.0012          14.92           0.0000         
 PPH1                           0.0012          14.08           0.0000         
 PPH4/PP                        0.0012          13.19           0.0000         
-Nylon 8                        0.0012          11.43           0.0000         
+PA8                            0.0012          11.43           0.0000         
 MGSL135i                       0.0012          7.01            0.0000         
 PPH2/PP                        0.0012          5.91            0.0000         
 PPH4                           0.0012          4.50            0.0000         
-DGEBA                          0.0012          3.86            0.0000         
 PPH2                           0.0012          3.08            0.0000         
 Bis-GMA/TTEGDMA                0.0062          1.67            0.0000         
 
 Cluster C4 Summary:
-- Total polymer types: 49
-- Highest weighted degree: Epoxy (6386.10)
-- Average weighted degree: 541.40
+- Total polymer types: 45
+- Highest weighted degree: PA6 (8528.63)
+- Average weighted degree: 593.47
 
 Interpretation for C4:
 - More consistent but lower improvement values
@@ -163,29 +158,29 @@ MODIFIED VS UNMODIFIED CENTRALITY COMPARISON
 
 
 C1:
-  Modified systems: 14 nodes
+  Modified systems: 20 nodes
   Unmodified systems: 9 nodes
-  Avg improvement (modified): 320.7%
+  Avg improvement (modified): 840.4%
   Avg improvement (unmodified): 414.1%
-  → Unmodified systems show 93.4% higher improvement
+  → Modified systems show 426.3% higher improvement
 
 C2:
-  Modified systems: 44 nodes
+  Modified systems: 38 nodes
   Unmodified systems: 3 nodes
-  Avg improvement (modified): 320.8%
+  Avg improvement (modified): 47.3%
   Avg improvement (unmodified): 98.1%
-  → Modified systems show 222.6% higher improvement
+  → Unmodified systems show 50.9% higher improvement
 
 C3:
-  Modified systems: 70 nodes
+  Modified systems: 74 nodes
   Unmodified systems: 12 nodes
-  Avg improvement (modified): 46.0%
+  Avg improvement (modified): 52.4%
   Avg improvement (unmodified): 33.5%
-  → Modified systems show 12.5% higher improvement
+  → Modified systems show 18.9% higher improvement
 
 C4:
-  Modified systems: 643 nodes
-  Unmodified systems: 114 nodes
-  Avg improvement (modified): 31.5%
-  Avg improvement (unmodified): 42.1%
-  → Unmodified systems show 10.6% higher improvement
+  Modified systems: 668 nodes
+  Unmodified systems: 95 nodes
+  Avg improvement (modified): 31.9%
+  Avg improvement (unmodified): 38.9%
+  → Unmodified systems show 7.0% higher improvement

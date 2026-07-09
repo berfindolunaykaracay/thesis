@@ -2,31 +2,31 @@
 
 Elastic Modulus-Based Clustering Results
 
-Total samples: 927
-Modified samples: 789
-Unmodified samples: 138
+Total samples: 920
+Modified samples: 801
+Unmodified samples: 119
 
 
 C1 - Soft elastomeric regime:
   Range: 0-0.1 GPa
-  Modified: 14 samples, avg improvement: 320.7%
+  Modified: 20 samples, avg improvement: 840.4%
   Unmodified: 9 samples, avg improvement: 414.1%
-  Knowledge hub: PA6
+  Knowledge hub: PMA
 
 C2 - Semi-soft thermoplastic regime:
   Range: 0.1-0.5 GPa
-  Modified: 44 samples, avg improvement: 320.8%
+  Modified: 38 samples, avg improvement: 47.3%
   Unmodified: 3 samples, avg improvement: 98.1%
-  Knowledge hub: PMA
+  Knowledge hub: PCL
 
 C3 - Intermediate regime:
   Range: 0.5-1.0 GPa
-  Modified: 70 samples, avg improvement: 46.0%
+  Modified: 74 samples, avg improvement: 52.4%
   Unmodified: 12 samples, avg improvement: 33.5%
   Knowledge hub: Epoxy
 
 C4 - Rigid polymer regime:
   Range: 1.0-inf GPa
-  Modified: 643 samples, avg improvement: 31.4%
-  Unmodified: 114 samples, avg improvement: 42.1%
-  Knowledge hub: Epoxy
+  Modified: 668 samples, avg improvement: 31.9%
+  Unmodified: 95 samples, avg improvement: 38.9%
+  Knowledge hub: PA6

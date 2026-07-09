@@ -1,0 +1,63 @@
+===============================================================================================
+OUTLIER-ROBUSTNESS ANALYSIS — Phase 2 mechanical improvements
+===============================================================================================
+Phase-2 cluster thresholds (elastic modulus): C1 < 0.1 GPa | 0.1-0.5 GPa | 0.5-1.0 GPa | > 1.0 GPa
+
+
+--- Cluster C1 (n_total = 29) ---
+  ΔE modulus (n= 29): mean=   708.08  median=  351.81  IQR=  691.86  arcsinh-mean= 4.59  wins-mean=   519.54  outliers=4  mean(no out)=   333.09
+  Δσ strength (n= 16): mean=  1133.78  median=  367.86  IQR= 1420.83  arcsinh-mean= 5.03  wins-mean=   983.20  outliers=2  mean(no out)=   707.66
+  Δε strain (n= 13): mean=    77.13  median=   46.51  IQR=  296.54  arcsinh-mean= 0.92  wins-mean=    69.97  outliers=0  mean(no out)=    77.13
+
+--- Cluster C2 (n_total = 41) ---
+  ΔE modulus (n= 41): mean=    51.01  median=   42.13  IQR=   56.56  arcsinh-mean= 3.74  wins-mean=    45.95  outliers=1  mean(no out)=    45.97
+  Δσ strength (n= 26): mean=    36.02  median=   20.52  IQR=   46.17  arcsinh-mean= 1.79  wins-mean=    18.61  outliers=1  mean(no out)=    16.46
+  Δε strain (n= 13): mean=   -24.69  median=  -19.12  IQR=   48.73  arcsinh-mean=-1.63  wins-mean=   -21.16  outliers=0  mean(no out)=   -24.69
+
+--- Cluster C3 (n_total = 86) ---
+  ΔE modulus (n= 86): mean=    49.75  median=   41.97  IQR=   62.17  arcsinh-mean= 3.50  wins-mean=    45.52  outliers=3  mean(no out)=    44.18
+  Δσ strength (n= 78): mean=    23.02  median=   15.41  IQR=   26.84  arcsinh-mean= 2.89  wins-mean=    20.01  outliers=5  mean(no out)=    17.14
+  Δε strain (n= 36): mean=   -32.94  median=  -32.19  IQR=   24.90  arcsinh-mean=-4.00  wins-mean=   -31.89  outliers=0  mean(no out)=   -32.94
+
+--- Cluster C4 (n_total = 764) ---
+  ΔE modulus (n=763): mean=    32.75  median=   20.14  IQR=   29.08  arcsinh-mean= 3.22  wins-mean=    26.08  outliers=70  mean(no out)=    21.52
+  Δσ strength (n=591): mean=     9.21  median=    7.14  IQR=   17.14  arcsinh-mean= 1.35  wins-mean=     6.90  outliers=83  mean(no out)=     6.45
+  Δε strain (n=378): mean=   -23.44  median=  -23.33  IQR=   52.98  arcsinh-mean=-2.39  wins-mean=   -26.55  outliers=13  mean(no out)=   -28.69
+
+
+===============================================================================================
+Modified vs. Unmodified — robust statistics per cluster
+===============================================================================================
+
+
+--- C1 ---
+  ΔE modulus  Modified   (n= 20): mean=   840.39  median=  175.71  arcsinh= 3.89  mean(no out)=   612.85
+  ΔE modulus  Unmodified (n=  9): mean=   414.08  median=  442.45  arcsinh= 6.13  mean(no out)=   414.08
+  Δσ strength  Modified   (n= 15): mean=  1207.23  median=  517.86  arcsinh= 5.09  mean(no out)=  1207.23
+  Δσ strength  Unmodified (n=  1): mean=    32.14  median=   32.14  arcsinh= 4.16  mean(no out)=    32.14
+  Δε strain  Modified   (n= 12): mean=    79.68  median=   68.91  arcsinh= 0.62  mean(no out)=    79.68
+  Δε strain  Unmodified (n=  1): mean=    46.51  median=   46.51  arcsinh= 4.53  mean(no out)=    46.51
+
+--- C2 ---
+  ΔE modulus  Modified   (n= 38): mean=    47.28  median=   41.65  arcsinh= 3.63  mean(no out)=    41.73
+  ΔE modulus  Unmodified (n=  3): mean=    98.15  median=   94.44  arcsinh= 5.12  mean(no out)=    98.15
+  Δσ strength  Modified   (n= 23): mean=    32.70  median=   15.15  arcsinh= 1.41  mean(no out)=    10.33
+  Δσ strength  Unmodified (n=  3): mean=    61.40  median=   63.16  arcsinh= 4.72  mean(no out)=    61.40
+  Δε strain  Modified   (n= 10): mean=   -19.46  median=   -0.26  arcsinh=-0.83  mean(no out)=   -10.80
+  Δε strain  Unmodified (n=  3): mean=   -42.16  median=  -44.12  arcsinh=-4.32  mean(no out)=   -42.16
+
+--- C3 ---
+  ΔE modulus  Modified   (n= 74): mean=    52.38  median=   43.66  arcsinh= 3.43  mean(no out)=    47.90
+  ΔE modulus  Unmodified (n= 12): mean=    33.50  median=   31.67  arcsinh= 3.96  mean(no out)=    33.50
+  Δσ strength  Modified   (n= 66): mean=    22.13  median=   13.84  arcsinh= 2.72  mean(no out)=    12.62
+  Δσ strength  Unmodified (n= 12): mean=    27.91  median=   26.79  arcsinh= 3.79  mean(no out)=    27.91
+  Δε strain  Modified   (n= 30): mean=   -34.10  median=  -33.33  arcsinh=-4.05  mean(no out)=   -34.10
+  Δε strain  Unmodified (n=  6): mean=   -27.19  median=  -18.86  arcsinh=-3.77  mean(no out)=   -18.95
+
+--- C4 ---
+  ΔE modulus  Modified   (n=668): mean=    31.88  median=   20.29  arcsinh= 3.24  mean(no out)=    21.59
+  ΔE modulus  Unmodified (n= 95): mean=    38.86  median=   20.00  arcsinh= 3.09  mean(no out)=    20.30
+  Δσ strength  Modified   (n=522): mean=     8.22  median=    6.49  arcsinh= 1.29  mean(no out)=     5.68
+  Δσ strength  Unmodified (n= 69): mean=    16.69  median=   11.11  arcsinh= 1.82  mean(no out)=    11.58
+  Δε strain  Modified   (n=334): mean=   -23.18  median=  -23.12  arcsinh=-2.31  mean(no out)=   -28.15
+  Δε strain  Unmodified (n= 44): mean=   -25.36  median=  -25.33  arcsinh=-2.98  mean(no out)=   -30.14
