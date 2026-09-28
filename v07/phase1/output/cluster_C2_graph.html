@@ -1,0 +1,186 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+
+            <div style="padding: 20px; background-color: #f8f9fa; margin: 10px; border-radius: 5px; border: 2px solid #4ECDC4;">
+                <h2 style="color: #4ECDC4;">Cluster C2: Semi-soft thermoplastic</h2>
+                <p><strong>Modulus range:</strong> 0.1-0.5 GPa</p>
+                <p><strong>n_samples:</strong> 35 | <strong>avg ΔE%:</strong> 52.9% | <strong>% modified:</strong> 91.4%</p>
+                <p><strong>Legend:</strong> 🔵 Blue: Polymer matrices | 🟢 Green: Positive improvement | 🔴 Red: Negative improvement</p>
+                <p><strong>Edge width:</strong> Proportional to improvement magnitude (%)</p>
+            </div>
+            
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#3498db", "font": {"color": "black"}, "id": "PCL", "label": "PCL\n(E=0.23 GPa)", "shape": "dot", "size": 35}, {"color": "#3498db", "font": {"color": "black"}, "id": "Epoxy", "label": "Epoxy\n(E=0.12 GPa)", "shape": "dot", "size": 35}, {"color": "#3498db", "font": {"color": "black"}, "id": "PP", "label": "PP\n(E=0.46 GPa)", "shape": "dot", "size": 35}, {"color": "#3498db", "font": {"color": "black"}, "id": "PE", "label": "PE\n(E=0.10 GPa)", "shape": "dot", "size": 35}, {"color": "#3498db", "font": {"color": "black"}, "id": "Plasticized starch", "label": "Plasticized starch\n(E=0.18 GPa)", "shape": "dot", "size": 35}, {"color": "#3498db", "font": {"color": "black"}, "id": "LLDPE", "label": "LLDPE\n(E=0.21 GPa)", "shape": "dot", "size": 35}, {"color": "#3498db", "font": {"color": "black"}, "id": "PA6", "label": "PA6\n(E=0.19 GPa)", "shape": "dot", "size": 35}, {"color": "#3498db", "font": {"color": "black"}, "id": "PLA/PBAT", "label": "PLA/PBAT\n(E=0.36 GPa)", "shape": "dot", "size": 35}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PCL_composite_49", "label": "PCL_composite_49", "shape": "dot", "size": 25}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "PCL_composite_136", "label": "PCL_composite_136", "shape": "dot", "size": 25}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "PCL_composite_137", "label": "PCL_composite_137", "shape": "dot", "size": 25}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "PCL_composite_138", "label": "PCL_composite_138", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PCL_composite_139", "label": "PCL_composite_139", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PCL_composite_140", "label": "PCL_composite_140", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PCL_composite_141", "label": "PCL_composite_141", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PCL_composite_142", "label": "PCL_composite_142", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PCL_composite_143", "label": "PCL_composite_143", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PCL_composite_144", "label": "PCL_composite_144", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PCL_composite_145", "label": "PCL_composite_145", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PCL_composite_146", "label": "PCL_composite_146", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PCL_composite_147", "label": "PCL_composite_147", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_148", "label": "Epoxy_composite_148", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_149", "label": "Epoxy_composite_149", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_150", "label": "Epoxy_composite_150", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_151", "label": "Epoxy_composite_151", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_152", "label": "Epoxy_composite_152", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Epoxy_composite_153", "label": "Epoxy_composite_153", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PP_composite_168", "label": "PP_composite_168", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PE_composite_274", "label": "PE_composite_274", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Plasticized starch_composite_415", "label": "Plasticized starch_composite_415", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Plasticized starch_composite_416", "label": "Plasticized starch_composite_416", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "Plasticized starch_composite_417", "label": "Plasticized starch_composite_417", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "LLDPE_composite_444", "label": "LLDPE_composite_444", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "LLDPE_composite_445", "label": "LLDPE_composite_445", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "LLDPE_composite_446", "label": "LLDPE_composite_446", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "LLDPE_composite_447", "label": "LLDPE_composite_447", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "LLDPE_composite_448", "label": "LLDPE_composite_448", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "LLDPE_composite_449", "label": "LLDPE_composite_449", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PA6_composite_671", "label": "PA6_composite_671", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PLA/PBAT_composite_687", "label": "PLA/PBAT_composite_687", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PLA/PBAT_composite_688", "label": "PLA/PBAT_composite_688", "shape": "dot", "size": 25}, {"color": "#27ae60", "font": {"color": "black"}, "id": "PLA/PBAT_composite_689", "label": "PLA/PBAT_composite_689", "shape": "dot", "size": 25}, {"color": "#e74c3c", "font": {"color": "black"}, "id": "PLA/PBAT_composite_690", "label": "PLA/PBAT_composite_690", "shape": "dot", "size": 25}]);
+                  edges = new vis.DataSet([{"color": "gray", "from": "PCL", "title": "Improvement: 25.1%", "to": "PCL_composite_49", "width": 5.022222222222222}, {"color": "gray", "from": "PCL", "title": "Improvement: -6.9%", "to": "PCL_composite_136", "width": 2}, {"color": "gray", "from": "PCL", "title": "Improvement: -8.8%", "to": "PCL_composite_137", "width": 2}, {"color": "gray", "from": "PCL", "title": "Improvement: -4.2%", "to": "PCL_composite_138", "width": 2}, {"color": "gray", "from": "PCL", "title": "Improvement: 10.2%", "to": "PCL_composite_139", "width": 2.037037037037038}, {"color": "gray", "from": "PCL", "title": "Improvement: 21.3%", "to": "PCL_composite_140", "width": 4.25925925925926}, {"color": "gray", "from": "PCL", "title": "Improvement: 30.6%", "to": "PCL_composite_141", "width": 6.111111111111108}, {"color": "gray", "from": "PCL", "title": "Improvement: 42.1%", "to": "PCL_composite_142", "width": 8.425925925925927}, {"color": "gray", "from": "PCL", "title": "Improvement: 71.8%", "to": "PCL_composite_143", "width": 14.351851851851851}, {"color": "gray", "from": "PCL", "title": "Improvement: 19.9%", "to": "PCL_composite_144", "width": 3.9814814814814836}, {"color": "gray", "from": "PCL", "title": "Improvement: 25.9%", "to": "PCL_composite_145", "width": 5.185185185185186}, {"color": "gray", "from": "PCL", "title": "Improvement: 44.9%", "to": "PCL_composite_146", "width": 8.981481481481485}, {"color": "gray", "from": "PCL", "title": "Improvement: 84.7%", "to": "PCL_composite_147", "width": 15}, {"color": "gray", "from": "Epoxy", "title": "Improvement: 35.0%", "to": "Epoxy_composite_148", "width": 7.000000000000002}, {"color": "gray", "from": "Epoxy", "title": "Improvement: 43.3%", "to": "Epoxy_composite_149", "width": 8.666666666666668}, {"color": "gray", "from": "Epoxy", "title": "Improvement: 40.8%", "to": "Epoxy_composite_150", "width": 8.166666666666668}, {"color": "gray", "from": "Epoxy", "title": "Improvement: 52.5%", "to": "Epoxy_composite_151", "width": 10.500000000000002}, {"color": "gray", "from": "Epoxy", "title": "Improvement: 50.0%", "to": "Epoxy_composite_152", "width": 10.0}, {"color": "gray", "from": "Epoxy", "title": "Improvement: 75.0%", "to": "Epoxy_composite_153", "width": 15.0}, {"color": "gray", "from": "PP", "title": "Improvement: 106.7%", "to": "PP_composite_168", "width": 15}, {"color": "gray", "from": "PE", "title": "Improvement: 76.5%", "to": "PE_composite_274", "width": 15}, {"color": "gray", "from": "Plasticized starch", "title": "Improvement: 38.9%", "to": "Plasticized starch_composite_415", "width": 7.777777777777779}, {"color": "gray", "from": "Plasticized starch", "title": "Improvement: 94.4%", "to": "Plasticized starch_composite_416", "width": 15}, {"color": "gray", "from": "Plasticized starch", "title": "Improvement: 161.1%", "to": "Plasticized starch_composite_417", "width": 15}, {"color": "gray", "from": "LLDPE", "title": "Improvement: 17.7%", "to": "LLDPE_composite_444", "width": 3.5406698564593277}, {"color": "gray", "from": "LLDPE", "title": "Improvement: 13.4%", "to": "LLDPE_composite_445", "width": 2.679425837320574}, {"color": "gray", "from": "LLDPE", "title": "Improvement: 8.1%", "to": "LLDPE_composite_446", "width": 2}, {"color": "gray", "from": "LLDPE", "title": "Improvement: 64.1%", "to": "LLDPE_composite_447", "width": 12.822966507177037}, {"color": "gray", "from": "LLDPE", "title": "Improvement: 81.8%", "to": "LLDPE_composite_448", "width": 15}, {"color": "gray", "from": "LLDPE", "title": "Improvement: 97.1%", "to": "LLDPE_composite_449", "width": 15}, {"color": "gray", "from": "PA6", "title": "Improvement: 252.6%", "to": "PA6_composite_671", "width": 15}, {"color": "gray", "from": "PLA/PBAT", "title": "Improvement: 50.0%", "to": "PLA/PBAT_composite_687", "width": 10.0}, {"color": "gray", "from": "PLA/PBAT", "title": "Improvement: 82.6%", "to": "PLA/PBAT_composite_688", "width": 15}, {"color": "gray", "from": "PLA/PBAT", "title": "Improvement: 76.6%", "to": "PLA/PBAT_composite_689", "width": 15}, {"color": "gray", "from": "PLA/PBAT", "title": "Improvement: -21.8%", "to": "PLA/PBAT_composite_690", "width": 4.3617021276595755}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 1,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
