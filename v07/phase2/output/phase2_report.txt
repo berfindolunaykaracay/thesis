@@ -1,0 +1,356 @@
+======================================================================
+Phase 2: Full Paper & Thesis - Integrated Analysis Report
+======================================================================
+
+Dataset total:                784
+With all 3 improvement props: 279  (35.6% of dataset)
+Modified samples:             246
+Unmodified samples:           33
+
+======================================================================
+Cluster C1: Soft elastomeric
+======================================================================
+Modulus range: 0-0.1 GPa
+Samples: 13 (Modified: 12, Unmodified: 1)
+
+  ΔE% Statistics:
+    Mean: 987.1%
+    Std: 1546.0%
+    Min: -27.1% | Max: 5163.6%
+    Positive: 10 (76.9%)
+    Negative: 3 (23.1%)
+
+  Δσ% Statistics:
+    Mean: 1399.4%
+    Std: 1600.5%
+    Min: 32.1% | Max: 4400.0%
+    Positive: 13 (100.0%)
+    Negative: 0 (0.0%)
+
+  Δε% Statistics:
+    Mean: 77.1%
+    Std: 165.8%
+    Min: -97.2% | Max: 330.2%
+    Positive: 7 (53.8%)
+    Negative: 6 (46.2%)
+
+  --- Centrality Metrics ---
+
+  ΔE%:
+    Weighted Degree (Functional Importance):
+      - PMA: 12318.2
+      - Epoxy: 643.8
+    Betweenness (Translational Hub):
+      - Epoxy: 0.2308
+      - PMA: 0.1648
+    Edge Weight Variance (Stability): 2186660.0
+    Edge Weight Std Dev: 1478.7
+
+  Δσ%:
+    Weighted Degree (Functional Importance):
+      - PMA: 15966.7
+      - Epoxy: 2225.0
+    Betweenness (Translational Hub):
+      - Epoxy: 0.2308
+      - PMA: 0.1648
+    Edge Weight Variance (Stability): 2364601.1
+    Edge Weight Std Dev: 1537.7
+
+  Δε%:
+    Weighted Degree (Functional Importance):
+      - Epoxy: 1476.0
+      - PMA: 473.3
+    Betweenness (Translational Hub):
+      - Epoxy: 0.2308
+      - PMA: 0.1648
+    Edge Weight Variance (Stability): 8832.2
+    Edge Weight Std Dev: 94.0
+
+  --- Modified vs Unmodified Comparison ---
+  (Higher weighted centrality = organized structure-property mapping)
+
+  ΔE%:
+    Modified  : WD=12959.8  (n=12, WD/n=1079.99)
+    Unmodified: WD=2.1  (n=1, WD/n=2.08)
+    Higher raw centrality       : Modified
+    Higher normalized centrality: Modified
+
+  Δσ%:
+    Modified  : WD=18159.5  (n=12, WD/n=1513.29)
+    Unmodified: WD=32.1  (n=1, WD/n=32.14)
+    Higher raw centrality       : Modified
+    Higher normalized centrality: Modified
+
+  Δε%:
+    Modified  : WD=1902.8  (n=12, WD/n=158.57)
+    Unmodified: WD=46.5  (n=1, WD/n=46.51)
+    Higher raw centrality       : Modified
+    Higher normalized centrality: Modified
+
+======================================================================
+Cluster C2: Semi-soft thermoplastic
+======================================================================
+Modulus range: 0.1-0.5 GPa
+Samples: 8 (Modified: 5, Unmodified: 3)
+
+  ΔE% Statistics:
+    Mean: 63.4%
+    Std: 54.2%
+    Min: -21.8% | Max: 161.1%
+    Positive: 7 (87.5%)
+    Negative: 1 (12.5%)
+
+  Δσ% Statistics:
+    Mean: 10.9%
+    Std: 49.4%
+    Min: -60.5% | Max: 89.5%
+    Positive: 4 (50.0%)
+    Negative: 4 (50.0%)
+
+  Δε% Statistics:
+    Mean: -37.3%
+    Std: 36.2%
+    Min: -97.4% | Max: 7.8%
+    Positive: 2 (25.0%)
+    Negative: 6 (75.0%)
+
+  --- Centrality Metrics ---
+
+  ΔE%:
+    Weighted Degree (Functional Importance):
+      - Plasticized starch: 294.4
+      - PLA/PBAT: 231.0
+      - PCL: 25.1
+    Betweenness (Translational Hub):
+      - PLA/PBAT: 0.1333
+      - Plasticized starch: 0.0667
+      - PCL: 0.0000
+    Edge Weight Variance (Stability): 1849.4
+    Edge Weight Std Dev: 43.0
+
+  Δσ%:
+    Weighted Degree (Functional Importance):
+      - Plasticized starch: 184.2
+      - PLA/PBAT: 122.5
+      - PCL: 5.0
+    Betweenness (Translational Hub):
+      - PLA/PBAT: 0.1333
+      - Plasticized starch: 0.0667
+      - PCL: 0.0000
+    Edge Weight Variance (Stability): 735.4
+    Edge Weight Std Dev: 27.1
+
+  Δε%:
+    Weighted Degree (Functional Importance):
+      - PLA/PBAT: 195.5
+      - Plasticized starch: 126.5
+      - PCL: 7.7
+    Betweenness (Translational Hub):
+      - PLA/PBAT: 0.1333
+      - Plasticized starch: 0.0667
+      - PCL: 0.0000
+    Edge Weight Variance (Stability): 842.9
+    Edge Weight Std Dev: 29.0
+
+  --- Modified vs Unmodified Comparison ---
+  (Higher weighted centrality = organized structure-property mapping)
+
+  ΔE%:
+    Modified  : WD=256.1  (n=5, WD/n=51.22)
+    Unmodified: WD=294.4  (n=3, WD/n=98.15)
+    Higher raw centrality       : Unmodified
+    Higher normalized centrality: Unmodified
+
+  Δσ%:
+    Modified  : WD=127.5  (n=5, WD/n=25.50)
+    Unmodified: WD=184.2  (n=3, WD/n=61.40)
+    Higher raw centrality       : Unmodified
+    Higher normalized centrality: Unmodified
+
+  Δε%:
+    Modified  : WD=203.2  (n=5, WD/n=40.63)
+    Unmodified: WD=126.5  (n=3, WD/n=42.16)
+    Higher raw centrality       : Modified
+    Higher normalized centrality: Unmodified
+
+======================================================================
+Cluster C3: Intermediate
+======================================================================
+Modulus range: 0.5-1.0 GPa
+Samples: 12 (Modified: 12, Unmodified: 0)
+
+  ΔE% Statistics:
+    Mean: 36.5%
+    Std: 9.0%
+    Min: 23.6% | Max: 50.6%
+    Positive: 12 (100.0%)
+    Negative: 0 (0.0%)
+
+  Δσ% Statistics:
+    Mean: 8.9%
+    Std: 15.1%
+    Min: -31.2% | Max: 21.3%
+    Positive: 10 (83.3%)
+    Negative: 2 (16.7%)
+
+  Δε% Statistics:
+    Mean: -45.2%
+    Std: 16.5%
+    Min: -78.9% | Max: -25.4%
+    Positive: 0 (0.0%)
+    Negative: 12 (100.0%)
+
+  --- Centrality Metrics ---
+
+  ΔE%:
+    Weighted Degree (Functional Importance):
+      - PA66: 346.5
+      - PLA/PBAT: 91.7
+    Betweenness (Translational Hub):
+      - PA66: 0.4615
+      - PLA/PBAT: 0.0385
+    Edge Weight Variance (Stability): 73.7
+    Edge Weight Std Dev: 8.6
+
+  Δσ%:
+    Weighted Degree (Functional Importance):
+      - PA66: 138.5
+      - PLA/PBAT: 52.5
+    Betweenness (Translational Hub):
+      - PA66: 0.4615
+      - PLA/PBAT: 0.0385
+    Edge Weight Variance (Stability): 34.0
+    Edge Weight Std Dev: 5.8
+
+  Δε%:
+    Weighted Degree (Functional Importance):
+      - PA66: 331.9
+      - PLA/PBAT: 210.2
+    Betweenness (Translational Hub):
+      - PA66: 0.4615
+      - PLA/PBAT: 0.0385
+    Edge Weight Variance (Stability): 250.2
+    Edge Weight Std Dev: 15.8
+
+  --- Modified vs Unmodified Comparison ---
+  (Higher weighted centrality = organized structure-property mapping)
+
+  ΔE%:
+    Modified  : WD=438.2  (n=12, WD/n=36.52)
+    Unmodified: WD=0.0  (n=0, WD/n=0.00)
+    Higher raw centrality       : Modified
+    Higher normalized centrality: Modified
+
+  Δσ%:
+    Modified  : WD=191.0  (n=12, WD/n=15.92)
+    Unmodified: WD=0.0  (n=0, WD/n=0.00)
+    Higher raw centrality       : Modified
+    Higher normalized centrality: Modified
+
+  Δε%:
+    Modified  : WD=542.1  (n=12, WD/n=45.18)
+    Unmodified: WD=0.0  (n=0, WD/n=0.00)
+    Higher raw centrality       : Modified
+    Higher normalized centrality: Modified
+
+======================================================================
+Cluster C4: Rigid polymer
+======================================================================
+Modulus range: 1.0-inf GPa
+Samples: 246 (Modified: 217, Unmodified: 29)
+
+  ΔE% Statistics:
+    Mean: 30.2%
+    Std: 44.3%
+    Min: -33.3% | Max: 431.8%
+    Positive: 229 (93.1%)
+    Negative: 16 (6.5%)
+
+  Δσ% Statistics:
+    Mean: 4.5%
+    Std: 28.3%
+    Min: -76.7% | Max: 230.2%
+    Positive: 154 (62.6%)
+    Negative: 91 (37.0%)
+
+  Δε% Statistics:
+    Mean: -38.1%
+    Std: 37.0%
+    Min: -99.6% | Max: 90.2%
+    Positive: 24 (9.8%)
+    Negative: 218 (88.6%)
+
+  --- Centrality Metrics ---
+
+  ΔE%:
+    Weighted Degree (Functional Importance):
+      - PA6: 4037.1
+      - Epoxy: 1278.5
+      - DGEBA: 747.7
+    Betweenness (Translational Hub):
+      - Epoxy: 0.0762
+      - PA6: 0.0506
+      - DGEBA: 0.0190
+    Edge Weight Variance (Stability): 1883.7
+    Edge Weight Std Dev: 43.4
+
+  Δσ%:
+    Weighted Degree (Functional Importance):
+      - PA6: 1407.4
+      - Epoxy: 1400.5
+      - DGEBA: 541.8
+    Betweenness (Translational Hub):
+      - Epoxy: 0.0751
+      - PA6: 0.0506
+      - DGEBA: 0.0190
+    Edge Weight Variance (Stability): 495.6
+    Edge Weight Std Dev: 22.3
+
+  Δε%:
+    Weighted Degree (Functional Importance):
+      - PA6: 3837.9
+      - Epoxy: 2300.9
+      - DGEBA: 1570.8
+    Betweenness (Translational Hub):
+      - Epoxy: 0.0762
+      - PA6: 0.0539
+      - DGEBA: 0.0190
+    Edge Weight Variance (Stability): 877.2
+    Edge Weight Std Dev: 29.6
+
+  --- Modified vs Unmodified Comparison ---
+  (Higher weighted centrality = organized structure-property mapping)
+
+  ΔE%:
+    Modified  : WD=7259.9  (n=217, WD/n=33.46)
+    Unmodified: WD=436.8  (n=29, WD/n=15.06)
+    Higher raw centrality       : Modified
+    Higher normalized centrality: Modified
+
+  Δσ%:
+    Modified  : WD=3904.6  (n=217, WD/n=17.99)
+    Unmodified: WD=523.8  (n=29, WD/n=18.06)
+    Higher raw centrality       : Modified
+    Higher normalized centrality: Unmodified
+
+  Δε%:
+    Modified  : WD=9643.1  (n=217, WD/n=44.44)
+    Unmodified: WD=1190.5  (n=29, WD/n=41.05)
+    Higher raw centrality       : Modified
+    Higher normalized centrality: Modified
+
+======================================================================
+SUMMARY FINDINGS (Buehler Framework Alignment)
+======================================================================
+
+1. Cluster Topology Patterns:
+   - C1-C2 (soft/semi-soft): Higher variability, exploratory graphs
+   - C3-C4 (intermediate/rigid): Dense, interface-limited graphs
+
+2. Property Trade-offs:
+   - Modulus enhancement generally accompanied by strain reduction
+   - Soft clusters show better strain retention
+
+3. Modified vs Unmodified Systems:
+   - Modified systems show higher centrality in 7/9 comparisons
+   - Evidence of organized structure-property mapping in modified systems

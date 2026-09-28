@@ -1,0 +1,179 @@
+================================================================================
+PHASE 1: DETAILED CENTRALITY EVALUATION REPORT
+================================================================================
+
+Centrality metrics evaluate which polymer matrices act as 'knowledge hubs'
+within each stiffness regime (C1-C4).
+
+
+--------------------------------------------------------------------------------
+CLUSTER C1: Soft elastomeric regime
+Range: 0-0.1 GPa
+--------------------------------------------------------------------------------
+
+ALL Polymers by Centrality Metrics:
+--------------------------------------------------------------------------------
+Polymer                        Degree Cent.    Weighted Deg.   Between. Cent. 
+--------------------------------------------------------------------------------
+PMA                            0.1818          12318.18        0.0284         
+PA6                            0.1212          3822.86         0.0114         
+CNBR                           0.1212          2076.42         0.0114         
+NBR                            0.1212          1648.19         0.0114         
+Epoxy                          0.3333          889.56          0.1042         
+
+Cluster C1 Summary:
+- Total polymer types: 5
+- Highest weighted degree: PMA (12318.18)
+- Average weighted degree: 4151.04
+
+Interpretation for C1:
+- High weighted degree values indicate large property improvements
+- Soft/semi-soft systems show high variability in response
+
+--------------------------------------------------------------------------------
+CLUSTER C2: Semi-soft thermoplastic regime
+Range: 0.1-0.5 GPa
+--------------------------------------------------------------------------------
+
+ALL Polymers by Centrality Metrics:
+--------------------------------------------------------------------------------
+Polymer                        Degree Cent.    Weighted Deg.   Between. Cent. 
+--------------------------------------------------------------------------------
+PCL                            0.3095          396.41          0.0906         
+Epoxy                          0.1429          296.67          0.0174         
+Plasticized starch             0.0714          294.44          0.0035         
+LLDPE                          0.1429          282.30          0.0174         
+PA6                            0.0238          252.63          0.0000         
+PLA/PBAT                       0.0952          230.99          0.0070         
+PP                             0.0238          106.71          0.0000         
+PE                             0.0238          76.47           0.0000         
+
+Cluster C2 Summary:
+- Total polymer types: 8
+- Highest weighted degree: PCL (396.41)
+- Average weighted degree: 242.08
+
+Interpretation for C2:
+- High weighted degree values indicate large property improvements
+- Soft/semi-soft systems show high variability in response
+
+--------------------------------------------------------------------------------
+CLUSTER C3: Intermediate regime
+Range: 0.5-1.0 GPa
+--------------------------------------------------------------------------------
+
+ALL Polymers by Centrality Metrics:
+--------------------------------------------------------------------------------
+Polymer                        Degree Cent.    Weighted Deg.   Between. Cent. 
+--------------------------------------------------------------------------------
+Epoxy                          0.3467          2175.09         0.1171         
+PA6                            0.0933          622.00          0.0076         
+PA66                           0.1200          346.47          0.0130         
+DGEBA                          0.1600          321.11          0.0238         
+Dimethacrylate Copolymer       0.0533          248.15          0.0022         
+PP/EPDM                        0.1067          93.31           0.0101         
+PLA/PBAT                       0.0400          91.72           0.0011         
+
+Cluster C3 Summary:
+- Total polymer types: 7
+- Highest weighted degree: Epoxy (2175.09)
+- Average weighted degree: 556.84
+
+Interpretation for C3:
+- More consistent but lower improvement values
+- Dense networks indicate systematic reinforcement mechanisms
+
+--------------------------------------------------------------------------------
+CLUSTER C4: Rigid polymer regime
+Range: 1.0-inf GPa
+--------------------------------------------------------------------------------
+
+ALL Polymers by Centrality Metrics:
+--------------------------------------------------------------------------------
+Polymer                        Degree Cent.    Weighted Deg.   Between. Cent. 
+--------------------------------------------------------------------------------
+PA6                            0.2608          8398.29         0.0693         
+Epoxy                          0.2459          5044.33         0.0606         
+PA12                           0.0566          1767.86         0.0032         
+PVA                            0.0119          1466.67         0.0001         
+DGEBA                          0.0864          1156.04         0.0075         
+PP                             0.0596          1153.42         0.0035         
+PVP                            0.0045          612.82          0.0000         
+PMMA                           0.0209          487.35          0.0004         
+PA                             0.0104          384.20          0.0001         
+PP/PC                          0.0104          268.07          0.0001         
+PLA                            0.0194          253.13          0.0003         
+BIOPA11                        0.0060          229.03          0.0000         
+PLLA                           0.0119          198.05          0.0001         
+PBT                            0.0060          196.10          0.0000         
+DGEAC                          0.0075          195.92          0.0000         
+PP/PLA                         0.0149          180.48          0.0002         
+UP                             0.0209          180.13          0.0004         
+PHBV                           0.0045          180.00          0.0000         
+PU                             0.0045          127.83          0.0000         
+PA6/PP                         0.0075          110.81          0.0000         
+PI                             0.0045          87.54           0.0000         
+rPET                           0.0089          81.63           0.0001         
+PS                             0.0060          73.30           0.0000         
+PSF                            0.0045          67.00           0.0000         
+NBR/PU                         0.0045          57.91           0.0000         
+PVC                            0.0030          54.32           0.0000         
+PE                             0.0015          48.15           0.0000         
+PA66                           0.0015          39.83           0.0000         
+EPON 828                       0.0060          37.80           0.0000         
+PLA/PP                         0.0015          30.00           0.0000         
+PPH1/PP                        0.0015          26.52           0.0000         
+Vinyl Ester                    0.0045          20.92           0.0000         
+PA7                            0.0015          18.57           0.0000         
+PPH3/PP                        0.0015          17.62           0.0000         
+PPH3                           0.0015          14.92           0.0000         
+PPH1                           0.0015          14.08           0.0000         
+PPH4/PP                        0.0015          13.19           0.0000         
+PA8                            0.0015          11.43           0.0000         
+PPH2/PP                        0.0015          5.91            0.0000         
+PPH4                           0.0015          4.50            0.0000         
+PPH2                           0.0015          3.08            0.0000         
+Bis-GMA/TTEGDMA                0.0075          1.67            0.0000         
+
+Cluster C4 Summary:
+- Total polymer types: 42
+- Highest weighted degree: PA6 (8398.29)
+- Average weighted degree: 555.25
+
+Interpretation for C4:
+- More consistent but lower improvement values
+- Dense networks indicate systematic reinforcement mechanisms
+
+
+================================================================================
+MODIFIED VS UNMODIFIED CENTRALITY COMPARISON
+================================================================================
+
+
+C1:
+  Modified systems: 20 nodes
+  Unmodified systems: 9 nodes
+  Avg improvement (modified): 840.4%
+  Avg improvement (unmodified): 414.1%
+  → Modified systems show 426.3% higher improvement
+
+C2:
+  Modified systems: 32 nodes
+  Unmodified systems: 3 nodes
+  Avg improvement (modified): 48.7%
+  Avg improvement (unmodified): 98.1%
+  → Unmodified systems show 49.4% higher improvement
+
+C3:
+  Modified systems: 63 nodes
+  Unmodified systems: 6 nodes
+  Avg improvement (modified): 55.4%
+  Avg improvement (unmodified): 40.4%
+  → Modified systems show 15.1% higher improvement
+
+C4:
+  Modified systems: 556 nodes
+  Unmodified systems: 74 nodes
+  Avg improvement (modified): 34.4%
+  Avg improvement (unmodified): 45.8%
+  → Unmodified systems show 11.4% higher improvement

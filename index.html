@@ -206,6 +206,11 @@
                 along with a thorough dataset cleanup and quality-control pass on the original 942-row dataset.
             </p>
             <ul>
+                <li><strong>Manuscript v0.7 (new section below):</strong>
+                    the Phase 1 and Phase 2 analyses and the manuscript figures re-run on the cleaned,
+                    source-verified dataset (784 records, 131 sources; 279 records with all three properties).
+                    The thesis sections are kept unchanged.
+                </li>
                 <li><strong>Dataset cleanup:</strong>
                     case/whitespace normalization across categorical fields (e.g. <code>Modified</code> variants merged);
                     semantic merges (PA6 ↔ Nylon 6, PA66 ↔ Nylon66, Three-Point Bend ↔ Flexural Test (3PB));
@@ -392,6 +397,182 @@
                 <a href="phase2/output/outlier_robustness.txt" class="card">
                     <div class="card-title">Outlier Robustness</div>
                     <div class="card-desc">Winsorized and median-based robustness checks</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Manuscript v0.7: cleaned, source-verified dataset -->
+        <section class="phase-section" style="border: 1px solid rgba(155,89,182,0.45);">
+            <div class="phase-header" style="border-color: #9b59b6;">
+                <span class="phase-badge" style="background: #9b59b6;">MANUSCRIPT v0.7</span>
+                <span class="phase-title">Cleaned &amp; Source-Verified Dataset</span>
+            </div>
+            <p class="phase-desc">
+                The same Phase 1 and Phase 2 analyses, re-run on the dataset cleaned for the journal manuscript (v0.7).
+                Every record was checked against its source article: records whose filler is not MMT, whose cited
+                source does not contain the data, duplicates, and records without a matched neat-matrix reference were
+                removed (158 records), 48 records were corrected against the source tables or figures, and raw
+                strain-to-failure values were harmonized to percent. The Phase 1 and Phase 2 sections above keep the
+                thesis dataset unchanged.
+            </p>
+
+            <div class="metrics-grid">
+                <div class="metric-box">
+                    <div class="metric-value">784</div>
+                    <div class="metric-label">Records (131 sources)</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">279</div>
+                    <div class="metric-label">Records with all 3 props (50 sources)</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value" style="font-size: 1.5em;">13 / 8 / 12 / 246</div>
+                    <div class="metric-label">C1 / C2 / C3 / C4</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">18 (7.3%)</div>
+                    <div class="metric-label">C4 strength–strain co-improvement</div>
+                </div>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #9b59b6;">Manuscript Figures</h3>
+            <div class="cards-grid">
+                <a href="v07/manuscript_figures/fig1_workflow.png" class="card">
+                    <div class="card-title">Figure 1: Workflow</div>
+                    <div class="card-desc">Dataset → integrated subset → regimes → matrix–record graph</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/manuscript_figures/fig2_regime_sample_counts.png" class="card">
+                    <div class="card-title">Figure 2: Records per Regime</div>
+                    <div class="card-desc">Integrated subset (n = 279)</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/manuscript_figures/fig3_regime_distributions.png" class="card">
+                    <div class="card-title">Figure 3: Regime-wise Distributions</div>
+                    <div class="card-desc">ΔE%, Δσ%, Δε% by stiffness regime</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/manuscript_figures/fig4_wd_modified_vs_unmodified.png" class="card">
+                    <div class="card-title">Figure 4: Modified vs Unmodified</div>
+                    <div class="card-desc">Mean absolute response per record (WD/n)</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/manuscript_figures/fig5_pma_soft_matrix.png" class="card">
+                    <div class="card-title">Figure 5: PMA-grafted MMT</div>
+                    <div class="card-desc">Soft-matrix (C1) reinforcement case</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/manuscript_figures/fig6_c4_toughness_scatter.png" class="card">
+                    <div class="card-title">Figure 6: C4 Δσ–Δε Plane</div>
+                    <div class="card-desc">Strength–strain co-improvement subgroup (18 records)</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/manuscript_figures/fig7_graph_motifs.png" class="card">
+                    <div class="card-title">Figure 7: Matrix–Response Graphs</div>
+                    <div class="card-desc">Reduced graphs for the four stiffness regimes</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #9b59b6;">Cluster Graphs (Interactive, Phase 1 on v0.7 data)</h3>
+            <div class="cards-grid">
+                <a href="v07/phase1/output/cluster_C1_graph.html" class="card">
+                    <div class="card-title">C1: Soft Elastomeric</div>
+                    <div class="card-desc">E &lt; 0.1 GPa</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="v07/phase1/output/cluster_C2_graph.html" class="card">
+                    <div class="card-title">C2: Semi-soft</div>
+                    <div class="card-desc">0.1–0.5 GPa</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="v07/phase1/output/cluster_C3_graph.html" class="card">
+                    <div class="card-title">C3: Intermediate</div>
+                    <div class="card-desc">0.5–1.0 GPa</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="v07/phase1/output/cluster_C4_graph.html" class="card">
+                    <div class="card-title">C4: Rigid</div>
+                    <div class="card-desc">E ≥ 1.0 GPa</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #9b59b6;">Integrated 3-Layer Motif Diagrams (Phase 2 on v0.7 data)</h3>
+            <div class="cards-grid">
+                <a href="v07/phase2/output/integrated_motif_C1.html" class="card">
+                    <div class="card-title">C1: Integrated Motif</div>
+                    <div class="card-desc">13 records · ΔE%, Δσ%, Δε%</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="v07/phase2/output/integrated_motif_C2.html" class="card">
+                    <div class="card-title">C2: Integrated Motif</div>
+                    <div class="card-desc">8 records · ΔE%, Δσ%, Δε%</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="v07/phase2/output/integrated_motif_C3.html" class="card">
+                    <div class="card-title">C3: Integrated Motif</div>
+                    <div class="card-desc">12 records · ΔE%, Δσ%, Δε%</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+                <a href="v07/phase2/output/integrated_motif_C4.html" class="card">
+                    <div class="card-title">C4: Integrated Motif</div>
+                    <div class="card-desc">246 records · ΔE%, Δσ%, Δε%</div>
+                    <span class="card-type type-html">HTML</span>
+                </a>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: #9b59b6;">Reports &amp; Visualizations</h3>
+            <div class="cards-grid">
+                <a href="v07/phase1/output/cluster_summary.png" class="card">
+                    <div class="card-title">Cluster Summary Figure</div>
+                    <div class="card-desc">Phase 1 on v0.7 data</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/phase1/output/conference_summary.txt" class="card">
+                    <div class="card-title">Cluster Summary (Phase 1)</div>
+                    <div class="card-desc">Cluster statistics on v0.7 data</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="v07/phase1/output/centrality_evaluation_detailed.txt" class="card">
+                    <div class="card-title">Centrality Evaluation</div>
+                    <div class="card-desc">Phase 1 centrality metrics on v0.7 data</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="v07/phase2/output/centrality_heatmap.png" class="card">
+                    <div class="card-title">Centrality Heatmap</div>
+                    <div class="card-desc">Weighted degree + betweenness across clusters</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/phase2/output/edge_stability_plots.png" class="card">
+                    <div class="card-title">Edge Stability Plots</div>
+                    <div class="card-desc">Improvement distribution per property</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/phase2/output/modified_vs_unmodified_comparison.png" class="card">
+                    <div class="card-title">Modified vs Unmodified</div>
+                    <div class="card-desc">Comparison by modification status</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/phase2/output/phase2_report.txt" class="card">
+                    <div class="card-title">Full Analysis Report (Phase 2)</div>
+                    <div class="card-desc">Metrics and findings on v0.7 data</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="v07/phase2/output/c4_toughness_scatter.png" class="card">
+                    <div class="card-title">C4 Strength–Strain Scatter</div>
+                    <div class="card-desc">Δσ–Δε plane on v0.7 data</div>
+                    <span class="card-type type-png">PNG</span>
+                </a>
+                <a href="v07/phase2/output/c4_toughness_subpopulation.txt" class="card">
+                    <div class="card-title">C4 Subgroup Report</div>
+                    <div class="card-desc">Counts, matrix labels, dispersion and baselines</div>
+                    <span class="card-type type-txt">TXT</span>
+                </a>
+                <a href="v07/phase2/output/outlier_robustness.txt" class="card">
+                    <div class="card-title">Outlier Robustness</div>
+                    <div class="card-desc">Median- and winsorized-mean checks on v0.7 data</div>
                     <span class="card-type type-txt">TXT</span>
                 </a>
             </div>
