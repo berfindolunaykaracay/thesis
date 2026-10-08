@@ -2,9 +2,9 @@
 Phase 2: Full Paper & Thesis - Integrated Analysis Report
 ======================================================================
 
-Dataset total:                784
-With all 3 improvement props: 279  (35.6% of dataset)
-Modified samples:             246
+Dataset total:                776
+With all 3 improvement props: 276  (35.6% of dataset)
+Modified samples:             243
 Unmodified samples:           33
 
 ======================================================================
@@ -257,84 +257,84 @@ Samples: 12 (Modified: 12, Unmodified: 0)
 Cluster C4: Rigid polymer
 ======================================================================
 Modulus range: 1.0-inf GPa
-Samples: 246 (Modified: 217, Unmodified: 29)
+Samples: 243 (Modified: 214, Unmodified: 29)
 
   ΔE% Statistics:
-    Mean: 30.2%
-    Std: 44.3%
+    Mean: 29.9%
+    Std: 44.5%
     Min: -33.3% | Max: 431.8%
-    Positive: 229 (93.1%)
-    Negative: 16 (6.5%)
+    Positive: 226 (93.0%)
+    Negative: 16 (6.6%)
 
   Δσ% Statistics:
-    Mean: 4.5%
-    Std: 28.3%
+    Mean: 4.3%
+    Std: 28.5%
     Min: -76.7% | Max: 230.2%
-    Positive: 154 (62.6%)
-    Negative: 91 (37.0%)
+    Positive: 151 (62.1%)
+    Negative: 91 (37.4%)
 
   Δε% Statistics:
-    Mean: -38.1%
-    Std: 37.0%
+    Mean: -38.2%
+    Std: 37.1%
     Min: -99.6% | Max: 90.2%
-    Positive: 24 (9.8%)
-    Negative: 218 (88.6%)
+    Positive: 23 (9.5%)
+    Negative: 216 (88.9%)
 
   --- Centrality Metrics ---
 
   ΔE%:
     Weighted Degree (Functional Importance):
-      - PA6: 4037.1
+      - PA6: 3994.6
       - Epoxy: 1278.5
       - DGEBA: 747.7
     Betweenness (Translational Hub):
-      - Epoxy: 0.0762
-      - PA6: 0.0506
-      - DGEBA: 0.0190
-    Edge Weight Variance (Stability): 1883.7
-    Edge Weight Std Dev: 43.4
+      - Epoxy: 0.0785
+      - PA6: 0.0504
+      - DGEBA: 0.0196
+    Edge Weight Variance (Stability): 1901.3
+    Edge Weight Std Dev: 43.6
 
   Δσ%:
     Weighted Degree (Functional Importance):
-      - PA6: 1407.4
       - Epoxy: 1400.5
+      - PA6: 1385.6
       - DGEBA: 541.8
     Betweenness (Translational Hub):
-      - Epoxy: 0.0751
-      - PA6: 0.0506
-      - DGEBA: 0.0190
-    Edge Weight Variance (Stability): 495.6
-    Edge Weight Std Dev: 22.3
+      - Epoxy: 0.0775
+      - PA6: 0.0504
+      - DGEBA: 0.0196
+    Edge Weight Variance (Stability): 501.6
+    Edge Weight Std Dev: 22.4
 
   Δε%:
     Weighted Degree (Functional Importance):
-      - PA6: 3837.9
+      - PA6: 3777.0
       - Epoxy: 2300.9
       - DGEBA: 1570.8
     Betweenness (Translational Hub):
-      - Epoxy: 0.0762
-      - PA6: 0.0539
-      - DGEBA: 0.0190
-    Edge Weight Variance (Stability): 877.2
+      - Epoxy: 0.0785
+      - PA6: 0.0538
+      - DGEBA: 0.0196
+    Edge Weight Variance (Stability): 878.5
     Edge Weight Std Dev: 29.6
 
   --- Modified vs Unmodified Comparison ---
   (Higher weighted centrality = organized structure-property mapping)
 
   ΔE%:
-    Modified  : WD=7259.9  (n=217, WD/n=33.46)
+    Modified  : WD=7105.9  (n=214, WD/n=33.20)
     Unmodified: WD=436.8  (n=29, WD/n=15.06)
     Higher raw centrality       : Modified
     Higher normalized centrality: Modified
 
   Δσ%:
-    Modified  : WD=3904.6  (n=217, WD/n=17.99)
+    Modified  : WD=3852.9  (n=214, WD/n=18.00)
     Unmodified: WD=523.8  (n=29, WD/n=18.06)
     Higher raw centrality       : Modified
     Higher normalized centrality: Unmodified
 
   Δε%:
-    Modified  : WD=9643.1  (n=217, WD/n=44.44)
+    Modified  : WD=9548.9  (n=214, WD/n=44.62)
     Unmodified: WD=1190.5  (n=29, WD/n=41.05)
     Higher raw centrality       : Modified
     Higher normalized centrality: Modified

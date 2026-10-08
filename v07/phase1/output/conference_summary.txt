@@ -2,9 +2,9 @@
 
 Elastic Modulus-Based Clustering Results
 
-Total samples: 764
-Modified samples: 672
-Unmodified samples: 92
+Total samples: 752
+Modified samples: 664
+Unmodified samples: 88
 
 
 C1 - Soft elastomeric regime:
@@ -27,6 +27,6 @@ C3 - Intermediate regime:
 
 C4 - Rigid polymer regime:
   Range: 1.0-inf GPa
-  Modified: 556 samples, avg improvement: 34.4%
-  Unmodified: 74 samples, avg improvement: 45.8%
+  Modified: 548 samples, avg improvement: 34.5%
+  Unmodified: 70 samples, avg improvement: 46.8%
   Knowledge hub: PA6

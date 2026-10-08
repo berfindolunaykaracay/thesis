@@ -206,9 +206,9 @@
                 along with a thorough dataset cleanup and quality-control pass on the original 942-row dataset.
             </p>
             <ul>
-                <li><strong>Manuscript v0.7 (new section below):</strong>
+                <li><strong>Manuscript v0.8 (section below):</strong>
                     the Phase 1 and Phase 2 analyses and the manuscript figures re-run on the cleaned,
-                    source-verified dataset (784 records, 131 sources; 279 records with all three properties).
+                    source-verified dataset (776 records, 129 sources; 276 records with all three properties).
                     The thesis sections are kept unchanged.
                 </li>
                 <li><strong>Dataset cleanup:</strong>
@@ -387,36 +387,40 @@
             </div>
         </section>
 
-        <!-- Manuscript v0.7: cleaned, source-verified dataset -->
+        <!-- Manuscript v0.8: cleaned, source-verified dataset -->
         <section class="phase-section" style="border: 1px solid rgba(155,89,182,0.45);">
             <div class="phase-header" style="border-color: #9b59b6;">
-                <span class="phase-badge" style="background: #9b59b6;">MANUSCRIPT v0.7</span>
+                <span class="phase-badge" style="background: #9b59b6;">MANUSCRIPT v0.8</span>
                 <span class="phase-title">Cleaned &amp; Source-Verified Dataset</span>
             </div>
             <p class="phase-desc">
-                The same Phase 1 and Phase 2 analyses, re-run on the dataset cleaned for the journal manuscript (v0.7).
+                The same Phase 1 and Phase 2 analyses, re-run on the dataset cleaned for the journal manuscript (v0.8).
                 Every record was checked against its source article: records whose filler is not MMT, whose cited
                 source does not contain the data, duplicates, and records without a matched neat-matrix reference were
-                removed (158 records), 48 records were corrected against the source tables or figures, and raw
-                strain-to-failure values were harmonized to percent. The Phase 1 and Phase 2 sections above keep the
+                removed (166 records), 53 records were corrected against the source tables or figures, and raw
+                strain-to-failure values were harmonized to percent. v0.8 applies the advisor's final four checks:
+                PMMA rows 186–187 leave the three-property analysis (strain at maximum load, not at break),
+                the halloysite (HNT) rows 93–95 and 581–584 are excluded, the Nguyen et al. (2020) values in
+                rows 267–270 are moved from the modulus to the strength columns, and the duplicate PA6 record 930
+                (same experiment as row 864) is removed. The Phase 1 and Phase 2 sections above keep the
                 thesis dataset unchanged.
             </p>
 
             <div class="metrics-grid">
                 <div class="metric-box">
-                    <div class="metric-value">784</div>
-                    <div class="metric-label">Records (131 sources)</div>
+                    <div class="metric-value">776</div>
+                    <div class="metric-label">Records (129 sources)</div>
                 </div>
                 <div class="metric-box">
-                    <div class="metric-value">279</div>
-                    <div class="metric-label">Records with all 3 props (50 sources)</div>
+                    <div class="metric-value">276</div>
+                    <div class="metric-label">Records with all 3 props (49 sources)</div>
                 </div>
                 <div class="metric-box">
-                    <div class="metric-value" style="font-size: 1.15em;">13 / 8 / 12 / 246</div>
+                    <div class="metric-value" style="font-size: 1.15em;">13 / 8 / 12 / 243</div>
                     <div class="metric-label">C1 / C2 / C3 / C4</div>
                 </div>
                 <div class="metric-box">
-                    <div class="metric-value">18 (7.3%)</div>
+                    <div class="metric-value">17 (7.0%)</div>
                     <div class="metric-label">C4 strength–strain co-improvement</div>
                 </div>
             </div>
@@ -430,7 +434,7 @@
                 </a>
                 <a href="v07/manuscript_figures/fig2_regime_sample_counts.png" class="card">
                     <div class="card-title">Figure 2: Records per Regime</div>
-                    <div class="card-desc">Integrated subset (n = 279)</div>
+                    <div class="card-desc">Integrated subset (n = 276)</div>
                     <span class="card-type type-png">PNG</span>
                 </a>
                 <a href="v07/manuscript_figures/fig3_regime_distributions.png" class="card">
@@ -450,7 +454,7 @@
                 </a>
                 <a href="v07/manuscript_figures/fig6_c4_toughness_scatter.png" class="card">
                     <div class="card-title">Figure 6: C4 Δσ–Δε Plane</div>
-                    <div class="card-desc">Strength–strain co-improvement subgroup (18 records)</div>
+                    <div class="card-desc">Strength–strain co-improvement subgroup (17 records)</div>
                     <span class="card-type type-png">PNG</span>
                 </a>
                 <a href="v07/manuscript_figures/fig7_graph_motifs.png" class="card">
@@ -460,7 +464,7 @@
                 </a>
             </div>
 
-            <h3 style="margin: 25px 0 15px; color: #9b59b6;">Cluster Graphs (Interactive, Phase 1 on v0.7 data)</h3>
+            <h3 style="margin: 25px 0 15px; color: #9b59b6;">Cluster Graphs (Interactive, Phase 1 on v0.8 data)</h3>
             <div class="cards-grid">
                 <a href="v07/phase1/output/cluster_C1_graph.html" class="card">
                     <div class="card-title">C1: Soft Elastomeric</div>
@@ -484,7 +488,7 @@
                 </a>
             </div>
 
-            <h3 style="margin: 25px 0 15px; color: #9b59b6;">Integrated 3-Layer Motif Diagrams (Phase 2 on v0.7 data)</h3>
+            <h3 style="margin: 25px 0 15px; color: #9b59b6;">Integrated 3-Layer Motif Diagrams (Phase 2 on v0.8 data)</h3>
             <div class="cards-grid">
                 <a href="v07/phase2/output/integrated_motif_C1.html" class="card">
                     <div class="card-title">C1: Integrated Motif</div>
@@ -503,7 +507,7 @@
                 </a>
                 <a href="v07/phase2/output/integrated_motif_C4.html" class="card">
                     <div class="card-title">C4: Integrated Motif</div>
-                    <div class="card-desc">246 records · ΔE%, Δσ%, Δε%</div>
+                    <div class="card-desc">243 records · ΔE%, Δσ%, Δε%</div>
                     <span class="card-type type-html">HTML</span>
                 </a>
             </div>
@@ -512,17 +516,17 @@
             <div class="cards-grid">
                 <a href="v07/phase1/output/cluster_summary.png" class="card">
                     <div class="card-title">Cluster Summary Figure</div>
-                    <div class="card-desc">Phase 1 on v0.7 data</div>
+                    <div class="card-desc">Phase 1 on v0.8 data</div>
                     <span class="card-type type-png">PNG</span>
                 </a>
                 <a href="v07/phase1/output/conference_summary.txt" class="card">
                     <div class="card-title">Cluster Summary (Phase 1)</div>
-                    <div class="card-desc">Cluster statistics on v0.7 data</div>
+                    <div class="card-desc">Cluster statistics on v0.8 data</div>
                     <span class="card-type type-txt">TXT</span>
                 </a>
                 <a href="v07/phase1/output/centrality_evaluation_detailed.txt" class="card">
                     <div class="card-title">Centrality Evaluation</div>
-                    <div class="card-desc">Phase 1 centrality metrics on v0.7 data</div>
+                    <div class="card-desc">Phase 1 centrality metrics on v0.8 data</div>
                     <span class="card-type type-txt">TXT</span>
                 </a>
                 <a href="v07/phase2/output/centrality_heatmap.png" class="card">
@@ -542,12 +546,12 @@
                 </a>
                 <a href="v07/phase2/output/phase2_report.txt" class="card">
                     <div class="card-title">Full Analysis Report (Phase 2)</div>
-                    <div class="card-desc">Metrics and findings on v0.7 data</div>
+                    <div class="card-desc">Metrics and findings on v0.8 data</div>
                     <span class="card-type type-txt">TXT</span>
                 </a>
                 <a href="v07/phase2/output/c4_toughness_scatter.png" class="card">
                     <div class="card-title">C4 Strength–Strain Scatter</div>
-                    <div class="card-desc">Δσ–Δε plane on v0.7 data</div>
+                    <div class="card-desc">Δσ–Δε plane on v0.8 data</div>
                     <span class="card-type type-png">PNG</span>
                 </a>
                 <a href="v07/phase2/output/c4_toughness_subpopulation.txt" class="card">
@@ -557,7 +561,7 @@
                 </a>
                 <a href="v07/phase2/output/outlier_robustness.txt" class="card">
                     <div class="card-title">Outlier Robustness</div>
-                    <div class="card-desc">Median- and winsorized-mean checks on v0.7 data</div>
+                    <div class="card-desc">Median- and winsorized-mean checks on v0.8 data</div>
                     <span class="card-type type-txt">TXT</span>
                 </a>
             </div>

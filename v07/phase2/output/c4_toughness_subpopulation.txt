@@ -4,22 +4,22 @@ Dataset: Dataset_LatestVersion_cleaned_v07.xlsx (advisor correction list, v0.7)
 ===============================================================================================
 
 1. C4 subpopulation counts
-   C4 samples with numerical strength and strain data : 246
-   Positive strength improvement (Δσ > 0)             : 154  (62.6%)
-   Positive strain improvement (Δε > 0)               : 24  (9.8%)
-   Positive Δσ AND positive Δε                        : 18  (7.3%)
-   Positive ΔE AND Δσ AND Δε                          : 17  (6.9%)
+   C4 samples with numerical strength and strain data : 243
+   Positive strength improvement (Δσ > 0)             : 151  (62.1%)
+   Positive strain improvement (Δε > 0)               : 23  (9.5%)
+   Positive Δσ AND positive Δε                        : 17  (7.0%)
+   Positive ΔE AND Δσ AND Δε                          : 16  (6.6%)
 
 2. Group-mean comparison
    metric                       positive      remaining
-   ΔE  mean                       21.45%         30.88%
-   Δσ  mean                       38.42%          1.79%
-   Δε  mean                       31.65%        -43.62%
-   ΔE  median                     14.98%         21.06%
-   Δσ  median                     10.83%          3.91%
-   Δε  median                     24.29%        -40.19%
-   toughness-proxy mean           94.16%        -43.02%
-   toughness-proxy med            38.13%        -41.54%
+   ΔE  mean                       19.68%         30.70%
+   Δσ  mean                       39.80%          1.64%
+   Δε  mean                       33.48%        -43.59%
+   ΔE  median                     14.74%         20.60%
+   Δσ  median                     10.78%          3.77%
+   Δε  median                     28.58%        -40.19%
+   toughness-proxy mean           98.78%        -43.07%
+   toughness-proxy med            45.99%        -41.54%
 
 3. Polymer-family enrichment (positive subgroup vs remaining)
    family                         total  positive  remaining    pos%
@@ -27,8 +27,7 @@ Dataset: Dataset_LatestVersion_cleaned_v07.xlsx (advisor correction list, v0.7)
    UP                                 4         4          0  100.0%
    PLLA                               8         1          7   12.5%
    PLA                                5         1          4   20.0%
-   PMMA                               2         1          1   50.0%
-   PA6                               60         0         60    0.0%
+   PA6                               59         0         59    0.0%
    DGEBA                             37         0         37    0.0%
    PP                                13         0         13    0.0%
    PP/PLA                            10         0         10    0.0%
@@ -45,32 +44,31 @@ Dataset: Dataset_LatestVersion_cleaned_v07.xlsx (advisor correction list, v0.7)
    PLA/PP                             1         0          1    0.0%
 
 4. Modification effect
-   Positive subgroup: modified=17, unmodified=1
-   Remaining C4: modified=200, unmodified=28
+   Positive subgroup: modified=16, unmodified=1
+   Remaining C4: modified=198, unmodified=28
 
 5. Dispersion-state distribution (positive subgroup)
    intercalated                                            9
    exfoliated                                              8
-   microcomposite                                          1
 
 6. Baseline matrix properties (median)
    property                        positive    remaining
-   matrix modulus (GPa)                3.29         2.75
-   matrix strength (MPa)             106.30        65.00
+   matrix modulus (GPa)                3.45         2.75
+   matrix strength (MPa)             126.59        65.00
    matrix strain                      16.49         6.85
 
 7. Filler loading — overall C4 vs PP-specific (advisor 'Additional Interpretation' §2)
-   overall C4 positive   mean=3.28 median=3.00 (n=18)
-   overall C4 remaining  mean=4.03 median=3.10 (n=228)
+   overall C4 positive   mean=2.88 median=3.00 (n=17)
+   overall C4 remaining  mean=3.96 median=3.05 (n=226)
    PP positive    median=nan wt%  (n=0)
    PP remaining   median=5.00 wt%  (n=13)
 
 8. Polymer-specific morphology (advisor 'Additional Interpretation' §7)
    PMMA:
-     positive  ( 1) matrix-E median = 3.06 GPa
-     remaining ( 1) matrix-E median = 3.06 GPa
-     positive  dispersion: {'microcomposite': np.int64(1)}
-     remaining dispersion: {'microcomposite': np.int64(1)}
+     positive  ( 0) matrix-E median = nan GPa
+     remaining ( 0) matrix-E median = nan GPa
+     positive  dispersion: {}
+     remaining dispersion: {}
    PLA:
      positive  ( 1) matrix-E median = 4.80 GPa
      remaining ( 4) matrix-E median = 1.17 GPa
